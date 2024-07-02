@@ -13335,3 +13335,147 @@
 5	집에	집+에	ADV	NNG+JKB	_	6	obl	_	_
 6	있습니다	있+습니다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = C100011-13-5902
+# text = 많이 연습하는 후에 그 발음 첨첨 좋아졌어요.
+1	많이	많이	ADV	MAG	_	2	advmod	_	_
+2	연습하는	연습+하+는	VERB	NNG+XSV+ETM	_	7	advcl	_	_
+3	후에	후+에	ADV	NNG+JKB	_	2	mark	_	_
+4	그	그	DET	MM	_	5	det	_	_
+5	발음	발음	NOUN	NNG	_	7	nsubj	_	_
+6	첨첨	첨첨	ADV	NA	_	7	advmod	_	_
+7	좋아졌어요	좋+아지+었+어요	VERB	VA+XSV+EP+EF	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = C100002-4-5162
+# text = 본여행사는 ""용산-목표-홍도-족산도""라는 계획을 세웠으니 한 군데 가는 김에 여러 도시를 보고 일석이조이다.
+1	본여행사는	본+여행+사+는	NOUN	MM+NNG+XSN+JX	_	9	nsubj	_	_
+2	"	"	PUNCT	SS	_	4	punct	_	SpaceAfter=No
+3	"	"	PUNCT	SS	_	4	punct	_	SpaceAfter=No
+4	용산-목표-홍도-족산도	용산+-+목표+-+홍도+-+족산+도	NOUN	NNP+SS+NNP+SS+NNP+SS+NNP+JX	_	8	acl	_	SpaceAfter=No
+5	"	"	PUNCT	SS	_	4	punct	_	SpaceAfter=No
+6	"	"	PUNCT	SS	_	4	punct	_	SpaceAfter=No
+7	라는	라는	VERB	ETM	_	4	case	_	_
+8	계획을	계획+을	NOUN	NNG+JKO	_	9	obj	_	_
+9	세웠으니	세우+었+으니	VERB	VV+EP+EC	_	16	advcl	_	_
+10	한	한	NUM	MM	_	11	nummod	_	_
+11	군데	군데	NOUN	NNB	_	12	obl	_	_
+12	가는	가+는	VERB	VV+ETM	_	16	advcl	_	_
+13	김에	김+에	ADV	NNB+JKB	_	12	mark	_	_
+14	여러	여러	DET	MM	_	15	det	_	_
+15	도시를	도시+를	NOUN	NNG+JKO	_	16	obj	_	_
+16	보고	보+고	VERB	VV+EC	_	17	advcl	_	_
+17	일석이조이다	일석이조+이+다	VERB	NNG+VCP+EF	_	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	SF	_	17	punct	_	_
+
+# sent_id = B200009-13-3586
+# text = 그런데 처음에는 딸이 어머니를 이해하지 않는다.
+1	그런데	그런데	ADV	MAJ	_	5	cc	_	_
+2	처음에는	처음+에+는	ADV	NNG+JKB+JX	_	5	obl	_	_
+3	딸이	딸+이	NOUN	NNG+JKS	_	5	nsubj	_	_
+4	어머니를	어머니+를	NOUN	NNG+JKO	_	5	obj	_	_
+5	이해하지	이해+하+지	VERB	NNG+XSV+EC	_	0	root	_	_
+6	않는다	않	AUX	VX+EF	_	5	aux	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = B100020-19-2710
+# text = 사나 많이 도와줬다.
+1	사나	사나	NOUN	NNP	_	3	nsubj	_	_
+2	많이	많이	ADV	MAG	_	3	advmod	_	_
+3	도와줬다	도와주+었+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	SF	_	3	punct	_	_
+
+# sent_id = B200017-6-3937
+# text = 탐은 시간 여행 능력을 사용해 메리와의 행복한 시간을 보내 어려운 일도 여러가지 생겼지만 결국 결혼까지 하게 되었다.
+1	탐은	탐+은	NOUN	NNP+JX	_	16	nsubj	_	_
+2	시간	시간	NOUN	NNG	_	3	nmod	_	_
+3	여행	여행	NOUN	NNG	_	4	nmod	_	_
+4	능력을	능력+을	NOUN	NNG+JKO	_	5	obj	_	_
+5	사용해	사용+하+아	VERB	NNG+XSV+EC	_	9	advcl	_	_
+6	메리와의	메리+와+의	NOUN	NNP+JKB+JKG	_	8	nmod:poss	_	_
+7	행복한	행복+하+ㄴ	ADJ	NNG+XSA+ETM	_	8	amod	_	_
+8	시간을	시간+을	NOUN	NNG+JKO	_	9	obj	_	_
+9	보내	보내+어	VERB	VV+EC	_	16	advcl	_	_
+10	어려운	어렵+ㄴ	ADJ	VA+ETM	_	11	amod	_	_
+11	일도	일+도	NOUN	NNG+JX	_	13	dislocated	_	_
+12	여러가지	여러+가지	ADV	MM+NNB	_	13	nsubj	_	_
+13	생겼지만	생기+었+지만	VERB	VV+EP+EC	_	16	advcl	_	_
+14	결국	결국	ADV	MAG	_	16	advmod	_	_
+15	결혼까지	결혼+까지	ADV	NNG+JX	_	16	obj	_	_
+16	하게	하+게	VERB	VV+EC	_	0	root	_	_
+17	되었다	되+었+다	VERB	VX+EP+EF	_	16	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	SF	_	16	punct	_	_
+
+# sent_id = C100010-10-5879
+# text = 그 날 밤에는 할아버지 집과 고등학교, 그리고 제가 열심히 공부했던 학원에 전화하고 감사를 전했다.
+1	그	그	DET	MM	_	2	det	_	_
+2	날	날	NOUN	NNG	_	3	nmod	_	_
+3	밤에는	밤+에+는	ADV	NNG+JKB+JX	_	15	obl	_	_
+4	할아버지	할아버지	NOUN	NNG	_	5	nmod	_	_
+5	집과	집+과	NOUN	NNG+JC	_	13	obl	_	_
+6	고등학교	고등학교	NOUN	NNG	_	5	conj	_	SpaceAfter=No
+7	,	,	PUNCT	SP	_	6	punct	_	_
+8	그리고	그리고	ADV	MAJ	_	12	cc	_	_
+9	제가	제+가	PRON	NP+JKS	_	11	nsubj	_	_
+10	열심히	열심히	ADV	MAG	_	11	advmod	_	_
+11	공부했던	공부+하+았+던	VERB	NNG+XSV+EP+ETM	_	12	acl	_	_
+12	학원에	학원+에	ADV	NNG+JKB	_	5	conj	_	_
+13	전화하고	전화+하+고	VERB	NNG+XSV+EC	_	15	advcl	_	_
+14	감사를	감사+를	NOUN	NNG+JKO	_	15	obj	_	_
+15	전했다	전하+았+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	SF	_	15	punct	_	_
+
+# sent_id = B100014-2-2218
+# text = 첫번제 일번에서 오 에미 라고 한다.
+1	첫번제	첫+번+제	NOUN	MM+NNB+NF	_	6	obl	_	_
+2	일번에서	일번+에서	ADV	NF+JKB	_	3	obl	_	_
+3	오	오	NOUN	NA	_	4	acl	_	_
+4	에미	에미	NOUN	NA	_	6	ccomp	_	_
+5	라고	라고	ADP	JKQ	_	4	case	_	_
+6	한다	하+ㄴ다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = B100012-2-2021
+# text = 그런데, 편지와 이메일은 다르다.
+1	그런데	그런데	ADV	MAJ	_	5	cc	_	SpaceAfter=No
+2	,	,	PUNCT	SP	_	1	punct	_	_
+3	편지와	편지+와	NOUN	NNG+JC	_	5	nsubj	_	_
+4	이메일은	이메일+은	NOUN	NNG+JX	_	3	conj	_	_
+5	다르다	다르+다	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = B200020-13-4060
+# text = 그리고 친구는 앞으로 아무어려워도 그 일을 포기할 수 없다고 말했다.
+1	그리고	그리고	ADV	MAJ	_	10	cc	_	_
+2	친구는	친구+는	NOUN	NNG+JX	_	10	nsubj	_	_
+3	앞으로	앞+으로	ADV	NNG+JKB	_	4	obl	_	_
+4	아무어려워도	아무+어렵+어도	VERB	MM+VA+EC	_	7	advcl	_	_
+5	그	그	DET	MM	_	6	det	_	_
+6	일을	일+을	NOUN	NNG+JKO	_	7	obj	_	_
+7	포기할	포기+하+ㄹ	VERB	NNG+XSV+ETM	_	8	acl	_	_
+8	수	수	NOUN	NNB	_	9	nsubj	_	_
+9	없다고	없+다고	VERB	VX+EC	_	10	ccomp	_	_
+10	말했다	말+하+았+다	VERB	NNG+XSV+EP+EF	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	10	punct	_	_
+
+# sent_id = A100011-1-333
+# text = 저는 방학 기간에 여행을 가고 싶습니다.
+1	저는	저+는	PRON	NP+JX	_	5	nsubj	_	_
+2	방학	방학	NOUN	NNG	_	3	nmod	_	_
+3	기간에	기간+에	ADP	NNG+JKB	_	5	obl	_	_
+4	여행을	여행+을	NOUN	NNG+JKO	_	5	obj	_	_
+5	가고	가+고	VERB	VV+EC	_	0	root	_	_
+6	싶습니다	싶	AUX	VX+EF	_	5	aux	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = A200017-8-1817
+# text = 그래서 저는 가끔 수원에 가서 아유프오와 꼭 만납니다.
+1	그래서	그래서	ADV	MAJ	_	8	cc	_	_
+2	저는	저+는	PRON	NP+JX	_	8	nsubj	_	_
+3	가끔	가끔	ADV	MAG	_	5	advmod	_	_
+4	수원에	수원+에	ADV	NNP+JKB	_	5	obl	_	_
+5	가서	가+아서	VERB	VV+EC	_	8	advcl	_	_
+6	아유프오와	아유프오+와	ADV	NNP+JKB	_	8	obl	_	_
+7	꼭	꼭	ADV	MAG	_	8	advmod	_	_
+8	만납니다	만나+ㅂ니다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
