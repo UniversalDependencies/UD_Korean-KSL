@@ -8763,3 +8763,1036 @@
 15	편리해졌다	편리해지+었+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	SF	_	15	punct	_	_
 
+
+# sent_id = C200020-3-7282
+# text = 내친구는 항상 성실하기 짝이 없다.
+1	내친구는	나+의+친구+는	NOUN	NP+JKG+NNG+JX	_	5	dislocated	_	_
+2	항상	항상	ADV	MAG	_	3	advmod	_	_
+3	성실하기	성실+하+기	NOUN	NNG+XSA+ETN	_	4	nmod	_	_
+4	짝이	짝+이	NOUN	NNB+JKS	_	5	nsubj	_	_
+5	없다	없+다	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = B100021-7-2807
+# text = 나 어렸을 때부터 고고학에 대한 책을 많이 봤다.
+1	나	나	PRON	NP	_	8	nsubj	_	_
+2	어렸을	어리+었+을	VERB	VA+EP+ETM	_	8	advcl	_	_
+3	때부터	때+부터	ADV	NNG+JX	_	2	mark	_	_
+4	고고학에	고고학+에	ADV	NNG+JKB	_	5	obl	_	_
+5	대한	대하+ㄴ	VERB	VV+ETM	_	6	acl	_	_
+6	책을	책+을	NOUN	NNG+JKO	_	8	obj	_	_
+7	많이	많이	ADV	MAG	_	8	advmod	_	_
+8	봤다	보+았+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = B100026-2-3118
+# text = 새로운 반친구가 있어서 여러분에게 소개하고 싶다.
+1	새로운	새롭+ㄴ	ADJ	VA+ETM	_	2	amod	_	_
+2	반친구가	반+친구+가	NOUN	NNG+NNG+JKS	_	3	nsubj	_	_
+3	있어서	있+어서	VERB	VV+EC	_	5	advcl	_	_
+4	여러분에게	여러분+에게	ADV	NP+JKB	_	5	obl	_	_
+5	소개하고	소개+하+고	VERB	NNG+XSV+EC	_	0	root	_	_
+6	싶다	싶	AUX	VX+EF	_	5	aux	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = C200014-6-6986
+# text = 달리기는 건강을 유지하기에 좋은 방법이지만 무름과 관절에 부담ㅇ르 주니까 나이를 드신 분에게 수영을 추천드리고 싶습니다.
+1	달리기는	달리+기+는	NOUN	VV+ETN+JX	_	5	nsubj	_	_
+2	건강을	건강+을	NOUN	NNG+JKO	_	3	obj	_	_
+3	유지하기에	유지+하+기+에	ADV	NNG+XSV+ETN+JKB	_	5	obl	_	_
+4	좋은	좋+은	VERB	VA+ETM	_	5	acl	_	_
+5	방법이지만	방법+이+지만	VERB	NNG+VCP+EC	_	9	advcl	_	_
+6	무름과	무름+과	NOUN	NF+JC	_	9	obl	_	_
+7	관절에	관절+에	ADV	NNG+JKB	_	6	conj	_	_
+8	부담ㅇ르	부담+ㅇ르	VERB	NNG+NA	_	9	obj	_	_
+9	주니까	주+니까	VERB	VV+EC	_	14	advcl	_	_
+10	나이를	나이+를	NOUN	NNG+JKO	_	11	obj	_	_
+11	드신	들+시+ㄴ	VERB	VV+EP+ETM	_	12	acl	_	_
+12	분에게	분+에게	ADV	NNB+JKB	_	14	obl	_	_
+13	수영을	수영+을	NOUN	NNG+JKO	_	14	obj	_	_
+14	추천드리고	추천+드리+고	VERB	NNG+VV+EC	_	0	root	_	_
+15	싶습니다	싶	AUX	VX+EF	_	14	aux	_	SpaceAfter=No
+16	.	.	PUNCT	SF	_	14	punct	_	_
+
+# sent_id = A100010-6-290
+# text = 저주도에서 생선을 먹고 싶습니다.
+1	저주도에서	저주도+에서	ADV	NF+JKB	_	3	obl	_	_
+2	생선을	생선+을	NOUN	NNG+JKO	_	3	obj	_	_
+3	먹고	먹+고	VERB	VV+EC	_	0	root	_	_
+4	싶습니다	싶	AUX	VX+EF	_	3	aux	_	SpaceAfter=No
+5	.	.	PUNCT	SF	_	3	punct	_	_
+
+# sent_id = C100011-1-5949
+# text = 내가 3년 전의 그날 아직도 잊지 못한다.
+1	내가	내+가	PRON	NP+JKS	_	6	nsubj	_	_
+2	3년	3+년	NOUN	SN+NNB	_	4	obl	_	_
+3	전의	전+의	ADP	NNG+JKG	_	2	case	_	_
+4	그날	그날	ADV	NNG	_	6	obj	_	_
+5	아직도	아직+도	ADV	MAG+JX	_	6	advmod	_	_
+6	잊지	잊+지	VERB	VV+EC	_	0	root	_	_
+7	못한다	못+하+ㄴ다	VERB	MAG+VX+EF	_	6	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = C100004-2-5296
+# text = 내가 한국에 온지 벌써 7개월 됐어.
+1	내가	내+가	PRON	NP+JKS	_	3	nsubj	_	_
+2	한국에	한국+에	ADV	NNP+JKB	_	3	obl	_	_
+3	온지	오+ㄴ+지	VERB	VV+ETM+NNB	_	6	dislocated	_	_
+4	벌써	벌써	ADV	MAG	_	6	advmod	_	_
+5	7개월	7+개월	NOUN	SN+NNB	_	6	nsubj	_	_
+6	됐어	되+었+어	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = B100026-19-3082
+# text = 지금 많이 직업을 직원들이 수영할 수 있는 기능 필용하다.
+1	지금	지금	ADV	MAG	_	9	advmod	_	_
+2	많이	많이	ADV	MAG	_	3	amod	_	_
+3	직업을	직업+을	NOUN	NNG+JKO	_	9	obl	_	_
+4	직원들이	직원+들+이	NOUN	NNG+XSN+JKS	_	5	nsubj	_	_
+5	수영할	수영+하+ㄹ	VERB	NNG+XSV+ETM	_	6	acl	_	_
+6	수	수	NOUN	NNB	_	7	nsubj	_	_
+7	있는	있+는	VERB	VX+ETM	_	8	acl	_	_
+8	기능	기능	NOUN	NNG	_	9	nsubj	_	_
+9	필용하다	필용+하+다	ADJ	NF+XSA+EF	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = A200008-5-1248
+# text = 남자는 쉽게 길을 기르쳐 주셔서 우체국에 도착했습니다.
+1	남자는	남자+는	NOUN	NNG+JX	_	4	nsubj	_	_
+2	쉽게	쉽+게	ADV	VA+EC	_	4	advmod	_	_
+3	길을	길+을	NOUN	NNG+JKO	_	4	obj	_	_
+4	기르쳐	기르치+어	VERB	NA+EC	_	7	advcl	_	_
+5	주셔서	주+시+어서	VERB	VX+EP+EC	_	4	advcl	_	_
+6	우체국에	우체국+에	ADV	NNG+JKB	_	7	obl	_	_
+7	도착했습니다	도착+하+았+습니다	VERB	NNG+XSV+EP+EF	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = C200022-7-7393
+# text = 그러므로 나는 그 사람은 안락사를 선택할 수 있다고 생각한다.
+1	그러므로	그러므로	ADV	MAJ	_	9	cc	_	_
+2	나는	나+는	PRON	NP+JX	_	9	nsubj	_	_
+3	그	그	DET	MM	_	4	det	_	_
+4	사람은	사람+은	NOUN	NNG+JX	_	6	nsubj	_	_
+5	안락사를	안락사+를	NOUN	NNG+JKO	_	6	obj	_	_
+6	선택할	선택+하+ㄹ	VERB	NNG+XSV+ETM	_	7	acl	_	_
+7	수	수	NOUN	NNB	_	8	nsubj	_	_
+8	있다고	있+다고	VERB	VX+EC	_	9	ccomp	_	_
+9	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = C100000-13-4983
+# text = 그래서 문화 차이에 대해 어떤 특별한 주의한 것이 없습니다.
+1	그래서	그래서	ADV	MAJ	_	9	cc	_	_
+2	문화	문화	NOUN	NNG	_	3	nmod	_	_
+3	차이에	차이+에	ADV	NNG+JKB	_	4	obl	_	_
+4	대해	대하+여	VERB	VV+EC	_	9	advcl	_	_
+5	어떤	어떤	DET	MM	_	8	det	_	_
+6	특별한	특별+하+ㄴ	ADJ	NNG+XSA+ETM	_	8	amod	_	_
+7	주의한	주의+하+ㄴ	ADJ	NNG+XSV+ETM	_	8	amod	_	_
+8	것이	것+이	NOUN	NNB+JKS	_	9	nsubj	_	_
+9	없습니다	없+습니다	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = C200004-2-6540
+# text = 장기야말로 중국에 가장 유명한 민속놀이이다.
+1	장기야말로	장기+야말로	ADV	NNG+JX	_	5	nsubj	_	_
+2	중국에	중국+에	ADV	NNP+JKB	_	4	obl	_	_
+3	가장	가장	ADV	MAG	_	4	advmod	_	_
+4	유명한	유명+하+ㄴ	VERB	XR+XSA+ETM	_	5	amod	_	_
+5	민속놀이이다	민속+놀이+이+다	VERB	NNG+NNG+VCP+EF	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = B200008-6-3562
+# text = 그리고 남주인공-카일 리스와 여주인공-사라 코너 영화의 시작은 이렇다.
+1	그리고	그리고	ADV	MAJ	_	8	cc	_	_
+2	남주인공-카일	남+주인공+-+카일	NOUN	XPN+NNG+SS+NNP	_	8	dislocated	_	_
+3	리스와	리스+와	NOUN	NNP+JC	_	2	flat	_	_
+4	여주인공-사라	여+주인공+-+사라	NOUN	XPN+NNG+SS+NNP	_	2	conj	_	_
+5	코너	코너	NOUN	NNP	_	4	flat	_	_
+6	영화의	영화+의	NOUN	NNG+JKG	_	7	nmod:poss	_	_
+7	시작은	시작+은	NOUN	NNG+JX	_	8	nsubj	_	_
+8	이렇다	이렇+다	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = A100013-9-385
+# text = 다음 주에 정말 즐겁니다.
+1	다음	다음	NOUN	NNG	_	2	nmod	_	_
+2	주에	주+에	ADV	NNB+JKB	_	4	obl	_	_
+3	정말	정말	ADV	MAG	_	4	advmod	_	_
+4	즐겁니다	즐겁+니다	ADJ	VA+NA	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	SF	_	4	punct	_	_
+
+# sent_id = C100000-9-5015
+# text = 4명씩 운전하고 아무생각없이 떠나간다.
+1	4명씩	4+명+씩	ADV	SN+NNB+XSN	_	2	nsubj	_	_
+2	운전하고	운전+하+고	VERB	NNG+XSV+EC	_	0	root	_	_
+3	아무생각없이	아무+생각+없이	ADV	MM+NNG+MAG	_	4	advcl	_	_
+4	떠나간다	떠나가+ㄴ다	VERB	VV+EF	_	2	conj	_	SpaceAfter=No
+5	.	.	PUNCT	SF	_	4	punct	_	_
+
+# sent_id = B200038-3-4777
+# text = 유학을 하면 아주 많은 돈이 든다.
+1	유학을	유학+을	NOUN	NNG+JKO	_	2	obj	_	_
+2	하면	하+면	VERB	VV+EC	_	6	advcl	_	_
+3	아주	아주	ADV	MAG	_	4	advmod	_	_
+4	많은	많+은	ADJ	VA+ETM	_	5	amod	_	_
+5	돈이	돈+이	NOUN	NNG+JKS	_	6	nsubj	_	_
+6	든다	들+ㄴ다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = B200033-10-4585
+# text = 마카오에 도착한 우리는 먼저 성바울 성당이라는 곳에 갔다.
+1	마카오에	마카오+에	ADV	NNP+JKB	_	2	obl	_	_
+2	도착한	도착+하+ㄴ	VERB	NNG+XSV+ETM	_	3	acl	_	_
+3	우리는	우리+는	PRON	NP+JX	_	8	nsubj	_	_
+4	먼저	먼저	ADV	MAG	_	8	advmod	_	_
+5	성바울	성바울	NOUN	NNP	_	6	nmod	_	_
+6	성당이라는	성당+이+라는	VERB	NNG+VCP+ETM	_	7	acl	_	_
+7	곳에	곳+에	ADV	NNG+JKB	_	8	obl	_	_
+8	갔다	가+았+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = C100002-6-5146
+# text = 내가 작년에 처음으로 한국에 왔잖아.
+1	내가	내+가	PRON	NP+JKS	_	5	nsubj	_	_
+2	작년에	작년+에	ADV	NNG+JKB	_	5	obl	_	_
+3	처음으로	처음+으로	ADV	NNG+JKB	_	5	obl	_	_
+4	한국에	한국+에	ADV	NNP+JKB	_	5	obl	_	_
+5	왔잖아	오+았+잖아	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = C200022-18-7427
+# text = 한국에 가면 가볼 만한 곳으로 석굴암이다.
+1	한국에	한국+에	ADV	NNP+JKB	_	2	obl	_	_
+2	가면	가+면	VERB	VV+EC	_	3	advcl	_	_
+3	가볼	가보+ㄹ	VERB	VV+ETM	_	5	acl	_	_
+4	만한	만하+ㄴ	VERB	VX+ETM	_	3	advcl	_	_
+5	곳으로	곳+으로	ADV	NNG+JKB	_	6	obl	_	_
+6	석굴암이다	석굴암+이+다	VERB	NNP+VCP+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = C100015-1-6272
+# text = 요코씨, 안녕하세요?
+1	요코씨	요코+씨	NOUN	NNP+NNB	_	3	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	SP	_	1	punct	_	_
+3	안녕하세요	안녕+하+시+어요	VERB	NNG+XSA+EP+EF	_	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	SF	_	3	punct	_	_
+
+# sent_id = B200009-3-3576
+# text = 그런데 그 영화를 본 후에 그 영화는 내가 제일 좋아하는 한국 영화가 됐다.
+1	그런데	그런데	ADV	MAJ	_	13	cc	_	_
+2	그	그	DET	MM	_	3	det	_	_
+3	영화를	영화+를	NOUN	NNG+JKO	_	4	obj	_	_
+4	본	보+ㄴ	VERB	VV+ETM	_	13	advcl	_	_
+5	후에	후+에	ADV	NNG+JKB	_	4	mark	_	_
+6	그	그	DET	MM	_	7	det	_	_
+7	영화는	영화+는	NOUN	NNG+JX	_	13	dislocated	_	_
+8	내가	내+가	PRON	NP+JKS	_	10	nsubj	_	_
+9	제일	제일	ADV	MAG	_	10	advmod	_	_
+10	좋아하는	좋아하+는	VERB	VV+ETM	_	12	acl	_	_
+11	한국	한국	NOUN	NNP	_	12	nmod	_	_
+12	영화가	영화+가	NOUN	NNG+JKS	_	13	nsubj	_	_
+13	됐다	되+었+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	SF	_	13	punct	_	_
+
+# sent_id = B100026-4-3100
+# text = 가족들은 공항에서 일찍 도적했기 떼문에 나는 일짝 일어나서 공항에서 도적했다.
+1	가족들은	가족+들+은	NOUN	NNG+XSN+JX	_	4	nsubj	_	_
+2	공항에서	공항+에서	ADV	NNG+JKB	_	4	obl	_	_
+3	일찍	일찍	ADV	MAG	_	4	advmod	_	_
+4	도적했기	도적+하+았+기	NOUN	NF+XSV+EP+ETN	_	10	obl	_	_
+5	떼문에	떼문+에	ADV	NF+JKB	_	4	case	_	_
+6	나는	나+는	VERB	NP+JX	_	10	nsubj	_	_
+7	일짝	일짝	ADV	NA	_	8	advmod	_	_
+8	일어나서	일어나+아서	VERB	VV+EC	_	10	advcl	_	_
+9	공항에서	공항+에서	ADV	NNG+JKB	_	10	obl	_	_
+10	도적했다	도적+하+았+다	VERB	NF+XSV+EP+EF	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	10	punct	_	_
+
+# sent_id = A200005-6-1171
+# text = 한국에서 일을 해서 말하기 연습을 많이 할 겁니다.
+1	한국에서	한국+에서	ADV	NNP+JKB	_	3	obl	_	_
+2	일을	일+을	NOUN	NNG+JKO	_	3	obj	_	_
+3	해서	하+아서	VERB	VV+EC	_	7	advcl	_	_
+4	말하기	말+하+기	NOUN	NNG+XSV+ETN	_	5	nmod	_	_
+5	연습을	연습+을	NOUN	NNG+JKO	_	7	obj	_	_
+6	많이	많이	ADV	MAG	_	7	advmod	_	_
+7	할	하+ㄹ	VERB	VV+ETM	_	8	acl	_	_
+8	겁니다	것+이+ㅂ니다	VERB	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = B200007-7-3512
+# text = 이 공룡 때문에 놀이공원에 난리가 난다.
+1	이	이	DET	MM	_	2	det	_	_
+2	공룡	공룡	NOUN	NNG	_	6	obl	_	_
+3	때문에	때문+에	ADP	NNB+JKB	_	2	case	_	_
+4	놀이공원에	놀이+공원+에	ADV	NNG+NNG+JKB	_	6	obl	_	_
+5	난리가	난리+가	NOUN	NNG+JKS	_	6	nsubj	_	_
+6	난다	나+ㄴ다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = B100018-14-2520
+# text = 조금 무섭기는 했지만 재미있었다.
+1	조금	조금	ADV	MAG	_	3	advmod	_	_
+2	무섭기는	무섭+기+는	NOUN	VA+ETN+JX	_	3	nsubj	_	_
+3	했지만	하+았+지만	VERB	VX+EP+EC	_	4	advcl	_	_
+4	재미있었다	재미+있+었+다	ADJ	NNG+VA+EP+EF	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	SF	_	4	punct	_	_
+
+# sent_id = C100010-4-5805
+# text = 나 지금 도 한국어 배우고 있어.
+1	나	나	PRON	NP	_	5	nsubj	_	_
+2	지금	지금	ADV	MAG	_	5	advmod	_	_
+3	도	도	ADP	JX	_	2	case	_	_
+4	한국어	한국어	NOUN	NNG	_	5	obj	_	_
+5	배우고	배우+고	VERB	VV+EC	_	0	root	_	_
+6	있어	있	AUX	VX+EF	_	5	aux	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = C200015-5-7047
+# text = 사형 제도를 페지 하더라도 범죄자의 수치는 줄리지 않았다는 말이다.
+1	사형	사형	NOUN	NNG	_	2	nmod	_	_
+2	제도를	제도+를	NOUN	NNG+JKO	_	3	obj	_	_
+3	페지	페지	VERB	NF	_	4	obj	_	_
+4	하더라도	하+더라도	VERB	VV+EC	_	7	advcl	_	_
+5	범죄자의	범죄자+의	NOUN	NNG+JKG	_	6	nmod:poss	_	_
+6	수치는	수치+는	NOUN	NNG+JX	_	7	nsubj	_	_
+7	줄리지	줄+리+지	VERB	VV+NA+EC	_	9	acl	_	_
+8	않았다는	않	AUX	VX+EP+ETM	_	7	aux	_	_
+9	말이다	말+이+다	VERB	NNG+VCP+EF	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = A100020-6-573
+# text = 제주도에서 시장에 있습니다.
+1	제주도에서	제주도+에서	ADV	NNP+JKB	_	3	obl	_	_
+2	시장에	시장+에	ADV	NNG+JKB	_	3	nsubj	_	_
+3	있습니다	있+습니다	ADJ	VV+EF	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	SF	_	3	punct	_	_
+
+# sent_id = A200016-4-1732
+# text = 그리고 부산에 있는 유명한 해산물 시장을 구경했습니다.
+1	그리고	그리고	ADV	MAJ	_	7	cc	_	_
+2	부산에	부산+에	ADV	NNP+JKB	_	3	obl	_	_
+3	있는	있+는	VERB	VV+ETM	_	6	acl	_	_
+4	유명한	유명+하+ㄴ	ADJ	XR+XSA+ETM	_	5	amod	_	_
+5	해산물	해산물	NOUN	NNG	_	6	nmod	_	_
+6	시장을	시장+을	NOUN	NNG+JKO	_	7	obj	_	_
+7	구경했습니다	구경+하+았+습니다	VERB	NNG+XSV+EP+EF	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = A100032-2-903
+# text = 친구하고 갔습니다.
+1	친구하고	친구+하고	VERB	NNG+JKB	_	2	obl	_	_
+2	갔습니다	가+았+습니다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	SF	_	2	punct	_	_
+
+# sent_id = C200003-3-6498
+# text = 재료는 주로 회와 밥, 그리고 김이다.
+1	재료는	재료+는	NOUN	NNG+JX	_	7	nsubj	_	_
+2	주로	주로	ADV	MAG	_	7	advmod	_	_
+3	회와	회+와	NOUN	NNG+JC	_	0	root	_	_
+4	밥	밥	NOUN	NNG	_	3	conj	_	SpaceAfter=No
+5	,	,	PUNCT	SP	_	4	punct	_	_
+6	그리고	그리고	ADV	MAJ	_	7	cc	_	_
+7	김이다	김+이+다	VERB	NNG+VCP+EF	_	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = C200003-11-6530
+# text = 너무 아픈 사람들 편하기 위해 안락사가 제일 좋은 방법이다.
+1	너무	너무	ADV	MAG	_	2	advmod	_	_
+2	아픈	아프+ㄴ	VERB	VA+ETM	_	3	acl	_	_
+3	사람들	사람+들	NOUN	NNG+XSN	_	4	nsubj	_	_
+4	편하기	편하+기	NOUN	VA+ETN	_	5	obj	_	_
+5	위해	위하+아	VERB	VV+EC	_	9	advcl	_	_
+6	안락사가	안락사+가	NOUN	NNG+JKS	_	9	nsubj	_	_
+7	제일	제일	ADV	MAG	_	8	advmod	_	_
+8	좋은	좋+은	VERB	VA+ETM	_	9	amod	_	_
+9	방법이다	방법+이+다	VERB	NNG+VCP+EF	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = A100029-5-818
+# text = 물도 마싰습니다.
+1	물도	물+도	NOUN	NNG+JX	_	2	nsubj	_	_
+2	마싰습니다	마싰+습니다	ADJ	NV+EF	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	SF	_	2	punct	_	_
+
+# sent_id = C200016-3-7108
+# text = 제가 어떤 생활 습관을 하고 있냐면 움식을 적당하게 먹고, 잠을 많이 자고, 담배도 피우지 않습니다.
+1	제가	제+가	PRON	NP+JKS	_	5	nsubj	_	_
+2	어떤	어떤	DET	MM	_	4	det	_	_
+3	생활	생활	NOUN	NNG	_	4	nmod	_	_
+4	습관을	습관+을	NOUN	NNG+JKO	_	5	obj	_	_
+5	하고	하+고	VERB	VV+EC	_	9	advcl	_	_
+6	있냐면	있	AUX	VX+EC	_	16	aux	_	_
+7	움식을	움식+을	NOUN	NF+JKO	_	9	obj	_	_
+8	적당하게	적당+하+게	ADV	XR+XSA+EC	_	9	advmod	_	_
+9	먹고	먹+고	VERB	VV+EC	_	16	list	_	SpaceAfter=No
+10	,	,	PUNCT	SP	_	9	punct	_	_
+11	잠을	잠+을	NOUN	NNG+JKO	_	13	obj	_	_
+12	많이	많이	ADV	MAG	_	13	advmod	_	_
+13	자고	자+고	VERB	VV+EC	_	16	list	_	SpaceAfter=No
+14	,	,	PUNCT	SP	_	13	punct	_	_
+15	담배도	담배+도	NOUN	NNG+JX	_	16	obj	_	_
+16	피우지	피+우+지	VERB	VV+XSV+EC	_	0	root	_	_
+17	않습니다	않	AUX	VX+EF	_	16	aux	_	SpaceAfter=No
+18	.	.	PUNCT	SF	_	16	punct	_	_
+
+# sent_id = B200019-6-4031
+# text = 또 먹다가 남아서 버리는 국물 음료따위도 물을 오염시키는 원인이 된다.
+1	또	또	ADV	MAG	_	10	cc	_	_
+2	먹다가	먹+다가	VERB	VV+EC	_	3	advcl	_	_
+3	남아서	남+아서	VERB	VV+EC	_	4	advcl	_	_
+4	버리는	버리+는	VERB	VV+ETM	_	5	acl	_	_
+5	국물	국물	NOUN	NNG	_	6	nmod	_	_
+6	음료따위도	음료+따위+도	NOUN	NNG+NNB+JX	_	10	dislocated	_	_
+7	물을	물+을	NOUN	NNG+JKO	_	8	obj	_	_
+8	오염시키는	오염+시키+는	VERB	NNG+XSV+ETM	_	9	acl	_	_
+9	원인이	원인+이	NOUN	NNG+JKC	_	10	nsubj	_	_
+10	된다	되+ㄴ다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	10	punct	_	_
+
+# sent_id = B100018-1-2502
+# text = 버스와 지하철은 대해교통이다.
+1	버스와	버스+와	NOUN	NNG+JC	_	3	nsubj	_	_
+2	지하철은	지하철+은	NOUN	NNG+JX	_	1	conj	_	_
+3	대해교통이다	대해+교통+이+다	VERB	NF+NNG+VCP+EF	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	SF	_	3	punct	_	_
+
+# sent_id = C100000-7-5013
+# text = 내가 아마 너무 기뻐서 운동화를 신는것을 까먹었다.
+1	내가	내+가	PRON	NP+JKS	_	7	nsubj	_	_
+2	아마	아마	ADV	MAG	_	4	advmod	_	_
+3	너무	너무	ADV	MAG	_	4	advmod	_	_
+4	기뻐서	기쁘+어서	VERB	VA+EC	_	7	advcl	_	_
+5	운동화를	운동화+를	NOUN	NNG+JKO	_	6	obj	_	_
+6	신는것을	신+는+것+을	NOUN	VV+ETM+NNB+JKO	_	7	obj	_	_
+7	까먹었다	까먹+었+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = B200028-2-4380
+# text = 왜냐하면 나는 수지의 광팬이라서 이 영화가 개봉한 후에 중국에서 자막이 나오자마자 보러 갔다.
+1	왜냐하면	왜냐하면	ADV	MAJ	_	4	cc	_	_
+2	나는	나+는	PRON	NP+JX	_	4	nsubj	_	_
+3	수지의	수지+의	NOUN	NNP+JKG	_	4	nmod:poss	_	_
+4	광팬이라서	광팬+이+라서	VERB	NNG+VCP+EC	_	13	advcl	_	_
+5	이	이	DET	MM	_	6	det	_	_
+6	영화가	영화+가	NOUN	NNG+JKS	_	7	nsubj	_	_
+7	개봉한	개봉+하+ㄴ	VERB	NNG+XSV+ETM	_	13	advcl	_	_
+8	후에	후+에	ADV	NNG+JKB	_	7	mark	_	_
+9	중국에서	중국+에서	ADV	NNP+JKB	_	11	obl	_	_
+10	자막이	자막+이	NOUN	NNG+JKS	_	11	nsubj	_	_
+11	나오자마자	나오+자마자	VERB	VV+EC	_	12	advcl	_	_
+12	보러	보+러	VERB	VV+EC	_	13	advcl	_	_
+13	갔다	가+았+다	VERB	VX+EP+EF	_	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	SF	_	13	punct	_	_
+
+# sent_id = C100008-15-5625
+# text = 먼저 한국어의 문법을 공부해야 해.
+1	먼저	먼저	ADV	MAG	_	4	advmod	_	_
+2	한국어의	한국어+의	NOUN	NNG+JKG	_	3	nmod:poss	_	_
+3	문법을	문법+을	NOUN	NNG+JKO	_	4	obj	_	_
+4	공부해야	공부+하+아야	VERB	NNG+XSV+EC	_	0	root	_	_
+5	해	하	AUX	VX+EF	_	4	aux	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	4	punct	_	_
+
+# sent_id = A100008-7-242
+# text = 치마가 좋아했습니다.
+1	치마가	치마+가	NOUN	NNG+JKS	_	2	nsubj	_	_
+2	좋아했습니다	좋아하+았+습니다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	SF	_	2	punct	_	_
+
+# sent_id = B100019-9-2593
+# text = 마지막 날씨가 충울 때 집에서 히터를 켜 두고 쉬고 싶다.
+1	마지막	마지막	NOUN	NNG	_	9	obl	_	_
+2	날씨가	날씨+가	NOUN	NNG+JKS	_	3	nsubj	_	_
+3	충울	충울	NOUN	NA	_	9	advcl	_	_
+4	때	때	ADV	NNG	_	3	mark	_	_
+5	집에서	집+에서	ADV	NNG+JKB	_	7	obl	_	_
+6	히터를	히터+를	NOUN	NNG+JKO	_	7	obj	_	_
+7	켜	키+어	ADV	VV+EC	_	9	advcl	_	_
+8	두고	두+고	VERB	VX+EC	_	7	advcl	_	_
+9	쉬고	쉬+고	VERB	VV+EC	_	0	root	_	_
+10	싶다	싶	AUX	VX+EF	_	9	aux	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = B200027-12-4373
+# text = 두번째 일회용품을 안 쓴다.
+1	두번째	두+번째	NOUN	MM+NNB	_	4	obl	_	_
+2	일회용품을	일회용품+을	NOUN	NNG+JKO	_	4	obj	_	_
+3	안	안	ADV	MAG	_	4	advmod	_	_
+4	쓴다	쓰+ㄴ다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	SF	_	4	punct	_	_
+
+# sent_id = A100021-7-600
+# text = 영화를 볼 겁니다.
+1	영화를	영화+를	NOUN	NNG+JKO	_	2	obj	_	_
+2	볼	보+ㄹ	VERB	VV+ETM	_	3	acl	_	_
+3	겁니다	것+이+ㅂ니다	VERB	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	SF	_	3	punct	_	_
+
+# sent_id = B200040-3-4833
+# text = 스마트폰을 통해서 중용한 정보를 많이 얻을 수 있다.
+1	스마트폰을	스마트폰+을	NOUN	NNG+JKO	_	2	obj	_	_
+2	통해서	통하+아서	VERB	VV+EC	_	8	advcl	_	_
+3	중용한	중용+하+ㄴ	ADJ	NF+XSA+ETM	_	4	amod	_	_
+4	정보를	정보+를	NOUN	NNG+JKO	_	6	obj	_	_
+5	많이	많이	ADV	MAG	_	6	advmod	_	_
+6	얻을	얻+을	VERB	VV+ETM	_	7	acl	_	_
+7	수	수	NOUN	NNB	_	8	nsubj	_	_
+8	있다	있+다	ADJ	VX+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = B200023-2-4196
+# text = 사람들은 공장들 생길 때 이익을 제일 지구의 건강을 생각하자 않았어 지금 세계적으로 환경 문제를 되었다.
+1	사람들은	사람+들+은	NOUN	NNG+XSN+JX	_	9	nsubj	_	_
+2	공장들	공장+들	NOUN	NNG+XSN	_	3	nsubj	_	_
+3	생길	생기+ㄹ	VERB	VV+ETM	_	9	advcl	_	_
+4	때	때	ADV	NNG	_	3	mark	_	_
+5	이익을	이익+을	NOUN	NNG+JKO	_	9	obj	_	_
+6	제일	제일	ADV	MAG	_	9	advmod	_	_
+7	지구의	지구+의	NOUN	NNG+JKG	_	8	nmod:poss	_	_
+8	건강을	건강+을	NOUN	NNG+JKO	_	9	obj	_	_
+9	생각하자	생각+하+자	VERB	NNG+XSV+EC	_	15	advcl	_	_
+10	않았어	않	AUX	VX+EP+EC	_	9	aux	_	_
+11	지금	지금	ADV	MAG	_	15	advmod	_	_
+12	세계적으로	세계+적+으로	ADV	NNG+XSN+JKB	_	15	obl	_	_
+13	환경	환경	NOUN	NNG	_	14	nmod	_	_
+14	문제를	문제+를	NOUN	NNG+JKO	_	15	nsubj	_	_
+15	되었다	되+었+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	SF	_	15	punct	_	_
+
+# sent_id = C100013-14-6083
+# text = 또 사투리 때문에 듣기 때 단어를 정확하게 쓰는 것이 어려워.
+1	또	또	ADV	MAG	_	10	cc	_	_
+2	사투리	사투리	NOUN	NNG	_	10	obl	_	_
+3	때문에	때문+에	ADP	NNB+JKB	_	2	case	_	_
+4	듣기	듣+기	NOUN	VV+ETN	_	8	obl	_	_
+5	때	때	ADP	NNG	_	4	case	_	_
+6	단어를	단어+를	NOUN	NNG+JKO	_	8	obj	_	_
+7	정확하게	정확+하+게	ADV	NNG+XSA+EC	_	8	advmod	_	_
+8	쓰는	쓰+는	VERB	VV+ETM	_	9	acl	_	_
+9	것이	것+이	NOUN	NNB+JKS	_	10	nsubj	_	_
+10	어려워	어렵+어	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	10	punct	_	_
+
+# sent_id = C100001-13-5123
+# text = 그리고 갑자기 나는 술을 많이 마셔서 친구의 침대을 빠졌다.
+1	그리고	그리고	ADV	MAJ	_	9	cc	_	_
+2	갑자기	갑자기	ADV	MAG	_	6	advmod	_	_
+3	나는	나+는	VERB	NP+JX	_	6	nsubj	_	_
+4	술을	술+을	NOUN	NNG+JKO	_	6	obj	_	_
+5	많이	많이	ADV	MAG	_	6	advmod	_	_
+6	마셔서	마시+어서	VERB	VV+EC	_	9	advcl	_	_
+7	친구의	친구+의	NOUN	NNG+JKG	_	8	nmod:poss	_	_
+8	침대을	침대+을	NOUN	NNG+JKO	_	9	obj	_	_
+9	빠졌다	빠지+었+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = B200028-17-4412
+# text = 이대로 쓰레기도 안 줄어서 대기도 더 도러워지면 지구의 매래는 없을 겁니다.
+1	이대로	이대로	ADV	MAG	_	4	advmod	_	_
+2	쓰레기도	쓰레기+도	NOUN	NNG+JX	_	4	nsubj	_	_
+3	안	안	ADV	MAG	_	4	advmod	_	_
+4	줄어서	줄+어서	VERB	VV+EC	_	7	advcl	_	_
+5	대기도	대기+도	NOUN	NNG+NNB+JX	_	7	nsubj	_	_
+6	더	더	ADV	MAG	_	7	advmod	_	_
+7	도러워지면	도러워지+면	VERB	NV+EC	_	10	advcl	_	_
+8	지구의	지구+의	NOUN	NNG+JKG	_	9	nmod:poss	_	_
+9	매래는	매래+는	NOUN	NF+JX	_	10	nsubj	_	_
+10	없을	없+을	VERB	VA+ETM	_	11	acl	_	_
+11	겁니다	것+이+ㅂ니다	VERB	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	SF	_	11	punct	_	_
+
+# sent_id = C100000-2-4961
+# text = 홍도에서 해야대 수십만의 관광객이 몰려드는 아름다운 섬 등등 여러분을 초대합니다.
+1	홍도에서	홍도+에서	ADV	NNP+JKB	_	5	obl	_	_
+2	해야대	해야대	NOUN	NA	_	3	nmod	_	_
+3	수십만의	수+십+만+의	NOUN	XPN+NR+NR+JKG	_	4	nmod:poss	_	_
+4	관광객이	관광객+이	NOUN	NNG+JKS	_	5	nsubj	_	_
+5	몰려드는	몰려드+는	VERB	VV+ETM	_	7	acl	_	_
+6	아름다운	아름답+ㄴ	ADJ	VA+ETM	_	7	amod	_	_
+7	섬	섬	NOUN	NNG	_	10	obl	_	_
+8	등등	등등	NOUN	NNB	_	7	case	_	_
+9	여러분을	여러분+을	NOUN	NP+JKO	_	10	obj	_	_
+10	초대합니다	초대+하+ㅂ니다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	10	punct	_	_
+
+# sent_id = B100015-11-2247
+# text = 특히 어머님께서 도자기를 좋아하셔서 도자기 가게에 갔다.
+1	특히	특히	ADV	MAG	_	4	advmod	_	_
+2	어머님께서	어머님+께서	NOUN	NNG+JKS	_	4	obl	_	_
+3	도자기를	도자기+를	NOUN	NNG+JKO	_	4	obj	_	_
+4	좋아하셔서	좋아하+시+어서	VERB	VV+EP+EC	_	7	advcl	_	_
+5	도자기	도자기	NOUN	NNG	_	6	nmod	_	_
+6	가게에	가게+에	ADV	NNG+JKB	_	7	obl	_	_
+7	갔다	가+았+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = B200002-1-3305
+# text = 방학 때는 집에 쉬었다가 시간이 좀 여유하게 있어서 방도 정리했다.
+1	방학	방학	NOUN	NNG	_	10	obl	_	_
+2	때는	때+는	NOUN	NNG+JX	_	1	case	_	_
+3	집에	집+에	ADV	NNG+JKB	_	4	obl	_	_
+4	쉬었다가	쉬+었+다가	VERB	VV+EP+EC	_	10	advcl	_	_
+5	시간이	시간+이	NOUN	NNG+JKS	_	8	nsubj	_	_
+6	좀	좀	ADV	MAG	_	7	advmod	_	_
+7	여유하게	여유+하+게	ADV	NNG+XSV+EC	_	8	advmod	_	_
+8	있어서	있+어서	VERB	VV+EC	_	10	advcl	_	_
+9	방도	방+도	NOUN	NNG+JX	_	10	obj	_	_
+10	정리했다	정리+하+았+다	VERB	NNG+XSV+EP+EF	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	10	punct	_	_
+
+# sent_id = B200032-9-4570
+# text = 먼저 자신이 할 수 있는것 부터 시작해야 한다.
+1	먼저	먼저	ADV	MAG	_	7	advmod	_	_
+2	자신이	자신+이	PRON	NNG+JKS	_	3	nsubj	_	_
+3	할	하+ㄹ	VERB	VV+ETM	_	4	acl	_	_
+4	수	수	NOUN	NNB	_	5	nsubj	_	_
+5	있는것	있+는+것	VERB	VX+ETM+NNB	_	7	obl	_	_
+6	부터	부터	ADV	JX	_	5	case	_	_
+7	시작해야	시작+하+아야	VERB	NNG+XSV+EC	_	0	root	_	_
+8	한다	하	AUX	VX+EF	_	7	aux	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = B100027-5-3207
+# text = 나는 지금 학생입니다.
+1	나는	나+는	PRON	NP+JX	_	3	nsubj	_	_
+2	지금	지금	ADV	MAG	_	3	advmod	_	_
+3	학생입니다	학생+이+ㅂ니다	VERB	NNG+VCP+EF	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	SF	_	3	punct	_	_
+
+# sent_id = C200003-4-6523
+# text = 안락사 제도는 도데제 사용할 수 있을까?
+1	안락사	안락사	NOUN	NNG	_	2	nmod	_	_
+2	제도는	제도+는	NOUN	NNG+JX	_	4	nsubj	_	_
+3	도데제	도데제	ADV	NA	_	4	advmod	_	_
+4	사용할	사용+하+ㄹ	VERB	NNG+XSV+ETM	_	5	acl	_	_
+5	수	수	NOUN	NNB	_	6	nsubj	_	_
+6	있을까	있+을까	ADJ	VX+EF	_	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = C200014-8-7011
+# text = 수영은 사람 혈열 수환이 도움이 되고 건강을 유지하는 것 매우 졸습니다.
+1	수영은	수영+은	NOUN	NNG+JX	_	11	nsubj	_	_
+2	사람	사람	NOUN	NNG	_	3	nmod	_	_
+3	혈열	혈열	ADP	NF	_	4	nmod	_	_
+4	수환이	수환+이	NOUN	NF+JKS	_	6	obl	_	_
+5	도움이	도움+이	NOUN	NNG+JKC	_	6	nsubj	_	_
+6	되고	되+고	VERB	VV+EC	_	9	acl	_	_
+7	건강을	건강+을	NOUN	NNG+JKO	_	8	obj	_	_
+8	유지하는	유지+하+는	VERB	NNG+XSV+ETM	_	6	conj	_	_
+9	것	것	NOUN	NNB	_	11	obl	_	_
+10	매우	매우	ADV	MAG	_	11	advmod	_	_
+11	졸습니다	졸+습니다	ADJ	NV+EF	_	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	SF	_	11	punct	_	_
+
+# sent_id = C100008-7-5617
+# text = 나는 한국드라마를 좋아해서 한국어를 공부했어.
+1	나는	나+는	PRON	NP+JX	_	5	nsubj	_	_
+2	한국드라마를	한국+드라마+를	NOUN	NNP+NNG+JKO	_	3	obj	_	_
+3	좋아해서	좋아하+아서	VERB	VV+EC	_	5	advcl	_	_
+4	한국어를	한국어+를	NOUN	NNG+JKO	_	5	obj	_	_
+5	공부했어	공부+하+았+어	VERB	NNG+XSV+EP+EF	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = C200017-6-7146
+# text = 그러나 어느날 사형으로 죽고 말았다.
+1	그러나	그러나	ADV	MAJ	_	4	cc	_	_
+2	어느날	어느+날	ADV	MM+NNB	_	4	obl	_	_
+3	사형으로	사형+으로	ADV	NNG+JKB	_	4	obl	_	_
+4	죽고	죽+고	VERB	VV+EC	_	0	root	_	_
+5	말았다	말+았+다	VERB	VX+EP+EF	_	4	advcl	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	4	punct	_	_
+
+# sent_id = C100007-7-5594
+# text = 우리가 농구가 좋아하기 때문에 농구팀이 함게 침강했다.
+1	우리가	우리+가	PRON	NP+JKS	_	3	nsubj	_	_
+2	농구가	농구+가	NOUN	NNG+JKS	_	3	obj	_	_
+3	좋아하기	좋아하+기	NOUN	VV+ETN	_	7	obl	_	_
+4	때문에	때문+에	ADP	NNB+JKB	_	3	case	_	_
+5	농구팀이	농구+팀+이	NOUN	NNG+NNG+JKS	_	7	nsubj	_	_
+6	함게	함게	ADV	NA	_	7	advmod	_	_
+7	침강했다	침강+하+았+다	VERB	NF+XSV+EP+EF	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = B100012-3-1993
+# text = 기다리면서 진한 녹색의 아름다운 경치를 보고 재미있게 이야기했다.
+1	기다리면서	기다리+면서	VERB	VV+EC	_	8	advcl	_	_
+2	진한	진하+ㄴ	ADJ	VA+ETM	_	3	amod	_	_
+3	녹색의	녹색+의	NOUN	NNG+JKG	_	5	nmod:poss	_	_
+4	아름다운	아름답+ㄴ	ADJ	VA+ETM	_	5	amod	_	_
+5	경치를	경치+를	NOUN	NNG+JKO	_	6	obj	_	_
+6	보고	보+고	VERB	VV+EC	_	8	advcl	_	_
+7	재미있게	재미+있+게	ADV	NNG+VA+EC	_	8	advmod	_	_
+8	이야기했다	이야기+하+았+다	VERB	NNG+XSV+EP+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = B100024-6-2946
+# text = 그럴때 내 팀메이트가 나를 위로해 주고 조언도 해 주었다.
+1	그럴때	그렇+ㄹ+때	NOUN	VA+ETM+NNG	_	8	obl	_	_
+2	내	나+의	ADP	NP+JKG	_	3	nmod:poss	_	_
+3	팀메이트가	팀+메이트+가	NOUN	NNG+NNG+JKS	_	5	nsubj	_	_
+4	나를	나+를	PRON	NP+JKO	_	5	obj	_	_
+5	위로해	위로+하+아	VERB	NNG+XSV+EC	_	0	root	_	_
+6	주고	주+고	VERB	VX+EC	_	5	advcl	_	_
+7	조언도	조언+도	NOUN	NNG+JX	_	8	obj	_	_
+8	해	하+아	VERB	VV+EC	_	5	conj	_	_
+9	주었다	주+었+다	VERB	VX+EP+EF	_	8	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = C100008-15-5688
+# text = 그 때부터 지금까지 눈이 내닐 때 추억이 많이 난다.
+1	그	그	DET	MM	_	2	det	_	_
+2	때부터	때+부터	ADV	NNG+JX	_	9	obl	_	_
+3	지금까지	지금+까지	ADV	NNG+JX	_	9	obl	_	_
+4	눈이	눈+이	NOUN	NNG+JKS	_	5	nsubj	_	_
+5	내닐	내니+ㄹ	VERB	NV+ETM	_	9	advcl	_	_
+6	때	때	ADV	NNG	_	5	mark	_	_
+7	추억이	추억+이	NOUN	NNG+JKS	_	9	nsubj	_	_
+8	많이	많이	ADV	MAG	_	9	advmod	_	_
+9	난다	나+ㄴ다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = B200013-10-3747
+# text = 둘째 자기 나라에서 아무리 한국어를 잘 배웠해도 말하기 연습을 북족하다고 생각한다.
+1	둘째	둘째	ADV	NR	_	11	obl	_	_
+2	자기	자기	NOUN	NNG	_	3	nmod	_	_
+3	나라에서	나라+에서	ADV	NNG+JKB	_	7	obl	_	_
+4	아무리	아무리	ADV	MAG	_	7	advmod	_	_
+5	한국어를	한국어+를	NOUN	NNG+JKO	_	7	obj	_	_
+6	잘	잘	ADV	MAG	_	7	advmod	_	_
+7	배웠해도	배우+었+하+아도	VERB	VV+EP+VX+EC	_	10	advcl	_	_
+8	말하기	말+하+기	NOUN	NNG+XSV+ETN	_	9	nmod	_	_
+9	연습을	연습+을	NOUN	NNG+JKO	_	10	nsubj	_	_
+10	북족하다고	북족+하+다고	VERB	NF+XSA+EC	_	11	ccomp	_	_
+11	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	SF	_	11	punct	_	_
+
+# sent_id = B200016-14-3868
+# text = 내용이 흥미로울 뿐만 아니라 배우들도 연기를 아주 잘해서 이 드라마를 봤을 때 집중력을 잃은 적이 없었다.
+1	내용이	내용+이	NOUN	NNG+JKS	_	2	nsubj	_	_
+2	흥미로울	흥미+롭+ㄹ	VERB	NNG+XSA+ETM	_	3	acl	_	_
+3	뿐만	뿐+만	NOUN	NNB+JX	_	4	nsubj	_	_
+4	아니라	아니+라	VERB	VCN+EC	_	8	advcl	_	_
+5	배우들도	배우+들+도	NOUN	NNG+XSN+JX	_	8	nsubj	_	_
+6	연기를	연기+를	NOUN	NNG+JKO	_	8	obj	_	_
+7	아주	아주	ADV	MAG	_	8	advmod	_	_
+8	잘해서	잘+하+아서	VERB	MAG+XSV+EC	_	16	advcl	_	_
+9	이	이	DET	MM	_	10	det	_	_
+10	드라마를	드라마+를	NOUN	NNG+JKO	_	11	obj	_	_
+11	봤을	보+았+을	VERB	VV+EP+ETM	_	16	advcl	_	_
+12	때	때	ADV	NNG	_	11	mark	_	_
+13	집중력을	집중력+을	NOUN	NNG+JKO	_	14	obj	_	_
+14	잃은	잃+은	VERB	VV+ETM	_	15	acl	_	_
+15	적이	적+이	NOUN	NNB+JKS	_	16	nsubj	_	_
+16	없었다	없+었+다	ADJ	VA+EP+EF	_	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	SF	_	16	punct	_	_
+
+# sent_id = C200000-2-6395
+# text = 자신이 원하는 준엄성이 있는 죽음을 그 권리가 있으니까 나는 안락사를 허용된다고 생각한다.
+1	자신이	자신+이	PRON	NNG+JKS	_	2	nsubj	_	_
+2	원하는	원하+는	VERB	VV+ETM	_	3	acl	_	_
+3	준엄성이	준엄+성+이	NOUN	XR+XSN+JKS	_	4	nsubj	_	_
+4	있는	있+는	VERB	VV+ETM	_	5	acl	_	_
+5	죽음을	죽+음+을	NOUN	VV+ETN+JKO	_	11	obj	_	_
+6	그	그	DET	MM	_	7	det	_	_
+7	권리가	권리+가	NOUN	NNG+JKS	_	8	nsubj	_	_
+8	있으니까	있+으니까	VERB	VV+EC	_	12	advcl	_	_
+9	나는	나+는	VERB	NP+JX	_	12	nsubj	_	_
+10	안락사를	안락사+를	NOUN	NNG+JKO	_	5	appos	_	_
+11	허용된다고	허용+되+ㄴ다고	VERB	NNG+XSV+EC	_	12	ccomp	_	_
+12	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	SF	_	12	punct	_	_
+
+# sent_id = B100022-1-2820
+# text = 저는 한국 좋아한다.
+1	저는	저+는	PRON	NP+JX	_	3	nsubj	_	_
+2	한국	한국	NOUN	NNP	_	3	obj	_	_
+3	좋아한다	좋아하+ㄴ다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	SF	_	3	punct	_	_
+
+# sent_id = C100001-18-5096
+# text = 그래서 지금부터 바로 한국어를 열심히 공부하고 필요할 것을 준비하세요.
+1	그래서	그래서	ADV	MAJ	_	9	cc	_	_
+2	지금부터	지금+부터	ADV	NNG+JX	_	9	obl	_	_
+3	바로	바로	ADV	MAG	_	9	advmod	_	_
+4	한국어를	한국어+를	NOUN	NNG+JKO	_	6	obj	_	_
+5	열심히	열심히	ADV	MAG	_	6	advmod	_	_
+6	공부하고	공부+하+고	VERB	NNG+XSV+EC	_	0	root	_	_
+7	필요할	필요+하+ㄹ	VERB	NNG+XSA+ETM	_	8	acl	_	_
+8	것을	것+을	NOUN	NNB+JKO	_	9	obj	_	_
+9	준비하세요	준비+하+시+어요	VERB	NNG+XSV+EP+EF	_	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = B100022-6-2842
+# text = 히토미 씨의 별명은 그대로 반장이다.
+1	히토미	히토미	NOUN	NNP	_	3	nmod:poss	_	_
+2	씨의	씨+의	NOUN	NNB+JKG	_	1	flat	_	_
+3	별명은	별명+은	NOUN	NNG+JX	_	5	nsubj	_	_
+4	그대로	그대로	ADV	MAG	_	5	advmod	_	_
+5	반장이다	반장+이+다	VERB	NNG+VCP+EF	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = B100013-3-2159
+# text = 먼정 제일 조용한 조건은 월급이다.
+1	먼정	먼정	ADV	MAG	_	5	advmod	_	_
+2	제일	제일	ADV	MAG	_	3	advmod	_	_
+3	조용한	조용+하+ㄴ	VERB	XR+XSA+ETM	_	4	amod	_	_
+4	조건은	조건+은	NOUN	NNG+JX	_	5	nsubj	_	_
+5	월급이다	월급+이+다	VERB	NNG+VCP+EF	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = B200031-6-4527
+# text = 한국어 사용하는곳은 하나도없다고 생각한다.
+1	한국어	한국어	NOUN	NNG	_	2	obj	_	_
+2	사용하는곳은	사용+하+는+곳+은	NOUN	NNG+XSV+ETM+NNG+JX	_	3	nsubj	_	_
+3	하나도없다고	하나+도+없+다고	VERB	NR+JX+VA+EC	_	4	ccomp	_	_
+4	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	SF	_	4	punct	_	_
+
+# sent_id = A200018-8-1852
+# text = 그래서 많이 샀어요.
+1	그래서	그래서	ADV	MAJ	_	3	cc	_	_
+2	많이	많이	ADV	MAG	_	3	advmod	_	_
+3	샀어요	사+았+어요	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	SF	_	3	punct	_	_
+
+# sent_id = A200007-4-1233
+# text = 그리고 한국어를 잘르면 한국대학교에 갈 수 있습니다.
+1	그리고	그리고	ADV	MAJ	_	7	cc	_	_
+2	한국어를	한국어+를	NOUN	NNG+JKO	_	3	obj	_	_
+3	잘르면	잘르+면	VERB	NV+EC	_	7	advcl	_	_
+4	한국대학교에	한국+대학교+에	ADV	NNP+NNG+JKB	_	5	obl	_	_
+5	갈	가+ㄹ	VERB	VV+ETM	_	6	acl	_	_
+6	수	수	NOUN	NNB	_	7	nsubj	_	_
+7	있습니다	있+습니다	ADJ	VX+EF	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = B200015-5-3840
+# text = 그것이 자원 고갈이라고 한다.
+1	그것이	그것+이	PRON	NP+JKS	_	3	obj	_	_
+2	자원	자원	NOUN	NNG	_	3	nmod	_	_
+3	고갈이라고	고갈+이+라고	VERB	NNG+VCP+EC	_	4	ccomp	_	_
+4	한다	하+ㄴ다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	SF	_	4	punct	_	_
+
+# sent_id = C200020-7-7286
+# text = 나는 나쁜일이 있으면 집에서 혼자만 있는 반면에 친구는 나쁜 일이 있으면 다른 친구에게 다 이야기를 나눠서 스트레스를 확 풀린다.
+1	나는	나+는	PRON	NP+JX	_	6	nsubj	_	_
+2	나쁜일이	나쁘+ㄴ일+이	NOUN	VA+ETM+NNG+JKS	_	3	nsubj	_	_
+3	있으면	있+으면	VERB	VV+EC	_	6	advcl	_	_
+4	집에서	집+에서	ADV	NNG+JKB	_	6	obl	_	_
+5	혼자만	혼자+만	ADV	NNG+JX	_	6	advmod	_	_
+6	있는	있+는	VERB	VV+ETM	_	7	acl	_	_
+7	반면에	반면+에	ADV	NNG+JKB	_	16	obl	_	_
+8	친구는	친구+는	NOUN	NNG+JX	_	11	dislocated	_	_
+9	나쁜	나쁘+ㄴ	ADJ	VA+ETM	_	10	amod	_	_
+10	일이	일+이	NOUN	NNG+JKS	_	11	nsubj	_	_
+11	있으면	있+으면	VERB	VV+EC	_	19	advcl	_	_
+12	다른	다르+ㄴ	ADJ	VA+ETM	_	13	amod	_	_
+13	친구에게	친구+에게	NOUN	NNG+JKB	_	16	obl	_	_
+14	다	다	ADV	MAG	_	16	advmod	_	_
+15	이야기를	이야기+를	NOUN	NNG+JKO	_	16	obj	_	_
+16	나눠서	나누+어서	VERB	VV+EC	_	19	advcl	_	_
+17	스트레스를	스트레스+를	NOUN	NNG+JKO	_	19	obj	_	_
+18	확	확	ADV	MAG	_	19	advmod	_	_
+19	풀린다	풀+리+ㄴ다	VERB	VV+XSV+EF	_	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	SF	_	19	punct	_	_
+
+# sent_id = B200001-13-3303
+# text = 청춘을 영원히 간직할 수 있는 사람을 없다.
+1	청춘을	청춘+을	NOUN	NNP+JKO	_	3	obj	_	_
+2	영원히	영원히	ADV	MAG	_	3	advmod	_	_
+3	간직할	간직+하+ㄹ	VERB	NNG+XSV+ETM	_	4	acl	_	_
+4	수	수	NOUN	NNB	_	5	nsubj	_	_
+5	있는	있+는	VERB	VX+ETM	_	6	acl	_	_
+6	사람을	사람+을	NOUN	NNG+JKO	_	7	nsubj	_	_
+7	없다	없+다	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = A100007-3-208
+# text = 도서관에 책을 있었습니다.
+1	도서관에	도서관+에	ADV	NNG+JKB	_	3	obl	_	_
+2	책을	책+을	NOUN	NNG+JKO	_	3	obj	_	_
+3	있었습니다	있+었+습니다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	SF	_	3	punct	_	_
+
+# sent_id = A100015-4-426
+# text = 백화점에서 옷하고 가방을 샀습니다.
+1	백화점에서	백화점+에서	ADV	NNG+JKB	_	4	obl	_	_
+2	옷하고	옷+하고	VERB	NNG+JC	_	4	obj	_	_
+3	가방을	가방+을	NOUN	NNG+JKO	_	2	conj	_	_
+4	샀습니다	사+았+습니다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	SF	_	4	punct	_	_
+
+# sent_id = C200019-12-7276
+# text = 그리고 감옥에 갓다온후에 범죄를 다시 하는 사람도 많다.
+1	그리고	그리고	ADV	MAJ	_	8	cc	_	_
+2	감옥에	감옥+에	ADV	NNG+JKB	_	6	obl	_	_
+3	갓다온후에	가+앗+다+오+ㄴ+후+에	ADV	VV+NA+EC+VV+ETM+NNG+JKB	_	8	advcl	_	_
+4	범죄를	범죄+를	NOUN	NNG+JKO	_	6	obj	_	_
+5	다시	다시	ADV	MAG	_	6	advmod	_	_
+6	하는	하+는	VERB	VV+ETM	_	7	acl	_	_
+7	사람도	사람+도	NOUN	NNG+JX	_	8	nsubj	_	_
+8	많다	많+다	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = C200009-1-6772
+# text = 음식을 조절하고 먹는 것이 가장 중요합니다.
+1	음식을	음식+을	NOUN	NNG+JKO	_	2	obj	_	_
+2	조절하고	조절+하+고	VERB	NNG+XSV+EC	_	3	advcl	_	_
+3	먹는	먹+는	VERB	VV+ETM	_	4	acl	_	_
+4	것이	것+이	NOUN	NNB+JKS	_	6	nsubj	_	_
+5	가장	가장	ADV	MAG	_	6	advmod	_	_
+6	중요합니다	중요+하+ㅂ니다	ADJ	NNG+XSA+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = A200011-11-1445
+# text = 무대에서 공연할 때마다 수호는 아주 멋있습니다.
+1	무대에서	무대+에서	ADV	NNG+JKB	_	2	obl	_	_
+2	공연할	공연+하+ㄹ	VERB	NNG+XSV+ETM	_	6	advcl	_	_
+3	때마다	때+마다	ADV	NNG+JX	_	6	mark	_	_
+4	수호는	수호+는	NOUN	NNP+JX	_	6	nsubj	_	_
+5	아주	아주	ADV	MAG	_	6	advmod	_	_
+6	멋있습니다	멋+있+습니다	ADJ	NNG+XSA+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = C200019-5-7258
+# text = 아시다시피 한국 사람의 면세가 세게에 높은 나라입니다.
+1	아시다시피	알+시+다시피	VERB	VV+EP+EC	_	7	advcl	_	_
+2	한국	한국	NOUN	NNP	_	3	nmod	_	_
+3	사람의	사람+의	NOUN	NNG+JKG	_	4	nmod:poss	_	_
+4	면세가	면세+가	NOUN	NNG+JKS	_	6	nsubj	_	_
+5	세게에	세게+에	ADV	NF+JKB	_	6	obl	_	_
+6	높은	높+은	VERB	VA+ETM	_	7	acl	_	_
+7	나라입니다	나라+이+ㅂ니다	VERB	NNG+VCP+EF	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = C200008-2-6746
+# text = 첫째근거는 인간은 살아 인권이 있다는 것은 이기 때문이다.
+1	첫째근거는	첫째+근거+는	NOUN	NR+NNG+JX	_	8	nsubj	_	_
+2	인간은	인간+은	NOUN	NNG+JX	_	3	nsubj	_	_
+3	살아	살+아	VERB	VV+EC	_	5	advcl	_	_
+4	인권이	인권+이	NOUN	NNG+JKS	_	5	nsubj	_	_
+5	있다는	있+다는	VERB	VV+ETM	_	6	acl	_	_
+6	것은	것+은	NOUN	NNB+JX	_	8	nmod	_	_
+7	이기	이+기	NOUN	VCP+ETN	_	6	case	_	_
+8	때문이다	때문+이+다	VERB	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = B100018-15-2554
+# text = 주로 대학교를 졸업한 후에 선생님을 되면 다른 직업을 고려하지 않는다.
+1	주로	주로	ADV	MAG	_	3	advmod	_	_
+2	대학교를	대학교+를	NOUN	NNG+JKO	_	3	obj	_	_
+3	졸업한	졸업+하+ㄴ	VERB	NNG+XSV+ETM	_	6	advcl	_	_
+4	후에	후+에	ADV	NNG+JKB	_	3	mark	_	_
+5	선생님을	선생+님+을	NOUN	NNG+XSN+JKO	_	6	nsubj	_	_
+6	되면	되+면	VERB	VV+EC	_	9	advcl	_	_
+7	다른	다른	ADJ	MM	_	8	amod	_	_
+8	직업을	직업+을	NOUN	NNG+JKO	_	9	obj	_	_
+9	고려하지	고려+하+지	VERB	NNG+XSV+EC	_	0	root	_	_
+10	않는다	않	AUX	VX+EF	_	9	aux	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = B100023-3-2894
+# text = 그 샹그리라는 중국에 소속민족이 많은 있는데 특생 문화 많다.
+1	그	그	DET	MM	_	2	det	_	_
+2	샹그리라는	샹그리라+는	VERB	NNP+JX	_	3	nsubj	_	_
+3	중국에	중국+에	ADV	NNP+JKB	_	5	obl	_	_
+4	소속민족이	소속+민족+이	NOUN	NNG+NNG+JKS	_	6	nsubj	_	_
+5	많은	많+은	ADV	VA+ETM	_	6	advmod	_	_
+6	있는데	있+는데	VERB	VV+EC	_	9	advcl	_	_
+7	특생	특생	NOUN	NNG	_	8	nmod	_	_
+8	문화	문화	NOUN	NNG	_	9	nsubj	_	_
+9	많다	많+다	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = C100016-4-6330
+# text = 말하기와 듣기의 실력이 부족한다고 말했는데 이 글을 보니까 쓰기와 문법, 어위 등은 중급보다 높은다고 생각해요.
+1	말하기와	말+하+기+와	NOUN	NNG+XSV+ETN+JC	_	3	nmod:poss	_	_
+2	듣기의	듣+기+의	NOUN	VV+ETN+JKG	_	1	conj	_	_
+3	실력이	실력+이	NOUN	NNG+JKS	_	4	nsubj	_	_
+4	부족한다고	부족+하+ㄴ다고	VERB	NNG+XSA+EC	_	5	ccomp	_	_
+5	말했는데	말+하+았+는데	VERB	NNG+XSV+EP+EC	_	16	advcl	_	_
+6	이	이	DET	MM	_	7	det	_	_
+7	글을	글+을	NOUN	NNG+JKO	_	8	obj	_	_
+8	보니까	보+니까	VERB	VV+EC	_	16	advcl	_	_
+9	쓰기와	쓰+기+와	NOUN	VV+ETN+JC	_	15	nsubj	_	_
+10	문법	문법	NOUN	NNG	_	9	conj	_	SpaceAfter=No
+11	,	,	PUNCT	SP	_	10	punct	_	_
+12	어위	어위	NOUN	NF	_	9	conj	_	_
+13	등은	등+은	NOUN	NNB+JX	_	12	case	_	_
+14	중급보다	중급+보다	ADV	NNG+JKB	_	15	obl	_	_
+15	높은다고	높+은+다고	VERB	VA+ETM+EC	_	16	ccomp	_	_
+16	생각해요	생각+하+아요	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	SF	_	16	punct	_	_
+
+# sent_id = B200007-9-3497
+# text = 여고동생은 오빠들이 미친 사랑하기 때문에 부산에서 서울오로 오빠에게 응원하고 다른 미친 행동도 했다.
+1	여고동생은	여고+동생+은	NOUN	NNG+NNG+JX	_	13	nsubj	_	_
+2	오빠들이	오빠+들+이	NOUN	NNG+XSN+JKS	_	4	nsubj	_	_
+3	미친	미치+ㄴ	VERB	VV+ETM	_	4	amod	_	_
+4	사랑하기	사랑+하+기	NOUN	NNG+XSV+ETN	_	13	obl	_	_
+5	때문에	때문+에	ADP	NNB+JKB	_	4	case	_	_
+6	부산에서	부산+에서	ADV	NNP+JKB	_	9	obl	_	_
+7	서울오로	서울+오로	ADV	NNP+NA	_	9	obl	_	_
+8	오빠에게	오빠+에게	NOUN	NNG+JKB	_	9	obl	_	_
+9	응원하고	응원+하+고	VERB	NNG+XSV+EC	_	0	root	_	_
+10	다른	다른	ADJ	MM	_	12	amod	_	_
+11	미친	미치+ㄴ	ADJ	VA+ETM	_	12	amod	_	_
+12	행동도	행동+도	NOUN	NNG+JX	_	13	obj	_	_
+13	했다	하+았+다	VERB	VV+EP+EF	_	9	conj	_	SpaceAfter=No
+14	.	.	PUNCT	SF	_	13	punct	_	_
+
+# sent_id = B100020-1-2656
+# text = 나의 취미는 노래방 이다 취미가 노래방이지만 옛날에는 노래를 부르는 것을 잘 못 했다.
+1	나의	나+의	PRON	NP+JKG	_	2	nmod:poss	_	_
+2	취미는	취미+는	NOUN	NNG+JX	_	3	nsubj	_	_
+3	노래방	노래방	NOUN	NNG	_	13	parataxis	_	_
+4	이다	이+다	VERB	VCP+EF	_	3	case	_	_
+5	취미가	취미+가	NOUN	NNG+JKS	_	6	nsubj	_	_
+6	노래방이지만	노래방+이+지만	VERB	NNG+VCP+EC	_	13	advcl	_	_
+7	옛날에는	옛날+에+는	ADV	NNG+JKB+JX	_	13	obl	_	_
+8	노래를	노래+를	NOUN	NNG+JKO	_	9	obj	_	_
+9	부르는	부르+는	VERB	VV+ETM	_	10	acl	_	_
+10	것을	것+을	NOUN	NNB+JKO	_	13	obj	_	_
+11	잘	잘	ADV	MAG	_	13	advmod	_	_
+12	못	못	ADV	MAG	_	13	advmod	_	_
+13	했다	하+았+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	SF	_	13	punct	_	_
+
+# sent_id = A200018-7-1864
+# text = 상해 옛날 물건을 봤습니다.
+1	상해	상해	NOUN	NNP	_	2	nmod	_	_
+2	옛날	옛날	NOUN	NNG	_	3	nmod	_	_
+3	물건을	물건+을	NOUN	NNG+JKO	_	4	obj	_	_
+4	봤습니다	보+았+습니다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	SF	_	4	punct	_	_
+
+# sent_id = A200013-6-1533
+# text = 이가방은 한달전에 샀습니다.
+1	이가방은	이+가방+은	NOUN	MM+NNG+JX	_	3	nsubj	_	_
+2	한달전에	한+달+전+에	ADV	MM+NNB+NNB+JKB	_	3	obl	_	_
+3	샀습니다	사+았+습니다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	SF	_	3	punct	_	_
+
+# sent_id = B100013-19-2095
+# text = 우리 나라하고 아주 다랏다.
+1	우리	우리+나라+하고	ADV	NP+NNG+JKB	_	4	obl	_	_
+2	나라하고	_	X	_	_	1	goeswith	_	_
+3	아주	아주	ADV	MAG	_	4	advmod	_	_
+4	다랏다	다랏+다	ADJ	NV+EF	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	SF	_	4	punct	_	_
+
+# sent_id = B200018-4-4002
+# text = 그래서 우리는 환경오염을 줄이기 위해 할수있는 일이 만습니다.
+1	그래서	그래서	ADV	MAJ	_	8	cc	_	_
+2	우리는	우리+는	PRON	NP+JX	_	6	nsubj	_	_
+3	환경오염을	환경+오염+을	NOUN	NNG+NNG+JKO	_	4	obj	_	_
+4	줄이기	줄이+기	NOUN	VV+ETN	_	5	obj	_	_
+5	위해	위하+아	VERB	VV+EC	_	6	advcl	_	_
+6	할수있는	하+ㄹ+수+있+는	VERB	VV+ETM+NNB+VX+ETM	_	7	acl	_	_
+7	일이	일+이	NOUN	NNG+JKS	_	8	nsubj	_	_
+8	만습니다	만+습니다	ADJ	NV+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
