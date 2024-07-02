@@ -6,7 +6,7 @@
 4	단어의	단어+의	NOUN	NNG+JKG	_	5	nmod:poss	_	_
 5	의미를	의미+를	NOUN	NNG+JKO	_	6	obj	_	_
 6	알게	알+게	VERB	VV+EC	_	8	advcl	_	_
-7	되서	되+서	VERB	VX+EC	_	6	aux	_	_
+7	되서	되	AUX	VX+EC	_	6	aux	_	_
 8	느낀	느끼+ㄴ	VERB	VV+ETM	_	9	acl	_	_
 9	점은	점+은	NOUN	NNB+JX	_	32	nsubj	_	_
 10	시간의	시간+의	NOUN	NNG+JKG	_	11	nmod:poss	_	_
@@ -30,7 +30,7 @@
 28	팀처럼	팀+처럼	ADV	NNP+JKB	_	30	obl	_	_
 29	행복하게	행복+하+게	ADV	NNG+XSA+EC	_	30	advmod	_	_
 30	살아가고	살아가+고	VERB	VV+EC	_	32	ccomp	_	_
-31	싶다고	싶+다고	VERB	VX+EC	_	30	aux	_	_
+31	싶다고	싶	AUX	VX+EC	_	30	aux	_	_
 32	느꼈다	느끼+었+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
 33	.	.	PUNCT	SF	_	32	punct	_	_
 
@@ -39,11 +39,11 @@
 1	만약에	만약+에	ADV	NNG+JKB	_	3	obl	_	_
 2	돈이	돈+이	NOUN	NNG+JKS	_	3	nsubj	_	_
 3	없다손	없+다+손	VERB	VA+EF+JX	_	7	advcl	_	_
-4	치더라도	치+더라도	VERB	VV+EC	_	3	aux	_	_
+4	치더라도	치	AUX	VV+EC	_	3	aux	_	_
 5	은행에게	은행+에게	NOUN	NNG+JKB	_	7	obl	_	_
 6	돈을	돈+을	NOUN	NNG+JKO	_	7	obj	_	_
 7	빌리곤까지	빌리+고+ㄴ+까지	ADV	VV+EC+JX+JX	_	11	advcl	_	_
-8	해서도	하+아서+도	VERB	VV+EC+JX	_	7	aux	_	_
+8	해서도	하	AUX	VV+EC+JX	_	7	aux	_	_
 9	그렇게	그렇+게	ADV	VA+EC	_	10	advmod	_	_
 10	할	하+ㄹ	VERB	VV+ETM	_	11	acl	_	_
 11	것이다	것+이+다	VERB	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
@@ -77,7 +77,7 @@
 8	겪은	겪+은	VERB	VV+ETM	_	9	acl	_	_
 9	적이	적+이	NOUN	NNB+JKS	_	10	nsubj	_	_
 10	적지	적+지	VERB	VA+EC	_	0	root	_	_
-11	않았다	않+았+다	VERB	VX+EP+EF	_	10	aux	_	SpaceAfter=No
+11	않았다	않	AUX	VX+EP+EF	_	10	aux	_	SpaceAfter=No
 12	.	.	PUNCT	SF	_	10	punct	_	_
 
 # sent_id = B200020-19-4083
@@ -131,7 +131,7 @@
 6	꼭	꼭	ADV	MAG	_	8	advmod	_	_
 7	등산을	등산+을	NOUN	NNG+JKO	_	8	obj	_	_
 8	해야	하+아야	VERB	VV+EC	_	0	root	_	_
-9	한다	하+ㄴ다	VERB	VX+EF	_	8	aux	_	SpaceAfter=No
+9	한다	하	AUX	VX+EF	_	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	SF	_	8	punct	_	_
 
 # sent_id = B100013-1-2142
@@ -242,7 +242,7 @@
 5	교육	교육	NOUN	NNG	_	6	nmod	_	_
 6	방식이	방식+이	NOUN	NNG+JKS	_	7	nsubj	_	_
 7	바꿔야	바꾸+어야	VERB	VV+EC	_	9	ccomp	_	_
-8	된다고	되+ㄴ다고	VERB	VX+EC	_	7	aux	_	_
+8	된다고	되	AUX	VX+EC	_	7	aux	_	_
 9	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	SF	_	9	punct	_	_
 
@@ -256,7 +256,7 @@
 6	안성	안성	NOUN	NF	_	8	obj	_	_
 7	꼭	꼭	ADV	MAG	_	8	advmod	_	_
 8	보증해야	보증+하+아야	VERB	NNG+XSV+EC	_	0	root	_	_
-9	한다	하+ㄴ다	VERB	VX+EF	_	8	aux	_	SpaceAfter=No
+9	한다	하	AUX	VX+EF	_	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	SF	_	8	punct	_	_
 
 # sent_id = B100023-4-2922
@@ -329,7 +329,7 @@
 1	제주도에서	제주도+에서	ADV	NNP+JKB	_	3	obl	_	_
 2	바다에	바다+에	ADV	NNG+JKB	_	3	obl	_	_
 3	가고	가+고	VERB	VV+EC	_	0	root	_	_
-4	싶습니다	싶+습니다	VERB	VX+EF	_	3	aux	_	SpaceAfter=No
+4	싶습니다	싶	AUX	VX+EF	_	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	SF	_	3	punct	_	_
 
 # sent_id = B100025-2-3009
@@ -353,7 +353,7 @@
 1	여러분도	여러분+도	NOUN	NNG+JX	_	3	nsubj	_	_
 2	건강을	건강+을	NOUN	NNG+JKO	_	3	obj	_	_
 3	유지하고	유지+하+고	VERB	NNG+XSV+EC	_	7	advcl	_	_
-4	싶으면	싶+으면	VERB	VX+EC	_	3	aux	_	_
+4	싶으면	싶	AUX	VX+EC	_	3	aux	_	_
 5	다음	다음	NOUN	NNG	_	6	nmod	_	_
 6	방법을	방법+을	NOUN	NNG+JKO	_	7	obj	_	_
 7	들어보세요	들어보+시+어요	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
@@ -432,7 +432,7 @@
 5	주인공이	주인공+이	NOUN	NNG+JKS	_	7	nsubj	_	_
 6	사형을	사형+을	NOUN	NNG+JKO	_	7	obj	_	_
 7	당하게	당하+게	VERB	VV+EC	_	0	root	_	_
-8	된다	되+ㄴ다	VERB	VX+EF	_	7	aux	_	SpaceAfter=No
+8	된다	되	AUX	VX+EF	_	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	SF	_	7	punct	_	_
 
 # sent_id = C200006-12-6660
@@ -511,7 +511,7 @@
 5	친구가	친구+가	NOUN	NNG+JKS	_	7	nsubj	_	_
 6	나에께	나+에+께	ADV	NP+JKB+NA	_	7	obl	_	_
 7	추천해	추천+하+아	VERB	NNG+XSV+EC	_	9	acl	_	_
-8	준	주+ㄴ	VERB	VX+ETM	_	7	aux	_	_
+8	준	주	AUX	VX+ETM	_	7	aux	_	_
 9	영화로	영화+로	ADV	NNG+JKB	_	11	advcl	_	_
 10	제목은	제목+은	NOUN	NNG+JX	_	11	nsubj	_	_
 11	웨딩드레스이다	웨딩드레스+이+다	VERB	NNG+VCP+EF	_	0	root	_	SpaceAfter=No
@@ -575,7 +575,7 @@
 3	폐지하는	폐지+하+는	VERB	NNG+XSV+ETM	_	4	acl	_	_
 4	나라가	나라+가	NOUN	NNG+JKS	_	5	nsubj	_	_
 5	많아지고	많+아지+고	VERB	VA+XSV+EC	_	0	root	_	_
-6	있다	있+다	VERB	VX+EF	_	5	aux	_	SpaceAfter=No
+6	있다	있	AUX	VX+EF	_	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	SF	_	5	punct	_	_
 
 # sent_id = B200025-11-4264
@@ -584,12 +584,12 @@
 2	사람에게	사람+에게	NOUN	NNG+JKB	_	4	obl	_	_
 3	사랑을	사랑+을	NOUN	NNG+JKO	_	4	obj	_	_
 4	받고	받+고	VERB	VV+EC	_	9	advcl	_	_
-5	싶으면	싶+으면	VERB	VX+EC	_	4	aux	_	_
+5	싶으면	싶	AUX	VX+EC	_	4	aux	_	_
 6	먼저	먼저	ADV	MAG	_	9	advmod	_	_
 7	다른	다른	ADJ	MM	_	8	amod	_	_
 8	사람을	사람+을	NOUN	NNG+JKO	_	9	obj	_	_
 9	사랑해야	사랑+하+아야	VERB	NNG+XSV+EC	_	0	root	_	_
-10	한다	하+ㄴ다	VERB	VX+EF	_	9	aux	_	SpaceAfter=No
+10	한다	하	AUX	VX+EF	_	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	SF	_	9	punct	_	_
 
 # sent_id = B200035-1-4668
@@ -610,9 +610,9 @@
 1	이번달도	이번+달+도	NOUN	NNG+NNG+JX	_	3	obl	_	_
 2	여행을	여행+을	NOUN	NNG+JKO	_	3	obj	_	_
 3	가려고	가+려고	VERB	VV+EC	_	8	advcl	_	_
-4	한는데	하+ㄴ+는데	VERB	VX+ETM+EC	_	3	aux	_	_
+4	한는데	하	AUX	VX+ETM+EC	_	3	aux	_	_
 5	가고	가+고	VERB	VV+EC	_	7	acl	_	_
-6	싶은	싶+은	VERB	VX+ETM	_	5	aux	_	_
+6	싶은	싶	AUX	VX+ETM	_	5	aux	_	_
 7	곳이	곳+이	NOUN	NNG+JKS	_	8	nsubj	_	_
 8	없다	없+다	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	SF	_	8	punct	_	_
@@ -793,10 +793,10 @@
 1	까가운	까갑+ㄴ	VERB	NV+ETM	_	2	amod	_	_
 2	것에	것+에	ADV	NNB+JKB	_	3	obl	_	_
 3	결려야	결리+어야	VERB	VV+EC	_	0	root	_	_
-4	하고	하+고	VERB	VX+EC	_	3	aux	_	_
+4	하고	하	AUX	VX+EC	_	3	aux	_	_
 5	스용차10부제를	스용차+10+부+제+를	NOUN	NF+SN+NNB+XSN+JKO	_	6	obj	_	_
 6	지켜야	지키+어야	VERB	VV+EC	_	3	conj	_	_
-7	한다	하+ㄴ다	VERB	VX+EF	_	6	aux	_	SpaceAfter=No
+7	한다	하	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	SF	_	6	punct	_	_
 
 # sent_id = C200023-9-7438
@@ -808,7 +808,7 @@
 5	해로운	해롭+ㄴ	VERB	VA+ETM	_	6	amod	_	_
 6	것을	것+을	NOUN	NNB+JKO	_	7	obj	_	_
 7	하지	하+지	VERB	VV+EC	_	0	root	_	_
-8	마세요	말+시+어요	VERB	VX+EP+EF	_	7	aux	_	SpaceAfter=No
+8	마세요	말	AUX	VX+EP+EF	_	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	SF	_	7	punct	_	_
 
 # sent_id = B200030-10-4478
@@ -852,7 +852,7 @@
 3	혼자	혼자	ADV	NNG	_	5	obl	_	_
 4	외국에서	외국+에서	ADV	NNG+JKB	_	5	obl	_	_
 5	살다	살+다	NOUN	VV+EC	_	10	advcl	_	_
-6	보면	보+면	VERB	VX+EC	_	5	aux	_	_
+6	보면	보	AUX	VX+EC	_	5	aux	_	_
 7	다른	다른	ADJ	MM	_	8	amod	_	_
 8	사람보다	사람+보다	ADV	NNG+JKB	_	10	obl	_	_
 9	독립능력이	독립+능력+이	NOUN	NNG+NNG+JKS	_	10	nsubj	_	_
@@ -870,7 +870,7 @@
 7	많이	많이	ADV	MAG	_	9	advmod	_	_
 8	운동을	운동+을	NOUN	NNG+JKO	_	9	obj	_	_
 9	해야	하+아야	VERB	VV+EC	_	0	root	_	_
-10	합니다	하+ㅂ니다	VERB	VX+EF	_	9	aux	_	SpaceAfter=No
+10	합니다	하	AUX	VX+EF	_	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	SF	_	9	punct	_	_
 
 # sent_id = A200015-4-1635
@@ -921,7 +921,7 @@
 3	수상한	수상+하+ㄴ	VERB	NNG+XSA+ETM	_	5	obj	_	_
 4	가정부를	가정부+를	NOUN	NNG+JKO	_	3	flat	_	_
 5	보고	보+고	VERB	VV+EC	_	7	acl	_	_
-6	있는	있+는	VERB	VX+ETM	_	5	aux	_	_
+6	있는	있	AUX	VX+ETM	_	5	aux	_	_
 7	목적은	목적+은	NOUN	NNG+JX	_	15	nsubj	_	_
 8	높임말을	높임말+을	NOUN	NNG+JKO	_	10	obj	_	_
 9	자유롭게	자유+롭+게	ADV	NNG+XSA+EC	_	10	advmod	_	_
@@ -929,7 +929,7 @@
 11	수	수	NOUN	NNB	_	12	nsubj	_	_
 12	있게	있+게	VERB	VX+EC	_	15	advcl	_	_
 13	되고	되+고	VERB	VV+EC	_	15	nmod	_	_
-14	싶기	싶+기	VERB	VX+ETN	_	13	aux	_	_
+14	싶기	싶	AUX	VX+ETN	_	13	aux	_	_
 15	때문이다	때문+이+다	VERB	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	SF	_	15	punct	_	_
 
@@ -980,7 +980,7 @@
 1	하지마	하지마	ADV	NA	_	3	cc	_	_
 2	옷을	옷+을	NOUN	NNG+JKO	_	3	obj	_	_
 3	사지	사+지	VERB	VV+EC	_	0	root	_	_
-4	않습니다	않+습니다	VERB	VX+EF	_	3	aux	_	SpaceAfter=No
+4	않습니다	않	AUX	VX+EF	_	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	SF	_	3	punct	_	_
 
 # sent_id = B200017-12-3927
@@ -1019,7 +1019,7 @@
 1	술	술	NOUN	NNG	_	3	obj	_	_
 2	많이	많이	ADV	MAG	_	3	advmod	_	_
 3	마시지	마시+지	VERB	VV+EC	_	8	advcl	_	_
-4	말고	말+고	VERB	VX+EC	_	3	aux	_	_
+4	말고	말	AUX	VX+EC	_	3	aux	_	_
 5	담배	담배	NOUN	NNG	_	6	obj	_	_
 6	피우기	피+우+기	NOUN	VV+XSV+ETN	_	7	obj	_	_
 7	끊었으면	끊+었+으면	VERB	VV+EP+EC	_	3	conj	_	_
@@ -1060,7 +1060,7 @@
 4	가격이	가격+이	NOUN	NNG+JKS	_	5	nsubj	_	_
 5	달르니까	달르+니까	VERB	NV+EC	_	6	advcl	_	_
 6	주의해야	주의+하+아야	VERB	NNG+XSV+EC	_	0	root	_	_
-7	한다	하+ㄴ다	VERB	VX+EF	_	6	aux	_	SpaceAfter=No
+7	한다	하	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	SF	_	6	punct	_	_
 
 # sent_id = A100000-9-30
@@ -1091,7 +1091,7 @@
 4	나라들이	나라+들+이	NOUN	NNG+XSN+JKS	_	6	nsubj	_	_
 5	점점	점점	ADV	MAG	_	6	advmod	_	_
 6	늘어가고	늘어가+고	VERB	VV+EC	_	0	root	_	_
-7	있다	있+다	VERB	VX+EF	_	6	aux	_	SpaceAfter=No
+7	있다	있	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	SF	_	6	punct	_	_
 
 # sent_id = C200008-10-6726
@@ -1374,7 +1374,7 @@
 4	꼭	꼭	ADV	MAG	_	6	advmod	_	_
 5	힘을	힘+을	NOUN	NNG+JKO	_	6	obj	_	_
 6	써야	쓰+어야	VERB	VV+EC	_	0	root	_	_
-7	한다	하+ㄴ다	VERB	VX+EF	_	6	aux	_	SpaceAfter=No
+7	한다	하	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	SF	_	6	punct	_	_
 
 # sent_id = C100008-6-5670
@@ -1400,7 +1400,7 @@
 9	결코	결코	ADV	MAG	_	11	advmod	_	_
 10	느낌이	느낌+이	NOUN	NNG+JKS	_	11	nsubj	_	_
 11	좋지는	좋+지+는	VERB	VA+EC+JX	_	0	root	_	_
-12	않다	않+다	VERB	VX+EF	_	11	aux	_	SpaceAfter=No
+12	않다	않	AUX	VX+EF	_	11	aux	_	SpaceAfter=No
 13	.	.	PUNCT	SF	_	11	punct	_	_
 
 # sent_id = B100022-9-2845
@@ -1561,7 +1561,7 @@
 13	나쁜	나쁘+ㄴ	ADJ	VA+ETM	_	14	amod	_	_
 14	영향을	영향+을	NOUN	NNG+JKO	_	15	obj	_	_
 15	미치게	미치+게	VERB	VV+EC	_	0	root	_	_
-16	된다	되+ㄴ다	VERB	VX+EF	_	15	aux	_	SpaceAfter=No
+16	된다	되	AUX	VX+EF	_	15	aux	_	SpaceAfter=No
 17	.	.	PUNCT	SF	_	15	punct	_	_
 
 # sent_id = B200000-8-3246
@@ -1589,7 +1589,7 @@
 5	페이스북을	페이스북+을	NOUN	NNP+JKO	_	6	obj	_	_
 6	통해	통하+아	VERB	VV+EC	_	7	advcl	_	_
 7	알게	알+게	VERB	VV+EC	_	10	acl	_	_
-8	된	되+ㄴ	VERB	VX+ETM	_	7	aux	_	_
+8	된	되	AUX	VX+ETM	_	7	aux	_	_
 9	직원의	직원+의	NOUN	NNG+JKG	_	10	nmod:poss	_	_
 10	사생활을	사생활+을	NOUN	NNG+JKO	_	13	obj	_	_
 11	무업	무업	VERB	NF	_	12	nmod	_	_
@@ -1631,7 +1631,7 @@
 # text = 쇼핑을 하고 싶어서 갔습니다.
 1	쇼핑을	쇼핑+을	NOUN	NNG+JKO	_	2	obj	_	_
 2	하고	하+고	VERB	VV+EC	_	4	advcl	_	_
-3	싶어서	싶+어서	VERB	VX+EC	_	2	aux	_	_
+3	싶어서	싶	AUX	VX+EC	_	2	aux	_	_
 4	갔습니다	가+았+습니다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	SF	_	4	punct	_	_
 
@@ -1651,7 +1651,7 @@
 1	왜	왜	ADV	MAG	_	3	advmod	_	_
 2	열심히	열심히	ADV	MAG	_	3	advmod	_	_
 3	공부하지	공부+하+지	VERB	NNG+XSV+EC	_	10	advcl	_	_
-4	않았냐면	않+았+냐면	VERB	VX+EP+EC	_	3	aux	_	SpaceAfter=No
+4	않았냐면	않	AUX	VX+EP+EC	_	3	aux	_	SpaceAfter=No
 5	,	,	PUNCT	SP	_	4	punct	_	_
 6	동기가	동기+가	NOUN	NNG+JKS	_	7	nsubj	_	_
 7	없어서	없+어서	VERB	VA+EC	_	10	advcl	_	_
@@ -1781,7 +1781,7 @@
 1	인간은	인간+은	NOUN	NNG+JX	_	3	nsubj	_	_
 2	잘	잘	ADV	MAG	_	3	advmod	_	_
 3	사고	사+고	VERB	VV+EC	_	7	advcl	_	_
-4	싶으면	싶+으면	VERB	VX+EC	_	3	aux	_	_
+4	싶으면	싶	AUX	VX+EC	_	3	aux	_	_
 5	깨끗한	깨끗+하+ㄴ	ADJ	XR+XSA+ETM	_	6	amod	_	_
 6	환경이	환경+이	NOUN	NNG+JKS	_	7	nsubj	_	_
 7	필요하다	필요+하+다	ADJ	NNG+XSA+EF	_	0	root	_	SpaceAfter=No
@@ -1810,7 +1810,7 @@
 3	다닐	다니+ㄹ	VERB	VV+ETM	_	5	advcl	_	_
 4	때	때	ADV	NNG	_	3	mark	_	_
 5	걸어다니야	걸어다니+야	VERB	VV+NA	_	0	root	_	_
-6	한다	하+ㄴ다	VERB	VX+EF	_	5	aux	_	SpaceAfter=No
+6	한다	하	AUX	VX+EF	_	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	SF	_	5	punct	_	_
 
 # sent_id = A100017-5-500
@@ -2018,7 +2018,7 @@
 4	지갑을	지갑+을	NOUN	NNG+JKO	_	3	conj	_	_
 5	놓고	놓+고	VERB	VV+EC	_	6	advcl	_	_
 6	나으곤	나으+고+는	VERB	NV+EC+JX	_	0	root	_	_
-7	한다	하+ㄴ다	VERB	VX+EF	_	6	aux	_	SpaceAfter=No
+7	한다	하	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	SF	_	6	punct	_	_
 
 # sent_id = B100020-7-2684
@@ -2076,7 +2076,7 @@
 9	코미디	코미디	NOUN	NNG	_	10	nmod	_	_
 10	영화라고	영화+이+라고	VERB	NNG+VCP+EC	_	11	obl	_	_
 11	보면	보+면	VERB	VV+EC	_	0	root	_	_
-12	된다	되+ㄴ다	VERB	VX+EF	_	11	aux	_	SpaceAfter=No
+12	된다	되	AUX	VX+EF	_	11	aux	_	SpaceAfter=No
 13	.	.	PUNCT	SF	_	11	punct	_	_
 
 # sent_id = A200013-3-1530
@@ -2204,16 +2204,16 @@
 1	이	이	DET	MM	_	2	det	_	_
 2	영화를	영화+를	NOUN	NNG+JKO	_	3	obj	_	_
 3	보고	보+고	VERB	VV+EC	_	9	advcl	_	_
-4	나서	나+아서	VERB	VX+EC	_	3	aux	_	_
+4	나서	나	AUX	VX+EC	_	3	aux	_	_
 5	시간이라는	시간+이+라는	VERB	NNG+VCP+ETM	_	6	acl	_	_
 6	단어의	단어+의	NOUN	NNG+JKG	_	7	nmod:poss	_	_
 7	의미를	의미+를	NOUN	NNG+JKO	_	9	obj	_	_
 8	자세히	자세히	ADV	MAG	_	9	advmod	_	_
 9	알고	알+고	VERB	VV+EC	_	12	advcl	_	_
-10	싶어져서	싶어지+어서	VERB	VV+EC	_	9	aux	_	_
+10	싶어져서	싶어지	AUX	VV+EC	_	9	aux	_	_
 11	사전으로	사전+으로	ADV	NNG+JKB	_	12	obl	_	_
 12	찾아	찾+아	VERB	VV+EC	_	0	root	_	_
-13	보았다	보+았+다	VERB	VX+EP+EF	_	12	aux	_	SpaceAfter=No
+13	보았다	보	AUX	VX+EP+EF	_	12	aux	_	SpaceAfter=No
 14	.	.	PUNCT	SF	_	12	punct	_	_
 
 # sent_id = C100001-19-5129
@@ -2267,7 +2267,7 @@
 8	오래	오래	ADV	MAG	_	10	advmod	_	_
 9	그녀에	그녀+에	ADV	NP+JKB	_	10	obl	_	_
 10	고백하지	고백+하+지	VERB	NNG+XSV+EC	_	0	root	_	_
-11	못한다	못+하+ㄴ다	VERB	MAG+VX+EF	_	10	aux	_	SpaceAfter=No
+11	못한다	못	AUX	MAG+VX+EF	_	10	aux	_	SpaceAfter=No
 12	.	.	PUNCT	SF	_	10	punct	_	_
 
 # sent_id = B200034-4-4637
@@ -2276,7 +2276,7 @@
 2	한국어는	한국어+는	NOUN	NNG+JX	_	4	obj	_	_
 3	한국에서	한국+에서	ADV	NNP+JKB	_	4	obl	_	_
 4	공부해야	공부+하+아야	VERB	NNG+XSV+EC	_	6	ccomp	_	_
-5	한다고	하+ㄴ다고	VERB	VX+EC	_	4	aux	_	_
+5	한다고	하	AUX	VX+EC	_	4	aux	_	_
 6	생각하고	생각+하+고	VERB	NNG+XSV+EC	_	10	advcl	_	_
 7	한국어를	한국어+를	NOUN	NNG+JKO	_	8	obj	_	_
 8	배우러	배우+러	VERB	VV+EC	_	10	advcl	_	_
@@ -2308,7 +2308,7 @@
 7	받고	받+고	VERB	VV+EC	_	9	advcl	_	_
 8	책임을	책임+을	NOUN	NNG+JKO	_	9	obj	_	_
 9	쳐야	치+어야	VERB	VV+EC	_	11	acl	_	_
-10	한다는	하+ㄴ다는	VERB	VX+ETM	_	9	aux	_	_
+10	한다는	하	AUX	VX+ETM	_	9	aux	_	_
 11	것이	것+이	NOUN	NNB+JKS	_	12	nsubj	_	_
 12	마련이라고	마련+이+라고	VERB	NNB+VCP+EC	_	13	ccomp	_	_
 13	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
@@ -2322,7 +2322,7 @@
 4	같이	같이	ADV	MAG	_	3	advmod	_	_
 5	한강에	한강+에	ADV	NNP+JKB	_	6	obl	_	_
 6	가려요	가리+어요	VERB	VV+EC	_	0	root	_	_
-7	해요	하+아요	VERB	VX+EF	_	6	aux	_	SpaceAfter=No
+7	해요	하	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	SF	_	6	punct	_	_
 
 # sent_id = B200043-12-4898
@@ -2345,7 +2345,7 @@
 # text = 한국에서 공부하고 있는 일본 사람이 너무 많기 때문이에요.
 1	한국에서	한국+에서	ADV	NNP+JKB	_	2	obl	_	_
 2	공부하고	공부+하+고	VERB	NNG+XSV+EC	_	4	acl	_	_
-3	있는	있+는	VERB	VX+ETM	_	2	aux	_	_
+3	있는	있	AUX	VX+ETM	_	2	aux	_	_
 4	일본	일본	NOUN	NNP	_	5	nmod	_	_
 5	사람이	사람+이	NOUN	NNG+JKS	_	7	nsubj	_	_
 6	너무	너무	ADV	MAG	_	7	advmod	_	_
@@ -2395,7 +2395,7 @@
 2	지금	지금	ADV	MAG	_	4	advmod	_	_
 3	뭐	뭐	ADV	NP	_	4	obj	_	_
 4	하고	하+고	VERB	VV+EC	_	6	ccomp	_	_
-5	싶어	싶+어	VERB	VX+EC	_	4	aux	_	_
+5	싶어	싶	AUX	VX+EC	_	4	aux	_	_
 6	몰읍니다	몰으+ㅂ니다	VERB	NV+EF	_	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	SF	_	6	punct	_	_
 
@@ -2432,7 +2432,7 @@
 7	위대한	위대+하+ㄴ	ADJ	XR+XSA+ETM	_	8	amod	_	_
 8	정도로	정도+로	ADV	NNG+JKB	_	9	obj	_	_
 9	알게	알+게	VERB	VV+EC	_	0	root	_	_
-10	된다	되+ㄴ다	VERB	VX+EF	_	9	aux	_	SpaceAfter=No
+10	된다	되	AUX	VX+EF	_	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	SF	_	9	punct	_	_
 
 # sent_id = A100002-8-72
@@ -2487,7 +2487,7 @@
 # text = 오늘은 가볼 만 한 곳을 소개한다.
 1	오늘은	오늘+은	ADV	NNG+JX	_	6	advmod	_	_
 2	가볼	가보+ㄹ	VERB	VV+ETM	_	5	acl	_	_
-3	만	만+한+ㄴ	VERB	NNB+VV+ETM	_	2	aux	_	_
+3	만	만	AUX	NNB+VV+ETM	_	2	aux	_	_
 4	한	_	X	_	_	3	goeswith	_	_
 5	곳을	곳+을	NOUN	NNG+JKO	_	6	obj	_	_
 6	소개한다	소개+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
@@ -2541,7 +2541,7 @@
 4	멋진	멋지+ㄴ	ADJ	VA+ETM	_	5	amod	_	_
 5	자녀가	자녀+가	NOUN	NNG+JKS	_	6	nsubj	_	_
 6	되어야	되+어야	VERB	VV+EC	_	8	ccomp	_	_
-7	겠다고	겠+다고	VERB	EP+EC	_	6	aux	_	_
+7	겠다고	겠	AUX	EP+EC	_	6	aux	_	_
 8	생각했다	생각+하+았+다	VERB	NNG+XSV+EP+EF	_	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	SF	_	8	punct	_	_
 
@@ -2640,7 +2640,7 @@
 3	꼭	꼭	ADV	MAG	_	5	advmod	_	_
 4	환경을	환경+을	NOUN	NNG+JKO	_	5	obj	_	_
 5	보험해야	보험+하+아야	VERB	NNG+XSV+EC	_	0	root	_	_
-6	한다	하+ㄴ다	VERB	VX+EF	_	5	aux	_	SpaceAfter=No
+6	한다	하	AUX	VX+EF	_	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	SF	_	5	punct	_	_
 
 # sent_id = C100007-9-5596
@@ -2675,13 +2675,13 @@
 4	있기	있+기	NOUN	VV+ETN	_	6	obl	_	_
 5	때문에	때문+에	ADP	NNB+JKB	_	4	case	_	_
 6	공부하려고	공부+하+려고	VERB	NNG+XSV+EC	_	0	root	_	_
-7	합니다	하+ㅂ니다	VERB	VX+EF	_	6	aux	_	SpaceAfter=No
+7	합니다	하	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	SF	_	6	punct	_	_
 
 # sent_id = C100000-21-4991
 # text = 비씨지 않습니다.
 1	비씨지	비씨+지	NOUN	NV+EC	_	0	root	_	_
-2	않습니다	않+습니다	VERB	VX+EF	_	1	aux	_	SpaceAfter=No
+2	않습니다	않	AUX	VX+EF	_	1	aux	_	SpaceAfter=No
 3	.	.	PUNCT	SF	_	1	punct	_	_
 
 # sent_id = A200000-1-931
@@ -2730,7 +2730,7 @@
 3	음식의	음식+의	NOUN	NNG+JKG	_	4	nmod:poss	_	_
 4	중요성이	중요+성+이	NOUN	NNG+XSN+JKS	_	5	obj	_	_
 5	알게	알+게	VERB	VV+EC	_	7	acl	_	_
-6	될	되+ㄹ	VERB	VV+ETM	_	5	aux	_	_
+6	될	되	AUX	VV+ETM	_	5	aux	_	_
 7	수	수	NOUN	NNB	_	8	nsubj	_	_
 8	있습니다	있+습니다	ADJ	VX+EF	_	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	SF	_	8	punct	_	_
@@ -2802,7 +2802,7 @@
 8	있는	있+는	VERB	VV+ETM	_	9	acl	_	_
 9	식당에	식당+에	ADV	NNG+JKB	_	10	obl	_	_
 10	가고	가+고	VERB	VV+EC	_	0	root	_	_
-11	싶습니다	싶+습니다	VERB	VX+EF	_	10	aux	_	SpaceAfter=No
+11	싶습니다	싶	AUX	VX+EF	_	10	aux	_	SpaceAfter=No
 12	.	.	PUNCT	SF	_	10	punct	_	_
 
 # sent_id = A200009-5-1307
@@ -2959,10 +2959,10 @@
 3	처음에	처음+에	ADV	NNG+JKB	_	5	obl	_	_
 4	남자친구의	남자+친구+의	NOUN	NNG+NNG+JKG	_	7	nmod:poss	_	_
 5	해어지고	해어지+고	VERB	NV+EC	_	7	acl	_	_
-6	싶었던	싶+었+던	VERB	VX+EP+ETM	_	5	aux	_	_
+6	싶었던	싶	AUX	VX+EP+ETM	_	5	aux	_	_
 7	이유를	이유+를	NOUN	NNG+JKO	_	8	obj	_	_
 8	알고	알+고	VERB	VV+EC	_	0	root	_	_
-9	되었다	되+었+다	VERB	VX+EP+EF	_	8	aux	_	SpaceAfter=No
+9	되었다	되	AUX	VX+EP+EF	_	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	SF	_	8	punct	_	_
 
 # sent_id = C100000-7-4937
@@ -2985,7 +2985,7 @@
 1	첫인상을	첫+인상+을	NOUN	MM+NNG+JKO	_	3	obj	_	_
 2	좋게	좋+게	ADV	VA+EC	_	3	advmod	_	_
 3	해야	하+아야	VERB	VV+EC	_	0	root	_	_
-4	한다	하+ㄴ다	VERB	VX+EF	_	3	aux	_	SpaceAfter=No
+4	한다	하	AUX	VX+EF	_	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	SF	_	3	punct	_	_
 
 # sent_id = B100019-18-2581
@@ -3024,7 +3024,7 @@
 3	중국	중국	NOUN	NNP	_	4	nmod	_	_
 4	음식을	음식+을	NOUN	NNG+JKO	_	5	obj	_	_
 5	먹고	먹+고	VERB	VV+EC	_	0	root	_	_
-6	싶습니다	싶+습니다	VERB	VX+EF	_	5	aux	_	SpaceAfter=No
+6	싶습니다	싶	AUX	VX+EF	_	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	SF	_	5	punct	_	_
 
 # sent_id = C200015-4-7039
@@ -3112,7 +3112,7 @@
 3	지금부터	지금+부터	ADV	NNG+JX	_	5	advmod	_	_
 4	기회를	기회+를	NOUN	NNG+JKO	_	5	obj	_	_
 5	놓지	놓+지	VERB	VV+EC	_	8	advcl	_	_
-6	말고	말+고	VERB	VX+EC	_	5	aux	_	_
+6	말고	말	AUX	VX+EC	_	5	aux	_	_
 7	한국사람과	한국+사람+과	ADV	NNP+NNG+JKB	_	8	obl	_	_
 8	이야기해봐라	이야기+하+여+보+라	VERB	NNG+XSV+EC+VX+EF	_	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	SF	_	8	punct	_	_
@@ -3173,7 +3173,7 @@
 2	가면	가+면	VERB	VV+EC	_	4	advcl	_	_
 3	한국어를	한국어+를	NOUN	NNP+JKO	_	4	obj	_	_
 4	열심히고	열심히+고	VERB	MAG+EC	_	0	root	_	_
-5	있었습니다	있+었+습니다	VERB	VX+EP+EF	_	4	aux	_	SpaceAfter=No
+5	있었습니다	있	AUX	VX+EP+EF	_	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	SF	_	4	punct	_	_
 
 # sent_id = A100002-6-79
@@ -3193,7 +3193,7 @@
 2	한	한	NUM	MM	_	3	nummod	_	_
 3	번쯤은	번+쯤+은	NOUN	NNB+XSN+JX	_	4	obl	_	_
 4	가보고	가+아+보+고	VERB	VV+EC+VX+EC	_	7	acl	_	_
-5	싶은	싶+은	VERB	VX+ETM	_	4	aux	_	_
+5	싶은	싶	AUX	VX+ETM	_	4	aux	_	_
 6	멋진	멋지+ㄴ	ADJ	VA+ETM	_	7	amod	_	_
 7	섬	섬	NOUN	NNG	_	8	nmod	_	_
 8	홍도에	홍도+에	ADV	NNP+JKB	_	9	obl	_	_
@@ -3325,7 +3325,7 @@
 3	타고	타+고	VERB	VV+EC	_	0	root	_	_
 4	사진을	사진+을	NOUN	NNG+JKO	_	5	obj	_	_
 5	찍고	찍+고	VERB	VV+EC	_	3	conj	_	_
-6	싶습니다	싶+습니다	VERB	VX+EF	_	5	aux	_	SpaceAfter=No
+6	싶습니다	싶	AUX	VX+EF	_	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	SF	_	5	punct	_	_
 
 # sent_id = C200007-4-6673
@@ -3490,7 +3490,7 @@
 5	술도	술+도	NOUN	NNG+JX	_	7	obj	_	_
 6	거의	거의	ADV	MAG	_	7	advmod	_	_
 7	마시지	마시+지	VERB	VV+EC	_	4	conj	_	_
-8	않습니다	않+습니다	VERB	VX+EF	_	7	aux	_	SpaceAfter=No
+8	않습니다	않	AUX	VX+EF	_	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	SF	_	7	punct	_	_
 
 # sent_id = C100008-8-5652
@@ -3540,7 +3540,7 @@
 6	그레이트바리아리흐에	그레이트바리아리흐+에	ADV	NF+JKB	_	8	obl	_	_
 7	수영을	수영+을	NOUN	NNG+JKO	_	8	obj	_	_
 8	하러	하+러	VERB	VV+EC	_	0	root	_	_
-9	갔다	가+았+다	VERB	VV+EP+EF	_	8	aux	_	SpaceAfter=No
+9	갔다	가	AUX	VV+EP+EF	_	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	SF	_	8	punct	_	_
 
 # sent_id = B100022-4-2823
@@ -3570,7 +3570,7 @@
 4	한국에	한국+에	ADV	NNP+JKB	_	6	obl	_	_
 5	다시	다시	ADV	MAG	_	6	advmod	_	_
 6	드러오고	드러+오+고	VERB	NA+VV+EC	_	0	root	_	_
-7	싶습니다	싶+습니다	VERB	VX+EF	_	6	aux	_	SpaceAfter=No
+7	싶습니다	싶	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	SF	_	6	punct	_	_
 
 # sent_id = B100021-3-2760
@@ -3587,7 +3587,7 @@
 1	하지만	하지만	ADV	MAJ	_	3	cc	_	_
 2	명동에	명동+에	ADV	NNP+JKB	_	3	obl	_	_
 3	배우지	배우+지	VERB	VV+EC	_	0	root	_	_
-4	안십시오	안+십시오	VERB	NV+EF	_	3	aux	_	SpaceAfter=No
+4	안십시오	안	AUX	NV+EF	_	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	SF	_	3	punct	_	_
 
 # sent_id = A200010-1-1341
@@ -3615,7 +3615,7 @@
 4	죽은	죽+은	VERB	VV+ETM	_	5	acl	_	_
 5	아버지는	아버지+는	NOUN	NNG+JX	_	6	nsubj	_	_
 6	돌아오지	돌아오+지	VERB	VV+EC	_	0	root	_	_
-7	않는다	않+는다	VERB	VX+EF	_	6	aux	_	SpaceAfter=No
+7	않는다	않	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	SF	_	6	punct	_	_
 
 # sent_id = C100008-7-5642
@@ -3683,9 +3683,9 @@
 9	다시	다시	ADV	MAG	_	11	advmod	_	_
 10	한번	한+번	ADV	MM+NNB	_	11	advmod	_	_
 11	가고	가+고	VERB	VV+EC	_	13	ccomp	_	_
-12	싶다고	싶+다고	VERB	VX+EC	_	11	aux	_	_
+12	싶다고	싶	AUX	VX+EC	_	11	aux	_	_
 13	생각하고	생각+하+고	VERB	NNG+XSV+EC	_	0	root	_	_
-14	있다	있+다	VERB	VX+EF	_	13	aux	_	SpaceAfter=No
+14	있다	있	AUX	VX+EF	_	13	aux	_	SpaceAfter=No
 15	.	.	PUNCT	SF	_	13	punct	_	_
 
 # sent_id = A100014-4-399
@@ -3787,7 +3787,7 @@
 2	점점	점점	ADV	MAG	_	4	advmod	_	_
 3	CCTV가	CCTV+가	NOUN	SL+JKS	_	4	nsubj	_	_
 4	많아지고	많아지+고	VERB	VV+EC	_	7	advcl	_	_
-5	있어서	있+어서	VERB	VX+EC	_	4	aux	_	_
+5	있어서	있	AUX	VX+EC	_	4	aux	_	_
 6	문제가	문제+가	NOUN	NNG+JKS	_	7	nsubj	_	_
 7	된다	되+ㄴ다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	SF	_	7	punct	_	_
@@ -3855,13 +3855,13 @@
 1	일회용상품을	일회용+상품+을	NOUN	NNG+NNG+JKO	_	2	obj	_	_
 2	사용	사용+하+지	VERB	NNG+VV+EC	_	0	root	_	_
 3	하지	_	X	_	_	2	goeswith	_	_
-4	않고	않+고	VERB	VX+EC	_	2	aux	_	_
+4	않고	않	AUX	VX+EC	_	2	aux	_	_
 5	일회용	일회용	NOUN	NNG	_	6	nmod	_	_
 6	젓가라	젓가라	VERB	NF	_	8	list	_	SpaceAfter=No
 7	,	,	PUNCT	SP	_	6	punct	_	_
 8	컵따위	컵+따위	NOUN	NNG+NNB	_	9	obj	_	_
 9	사용하지	사용+하+지	VERB	NNG+XSV+EC	_	2	conj	_	_
-10	않다	않+다	VERB	VX+EF	_	9	aux	_	SpaceAfter=No
+10	않다	않	AUX	VX+EF	_	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	SF	_	9	punct	_	_
 
 # sent_id = C200010-1-6828
@@ -3884,7 +3884,7 @@
 4	많이	많이	ADV	MAG	_	6	advmod	_	_
 5	생각하고	생각+하+고	VERB	NNG+XSV+EC	_	0	root	_	_
 6	조사해야	조사+하+아야	VERB	NNG+XSV+EC	_	5	conj	_	_
-7	한다	하+ㄴ다	VERB	VX+EF	_	6	aux	_	SpaceAfter=No
+7	한다	하	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	SF	_	6	punct	_	_
 
 # sent_id = A200008-11-1261
@@ -3893,7 +3893,7 @@
 2	지금	지금	ADV	MAG	_	4	advmod	_	_
 3	너무	너무	ADV	MAG	_	4	advmod	_	_
 4	추고	추+고	VERB	VV+EC	_	0	root	_	_
-5	싶습니다	싶+습니다	VERB	VX+EF	_	4	aux	_	SpaceAfter=No
+5	싶습니다	싶	AUX	VX+EF	_	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	SF	_	4	punct	_	_
 
 # sent_id = C100003-7-5275
@@ -3997,7 +3997,7 @@
 5	극복하고	극복+하+고	VERB	NNG+XSV+EC	_	11	acl	_	_
 6	적극적으로	적극+적+으로	ADV	NNG+XSN+JKB	_	7	obl	_	_
 7	살아야	살+아야	VERB	VV+EC	_	5	conj	_	_
-8	가는	가+는	VERB	VX+ETM	_	7	aux	_	_
+8	가는	가	AUX	VX+ETM	_	7	aux	_	_
 9	생활의	생활+의	NOUN	NNG+JKG	_	11	nmod:poss	_	_
 10	규칙이나	규칙+이나	NOUN	NNG+JC	_	14	obj	_	_
 11	비결을	비결+을	NOUN	NNG+JKO	_	10	conj	_	_
@@ -4007,7 +4007,7 @@
 15	이렇게	이렇+게	ADV	VA+EC	_	17	advmod	_	_
 16	길을	길+을	NOUN	NNG+JKO	_	17	obj	_	_
 17	올리게	올리+게	VERB	VV+EC	_	0	root	_	_
-18	되었어요	되+었+어요	VERB	VX+EP+EF	_	17	aux	_	SpaceAfter=No
+18	되었어요	되	AUX	VX+EP+EF	_	17	aux	_	SpaceAfter=No
 19	.	.	PUNCT	SF	_	18	punct	_	_
 
 # sent_id = C100013-7-6113
@@ -4074,7 +4074,7 @@
 1	쓰레기는	쓰레기+는	NOUN	NNG+JX	_	3	obj	_	_
 2	분이	분+이	NOUN	NA+JKS	_	3	nsubj	_	_
 3	버려야	버리+어야	VERB	VV+EC	_	0	root	_	_
-4	한다	하+ㄴ다	VERB	VX+EF	_	3	aux	_	SpaceAfter=No
+4	한다	하	AUX	VX+EF	_	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	SF	_	3	punct	_	_
 
 # sent_id = C200020-4-7311
@@ -4240,13 +4240,13 @@
 6	공부를	공부+를	NOUN	NNG+JKO	_	8	obj	_	_
 7	열심히	열심히	ADV	MAG	_	8	advmod	_	_
 8	해야	하+아야	VERB	VV+EC	_	14	advcl	_	_
-9	하지만	하+지만	VERB	VX+EC	_	8	aux	_	_
+9	하지만	하	AUX	VX+EC	_	8	aux	_	_
 10	한국어	한국어	NOUN	NNG	_	11	obj	_	_
 11	공부한	공부+하+ㄴ	VERB	NNG+XSV+ETM	_	14	advcl	_	_
 12	후에	후+에	ADV	NNG+JKB	_	11	mark	_	_
 13	간호학을	간호학+을	NOUN	NNG+JKO	_	14	obj	_	_
 14	공부하고	공부+하+고	VERB	NNG+XSV+EC	_	0	root	_	_
-15	싶다	싶+다	VERB	VX+EF	_	14	aux	_	SpaceAfter=No
+15	싶다	싶	AUX	VX+EF	_	14	aux	_	SpaceAfter=No
 16	.	.	PUNCT	SF	_	14	punct	_	_
 
 # sent_id = B200013-3-3740
@@ -4272,7 +4272,7 @@
 5	시간이	시간+이	NOUN	NNG+JKS	_	6	nsubj	_	_
 6	지내도	지내+어+도	NOUN	VV+EC+JX	_	7	advcl	_	_
 7	바뀌지	바뀌+지	VERB	VV+EC	_	13	advcl	_	_
-8	않았지만	않+았+지만	VERB	VX+EP+EC	_	7	aux	_	_
+8	않았지만	않	AUX	VX+EP+EC	_	7	aux	_	_
 9	어쩔	어쩌+ㄹ	VERB	VV+ETM	_	10	acl	_	_
 10	수	수	NOUN	NNB	_	11	nsubj	_	_
 11	없이	없이	VERB	MAG	_	13	advcl	_	_
@@ -4287,7 +4287,7 @@
 3	12월까지	12+월+까지	ADV	SN+NNB+JX	_	5	obl	_	_
 4	한국보다	한국+보다	ADV	NNP+JKB	_	5	obl	_	_
 5	건조하지	건조+하+지	VERB	NNG+XSA+EC	_	0	root	_	_
-6	않습니다	않+습니다	VERB	VX+EF	_	5	aux	_	SpaceAfter=No
+6	않습니다	않	AUX	VX+EF	_	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	SF	_	5	punct	_	_
 
 # sent_id = B200003-2-3339
@@ -4295,11 +4295,11 @@
 1	표를	표+를	NOUN	NNG+JKO	_	3	obj	_	_
 2	한첨전에	한첨+전+에	ADV	NF+NNG+JKB	_	3	obl	_	_
 3	예매해	예매+하+아	VERB	NNG+XSV+EC	_	7	advcl	_	_
-4	놓아서	놓+아서	VERB	VX+EC	_	3	aux	_	_
+4	놓아서	놓	AUX	VX+EC	_	3	aux	_	_
 5	기대를	기대+를	NOUN	NNG+JKO	_	7	obj	_	_
 6	많이	많이	ADV	MAG	_	7	advmod	_	_
 7	하고	하+고	VERB	VV+EC	_	0	root	_	_
-8	있었다	있+었+다	VERB	VX+EP+EF	_	7	aux	_	SpaceAfter=No
+8	있었다	있	AUX	VX+EP+EF	_	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	SF	_	7	punct	_	_
 
 # sent_id = B100020-12-2722
@@ -4319,7 +4319,7 @@
 3	실력이	실력+이	NOUN	NNG+JKS	_	5	nsubj	_	_
 4	아직	아직	ADV	MAG	_	5	advmod	_	_
 5	좋지	좋+지	VERB	VA+EC	_	0	root	_	_
-6	않습니다	않+습니다	VERB	VX+EF	_	5	aux	_	SpaceAfter=No
+6	않습니다	않	AUX	VX+EF	_	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	SF	_	5	punct	_	_
 
 # sent_id = C100007-20-5536
@@ -4353,13 +4353,13 @@
 6	젊어진	젊어지+ㄴ	VERB	VV+ETM	_	7	acl	_	_
 7	것을	것+을	NOUN	NNB+JKO	_	8	obj	_	_
 8	알게	알+게	VERB	VV+EC	_	12	advcl	_	_
-9	되고	되+고	VERB	VX+EC	_	8	aux	_	_
+9	되고	되	AUX	VX+EC	_	8	aux	_	_
 10	경악하며	경악+하+며	VERB	NNG+XSV+EC	_	12	advcl	_	_
 11	사진관을	사진관+을	NOUN	NNG+JKO	_	12	obj	_	_
 12	찾아가지만	찾아가+지만	VERB	VV+EC	_	14	advcl	_	_
 13	사진관을	사진관+을	NOUN	NNG+JKO	_	14	obj	_	_
 14	찾지	찾+지	VERB	VV+EC	_	0	root	_	_
-15	못한다	못하+ㄴ다	VERB	VX+EF	_	14	aux	_	SpaceAfter=No
+15	못한다	못하	AUX	VX+EF	_	14	aux	_	SpaceAfter=No
 16	.	.	PUNCT	SF	_	15	punct	_	_
 
 # sent_id = A100003-12-93
@@ -4395,7 +4395,7 @@
 1	그래서	그래서	ADV	MAJ	_	9	cc	_	_
 2	한국어를	한국어+를	NOUN	NNG+JKO	_	3	obj	_	_
 3	배우게	배우+게	VERB	VV+EC	_	5	acl	_	_
-4	되는	되+는	VERB	VX+ETM	_	3	aux	_	_
+4	되는	되	AUX	VX+ETM	_	3	aux	_	_
 5	동기는	동기+는	NOUN	NNG+JX	_	9	nsubj	_	_
 6	한국	한국	NOUN	NNP	_	7	nmod	_	_
 7	영화를	영화+를	NOUN	NNG+JKO	_	8	obj	_	_
@@ -4416,7 +4416,7 @@
 9	부모님이	부모+님+이	NOUN	NNG+XSN+JKS	_	11	nsubj	_	_
 10	많이	많이	ADV	MAG	_	11	advmod	_	_
 11	도와	돕+아	VERB	VV+EC	_	0	root	_	_
-12	주셨다	주+시+었+다	VERB	VX+EP+EP+EF	_	11	aux	_	SpaceAfter=No
+12	주셨다	주	AUX	VX+EP+EP+EF	_	11	aux	_	SpaceAfter=No
 13	.	.	PUNCT	SF	_	11	punct	_	_
 
 # sent_id = A200002-2-1005
@@ -4500,7 +4500,7 @@
 1	나는	나+는	PRON	NP+JX	_	5	nsubj	_	_
 2	사형제도를	사형+제도+를	NOUN	NNG+NNG+JKO	_	3	obj	_	_
 3	폐지해야	폐지+하+아야	VERB	NNG+XSV+EC	_	5	ccomp	_	_
-4	한다고	하+ㄴ다고	VERB	VX+EC	_	3	aux	_	_
+4	한다고	하	AUX	VX+EC	_	3	aux	_	_
 5	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	SF	_	5	punct	_	_
 
@@ -4573,7 +4573,7 @@
 3	고향친구가	고향+친구+가	NOUN	NNG+NNG+JKS	_	5	nsubj	_	_
 4	한국에	한국+에	ADV	NNP+JKB	_	5	obl	_	_
 5	가고	가+고	VERB	VV+EC	_	0	root	_	_
-6	싶습니다	싶+습니다	VERB	VX+EF	_	5	aux	_	SpaceAfter=No
+6	싶습니다	싶	AUX	VX+EF	_	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	SF	_	5	punct	_	_
 
 # sent_id = A200012-9-1486
@@ -4640,7 +4640,7 @@
 3	늦게까지	늦+게+까지	ADV	VA+EC+JX	_	5	advmod	_	_
 4	새웠	새우+었	ADV	VV+EP	_	5	advcl	_	_
 5	자고	자+고	VERB	VV+EC	_	0	root	_	_
-6	이었다	이+었+다	VERB	VCP+EP+EF	_	5	aux	_	SpaceAfter=No
+6	이었다	이	AUX	VCP+EP+EF	_	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	SF	_	5	punct	_	_
 
 # sent_id = C100010-2-5846
@@ -4653,7 +4653,7 @@
 6	여러	여러	DET	MM	_	7	det	_	_
 7	경험을	경험+을	NOUN	NNG+JKO	_	8	obj	_	_
 8	일어주고	일+어+주+고	VERB	NV+EC+VX+EC	_	0	root	_	_
-9	싶어요	싶+어요	VERB	VX+EF	_	8	aux	_	SpaceAfter=No
+9	싶어요	싶	AUX	VX+EF	_	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	SF	_	8	punct	_	_
 
 # sent_id = B200032-7-4555
@@ -4683,7 +4683,7 @@
 9	검사를	검사+를	NOUN	NNG+JKO	_	11	obj	_	_
 10	필승으로	필승+으로	ADV	NNG+JKB	_	11	obl	_	_
 11	만들어야	만들+어야	VERB	VV+EC	_	13	acl	_	_
-12	할	하+ㄹ	VERB	VX+ETM	_	11	aux	_	_
+12	할	하	AUX	VX+ETM	_	11	aux	_	_
 13	책임을	책임+을	NOUN	NNG+JKO	_	14	nsubj	_	_
 14	있지않을까	있+지+않+을까	VERB	VV+EC+VX+EF	_	0	root	_	SpaceAfter=No
 15	?	?	PUNCT	SF	_	14	punct	_	_
@@ -4761,7 +4761,7 @@
 2	친구들이	친구+들+이	NOUN	NNG+XSN+JKS	_	4	nsubj	_	_
 3	등산을	등산+을	NOUN	NNG+JKO	_	4	obj	_	_
 4	하고	하+고	VERB	VV+EC	_	0	root	_	_
-5	싶습니다	싶+습니다	VERB	VX+EF	_	4	aux	_	SpaceAfter=No
+5	싶습니다	싶	AUX	VX+EF	_	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	SF	_	4	punct	_	_
 
 # sent_id = A100011-10-342
@@ -4826,7 +4826,7 @@
 7	할	하+ㄹ	VERB	VV+ETM	_	8	acl	_	_
 8	수	수	NOUN	NNB	_	9	nsubj	_	_
 9	없게	없+게	VERB	VA+EC	_	11	acl	_	_
-10	되는	되+는	VERB	VV+ETM	_	9	aux	_	_
+10	되는	되	AUX	VV+ETM	_	9	aux	_	_
 11	것이	것+이	NOUN	NNB+JKS	_	12	obj	_	_
 12	머지않아	머지않+아	ADV	VA+EC	_	13	advmod	_	_
 13	아는	알+는	VERB	VV+ETM	_	14	acl	_	_
@@ -5016,7 +5016,7 @@
 3	돈이나	돈+이나	NOUN	NNG+JC	_	5	obj	_	_
 4	물건을	물건+을	NOUN	NNG+JKO	_	3	conj	_	_
 5	일어버리게	일어버리+게	VERB	NV+EC	_	0	root	_	_
-6	된다	되+ㄴ다	VERB	VX+EF	_	5	aux	_	SpaceAfter=No
+6	된다	되	AUX	VX+EF	_	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	SF	_	5	punct	_	_
 
 # sent_id = B200038-17-4791
@@ -5041,7 +5041,7 @@
 4	건데	것+이+ㄴ데	VERB	NNB+VCP+EC	_	6	advcl	_	_
 5	같이	같이	ADV	MAG	_	6	advmod	_	_
 6	하고	하+고	VERB	VV+EC	_	8	acl	_	_
-7	싶은	싶+은	VERB	VX+ETM	_	6	aux	_	_
+7	싶은	싶	AUX	VX+ETM	_	6	aux	_	_
 8	친구있으며	친구+있+으며	VERB	NNG+VCP+EC	_	10	advcl	_	_
 9	제에	제+에	ADV	NP+JKB	_	10	obl	_	_
 10	연락해주세요	연락+하+아+주+시+어요	VERB	NNG+XSV+EC+VX+EP+EF	_	0	root	_	SpaceAfter=No
@@ -5230,7 +5230,7 @@
 5	대해	대하+아	VERB	VV+EC	_	7	advcl	_	_
 6	너무	너무	ADV	MAG	_	7	advmod	_	_
 7	좋지	좋+지	VERB	VA+EC	_	0	root	_	_
-8	않습니다	않+습니다	VERB	VX+EF	_	7	aux	_	SpaceAfter=No
+8	않습니다	않	AUX	VX+EF	_	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	SF	_	7	punct	_	_
 
 # sent_id = A200005-1-1138
@@ -5257,7 +5257,7 @@
 3	한국어	한국어	NOUN	NNG	_	4	nmod	_	_
 4	공부를	공부+를	NOUN	NNG+JKO	_	5	obj	_	_
 5	하기	하+기	NOUN	VV+ETN	_	10	advcl	_	_
-6	왔지만	오+았+지만	VERB	VV+EP+EC	_	5	aux	_	_
+6	왔지만	오	AUX	VV+EP+EC	_	5	aux	_	_
 7	세계를	세계+를	NOUN	NNG+JKO	_	8	obj	_	_
 8	볼	보+ㄹ	VERB	VV+ETM	_	9	acl	_	_
 9	수	수	NOUN	NNB	_	10	nsubj	_	_
@@ -5277,7 +5277,7 @@
 9	만든	만들+ㄴ	VERB	VV+ETM	_	10	acl	_	_
 10	봉투를	봉투+를	NOUN	NNG+JKO	_	11	obj	_	_
 11	갖지	갖+지	VERB	VV+EC	_	5	conj	_	_
-12	말다	말+다	VERB	VX+EF	_	11	aux	_	SpaceAfter=No
+12	말다	말	AUX	VX+EF	_	11	aux	_	SpaceAfter=No
 13	.	.	PUNCT	SF	_	11	punct	_	_
 
 # sent_id = C100008-13-5657
@@ -5311,8 +5311,8 @@
 19	양만	양+만	NOUN	NNG+JX	_	20	obj	_	_
 20	만들고나	만들+고나	VERB	VV+NA	_	0	root	_	_
 21	사고나	사+고나	VERB	VV+NA	_	20	conj	_	_
-22	해야	하+아야	VERB	VV+EC	_	20	aux	_	_
-23	한다	하+ㄴ다	VERB	VX+EF	_	20	aux	_	SpaceAfter=No
+22	해야	하	AUX	VV+EC	_	20	aux	_	_
+23	한다	하	AUX	VX+EF	_	20	aux	_	SpaceAfter=No
 24	.	.	PUNCT	SF	_	20	punct	_	_
 
 # sent_id = B100017-4-2442
@@ -5342,10 +5342,10 @@
 1	아침을	아침+을	NOUN	NNG+JKO	_	3	obj	_	_
 2	반드시	반드시	ADV	MAG	_	3	advmod	_	_
 3	먹어야	먹+어야	VERB	VV+EC	_	10	advcl	_	_
-4	하고	하+고	VERB	VX+EC	_	3	aux	_	_
+4	하고	하	AUX	VX+EC	_	3	aux	_	_
 5	저녁에	저녁+에	ADV	NNG+JKB	_	8	obl	_	_
 6	많지	많+지	VERB	VA+EC	_	8	advcl	_	_
-7	않게	않+게	VERB	VX+EC	_	6	aux	_	_
+7	않게	않	AUX	VX+EC	_	6	aux	_	_
 8	먹는	먹+는	VERB	VV+ETM	_	9	acl	_	_
 9	것은	것+은	NOUN	NNB+JX	_	10	nsubj	_	_
 10	좋습니다	좋+습니다	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
@@ -5377,8 +5377,8 @@
 15	이제는	이제+는	ADV	NNG+JX	_	17	advmod	_	_
 16	한국에서	한국+에서	ADV	NNP+JKB	_	17	obl	_	_
 17	돌아가고	돌아가+고	VERB	VV+EC	_	0	root	_	_
-18	싶지	싶+지	VERB	VX+EC	_	17	aux	_	_
-19	않아요	않+아요	VERB	VX+EF	_	17	aux	_	SpaceAfter=No
+18	싶지	싶	AUX	VX+EC	_	17	aux	_	_
+19	않아요	않	AUX	VX+EF	_	17	aux	_	SpaceAfter=No
 20	.	.	PUNCT	SF	_	17	punct	_	_
 
 # sent_id = C100012-8-6044
@@ -5388,7 +5388,7 @@
 3	좋은	좋+은	ADJ	VA+ETM	_	4	amod	_	_
 4	생각이	생각+이	NOUN	NNG+JKS	_	5	nsubj	_	_
 5	나타내야	나타나+아야	VERB	VV+EC	_	0	root	_	_
-6	한다	하+ㄴ다	VERB	VX+EF	_	5	aux	_	SpaceAfter=No
+6	한다	하	AUX	VX+EF	_	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	SF	_	5	punct	_	_
 
 # sent_id = C100012-4-5981
@@ -5400,7 +5400,7 @@
 5	지날	지나+ㄹ+수록	VERB	VV+ETM+NA	_	7	advcl	_	_
 6	수록	_	X	_	_	5	goeswith	_	_
 7	좋아하게	좋아하+게	VERB	VV+EC	_	9	acl	_	_
-8	될	되+ㄹ	VERB	VX+ETM	_	7	aux	_	_
+8	될	되	AUX	VX+ETM	_	7	aux	_	_
 9	수	수	NOUN	NNB	_	10	nsubj	_	_
 10	있기에	있+기에	ADV	VX+EC	_	11	advcl	_	_
 11	믿어	믿+어	VERB	VV+EF	_	0	root	_	SpaceAfter=No
@@ -5482,7 +5482,7 @@
 13	제한이	제한+이	NOUN	NNG+JKS	_	14	nsubj	_	_
 14	없고	없+고	VERB	VA+EC	_	0	root	_	_
 15	설치해야	설치+하+아야	VERB	NNG+XSV+EC	_	17	ccomp	_	_
-16	한다고	하+ㄴ다고	VERB	VX+EC	_	15	aux	_	_
+16	한다고	하	AUX	VX+EC	_	15	aux	_	_
 17	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	14	conj	_	SpaceAfter=No
 18	.	.	PUNCT	SF	_	17	punct	_	_
 
@@ -5501,7 +5501,7 @@
 3	속상한	속상하+ㄴ	VERB	VA+ETM	_	4	amod	_	_
 4	그녀를	그녀+를	PRON	NP+JKO	_	5	obj	_	_
 5	위로하고	위로+하+고	VERB	NNG+XSV+EC	_	0	root	_	_
-6	싶다	싶+다	VERB	VX+EF	_	5	aux	_	SpaceAfter=No
+6	싶다	싶	AUX	VX+EF	_	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	SF	_	5	punct	_	_
 
 # sent_id = C100002-1-5186
@@ -5554,11 +5554,11 @@
 2	생명을	생명+을	NOUN	NNG+JKO	_	4	obj	_	_
 3	잘	잘	ADV	MAG	_	4	advmod	_	_
 4	중시해야	중시+하+아야	VERB	NNG+XSV+EC	_	0	root	_	_
-5	되고	되+고	VERB	VX+EC	_	4	aux	_	_
+5	되고	되	AUX	VX+EC	_	4	aux	_	_
 6	환자에게	환자+에게	NOUN	NNG+JKB	_	8	obl	_	_
 7	사랑을	사랑+을	NOUN	NNG+JKO	_	8	obj	_	_
 8	주어야	주+어야	VERB	VV+EC	_	4	conj	_	_
-9	한다	하+ㄴ다	VERB	VX+EF	_	8	aux	_	SpaceAfter=No
+9	한다	하	AUX	VX+EF	_	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	SF	_	9	punct	_	_
 
 # sent_id = C100007-26-5542
@@ -5572,8 +5572,8 @@
 1	호텔에서	호텔+에서	ADV	NNG+JKB	_	3	obl	_	_
 2	짐을	짐+을	NOUN	NNG+JKO	_	3	obj	_	_
 3	놓어	놓+어	VERB	VV+EC	_	7	advcl	_	_
-4	두어	두+어	VERB	VX+EC	_	3	aux	_	_
-5	가지고	가지+고	VERB	VX+EC	_	3	aux	_	_
+4	두어	두	AUX	VX+EC	_	3	aux	_	_
+5	가지고	가지	AUX	VX+EC	_	3	aux	_	_
 6	명동에	명동+에	ADV	NNP+JKB	_	7	obl	_	_
 7	갔다	가+았+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	SF	_	7	punct	_	_
@@ -5584,7 +5584,7 @@
 2	한	한	NUM	MM	_	3	nummod	_	_
 3	가지	가지	NOUN	NNB	_	4	obj	_	_
 4	주의해야	주의+하+아야	VERB	NNG+XSV+EC	_	6	acl	_	_
-5	하는	하+는	VERB	VX+ETM	_	4	aux	_	_
+5	하는	하	AUX	VX+ETM	_	4	aux	_	_
 6	것이	것+이	NOUN	NNB+JKS	_	7	nsubj	_	_
 7	있습니다	있+습니다	ADJ	VV+EF	_	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	SF	_	7	punct	_	_
@@ -5625,7 +5625,7 @@
 8	만들고	만들+고	VERB	VV+EC	_	0	root	_	_
 9	빨리	빨리	ADV	MAG	_	10	advmod	_	_
 10	친해지고	친해지+고	VERB	VV+EC	_	8	conj	_	_
-11	싶다	싶+다	VERB	VX+EF	_	10	aux	_	SpaceAfter=No
+11	싶다	싶	AUX	VX+EF	_	10	aux	_	SpaceAfter=No
 12	.	.	PUNCT	SF	_	10	punct	_	_
 
 # sent_id = B100014-6-2207
@@ -5653,7 +5653,7 @@
 5	설치하는	설치+하+는	VERB	NNG+XSV+ETM	_	6	acl	_	_
 6	구역이	구역+이	NOUN	NNG+JKS	_	7	nsubj	_	_
 7	증가하고	증가+하+고	VERB	NNG+XSV+EC	_	0	root	_	_
-8	있다	있+다	VERB	VX+EF	_	7	aux	_	SpaceAfter=No
+8	있다	있	AUX	VX+EF	_	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	SF	_	7	punct	_	_
 
 # sent_id = B100020-29-2739
@@ -5892,13 +5892,13 @@
 2	자기가	자기+가	PRON	NNG+JKS	_	4	nsubj	_	_
 3	한국말로	한국+말+로	ADV	NNP+NNG+JKB	_	4	obl	_	_
 4	말하자고	말+하+자고	VERB	NNG+XSV+EC	_	8	advcl	_	_
-5	하면	하+면	VERB	VX+EC	_	4	aux	_	_
+5	하면	하	AUX	VX+EC	_	4	aux	_	_
 6	언제나	언제+나	ADV	NP+JX	_	8	advmod	_	_
 7	기회가	기회+가	NOUN	NNG+JKS	_	8	nsubj	_	_
 8	있으니까	있+으니까	VERB	VV+EC	_	15	advcl	_	_
 9	틀려도	틀리+어도	VERB	VV+EC	_	10	advcl	_	_
 10	창피하지	창피+하+지	VERB	NNG+XSA+EC	_	13	advcl	_	_
-11	말고	말+고	VERB	VX+EC	_	10	aux	_	_
+11	말고	말	AUX	VX+EC	_	10	aux	_	_
 12	적극적으로	적극+적+으로	ADV	NNG+XSN+JKB	_	13	obl	_	_
 13	말하는	말+하+는	VERB	NNG+XSV+ETM	_	14	acl	_	_
 14	것이	것+이	NOUN	NNB+JKS	_	15	nsubj	_	_
@@ -5940,7 +5940,7 @@
 1	왜냐하면	왜냐하면	ADV	MAJ	_	19	cc	_	_
 2	한국에	한국+에	ADV	NNP+JKB	_	3	obl	_	_
 3	살다	살+다	NOUN	VV+EC	_	19	advcl	_	_
-4	보면	보+면	VERB	VX+EC	_	3	aux	_	_
+4	보면	보	AUX	VX+EC	_	3	aux	_	_
 5	한국어를	한국어+를	NOUN	NNG+JKO	_	7	obj	_	_
 6	빨리	빨리	ADV	MAG	_	7	advmod	_	_
 7	배울	배우+ㄹ	VERB	VV+ETM	_	8	acl	_	_
@@ -6019,7 +6019,7 @@
 4	너	너	ADV	NP	_	6	nsubj	_	_
 5	잘	잘	ADV	MAG	_	6	advmod	_	_
 6	지내고	지내+고	VERB	VV+EC	_	0	root	_	_
-7	있니	있+니	VERB	VX+EF	_	6	aux	_	SpaceAfter=No
+7	있니	있	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
 8	?	?	PUNCT	SF	_	6	punct	_	_
 
 # sent_id = C100009-8-5763
@@ -6076,7 +6076,7 @@
 4	아름답고	아름답+고	VERB	VA+EC	_	8	acl	_	_
 5	마음속에	마음+속+에	ADV	NNG+NNG+JKB	_	6	obl	_	_
 6	담기고	담+기+고	VERB	VV+XSV+EC	_	4	conj	_	_
-7	싶은	싶+은	VERB	VX+ETM	_	6	aux	_	_
+7	싶은	싶	AUX	VX+ETM	_	6	aux	_	_
 8	풍경은	풍경+은	NOUN	NNG+JX	_	10	nsubj	_	_
 9	가을	가을	NOUN	NNG	_	10	nmod	_	_
 10	풍경이라고	풍경+이+라고	VERB	NNG+VCP+EC	_	15	ccomp	_	_
@@ -6128,7 +6128,7 @@
 # text = 우리는 등사하고 싶어서 한라산에 갔다.
 1	우리는	우리+는	PRON	NP+JX	_	5	nsubj	_	_
 2	등사하고	등사+하+고	VERB	NF+XSV+EC	_	5	advcl	_	_
-3	싶어서	싶+어서	VERB	VX+EC	_	2	aux	_	_
+3	싶어서	싶	AUX	VX+EC	_	2	aux	_	_
 4	한라산에	한라산+에	ADV	NNP+JKB	_	5	obl	_	_
 5	갔다	가+았+다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	SF	_	5	punct	_	_
@@ -6317,9 +6317,9 @@
 2	피아노	피아노	NOUN	NNG	_	3	nmod	_	_
 3	공연에	공연+에	ADV	NNG+JKB	_	4	obl	_	_
 4	가보고	가+아+보+고	VERB	VV+EC+VX+EC	_	6	ccomp	_	_
-5	싶다고	싶+다고	VERB	VX+EC	_	4	aux	_	_
+5	싶다고	싶	AUX	VX+EC	_	4	aux	_	_
 6	계획하고	계획+하+고	VERB	NNG+XSV+EC	_	0	root	_	_
-7	있다	있+다	VERB	VX+EF	_	6	aux	_	SpaceAfter=No
+7	있다	있	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	SF	_	6	punct	_	_
 
 # sent_id = C100006-13-5508
@@ -6372,7 +6372,7 @@
 15	가벼워지고	가볍+어지+고	VERB	VA+XSV+EC	_	20	advcl	_	_
 16	아침도	아침+도	NOUN	NNG+JX	_	19	nsubj	_	_
 17	귀찬지	귀차+지	ADV	NV+EC	_	19	advmod	_	_
-18	않게	않+게	VERB	VX+EC	_	17	aux	_	_
+18	않게	않	AUX	VX+EC	_	17	aux	_	_
 19	됬었으니	되+ㅆ+었+으니	VERB	VX+NA+EP+EC	_	15	conj	_	_
 20	추천한다	추천+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
 21	.	.	PUNCT	SF	_	20	punct	_	_
@@ -6412,14 +6412,14 @@
 8	방법	방법	NOUN	NNG	_	10	obj	_	_
 9	하나	하나	NUM	NR	_	10	obj	_	_
 10	가르쳐	가르치+어	VERB	VV+EC	_	0	root	_	_
-11	줄게	주+ㄹ게	VERB	VX+EF	_	10	aux	_	SpaceAfter=No
+11	줄게	주	AUX	VX+EF	_	10	aux	_	SpaceAfter=No
 12	.	.	PUNCT	SF	_	10	punct	_	_
 
 # sent_id = C100005-4-5434
 # text = 왜냐하면 내야 되었던 보고서를 쓰기가 쉬운 일이 아니었다.
 1	왜냐하면	왜냐하면	ADV	MAJ	_	8	cc	_	_
 2	내야	내+어야	VERB	VV+EC	_	4	acl	_	_
-3	되었던	되+었+던	VERB	VV+EP+ETM	_	2	aux	_	_
+3	되었던	되	AUX	VV+EP+ETM	_	2	aux	_	_
 4	보고서를	보고서+를	NOUN	NNG+JKO	_	5	obj	_	_
 5	쓰기가	쓰+기+가	NOUN	VV+ETN+JKS	_	8	dislocated	_	_
 6	쉬운	쉽+ㄴ	VERB	VA+ETM	_	7	amod	_	_
@@ -6484,11 +6484,11 @@
 3	미국	미국	NOUN	NNP	_	4	nmod	_	_
 4	시민에게	시민+에게	NOUN	NNG+JKB	_	5	obl	_	_
 5	일반화돼	일반+화+되+어	VERB	NNG+XSN+XSV+EC	_	9	advcl	_	_
-6	왔는데	오+았+는데	VERB	VX+EP+EC	_	5	aux	_	_
+6	왔는데	오	AUX	VX+EP+EC	_	5	aux	_	_
 7	그	그	DET	MM	_	8	det	_	_
 8	것은	것+은	NOUN	NNB+JX	_	9	nsubj	_	_
 9	옳지	옳+지	VERB	VA+EC	_	0	root	_	_
-10	않다	않+다	VERB	VX+EF	_	9	aux	_	SpaceAfter=No
+10	않다	않	AUX	VX+EF	_	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	SF	_	9	punct	_	_
 
 # sent_id = B200025-17-4291
@@ -6562,7 +6562,7 @@
 3	미리	미리	ADV	MAG	_	5	advmod	_	_
 4	한국음식을	한국+음식+을	NOUN	NNP+NNG+JKO	_	5	obj	_	_
 5	먹어	먹+어	VERB	VV+EC	_	0	root	_	_
-6	보세요	보+시+어요	VERB	VX+EP+EF	_	5	aux	_	SpaceAfter=No
+6	보세요	보	AUX	VX+EP+EF	_	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	SF	_	5	punct	_	_
 
 # sent_id = C100012-10-5987
@@ -6583,7 +6583,7 @@
 2	말하기와	말+하+기+와	ADV	NNG+XSV+ETN+JKB	_	4	nsubj	_	_
 3	듣기가	듣+기+가	NOUN	VV+ETN+JKS	_	2	conj	_	_
 4	못하고	못하+고	VERB	VV+EC	_	10	advcl	_	_
-5	해도	하+아도	VERB	VV+EC	_	4	aux	_	_
+5	해도	하	AUX	VV+EC	_	4	aux	_	_
 6	어느	어느	DET	MM	_	7	det	_	_
 7	정도	정도	NOUN	NNG	_	10	obl	_	_
 8	한국말의	한국+말+의	NOUN	NNP+NNG+JKG	_	9	nmod:poss	_	_
@@ -6621,7 +6621,7 @@
 5	이	이	DET	MM	_	6	det	_	_
 6	순간을	순간+을	NOUN	NNG+JKO	_	7	obj	_	_
 7	잊지	잊+지	VERB	VV+EC	_	0	root	_	_
-8	않을겠다	않+을+겠+다	VERB	VX+ETM+EP+EF	_	7	aux	_	SpaceAfter=No
+8	않을겠다	않	AUX	VX+ETM+EP+EF	_	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	SF	_	7	punct	_	_
 
 # sent_id = C200010-5-6832
@@ -6661,7 +6661,7 @@
 2	말했듯	말+하+았+듯	VERB	NNG+XSV+EP+EC	_	4	advcl	_	_
 3	한국어도	한국어+도	NOUN	NNG+JX	_	4	nsubj	_	_
 4	다르지	다르+지	VERB	VA+EC	_	0	root	_	_
-5	않다	않+다	VERB	VX+EF	_	4	aux	_	SpaceAfter=No
+5	않다	않	AUX	VX+EF	_	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	SF	_	5	punct	_	_
 
 # sent_id = B200013-12-3765
@@ -6672,7 +6672,7 @@
 4	진절한	진절+하+ㄴ	ADV	NF+XSV+ETM	_	6	advmod	_	_
 5	열심히	열심히	ADV	MAG	_	6	advmod	_	_
 6	노력하려고	노력+하+려고	VERB	NNG+XSV+EC	_	0	root	_	_
-7	한다	하+ㄴ다	VERB	VX+EF	_	6	aux	_	SpaceAfter=No
+7	한다	하	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	SF	_	6	punct	_	_
 
 # sent_id = B200026-7-4333
@@ -6681,7 +6681,7 @@
 2	이런	이런	DET	MM	_	3	det	_	_
 3	행동은	행동+은	NOUN	NNG+JX	_	4	obj	_	_
 4	정지해야	정지+하+아야	VERB	NNG+XSV+EC	_	0	root	_	_
-5	한다	하+ㄴ다	VERB	VX+EF	_	4	aux	_	SpaceAfter=No
+5	한다	하	AUX	VX+EF	_	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	SF	_	4	punct	_	_
 
 # sent_id = C100014-11-6234
@@ -6722,7 +6722,7 @@
 5	사람들에게	사람+들+에게	NOUN	NNG+XSN+JKB	_	7	obl	_	_
 6	더	더	ADV	MAG	_	7	advmod	_	_
 7	잘해	잘+하+아	VERB	VV+EC	_	9	acl	_	_
-8	주는	주+는	VERB	VX+ETM	_	7	aux	_	_
+8	주는	주	AUX	VX+ETM	_	7	aux	_	_
 9	것이라고	것+이+라고	VERB	NNB+VCP+EC	_	10	ccomp	_	_
 10	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	SF	_	10	punct	_	_
@@ -6749,7 +6749,7 @@
 # text = 운동화를 사고 싶습니다.
 1	운동화를	운동화+를	NOUN	NNG+JKO	_	2	obj	_	_
 2	사고	사+고	VERB	VV+EC	_	0	root	_	_
-3	싶습니다	싶+습니다	VERB	VX+EF	_	2	aux	_	SpaceAfter=No
+3	싶습니다	싶	AUX	VX+EF	_	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	SF	_	2	punct	_	_
 
 # sent_id = C100013-5-6074
@@ -6786,7 +6786,7 @@
 2	모모가	모모+가	NOUN	NNP+JKS	_	4	nsubj	_	_
 3	화를	화+를	NOUN	NNG+JKO	_	4	obj	_	_
 4	내지	내+지	VERB	VV+EC	_	0	root	_	_
-5	않고	않+고	VERB	VX+EC	_	4	aux	_	_
+5	않고	않	AUX	VX+EC	_	4	aux	_	_
 6	그냥	그냥	ADV	MAG	_	7	advmod	_	_
 7	괜찮다고	괜찮+다고	VERB	VA+EC	_	4	ccomp	_	_
 8	말	말	NOUN	NNG	_	9	obj	_	_
@@ -6822,7 +6822,7 @@
 6	와서	오+아서	VERB	VV+EC	_	8	advcl	_	_
 7	공부를	공부+를	NOUN	NNG+JKO	_	8	obj	_	_
 8	해야	하+아야	VERB	VV+EC	_	0	root	_	_
-9	한다	하+ㄴ다	VERB	VX+EF	_	8	aux	_	SpaceAfter=No
+9	한다	하	AUX	VX+EF	_	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	SF	_	9	punct	_	_
 
 # sent_id = A200006-6-1200
@@ -6890,7 +6890,7 @@
 2	한국현대거나기아등	한국+현대+이거나+기아+등	NOUN	NNP+NNP+JC+NNP+NNB	_	3	nmod	_	_
 3	회사에	회사+에	ADV	NNG+JKB	_	4	obl	_	_
 4	취집하고	취집+하+고	VERB	NF+XSV+EC	_	0	root	_	_
-5	싶는다	싶+는다	VERB	VX+EF	_	4	aux	_	SpaceAfter=No
+5	싶는다	싶	AUX	VX+EF	_	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	SF	_	4	punct	_	_
 
 # sent_id = A200005-15-1158
@@ -6952,7 +6952,7 @@
 7	한국말이	한국+말+이	NOUN	NNP+NNG+JKS	_	9	nsubj	_	_
 8	저절로	저절로	ADV	MAG	_	9	advmod	_	_
 9	들리게	듣+리+게	VERB	VV+XSV+EC	_	5	conj	_	_
-10	되고	되+고	VERB	VX+EC	_	9	aux	_	_
+10	되고	되	AUX	VX+EC	_	9	aux	_	_
 11	TV도	TV+도	NOUN	SL+JX	_	13	obj	_	_
 12	한국말로	한국+말+로	ADV	NNP+NNG+JKB	_	13	obl	_	_
 13	보니까	보+니까	VERB	VV+EC	_	5	conj	_	_
@@ -6985,7 +6985,7 @@
 6	일본	일본	NOUN	NNP	_	7	nmod	_	_
 7	선배님은	선배+님+은	NOUN	NNG+XSN+JX	_	8	nsubj	_	_
 8	도와	돕+아	VERB	VV+EC	_	10	acl	_	_
-9	줄	주+ㄹ	VERB	VX+ETM	_	8	aux	_	_
+9	줄	주	AUX	VX+ETM	_	8	aux	_	_
 10	거에요	것+이+에요	VERB	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	SF	_	10	punct	_	_
 
@@ -6994,7 +6994,7 @@
 1	그런데	그런데	ADV	MAJ	_	3	cc	_	_
 2	실제로	실제로	ADV	MAG	_	3	advmod	_	_
 3	행동해야	행동+하+아야	VERB	NNG+XSV+EC	_	0	root	_	_
-4	한다	하+ㄴ다	VERB	VX+EF	_	3	aux	_	SpaceAfter=No
+4	한다	하	AUX	VX+EF	_	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	SF	_	3	punct	_	_
 
 # sent_id = B200010-3-3641
@@ -7108,7 +7108,7 @@
 1	일요일우후세시에	일요일+우후+세+시+에	ADV	NNG+NF+MM+NNB+JKB	_	3	obl	_	_
 2	여행을	여행+을	NOUN	NNG+JKO	_	3	obj	_	_
 3	가고	가+고	VERB	VV+EC	_	0	root	_	_
-4	싶습니다	싶+습니다	VERB	VX+EF	_	3	aux	_	SpaceAfter=No
+4	싶습니다	싶	AUX	VX+EF	_	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	SF	_	3	punct	_	_
 
 # sent_id = B100021-10-2773
@@ -7121,7 +7121,7 @@
 1	그	그	DET	MM	_	2	det	_	_
 2	일은	일+은	NOUN	NNG+JX	_	3	obj	_	_
 3	하고	하+고	VERB	VV+EC	_	5	acl	_	_
-4	싶은	싶+은	VERB	VX+ETM	_	3	aux	_	_
+4	싶은	싶	AUX	VX+ETM	_	3	aux	_	_
 5	이유는	이유+는	NOUN	NNG+JX	_	8	nsubj	_	_
 6	월급하고	월급+하고	VERB	NNG+JC	_	0	root	_	_
 7	출최근시간하고	출최근+시간+하고	VERB	NF+NNG+JC	_	6	conj	_	_
@@ -7142,7 +7142,7 @@
 3	전에	전+에	ADV	NNG+JKB	_	2	case	_	_
 4	많이	많이	ADV	MAG	_	5	advmod	_	_
 5	공부해야	공부+하+아야	VERB	NNG+XSV+EC	_	0	root	_	_
-6	된다	되+ㄴ다	VERB	VV+EF	_	5	aux	_	SpaceAfter=No
+6	된다	되	AUX	VV+EF	_	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	SF	_	5	punct	_	_
 
 # sent_id = B200027-9-4354
@@ -7173,7 +7173,7 @@
 11	정도	정+도	NOUN	NNG+JX	_	2	conj	_	_
 12	같이	같이	ADV	MAG	_	13	advmod	_	_
 13	섞여	섞+이+어	VERB	VV+XSV+EC	_	15	acl	_	_
-14	있는	있+는	VERB	VX+ETM	_	13	aux	_	_
+14	있는	있	AUX	VX+ETM	_	13	aux	_	_
 15	트러트는	트러트+는	NOUN	NF+JX	_	17	obj	_	_
 16	사람들에게서	사람+들+에게서	NOUN	NNG+XSN+JKB	_	17	obl	_	_
 17	사랑할	사랑+하+ㄹ	VERB	NNG+XSV+ETM	_	18	acl	_	_
@@ -7195,7 +7195,7 @@
 3	때는	때+는	ADV	NNG+JX	_	2	mark	_	_
 4	봉투를	봉투+를	NOUN	NNG+JKO	_	5	obj	_	_
 5	사지	사+지	VERB	VV+EC	_	11	advcl	_	_
-6	말고	말+고	VERB	VX+EC	_	5	aux	_	_
+6	말고	말	AUX	VX+EC	_	5	aux	_	_
 7	집에서	집+에서	ADV	NNG+JKB	_	8	obl	_	_
 8	가지고	가지+고	VERB	VV+EC	_	9	advcl	_	_
 9	가면	가+면	VERB	VV+EC	_	5	conj	_	_
@@ -7264,7 +7264,7 @@
 5	공부를	공부+를	NOUN	NNG+JKO	_	7	obj	_	_
 6	열심히	열심히	ADV	MAG	_	7	advmod	_	_
 7	하고	하+고	VERB	VV+EC	_	0	root	_	_
-8	있다	있+다	VERB	VX+EF	_	7	aux	_	SpaceAfter=No
+8	있다	있	AUX	VX+EF	_	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	SF	_	7	punct	_	_
 
 # sent_id = B200006-6-3438
@@ -7292,7 +7292,7 @@
 2	대만에서	대만+에서	ADV	NNP+JKB	_	4	obl	_	_
 3	세로서점을	세로+서점+을	NOUN	NNG+NNG+JKO	_	4	obj	_	_
 4	만들고	만들+고	VERB	VV+EC	_	0	root	_	_
-5	싶다	싶+다	VERB	VX+EF	_	4	aux	_	SpaceAfter=No
+5	싶다	싶	AUX	VX+EF	_	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	SF	_	4	punct	_	_
 
 # sent_id = C100014-12-6179
@@ -7332,7 +7332,7 @@
 1	그리고	그리고	ADV	MAJ	_	3	cc	_	_
 2	생선을	생선+을	NOUN	NNG+JKO	_	3	obj	_	_
 3	먹고	먹+고	VERB	VV+EC	_	0	root	_	_
-4	싶습니다	싶+습니다	VERB	VX+EF	_	3	aux	_	SpaceAfter=No
+4	싶습니다	싶	AUX	VX+EF	_	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	SF	_	3	punct	_	_
 
 # sent_id = B100025-5-3042
@@ -7371,7 +7371,7 @@
 4	습과은	습과+은	NOUN	NF+JX	_	11	dislocated	_	_
 5	쉽게	쉽+게	ADV	VA+EC	_	6	advmod	_	_
 6	가지게	가지+게	VERB	VV+EC	_	8	acl	_	_
-7	될	되+ㄹ	VERB	VX+ETM	_	6	aux	_	_
+7	될	되	AUX	VX+ETM	_	6	aux	_	_
 8	수	수	NOUN	NNB	_	9	nsubj	_	_
 9	있는	있+는	VERB	VX+ETM	_	10	acl	_	_
 10	것이	것+이	NOUN	NNB+JKC	_	11	nsubj	_	_
@@ -7537,7 +7537,7 @@
 3	문화	문화	NOUN	NNG	_	4	nmod	_	_
 4	차이가	차이+가	NOUN	NNG+JKS	_	5	nsubj	_	_
 5	크지	크+지	VERB	VA+EC	_	7	acl	_	_
-6	않은	않+은	VERB	VX+ETM	_	5	aux	_	_
+6	않은	않	AUX	VX+ETM	_	5	aux	_	_
 7	것	것	NOUN	NNB	_	8	nsubj	_	_
 8	같아요	같+아요	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	SF	_	8	punct	_	_
@@ -7573,8 +7573,8 @@
 4	학교도	학교+도	NOUN	NNG+JX	_	5	nsubj	_	_
 5	있으니까	있+으니까	VERB	VV+EC	_	6	advcl	_	_
 6	걱정하지	걱정+하+지	VERB	NNG+XSV+EC	_	0	root	_	_
-7	않아도	않+아도	VERB	VX+EC	_	6	aux	_	_
-8	돼요	되+어요	VERB	VX+EF	_	6	aux	_	SpaceAfter=No
+7	않아도	않	AUX	VX+EC	_	6	aux	_	_
+8	돼요	되	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
 9	.	.	PUNCT	SF	_	6	punct	_	_
 
 # sent_id = A100018-1-516
@@ -7688,7 +7688,7 @@
 4	부산에	부산+에	ADV	NNP+JKB	_	6	obl	_	_
 5	여행을	여행+을	NOUN	NNG+JKO	_	6	obj	_	_
 6	가고	가+고	VERB	VV+EC	_	0	root	_	_
-7	싶습니다	싶+습니다	VERB	VX+EF	_	6	aux	_	SpaceAfter=No
+7	싶습니다	싶	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
 8	!	!	PUNCT	SF	_	6	punct	_	_
 
 # sent_id = B200023-5-4181
@@ -7713,7 +7713,7 @@
 4	자기	자기	PRON	NP	_	5	nmod	_	_
 5	생명을	생명+을	NOUN	NNG+JKO	_	6	obj	_	_
 6	가지고	가지+고	VERB	VV+EC	_	8	acl	_	_
-7	있는	있+는	VERB	VX+ETM	_	6	aux	_	_
+7	있는	있	AUX	VX+ETM	_	6	aux	_	_
 8	권리가	권리+가	NOUN	NNG+JKS	_	9	nsubj	_	_
 9	있어서	있+어서	VERB	VV+EC	_	13	advcl	_	_
 10	아무도	아무도	ADV	MAG	_	11	nsubj	_	_
@@ -7755,7 +7755,7 @@
 10	아무리	아무리	ADV	MAG	_	11	advmod	_	_
 11	실망더라도	실망+더라도	ADV	NNG+EC	_	12	advcl	_	_
 12	절망하지	절망+하+지	VERB	NNG+XSV+EC	_	14	acl	_	_
-13	마세요라는	말+시+어요+라는	VERB	VX+EP+EF+JKQ	_	12	aux	_	_
+13	마세요라는	말	AUX	VX+EP+EF+JKQ	_	12	aux	_	_
 14	부분이었다	부분+이+었+다	VERB	NNG+VCP+EP+EF	_	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	SF	_	14	punct	_	_
 
@@ -7797,7 +7797,7 @@
 5	제가	제+가	PRON	NP+JKS	_	7	dislocated	_	_
 6	식당은	식당+은	NOUN	NNG+JX	_	7	nsubj	_	_
 7	있고	있+고	VERB	VV+EC	_	4	conj	_	_
-8	싶습니다	싶+습니다	VERB	VX+EF	_	4	aux	_	SpaceAfter=No
+8	싶습니다	싶	AUX	VX+EF	_	4	aux	_	SpaceAfter=No
 9	.	.	PUNCT	SF	_	4	punct	_	_
 
 # sent_id = B200033-7-4582
@@ -7836,7 +7836,7 @@
 # text = 일본에 가고 싶습니다.
 1	일본에	일본+에	ADV	NNP+JKB	_	2	obl	_	_
 2	가고	가+고	VERB	VV+EC	_	0	root	_	_
-3	싶습니다	싶+습니다	VERB	VX+EF	_	2	aux	_	SpaceAfter=No
+3	싶습니다	싶	AUX	VX+EF	_	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	SF	_	2	punct	_	_
 
 # sent_id = A100016-8-468
@@ -7906,7 +7906,7 @@
 4	후에	후+에	ADV	NNG+JKB	_	3	mark	_	_
 5	부산에	부산+에	ADV	NNP+JKB	_	6	obl	_	_
 6	가려고	가+려고	VERB	VV+EC	_	0	root	_	_
-7	합니다	하+ㅂ니다	VERB	VX+EF	_	6	aux	_	SpaceAfter=No
+7	합니다	하	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	SF	_	6	punct	_	_
 
 # sent_id = B200002-12-3332
@@ -7919,7 +7919,7 @@
 6	입고	입+고	VERB	VV+EC	_	12	advcl	_	_
 7	귀엽게	귀엽+게	ADV	VA+EC	_	8	advmod	_	_
 8	고백하고	고백+하+고	VERB	NNG+XSV+EC	_	6	conj	_	_
-9	나서	나+아서	VERB	VX+EC	_	8	aux	_	_
+9	나서	나	AUX	VX+EC	_	8	aux	_	_
 10	기쁘게	기쁘+게	ADV	VA+EC	_	12	advmod	_	_
 11	집에	집+에	ADV	NNG+JKB	_	12	obl	_	_
 12	돌아온다	돌아오+ㄴ다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
@@ -8096,7 +8096,7 @@
 8	일어나기	일어나+기	NOUN	VV+ETN	_	9	obj	_	_
 9	위해	위하+아	VERB	VV+EC	_	10	advcl	_	_
 10	노력하고	노력+하+고	VERB	NNG+XSV+EC	_	0	root	_	_
-11	있습니다	있+습니다	VERB	VX+EC	_	10	aux	_	_
+11	있습니다	있	AUX	VX+EC	_	10	aux	_	_
 
 # sent_id = C200016-2-7107
 # text = 생활 습관은 먹는 것과 운동 등 우리가 생활하면서 습관적으로 하는 것을 말하기 때문에 생활 습관을 잘 지켜야 건강을 유지할 수 있습니다.
@@ -8251,7 +8251,7 @@
 4	초급2	초급+2	NOUN	NNG+SN	_	5	nmod	_	_
 5	한국어를	한국어+를	NOUN	NNG+JKO	_	6	obj	_	_
 6	공부하고	공부+하+고	VERB	NNG+XSV+EC	_	0	root	_	_
-7	있습니다	있+습니다	VERB	VX+EF	_	6	aux	_	SpaceAfter=No
+7	있습니다	있	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	SF	_	6	punct	_	_
 
 # sent_id = C100008-11-5684
@@ -8262,7 +8262,7 @@
 4	때	때	ADV	NNG	_	3	mark	_	_
 5	첫눈이	첫+눈+이	NOUN	MM+NNG+JKS	_	6	nsubj	_	_
 6	내니고	내니+고	VERB	NV+EC	_	0	root	_	_
-7	있다	있+다	VERB	VX+EF	_	6	aux	_	SpaceAfter=No
+7	있다	있	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	SF	_	6	punct	_	_
 
 # sent_id = B200008-8-3544
@@ -8351,11 +8351,11 @@
 2	날에	날+에	ADV	NNG+JKB	_	4	obl	_	_
 3	도코에서	도코+에서	ADV	NF+JKB	_	4	obl	_	_
 4	가고	가+고	VERB	VV+EC	_	7	advcl	_	_
-5	싶지만	싶+지만	VERB	VX+EC	_	4	aux	_	_
+5	싶지만	싶	AUX	VX+EC	_	4	aux	_	_
 6	시간이	시간+이	NOUN	NNG+JKS	_	7	nsubj	_	_
 7	없어서	없+어서	VERB	VA+EC	_	8	advcl	_	_
 8	가지	가+지	VERB	VV+EC	_	0	root	_	_
-9	못합니다	못하+ㅂ니다	VERB	VX+EF	_	8	aux	_	SpaceAfter=No
+9	못합니다	못하	AUX	VX+EF	_	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	SF	_	8	punct	_	_
 
 # sent_id = B200013-15-3768
@@ -8372,7 +8372,7 @@
 # sent_id = C100016-11-6337
 # text = 그러다 보면 말하기와 듣기 실력도 나아져요.
 1	그러다	그러+다	ADV	VV+EC	_	6	advcl	_	_
-2	보면	보+면	VERB	VX+EC	_	1	aux	_	_
+2	보면	보	AUX	VX+EC	_	1	aux	_	_
 3	말하기와	말+하+기+와	NOUN	NNG+XSV+ETN+JC	_	5	nmod	_	_
 4	듣기	듣+기	NOUN	VV+ETN	_	3	conj	_	_
 5	실력도	실력+도	NOUN	NNG+JX	_	6	nsubj	_	_
@@ -8568,7 +8568,7 @@
 6	얼마나	얼마나	ADV	MAG	_	7	advmod	_	_
 7	소중한지를	소중+하+ㄴ지+를	NOUN	NNG+XSA+ETN+JKO	_	8	obj	_	_
 8	알게	알+게	VERB	VV+EC	_	0	root	_	_
-9	되었다	되+었+다	VERB	VV+EP+EF	_	8	aux	_	SpaceAfter=No
+9	되었다	되	AUX	VV+EP+EF	_	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	SF	_	8	punct	_	_
 
 # sent_id = B100017-17-2436
@@ -8579,7 +8579,7 @@
 4	먹거리를	먹거리+를	NOUN	NNG+JKO	_	3	conj	_	_
 5	앞으로도	앞+으로+도	ADV	NNG+JKB+JX	_	6	obl	_	_
 6	경험하고	경험+하+고	VERB	NNG+XSV+EC	_	0	root	_	_
-7	싶다	싶+다	VERB	VX+EF	_	6	aux	_	SpaceAfter=No
+7	싶다	싶	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	SF	_	6	punct	_	_
 
 # sent_id = C100014-8-6222
@@ -8634,7 +8634,7 @@
 2	다음	다음	NOUN	NNG	_	3	nmod	_	_
 3	기회에	기회+에	ADV	NNG+JKB	_	4	obl	_	_
 4	가고	가+고	VERB	VV+EC	_	0	root	_	_
-5	싶습니다	싶+습니다	VERB	VX+EF	_	4	aux	_	SpaceAfter=No
+5	싶습니다	싶	AUX	VX+EF	_	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	SF	_	4	punct	_	_
 
 # sent_id = B100015-4-2291
@@ -8642,7 +8642,7 @@
 1	그래서	그래서	ADV	MAJ	_	3	cc	_	_
 2	스튜어디스가	스튜어디스+가	NOUN	NNG+JKS	_	3	nsubj	_	_
 3	되고	되+고	VERB	VV+EC	_	0	root	_	_
-4	싶다	싶+다	VERB	VX+EF	_	3	aux	_	SpaceAfter=No
+4	싶다	싶	AUX	VX+EF	_	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	SF	_	3	punct	_	_
 
 # sent_id = C200019-4-7241
