@@ -16,6 +16,8 @@ UD_Korean-KSL is a dependency treebank of L2 Korean, featuring morpheme and Univ
 
 # Changelog
 
+* 2024-10-16
+  * Updated the source data information
 * 2024-05-15 v2.14
   * Initial release in Universal Dependencies.
 
