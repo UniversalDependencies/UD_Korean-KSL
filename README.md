@@ -1,6 +1,6 @@
 # Summary
 
-UD_Korean-KSL is a dependency treebank of L2 Korean, featuring morpheme and Universal Dependency manual annotations for six hundred randomly sampled texts from the [Kyung Hee Korean Learner Corpus](https://github.com/jungyeul/korean-learner-corpus).
+UD_Korean-KSL is a dependency treebank of L2 Korean, featuring morpheme and Universal Dependency manual annotations for six hundred randomly sampled texts from the Kyung Hee Korean Learner Corpus (which is no longer available).
 
 # Introduction
 
