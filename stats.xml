@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>7530</sentences><tokens>66989</tokens><words>66989</words><fused>0</fused></total>
+    <train><sentences>5627</sentences><tokens>50535</tokens><words>50535</words><fused>0</fused></train>
+    <dev><sentences>753</sentences><tokens>6422</tokens><words>6422</words><fused>0</fused></dev>
+    <test><sentences>1150</sentences><tokens>10032</tokens><words>10032</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="17317" /><!-- ., 수, ,, 많이, 싶, 있+다, 그, 그리고, 하, 그래서, 때, 있, 이, 한국어+를, 것+이+ㅂ니다 -->
+  <forms unique="17252" /><!-- ., 수, ,, 있다, 많이, 그, 그리고, 때, 그래서, 있는, 한국어를, 이, 나는, 겁니다, 저는 -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="15">
+    <tag name="ADJ">3228</tag><!-- 있+다, 있+습니다, 많+다, 다른, 좋+은, 없+다, 크+ㄴ, 좋+다, 많+은, 다르+ㄴ -->
+    <tag name="ADP">764</tag><!-- 때문+에, 전+에, 중+에, 때, 후+에, 중, 동안, 중+에서, 이상+의, 도 -->
+    <tag name="ADV">13035</tag><!-- 많이, 그리고, 그래서, 때, 잘, 같이, 아주, 한국+에, 너무, 더 -->
+    <tag name="AUX">1359</tag><!-- 싶, 하, 있, 않, 이 -->
+    <tag name="CCONJ">8</tag><!-- 와, 과, 따르+아서 -->
+    <tag name="DET">917</tag><!-- 그, 이, 어떤, 이런, 여러, 그런, 어느, 몇, 모든, 아무 -->
+    <tag name="NOUN">19534</tag><!-- 수, 한국어+를, 것+이, 한국, 것+은, 사람+이, 사람+들+이, 것, 시간+이, 것+을 -->
+    <tag name="NUM">258</tag><!-- 한, 두, 하+ㄴ, 세, 첫, 네, 반, 하나, 하나+는, 0 -->
+    <tag name="PART">1</tag><!-- 에+는 -->
+    <tag name="PRON">1825</tag><!-- 저+는, 우리, 나+는, 내+가, 나+의, 우리+는, 저+의, 제+가, 우리+가, 나+도 -->
+    <tag name="PROPN">17</tag><!-- 류승룡, 스미스, 이예승, ㅇ, 가드너, 로리타, 머린, 미란이, 박신혜, 샤브샤브 -->
+    <tag name="PUNCT">8298</tag><!-- ., ,, ?, ', ", !, (, ), /, % -->
+    <tag name="SYM">2</tag><!-- 이소원, 훠꿔 -->
+    <tag name="VERB">17634</tag><!-- 것+이+ㅂ니다, 있+는, 하+ㄹ, 생각+하+ㄴ다, 가+ㄹ, 것+이+다, 하+고, 가+고, 가+았+습니다, 있+으면 -->
+    <tag name="X">109</tag><!-- _, 안+쓰+ㅁ -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="0">
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="32">
+    <dep name="acl">4511</dep>
+    <dep name="advcl">5570</dep>
+    <dep name="advmod">5016</dep>
+    <dep name="amod">1426</dep>
+    <dep name="appos">62</dep>
+    <dep name="aux">1351</dep>
+    <dep name="case">898</dep>
+    <dep name="cc">1307</dep>
+    <dep name="ccomp">644</dep>
+    <dep name="compound">52</dep>
+    <dep name="conj">1610</dep>
+    <dep name="cop">3</dep>
+    <dep name="csubj">22</dep>
+    <dep name="dep">3</dep>
+    <dep name="det">922</dep>
+    <dep name="discourse">6</dep>
+    <dep name="dislocated">727</dep>
+    <dep name="fixed">23</dep>
+    <dep name="flat">526</dep>
+    <dep name="goeswith">108</dep>
+    <dep name="list">291</dep>
+    <dep name="mark">510</dep>
+    <dep name="nmod">2428</dep>
+    <dep name="nmod:poss">1306</dep>
+    <dep name="nsubj">8610</dep>
+    <dep name="nummod">190</dep>
+    <dep name="obj">5609</dep>
+    <dep name="obl">7346</dep>
+    <dep name="parataxis">39</dep>
+    <dep name="punct">8297</dep>
+    <dep name="root">7530</dep>
+    <dep name="vocative">46</dep>
+  </deps>
+</treebank>
