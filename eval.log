@@ -1,0 +1,44 @@
+Running the following version of UD tools:
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Nov 10 10:33:45 2024 +0100
+Evaluating the following revision of UD_Korean-KSL:
+commit 0c7eee87dfaec694693ff1137f13ccead15bcaee
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 11 12:33:29 2024 +0100
+Size: counted 66989 of 66989 words (nodes).
+Size: min(0, log((N/1000)**2)) = 8.40905685361525.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 15 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 0.9.
+Features: 0 out of 66989 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 31 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 0.9.
+Udapi:
+               TOTAL      20956
+Udapi: found 20956 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 66989 words.
+Genres: found 1 out of 17 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang ko --max-err=10 UD_Korean-KSL/ko_ksl-ud-dev.conllu
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang ko --max-err=10 UD_Korean-KSL/ko_ksl-ud-test.conllu
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang ko --max-err=10 UD_Korean-KSL/ko_ksl-ud-train.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.0769230769230769) * (score{features}=0.01) = 0.000769230769230769
+(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
+(weight=0.256410256410256) * (score{size}=0.608667831589304) = 0.156068674766488
+(weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
+(weight=0.0769230769230769) * (score{tags}=0.794117647058823) = 0.0610859728506787
+(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
+(weight=0.0769230769230769) * (score{udeprels}=0.754054054054054) = 0.058004158004158
+(TOTAL score=0.394811897627358) * (availability=1) * (validity=1) = 0.394811897627358
+STARS = 2
+UD_Korean-KSL	0.394811897627358	2
