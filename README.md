@@ -4,10 +4,10 @@ UD_Korean-KSL is a dependency treebank of L2 Korean, featuring morpheme and Univ
 
 # Introduction
 
-- Language-specific morpheme tags (XPOS) are based on the [Sejong tag set](https://github.com/NLPxL2Korean/L2KW-corpus) and were manually annotated.
+- Language-specific morpheme tags (XPOS) are based on the Sejong tag set and were manually annotated.
 - Dependency annotations adhere to the Universal Dependencies (version 2.0) framework and were manually annotated (initially tagged automatically by Stanza, then corrected).
-- Universal part of speech (UPOS) tags were automatically added using Stanza, which was trained on the [UD_Korean-GSD](https://github.com/UniversalDependencies/UD_Korean-GSD) dataset and then corrected.
-- The current version contains a total of 7,530 sentences: 6,024 in the training set, 753 in the test set, and 753 in the development set. The data also includes details on classroom proficiency levels (ranging from A1 to C2, serving as a proxy for learner proficiency).
+- Universal part of speech (UPOS) tags were automatically added using Stanza, which was trained on the [UD_Korean-GSD](https://github.com/UniversalDependencies/UD_Korean-GSD) dataset and then partially corrected. We plan to update these tags soon following manual inspection.
+- The current version contains a total of 7,530 sentences: 5,627 in the train set, 1,150 in the test set, and 753 in the dev set. The data also includes details on classroom proficiency levels (ranging from A1 to C2, serving as a proxy for learner proficiency). We plan to update the proficiency ratings provided by trained human raters.
 
 ## References
 
@@ -15,11 +15,13 @@ UD_Korean-KSL is a dependency treebank of L2 Korean, featuring morpheme and Univ
 - Sung, H., & Shin, G-H. (2024). [Constructing a Dependency Treebank for Second Language Learners of Korean](https://aclanthology.org/2024.lrec-main.332/). In *Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)* (pp. 3747-3758).
 
 # Changelog
-
+* 2024-11-11 v2.15
+  * Initial release in Universal Dependencies
+  * Minor update on the README
 * 2024-10-16
   * Updated the source data information
 * 2024-05-15 v2.14
-  * Initial release in Universal Dependencies.
+  * Release in Universal Dependencies (dev-repo)
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
