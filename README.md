@@ -30,7 +30,7 @@ We thank everyone with an interest in Korean as a second language studies.
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.14
+Data available since: UD v2.15
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: learner-essays
