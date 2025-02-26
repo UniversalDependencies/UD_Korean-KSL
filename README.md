@@ -36,11 +36,11 @@ UD_Korean-KSL is a dependency treebank of second-language (L2) Korean.
 Data available since: UD v2.15
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: learner written
+Genre: learner-essays
 Lemmas: manual native
-UPOS: converted with minor corrections
+UPOS: converted with corrections
 XPOS: manual native
-Features: only Typo features manually annotated
+Features: converted from manual
 Relations: manual native
 Contributors: Sung, Hakyung; Shin, Gyu-Ho
 Contributing: here
