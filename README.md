@@ -4,7 +4,7 @@ UD_Korean-KSL is a dependency treebank of second-language (L2) Korean.
 
 # Introduction
 
-The treebank contains 12,977 sentences: 10,323 in the training set, 1,311 in the test set, and 1,343 in the dev set. It sourced from two datasets: (1) the Kyung Hee Korean Learner Corpus (KH), with sentence IDs starting with KH and annotated with classroom proficiency levels (A1–C2); and (2) KoLLA, with sentence IDs starting with KL and grouped as fb (foreign beginners), fi (foreign intermediates), and hb (heritage beginners).
+The treebank contains 12,977 sentences—10,323 in the training set, 1,311 in the test set, and 1,343 in the dev set. These sentences are sourced from two datasets: (1) the Kyung Hee dataset, with sentence IDs starting with “KH” and annotated with classroom proficiency levels (A1–C2); and (2) the KoLLA dataset, with sentence IDs starting with “KL” and grouped as fb (foreign beginners), fi (foreign intermediates), and hb (heritage beginners).
 
 # Acknowledgements
 
@@ -12,7 +12,7 @@ We acknowledge the original data contributors: the Kyung Hee dataset (credit to 
 
 # References 
 
-For additional details, please refer to the [supplemnentary repo](https://github.com/NLPxL2Korean/UD-KSL) for more information on recent papers, annotation guidelines, and fine-tuned models for L2-Korean.
+Please refer to the [supplemnentary repo](https://github.com/NLPxL2Korean/UD-KSL) for more information on recent papers, annotation guidelines, and fine-tuned models for L2-Korean.
 
 # Changelog
 
