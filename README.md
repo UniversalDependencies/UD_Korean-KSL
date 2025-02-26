@@ -1,25 +1,28 @@
 # Summary
-
-UD_Korean-KSL is a dependency treebank of L2 Korean, featuring morpheme and Universal Dependency manual annotations for six hundred randomly sampled texts from the Kyung Hee Korean Learner Corpus (which is no longer available).
+UD_Korean-KSL is a dependency treebank of second-language (L2) Korean.
 
 # Introduction
-
-- Language-specific morpheme tags (XPOS) are based on the Sejong tag set and were manually annotated.
-- Dependency annotations adhere to the Universal Dependencies (version 2.0) framework and were manually annotated (initially tagged automatically by Stanza, then corrected).
+- Morpheme annotations (XPOS) are based on the Sejong tag set and have been manually annotated.
 - Universal part of speech (UPOS) tags were automatically added using Stanza, which was trained on the [UD_Korean-GSD](https://github.com/UniversalDependencies/UD_Korean-GSD) dataset and then partially corrected. We plan to update these tags soon following manual inspection.
-- The current version contains a total of 7,530 sentences: 5,627 in the train set, 1,150 in the test set, and 753 in the dev set. The data also includes details on classroom proficiency levels (ranging from A1 to C2, serving as a proxy for learner proficiency). We plan to update the proficiency ratings provided by trained human raters.
+- The dependency structures adhere to the Universal Dependencies (v2.0) framework. They were initially generated automatically using Stanza and then manually corrected 
+- The current version contains a total of 12,977 sentences: 10,323 in the train set, 1,311 in the test set, and 1,343 in the dev set.
+- The treebank includes two distinct datasets:
+  - Kyung Hee Korean Learner Corpus (KH): Sentences are identified by IDs beginning with `KH` and include classroom proficiency levels (A1 to C2) as a proxy for learner ability.
+  - [KoLLA](https://cl.indiana.edu/~kolla/): Sentences have IDs starting with `KL` and are categorized into proficiency groups: fb (Foreign Beginners), fi (Foreign Intermediates), and hb (Heritage Beginners).
 
 # Acknowledgements
 
-We thank everyone with an interest in Korean as a second language studies.
+- We acknowledge the original data contributors: the Kyung Hee dataset (credit to Jungyeul Park and Jung Hee Lee; note that this dataset is no longer maintained and its sentences are no longer used for further annotation) and the KoLLA dataset (credit to Markus Dickinson, Ross Israel, and Sun-Hee Lee).
+- We acknowledge our annotators: Hee-June Koh, Chanyoung Lee, and Youkyung Sung.
 
-# References
-
-- Sung, H., & Shin, G-H. (2023). [Towards L2-friendly pipelines for learner corpora: A case of written production by L2-Korean learners](https://aclanthology.org/2023.bea-1.6/). In *Proceedings of the 18th Workshop on Innovative Use of NLP for Building Educational Applications (BEA 2023)*, 72-82, Association for Computational Linguistics. 
-- Sung, H., & Shin, G-H. (2024). [Constructing a Dependency Treebank for Second Language Learners of Korean](https://aclanthology.org/2024.lrec-main.332/). In *Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)* (pp. 3747-3758).
+# References 
+- For additional details, please refer to the [supplemnentary repo](https://github.com/NLPxL2Korean/UD-KSL) for more information on recent papers, annotation guidelines, and fine-tuned models for L2-Korean.
 
 # Changelog
 
+* 2025-02-25
+  * Added 5,447 new sentences
+  * Introduced the `Typo=Yes` feature to indicate erroneous or unexpected word forms
 * 2024-11-11 v2.15
   * Initial release in Universal Dependencies
   * Minor update on the README
@@ -33,12 +36,12 @@ We thank everyone with an interest in Korean as a second language studies.
 Data available since: UD v2.15
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: learner-essays
+Genre: learner written
 Lemmas: manual native
-UPOS: converted with corrections
+UPOS: converted with minor corrections
 XPOS: manual native
-Features: manual native
-Relations: converted with corrections
+Features: only Typo features manually annotated
+Relations: manual native
 Contributors: Sung, Hakyung; Shin, Gyu-Ho
 Contributing: here
 Contact: hsung@uoregon.edu
