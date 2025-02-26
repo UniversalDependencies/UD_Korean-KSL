@@ -4,7 +4,7 @@ UD_Korean-KSL is a dependency treebank of second-language (L2) Korean.
 
 # Introduction
 
-Morpheme annotations (XPOS) are based on the Sejong tag set and have been manually annotated. Universal part of speech (UPOS) tags were automatically added using Stanza, which was trained on the [UD_Korean-GSD](https://github.com/UniversalDependencies/UD_Korean-GSD) dataset and then partially corrected. We plan to update these tags soon following manual inspection. The dependency structures adhere to the Universal Dependencies (v2.0) framework. They were initially generated automatically using Stanza and then manually corrected. The current version contains a total of 12,977 sentences: 10,323 in the train set, 1,311 in the test set, and 1,343 in the dev set. The treebank includes two distinct datasets: (1) Kyung Hee Korean Learner Corpus (KH): Sentences are identified by IDs beginning with `KH` and include classroom proficiency levels (A1 to C2) as a proxy for learner ability; (2) [KoLLA](https://cl.indiana.edu/~kolla/): Sentences have IDs starting with `KL` and are categorized into proficiency groups: fb (Foreign Beginners), fi (Foreign Intermediates), and hb (Heritage Beginners).
+The treebank contains 12,977 sentences: 10,323 in the training set, 1,311 in the test set, and 1,343 in the development set. It comprises two datasets: (1) the Kyung Hee Korean Learner Corpus (KH), with sentence IDs starting with KH and annotated with classroom proficiency levels (A1–C2); and (2) KoLLA, with sentence IDs starting with KL and grouped as fb (foreign beginners), fi (foreign intermediates), and hb (heritage beginners).
 
 # Acknowledgements
 
