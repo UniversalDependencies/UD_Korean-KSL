@@ -12,7 +12,7 @@ We acknowledge the original data contributors: the Kyung Hee dataset (credit to 
 
 # References 
 
-Please refer to the [supplemnentary repo](https://github.com/NLPxL2Korean/UD-KSL) for more information on recent papers, annotation guidelines, and fine-tuned models for L2-Korean.
+Please refer to the [supplementary repo](https://github.com/NLPxL2Korean/UD-KSL) for more information on recent papers, annotation guidelines, and fine-tuned models for L2-Korean.
 
 # Changelog
 
