@@ -5,68 +5,69 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>7530</sentences><tokens>66989</tokens><words>66989</words><fused>0</fused></total>
-    <train><sentences>5627</sentences><tokens>50535</tokens><words>50535</words><fused>0</fused></train>
-    <dev><sentences>753</sentences><tokens>6422</tokens><words>6422</words><fused>0</fused></dev>
-    <test><sentences>1150</sentences><tokens>10032</tokens><words>10032</words><fused>0</fused></test>
+    <total><sentences>12977</sentences><tokens>108072</tokens><words>108072</words><fused>0</fused></total>
+    <train><sentences>10323</sentences><tokens>85851</tokens><words>85851</words><fused>0</fused></train>
+    <dev><sentences>1311</sentences><tokens>11112</tokens><words>11112</words><fused>0</fused></dev>
+    <test><sentences>1343</sentences><tokens>11109</tokens><words>11109</words><fused>0</fused></test>
   </size>
-  <lemmas unique="17317" /><!-- ., 수, ,, 많이, 싶, 있+다, 그, 그리고, 하, 그래서, 때, 있, 이, 한국어+를, 것+이+ㅂ니다 -->
-  <forms unique="17252" /><!-- ., 수, ,, 있다, 많이, 그, 그리고, 때, 그래서, 있는, 한국어를, 이, 나는, 겁니다, 저는 -->
+  <lemmas unique="23492" /><!-- ., 수, ,, 많이, 싶, 그리고, 있+다, 그, 저+는, 그래서, 하, 때, 것+이+ㅂ니다, 있, 않 -->
+  <forms unique="23312" /><!-- ., 수, ,, 많이, 있다, 그리고, 그, 저는, 그래서, 때, 겁니다, 있는, 우리, 이, 같이 -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">3228</tag><!-- 있+다, 있+습니다, 많+다, 다른, 좋+은, 없+다, 크+ㄴ, 좋+다, 많+은, 다르+ㄴ -->
-    <tag name="ADP">764</tag><!-- 때문+에, 전+에, 중+에, 때, 후+에, 중, 동안, 중+에서, 이상+의, 도 -->
-    <tag name="ADV">13035</tag><!-- 많이, 그리고, 그래서, 때, 잘, 같이, 아주, 한국+에, 너무, 더 -->
-    <tag name="AUX">1359</tag><!-- 싶, 하, 있, 않, 이 -->
-    <tag name="CCONJ">8</tag><!-- 와, 과, 따르+아서 -->
-    <tag name="DET">917</tag><!-- 그, 이, 어떤, 이런, 여러, 그런, 어느, 몇, 모든, 아무 -->
-    <tag name="NOUN">19534</tag><!-- 수, 한국어+를, 것+이, 한국, 것+은, 사람+이, 사람+들+이, 것, 시간+이, 것+을 -->
-    <tag name="NUM">258</tag><!-- 한, 두, 하+ㄴ, 세, 첫, 네, 반, 하나, 하나+는, 0 -->
+    <tag name="ADJ">5487</tag><!-- 있+다, 있+습니다, 다르+ㄴ, 많+다, 좋+은, 없+다, 좋+다, 크+ㄴ, 많+은, 많+습니다 -->
+    <tag name="ADP">1283</tag><!-- 때문+에, 전+에, 후+에, 때, 중+에, 동안, 중+에서, 라고, 밖에, 부터 -->
+    <tag name="ADV">20904</tag><!-- 많이, 그리고, 그래서, 같이, 때, 아주, 잘, 한국+에, 너무, 하지만 -->
+    <tag name="AUX">2096</tag><!-- 싶, 하, 있, 않, 이 -->
+    <tag name="CCONJ">11</tag><!-- 와, 과, 및, 그리+고, 따르+아서 -->
+    <tag name="DET">1363</tag><!-- 그, 이, 어떤, 이런, 여러, 그런, 어느, 모든, 몇, 아무 -->
+    <tag name="NOUN">31486</tag><!-- 수, 한국어+를, 것+이, 씨+는, 한국, 사람+이, 나오코, 사람+들+이, 영화+를, 것 -->
+    <tag name="NUM">442</tag><!-- 한, 두, 세, 하+ㄴ, 네, 첫, 반, 하나+는, 다섯, 하나 -->
     <tag name="PART">1</tag><!-- 에+는 -->
-    <tag name="PRON">1825</tag><!-- 저+는, 우리, 나+는, 내+가, 나+의, 우리+는, 저+의, 제+가, 우리+가, 나+도 -->
-    <tag name="PROPN">17</tag><!-- 류승룡, 스미스, 이예승, ㅇ, 가드너, 로리타, 머린, 미란이, 박신혜, 샤브샤브 -->
-    <tag name="PUNCT">8298</tag><!-- ., ,, ?, ', ", !, (, ), /, % -->
+    <tag name="PRON">3021</tag><!-- 저+는, 우리, 나+는, 내+가, 저+의, 우리+는, 나+의, 제+가, 우리+가, 나+도 -->
+    <tag name="PROPN">20</tag><!-- 류승룡, 스미스, 이예승, Girl, ㅇ, 가드너, 경회대학교, 로리타, 머린, 미란이 -->
+    <tag name="PUNCT">14066</tag><!-- ., ,, ?, ', ", !, (, ), “, ” -->
     <tag name="SYM">2</tag><!-- 이소원, 훠꿔 -->
-    <tag name="VERB">17634</tag><!-- 것+이+ㅂ니다, 있+는, 하+ㄹ, 생각+하+ㄴ다, 가+ㄹ, 것+이+다, 하+고, 가+고, 가+았+습니다, 있+으면 -->
-    <tag name="X">109</tag><!-- _, 안+쓰+ㅁ -->
+    <tag name="VERB">27679</tag><!-- 것+이+ㅂ니다, 있+는, 가+았+습니다, 하+ㄹ, 가+ㄹ, 생각+하+ㄴ다, 하+고, 가+고, 친구+하고, 것+이+다 -->
+    <tag name="X">211</tag><!-- _, 하고, 안+쓰+ㅁ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="0">
+  <feats unique="1">
+    <feat name="Typo" value="Yes" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB,X">4047</feat><!-- 그레서, 떄문에, 대, 유면한, 하고, 궁무원이, 고리고, 도, 때, 외냐하면 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="32">
-    <dep name="acl">4511</dep>
-    <dep name="advcl">5570</dep>
-    <dep name="advmod">5016</dep>
-    <dep name="amod">1426</dep>
-    <dep name="appos">62</dep>
-    <dep name="aux">1351</dep>
-    <dep name="case">898</dep>
-    <dep name="cc">1307</dep>
-    <dep name="ccomp">644</dep>
-    <dep name="compound">52</dep>
-    <dep name="conj">1610</dep>
+    <dep name="acl">6400</dep>
+    <dep name="advcl">8654</dep>
+    <dep name="advmod">7831</dep>
+    <dep name="amod">2174</dep>
+    <dep name="appos">86</dep>
+    <dep name="aux">2085</dep>
+    <dep name="case">1460</dep>
+    <dep name="cc">2152</dep>
+    <dep name="ccomp">899</dep>
+    <dep name="compound">112</dep>
+    <dep name="conj">2789</dep>
     <dep name="cop">3</dep>
     <dep name="csubj">22</dep>
-    <dep name="dep">3</dep>
-    <dep name="det">922</dep>
+    <dep name="dep">5</dep>
+    <dep name="det">1368</dep>
     <dep name="discourse">6</dep>
-    <dep name="dislocated">727</dep>
-    <dep name="fixed">23</dep>
-    <dep name="flat">526</dep>
-    <dep name="goeswith">108</dep>
-    <dep name="list">291</dep>
-    <dep name="mark">510</dep>
-    <dep name="nmod">2428</dep>
-    <dep name="nmod:poss">1306</dep>
-    <dep name="nsubj">8610</dep>
-    <dep name="nummod">190</dep>
-    <dep name="obj">5609</dep>
-    <dep name="obl">7346</dep>
-    <dep name="parataxis">39</dep>
-    <dep name="punct">8297</dep>
-    <dep name="root">7530</dep>
-    <dep name="vocative">46</dep>
+    <dep name="dislocated">1144</dep>
+    <dep name="flat">1199</dep>
+    <dep name="goeswith">202</dep>
+    <dep name="list">442</dep>
+    <dep name="mark">838</dep>
+    <dep name="nmod">3928</dep>
+    <dep name="nmod:poss">1881</dep>
+    <dep name="nsubj">13657</dep>
+    <dep name="nummod">341</dep>
+    <dep name="obj">9205</dep>
+    <dep name="obl">12053</dep>
+    <dep name="parataxis">44</dep>
+    <dep name="punct">14065</dep>
+    <dep name="reparandum">1</dep>
+    <dep name="root">12977</dep>
+    <dep name="vocative">49</dep>
   </deps>
 </treebank>

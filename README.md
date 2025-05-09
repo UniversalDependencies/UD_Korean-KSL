@@ -1,37 +1,43 @@
 # Summary
 
-UD_Korean-KSL is a dependency treebank of L2 Korean, featuring morpheme and Universal Dependency manual annotations for six hundred randomly sampled texts from the Kyung Hee Korean Learner Corpus (which is no longer available).
+UD_Korean-KSL is a dependency treebank of second-language (L2) Korean.
 
 # Introduction
 
-- Language-specific morpheme tags (XPOS) are based on the [Sejong tag set](https://github.com/NLPxL2Korean/L2KW-corpus) and were manually annotated.
-- Dependency annotations adhere to the Universal Dependencies (version 2.0) framework and were manually annotated (initially tagged automatically by Stanza, then corrected).
-- Universal part of speech (UPOS) tags were automatically added using Stanza, which was trained on the [UD_Korean-GSD](https://github.com/UniversalDependencies/UD_Korean-GSD) dataset and then corrected.
-- The current version contains a total of 7,530 sentences: 6,024 in the training set, 753 in the test set, and 753 in the development set. The data also includes details on classroom proficiency levels (ranging from A1 to C2, serving as a proxy for learner proficiency).
+The treebank contains 12,977 sentences—10,323 in the training set, 1,311 in the dev set, and 1,343 in the test set. These sentences are sourced from two datasets: (1) the Kyung Hee dataset, with sentence IDs starting with “KH” and annotated with classroom proficiency levels (A1–C2); and (2) the KoLLA dataset, with sentence IDs starting with “KL” and grouped as fb (foreign beginners), fi (foreign intermediates), and hb (heritage beginners).
 
-## References
+# Acknowledgements
 
-- Sung, H., & Shin, G-H. (2023). [Towards L2-friendly pipelines for learner corpora: A case of written production by L2-Korean learners](https://aclanthology.org/2023.bea-1.6/). In *Proceedings of the 18th Workshop on Innovative Use of NLP for Building Educational Applications (BEA 2023)*, 72-82, Association for Computational Linguistics. 
-- Sung, H., & Shin, G-H. (2024). [Constructing a Dependency Treebank for Second Language Learners of Korean](https://aclanthology.org/2024.lrec-main.332/). In *Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)* (pp. 3747-3758).
+We acknowledge the original data contributors: the Kyung Hee dataset (credit to Jungyeul Park and Jung Hee Lee; note that this dataset is no longer maintained and its sentences are no longer used for further annotation) and the KoLLA dataset (credit to Markus Dickinson, Ross Israel, and Sun-Hee Lee). We also acknowledge our annotators: Hee-June Koh, Chanyoung Lee, and Youkyung Sung.
+
+# References 
+
+Please refer to the [supplementary repo](https://github.com/NLPxL2Korean/UD-KSL) for more information on recent papers, annotation guidelines, and fine-tuned models for L2-Korean.
 
 # Changelog
 
+* 2025-02-25
+  * Added 5,447 new sentences
+  * Introduced the `Typo=Yes` feature to indicate erroneous or unexpected word forms
+* 2024-11-11 v2.15
+  * Initial release in Universal Dependencies
+  * Minor update on the README
 * 2024-10-16
   * Updated the source data information
 * 2024-05-15 v2.14
-  * Initial release in Universal Dependencies.
+  * Release in Universal Dependencies (dev-repo)
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.14
+Data available since: UD v2.15
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: learner-essays
 Lemmas: manual native
 UPOS: converted with corrections
 XPOS: manual native
-Features: manual native
-Relations: converted with corrections
+Features: converted from manual
+Relations: manual native
 Contributors: Sung, Hakyung; Shin, Gyu-Ho
 Contributing: here
 Contact: hsung@uoregon.edu
