@@ -20,11 +20,11 @@ Please refer to the [supplementary repo](https://github.com/NLPxL2Korean/UD-KSL)
 
 * 2025-07-03 (UD-KSL v1.3)  
   * Added 2,998 new sentences  
-  * Introduced a `semi-automated framework` that identifies morphosyntactic constructions from XPOS sequences and aligns them with corresponding UPOS categories (Sung et al., 2025; See `data/xpos_upos_mapping_db_v1.0.txt`)
+  * Introduced a `semi-automated framework` that identifies morphosyntactic constructions from XPOS sequences and aligns them with corresponding UPOS categories (See `data/xpos_upos_mapping_db_v1.0.txt`)
 * 2025-02-25 (UD-KSL v1.2)  
   * Added 5,447 new sentences  
   * Introduced the `Typo=Yes` feature to indicate erroneous or unexpected word forms  
-  * Revised annotation guidelines to better align with the UD framework (Sung & Shin, 2025)  
+  * Revised annotation guidelines to better align with the UD framework  
 * 2024-11-11 v2.15
   * Initial release in Universal Dependencies
   * Minor update on the README
