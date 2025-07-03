@@ -20,7 +20,7 @@ Please refer to the [supplementary repo](https://github.com/NLPxL2Korean/UD-KSL)
 
 * 2025-07-03 (UD-KSL v1.3)  
   * Added 2,998 new sentences  
-  * Introduced a `semi-automated framework` that identifies morphosyntactic constructions from XPOS sequences and aligns them with corresponding UPOS categories (See `data/xpos_upos_mapping_db_v1.0.txt`)
+  * Introduced a `semi-automated framework` that identifies morphosyntactic constructions from XPOS sequences and aligns them with corresponding UPOS categories (db [here](https://github.com/NLPxL2Korean/UD-KSL/blob/main/dataset/xpos_upos_mapping_db_v1.0.txt))
 * 2025-02-25 (UD-KSL v1.2)  
   * Added 5,447 new sentences  
   * Introduced the `Typo=Yes` feature to indicate erroneous or unexpected word forms  
