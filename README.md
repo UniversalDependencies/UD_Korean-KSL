@@ -46,6 +46,6 @@ Features: converted from manual
 Relations: manual native
 Contributors: Sung, Hakyung; Shin, Gyu-Ho
 Contributing: here
-Contact: hsung@uoregon.edu
+Contact: hksung001@gmail.com; Shin, ghshin@uic.edu
 ===============================================================================
 </pre>
