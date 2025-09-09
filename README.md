@@ -38,6 +38,7 @@ Please refer to the [supplementary repo](https://github.com/NLPxL2Korean/UD-KSL)
 Data available since: UD v2.15
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: learner-essays
 Lemmas: manual native
 UPOS: converted with corrections
