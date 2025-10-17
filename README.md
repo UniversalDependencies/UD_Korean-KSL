@@ -9,7 +9,7 @@ The annotated sentences are sourced from three datasets: (1) the Kyung Hee datas
 
 # Acknowledgements
 
-We acknowledge the original data contributors: (1) the Kyung Hee dataset (credit to Jungyeul Park and Jung Hee Lee; note that its sentences are not used for further annotation); (2) the KoLLA dataset (credit to Markus Dickinson, Ross Israel, and Sun-Hee Lee); and (3) the argumentative essays (credit to Boo Kyung Jung).  
+We acknowledge the original data contributors: (1) the Kyung Hee dataset (credit to Jungyeul Park and Jung Hee Lee; note that its sentences are not used for further annotation); (2) the KoLLA dataset (credit to Markus Dickinson, Ross Israel, and Sun-Hee Lee); and (3) the argumentative essays (credit to Boo Kyung Jung and Jeong Eun Shin).  
 
 # References 
 
@@ -17,7 +17,13 @@ Please refer to the [supplementary repo](https://github.com/NLPxL2Korean/UD-KSL)
 
 # Changelog
 
-
+* 2025-10-17
+  * Fixed validation issues:
+    * L3 Syntax too-many-objects (112 cases): Reanalyzed *light-verb constructions* (e.g., `이야기/계획/연습/추천/선택/치료/생각/극복/시작/경험 하다`) by changing the noun dependency relation from `obj` to `compound:lvc`.
+    * L3 Warning obl-should-be-nmod (168 cases): Corrected case-marked noun phrases functioning as nominal modifiers by changing the label from `obl` to `nmod`.
+    * Length mismatches (474 cases): Resolved tokenization inconsistencies between surface forms and corresponding morphological analyses.
+    * Comment=Case/Spelling/SpacingError (10th column): Temporarily retained learner error annotations in the MISC column; these entries will be reviewed and standardized in the next annotation phase.
+  * Current version: 12,721 train, 1,311 dev, 1,643 test — total 15,675 sentences.
 * 2025-07-03 (UD-KSL v1.3)  
   * Added 2,998 new sentences  
   * Introduced a `semi-automated framework` that identifies morphosyntactic constructions from XPOS sequences and aligns them with corresponding UPOS categories (db [here](https://github.com/NLPxL2Korean/UD-KSL/blob/main/dataset/xpos_upos_mapping_db_v1.0.txt))
