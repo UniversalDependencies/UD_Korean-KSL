@@ -122204,7 +122204,7 @@
 2	저는	저+는	PRON	NP+JX	PronType=Prs	8	dislocated	_	_
 3	경쟁이	경쟁+이	NOUN	NNG+JKS	_	8	nsubj	_	_
 4	성공에	성공+에	ADV	NNG+JKB	_	8	obl	_	_
-5	저	저	DET	MM	PronType=Prs	7	det	_	_
+5	저	저	DET	MM	PronType=Dem	7	det	_	_
 6	큰	크+ㄴ	ADJ	VA+ETM	_	7	amod	_	_
 7	영향을	영향+을	NOUN	NNG+JKO	_	8	obj	_	_
 8	미친다고	미치+ㄴ다고	VERB	VV+EC	_	9	ccomp	_	_
@@ -141907,7 +141907,7 @@
 2	사람과	사람+과	ADV	NNG+JKB	_	4	obl	_	_
 3	같이	같이	ADV	MAG	_	4	advmod	_	_
 4	일하면	일+하+면	VERB	NNG+XSV+EC	_	10	advcl	_	_
-5	저	저	DET	MM	PronType=Prs	6	det	_	_
+5	저	저	DET	MM	PronType=Dem	6	det	_	_
 6	사람들의	사람+들+의	NOUN	NNG+XSN+JKG	_	7	nmod:poss	_	_
 7	행동을	행동+을	NOUN	NNG+JKO	_	8	obj	_	_
 8	영향할	영향+하+ㄹ	VERB	NF+XSV+ETM	Typo=Yes	9	acl	_	_
@@ -143160,7 +143160,7 @@
 
 # sent_id = ARG-CZH_02_2_01
 # text = 제 2차 전쟁을 기억하면 배운거싱 많다.
-1	제	제	DET	MM	PronType=Prs	3	nmod	_	_
+1	제	제	NUM	MM	_	3	nummod	_	_
 2	2차	2+차	NOUN	SN+NNB	_	1	flat	_	_
 3	전쟁을	전쟁+을	NOUN	NNG+JKO	_	4	obj	_	_
 4	기억하면	기억+하+면	VERB	NNG+XSV+EC	_	6	advcl	_	_

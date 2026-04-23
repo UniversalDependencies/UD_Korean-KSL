@@ -2294,7 +2294,7 @@
 
 # sent_id = KH-A100001-4-40
 # text = 저 친구는 왕친입니다.
-1	저	저	DET	MM	PronType=Prs	2	det	_	_
+1	저	저	DET	MM	PronType=Dem	2	det	_	_
 2	친구는	친구+는	NOUN	NNG+JX	_	3	nsubj	_	_
 3	왕친입니다	왕친+이+ㅂ니다	ADJ	NNP+VCP+EF	_	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	SF	_	3	punct	_	_
@@ -10885,7 +10885,7 @@
 
 # sent_id = KH-A100030-7-849
 # text = 저 친구하고 같이 말을 타고 싶습니다.
-1	저	저	DET	MM	PronType=Prs	2	det	_	_
+1	저	저	DET	MM	PronType=Dem	2	det	_	_
 2	친구하고	친구+하고	ADV	NNG+JKB	_	5	obl	_	_
 3	같이	같이	ADV	MAG	_	2	advmod	_	_
 4	말을	말+을	NOUN	NNG+JKO	_	5	obj	_	_
@@ -15115,7 +15115,7 @@
 # sent_id = KH-A100031-4-887
 # text = 우리가 저 술집에서 맥주를 마셨습니다.
 1	우리가	우리+가	PRON	NP+JKS	PronType=Prs	5	nsubj	_	_
-2	저	저	DET	MM	PronType=Prs	3	det	_	_
+2	저	저	DET	MM	PronType=Dem	3	det	_	_
 3	술집에서	술+집+에서	ADV	NNG+NNG+JKB	_	5	obl	_	_
 4	맥주를	맥주+를	NOUN	NNG+JKO	_	5	obj	_	_
 5	마셨습니다	마시+었+습니다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
