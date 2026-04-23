@@ -24,7 +24,6 @@ Please refer to the [supplementary repo](https://github.com/NLPxL2Korean/UD-KSL)
   
 * 2025-10-17
   * Current version: 12,721 train, 1,311 dev, 1,643 test — total 15,675 sentences.
-  * Added X new sentences
   * Fixed validation issues:
     * L3 Syntax too-many-objects: Reanalyzed *light-verb constructions* (e.g., `이야기/계획/연습/추천/선택/치료/생각/극복/시작/경험 하다`) by changing the noun dependency relation from `obj` to `compound:lvc`.
     * L3 Warning obl-should-be-nmod: Corrected case-marked noun phrases functioning as nominal modifiers by changing the label from `obl` to `nmod`.
