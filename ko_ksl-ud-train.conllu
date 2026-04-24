@@ -154260,7 +154260,7 @@
 # sent_id = ARG-ENG_28_3_08
 # text = 협동할때 저 사람들 속에 너무 편해요.
 1	협동할때	협동+하+ㄹ+때	NOUN	NNG+XSV+ETM+NNG	_	6	advcl	_	_
-2	저	저	DET	NP	PronType=Prs	3	det	_	_
+2	저	저	DET	NP	PronType=Dem	3	det	_	_
 3	사람들	사람+들	NOUN	NNG+XSN	_	6	obl	_	_
 4	속에	속+에	ADP	NNG+JKB	_	3	case	_	_
 5	너무	너무	ADV	MAG	_	6	advmod	_	_
@@ -164195,7 +164195,7 @@
 
 # sent_id = KL-H_P_06_1_01
 # text = 제 2의 조기언어교육은 장점이 많다.
-1	제	제	DET	MM	PronType=Prs	2	nmod:poss	_	_
+1	제	제	PART	XPN	_	2	fixed	_	_
 2	2의	2+의	NOUN	SN+NNB	_	3	nmod:poss	_	_
 3	조기언어교육은	조기+언어+교육+은	NOUN	NNG+NNG+NNG+JX	_	5	dislocated	_	_
 4	장점이	장점+이	NOUN	NNG+JKS	_	5	nsubj	_	_
