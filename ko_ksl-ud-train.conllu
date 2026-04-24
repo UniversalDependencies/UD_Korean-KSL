@@ -164195,7 +164195,7 @@
 
 # sent_id = KL-H_P_06_1_01
 # text = 제 2의 조기언어교육은 장점이 많다.
-1	제	제	PART	XPN	_	2	fixed	_	_
+1	제	제	PART	XPN	_	2	dep	_	_
 2	2의	2+의	NOUN	SN+NNB	_	3	nmod:poss	_	_
 3	조기언어교육은	조기+언어+교육+은	NOUN	NNG+NNG+NNG+JX	_	5	dislocated	_	_
 4	장점이	장점+이	NOUN	NNG+JKS	_	5	nsubj	_	_
