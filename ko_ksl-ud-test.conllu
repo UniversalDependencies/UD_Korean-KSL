@@ -2294,7 +2294,7 @@
 
 # sent_id = KH-A100001-4-40
 # text = 저 친구는 왕친입니다.
-1	저	저	DET	MM	PronType=Dem	2	det	_	_
+1	저	저	DET	MM	PronType=Prs	2	det	_	_
 2	친구는	친구+는	NOUN	NNG+JX	_	3	nsubj	_	_
 3	왕친입니다	왕친+이+ㅂ니다	ADJ	NNP+VCP+EF	_	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	SF	_	3	punct	_	_
@@ -10885,7 +10885,7 @@
 
 # sent_id = KH-A100030-7-849
 # text = 저 친구하고 같이 말을 타고 싶습니다.
-1	저	저	DET	MM	PronType=Dem	2	det	_	_
+1	저	저	DET	MM	PronType=Prs	2	det	_	_
 2	친구하고	친구+하고	ADV	NNG+JKB	_	5	obl	_	_
 3	같이	같이	ADV	MAG	_	2	advmod	_	_
 4	말을	말+을	NOUN	NNG+JKO	_	5	obj	_	_
@@ -15115,7 +15115,7 @@
 # sent_id = KH-A100031-4-887
 # text = 우리가 저 술집에서 맥주를 마셨습니다.
 1	우리가	우리+가	PRON	NP+JKS	PronType=Prs	5	nsubj	_	_
-2	저	저	DET	MM	PronType=Dem	3	det	_	_
+2	저	저	DET	MM	PronType=Prs	3	det	_	_
 3	술집에서	술+집+에서	ADV	NNG+NNG+JKB	_	5	obl	_	_
 4	맥주를	맥주+를	NOUN	NNG+JKO	_	5	obj	_	_
 5	마셨습니다	마시+었+습니다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
@@ -19280,4 +19280,2462 @@
 10	나지	나+지	VERB	VV+EC	_	0	root	_	_
 11	않아요	않	AUX	VX+EF	_	10	aux	_	SpaceAfter=No
 12	.	.	PUNCT	SF	_	10	punct	_	_
+
+# sent_id = KL-H_P_17_2_14
+# text = 올바른 역사를 가르치는 것은 이런 포장된 진실들을 바로잡기 위해서에요.
+1	올바른	올바르+ㄴ	ADJ	VA+ETM	_	2	amod	_	_
+2	역사를	역사+를	NOUN	NNG+JKO	_	3	obj	_	_
+3	가르치는	가르치+는	VERB	VV+ETM	_	4	acl	_	_
+4	것은	것+은	NOUN	NNB+JX	_	9	nsubj	_	_
+5	이런	이런	DET	MM	PronType=Dem	7	det	_	_
+6	포장된	포장+되+ㄴ	VERB	NNG+XSV+ETM	_	7	acl	_	_
+7	진실들을	진실+들+을	NOUN	NNG+XSN+JKO	_	8	obj	_	_
+8	바로잡기	바로잡+기	VERB	VV+ETN	_	9	obj	_	_
+9	위해서에요	위하+아서+에요	VERB	VV+EC+EF	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = KL-H_T_10_1_06
+# text = 태어날 수 부터 5살까지 뇌는 개발되고 있어서 언어를 쉽게 배울 수 있다.
+1	태어날	태어나+ㄹ	VERB	VV+ETM	_	2	acl	_	_
+2	수	수	NOUN	NNB	_	6	obl	_	_
+3	부터	부터	ADP	JX	_	2	case	_	_
+4	5살까지	5+살+까지	NOUN	SN+NNB+JX	_	6	obl	_	_
+5	뇌는	뇌+는	NOUN	NNG+JX	_	6	nsubj	_	_
+6	개발되고	개발+되+고	VERB	NNG+XSV+EC	_	12	advcl	_	_
+7	있어서	있	AUX	VX+EC	_	6	aux	_	_
+8	언어를	언어+를	NOUN	NNG+JKO	_	10	obj	_	_
+9	쉽게	쉽+게	ADV	VA+EC	_	10	advmod	_	_
+10	배울	배우+ㄹ	VERB	VV+ETM	_	11	acl	_	_
+11	수	수	NOUN	NNB	_	12	nsubj	_	_
+12	있다	있	AUX	VX+EF	_	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	SF	_	12	punct	_	_
+
+# sent_id = ARG-ENG_09_1_05
+# text = 그래서 아이는 언어를 배우면 차연하게 말할수 있겠다.
+1	그래서	그래서	CCONJ	MAJ	_	7	cc	_	_
+2	아이는	아이+는	NOUN	NNG+JX	_	4	nsubj	_	_
+3	언어를	언어+를	NOUN	NNG+JKO	_	4	obj	_	_
+4	배우면	배우+면	VERB	VV+EC	_	7	advcl	_	_
+5	차연하게	차연+하+게	ADV	NF+XSA+EC	Typo=Yes	6	advmod	_	_
+6	말할수	말+하+ㄹ+수	NOUN	NNG+XSV+ETM+NNB	_	7	nsubj	_	_
+7	있겠다	있	AUX	VX+EP+EF	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = KL-H_P_21_1_07
+# text = 이러한 것처럼 일단 어느 한쪽을 정확히 구사할 수 있어야 다른 언어도 배우기 수월해진다.
+1	이러한	이러하+ㄴ	ADJ	VA+ETM	_	2	amod	_	_
+2	것처럼	것+처럼	ADV	NNB+JKB	_	9	obl	_	_
+3	일단	일단	ADV	MAG	_	9	advmod	_	_
+4	어느	어느	DET	MM	PronType=Dem	5	det	_	_
+5	한쪽을	한+쪽+을	NOUN	MM+NNG+JKO	_	7	obj	_	_
+6	정확히	정확히	ADV	MAG	_	7	advmod	_	_
+7	구사할	구사+하+ㄹ	VERB	NNG+XSV+ETM	_	8	acl	_	_
+8	수	수	NOUN	NNB	_	9	nsubj	_	_
+9	있어야	있	AUX	VX+EC	_	13	advcl	_	_
+10	다른	다르+ㄴ	ADJ	VA+ETM	_	11	amod	_	_
+11	언어도	언어+도	NOUN	NNG+JX	_	12	obj	_	_
+12	배우기	배우+기	VERB	VV+ETN	_	13	nsubj	_	_
+13	수월해진다	수월+하+아지+ㄴ다	VERB	XR+XSA+XSV+EF	_	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	SF	_	13	punct	_	_
+
+# sent_id = ARG-ENG_33_2_09
+# text = 주변에 있는 다른 문화를 이해하지 않으면 싸움과 오해를 많이 일어날수 있는데 서로의 역사를 이해하면 조금더 친절하게 이웃하고 잘 지낼수 있다.
+1	주변에	주변+에	ADV	NNG+JKB	_	2	obl	_	_
+2	있는	있+는	VERB	VV+ETM	_	4	acl	_	_
+3	다른	다르+ㄴ	ADJ	VA+ETM	_	4	amod	_	_
+4	문화를	문화+를	NOUN	NNG+JKO	_	5	obj	_	_
+5	이해하지	이해+하+지	VERB	NNG+XSV+EC	_	11	advcl	_	_
+6	않으면	않	AUX	VX+EC	_	5	aux	_	_
+7	싸움과	싸움+과	NOUN	NNG+JC	_	10	obj	_	_
+8	오해를	오해+를	NOUN	NNG+JKO	_	7	conj	_	_
+9	많이	많이	ADV	MAG	_	10	advmod	_	_
+10	일어날수	일어나+ㄹ+수	NOUN	VV+ETM+NNB	_	11	nsubj	_	_
+11	있는데	있	AUX	VX+EC	_	20	advcl	_	_
+12	서로의	서로+의	NOUN	NNG+JKG	_	13	nmod:poss	_	_
+13	역사를	역사+를	NOUN	NNG+JKO	_	14	obj	_	_
+14	이해하면	이해+하+면	VERB	NNG+XSV+EC	_	20	advcl	_	_
+15	조금더	조금+더	ADV	MAG+MAG	_	16	advmod	_	_
+16	친절하게	친절+하+게	ADV	NNG+XSA+EC	_	17	advmod	_	_
+17	이웃하고	이웃+하고	NOUN	NNG+JC	_	19	advcl	_	_
+18	잘	잘	ADV	MAG	_	19	advmod	_	_
+19	지낼수	지내+ㄹ+수	NOUN	VV+ETM+NNB	_	20	nsubj	_	_
+20	있다	있	AUX	VX+EF	_	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	SF	_	20	punct	_	_
+
+# sent_id = ARG-ENG_03_1_08
+# text = 하지만 다른 한편으로는 어린 나이부터 어떤 아이가 모국어를 완전히 습득하기 전에 조기교육을 시키면 혼란과 헷갈림을 겪게 될 수도 있다는 것이 문제가 될 수도 있다.
+1	하지만	하지만	CCONJ	MAJ	_	24	cc	_	_
+2	다른	다르+ㄴ	ADJ	VA+ETM	_	3	amod	_	_
+3	한편으로는	한편+으로+는	ADV	NNG+JKB+JX	_	24	obl	_	_
+4	어린	어리+ㄴ	ADJ	VA+ETM	_	5	amod	_	_
+5	나이부터	나이+부터	NOUN	NNG+JX	_	10	obl	_	_
+6	어떤	어떤	DET	MM	PronType=Dem	7	det	_	_
+7	아이가	아이+가	NOUN	NNG+JKS	_	10	nsubj	_	_
+8	모국어를	모국어+를	NOUN	NNG+JKO	_	10	obj	_	_
+9	완전히	완전히	ADV	MAG	_	10	advmod	_	_
+10	습득하기	습득+하+기	VERB	NNG+XSV+ETN	_	13	obl	_	_
+11	전에	전+에	ADP	NNG+JKB	_	10	case	_	_
+12	조기교육을	조기+교육+을	NOUN	NNG+NNG+JKO	_	13	obj	_	_
+13	시키면	시키+면	VERB	VV+EC	_	16	advcl	_	_
+14	혼란과	혼란+과	NOUN	NNG+JC	_	16	obj	_	_
+15	헷갈림을	헷갈리+ㅁ+을	VERB	VV+ETN+JKO	_	14	conj	_	_
+16	겪게	겪+게	VERB	VV+EC	_	18	acl	_	_
+17	될	되+ㄹ	VERB	VX+ETM	_	16	advcl	_	_
+18	수도	수+도	NOUN	NNB+JX	_	19	nsubj	_	_
+19	있다는	있	AUX	VX+ETM	_	20	acl	_	_
+20	것이	것+이	NOUN	NNB+JKS	_	22	dislocated	_	_
+21	문제가	문제+가	NOUN	NNG+JKC	_	22	nsubj	_	_
+22	될	되+ㄹ	VERB	VV+ETM	_	23	acl	_	_
+23	수도	수+도	NOUN	NNB+JX	_	24	nsubj	_	_
+24	있다	있	AUX	VX+EF	_	0	root	_	SpaceAfter=No
+25	.	.	PUNCT	SF	_	24	punct	_	_
+
+# sent_id = ARG-JPN_04_2_10
+# text = 엣날 사람이 어떤 생활을 하고 어떤 문학이나 그림을 만들까를 알 수 있다.
+1	엣날	엣날	NOUN	NF	Typo=Yes	2	nmod	_	_
+2	사람이	사람+이	NOUN	NNG+JKS	_	5	nsubj	_	_
+3	어떤	어떤	DET	MM	PronType=Dem	4	det	_	_
+4	생활을	생활+을	NOUN	NNG+JKO	_	5	obj	_	_
+5	하고	하+고	VERB	VV+EC	_	10	ccomp	_	_
+6	어떤	어떤	DET	MM	PronType=Dem	7	det	_	_
+7	문학이나	문학+이나	NOUN	NNG+JC	_	9	obj	_	_
+8	그림을	그림+을	NOUN	NNG+JKO	_	7	conj	_	_
+9	만들까를	만들+까+를	VERB	VV+EF+JKO	_	5	conj	_	_
+10	알	알+ㄹ	VERB	VV+ETM	_	11	acl	_	_
+11	수	수	NOUN	NNB	_	12	nsubj	_	_
+12	있다	있	AUX	VX+EF	_	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	SF	_	12	punct	_	_
+
+# sent_id = ARG-ENG_15_3_07
+# text = 우리는 다 사람이 새상에서 협동 있으면 그름 이 새상 더 좋네요.
+1	우리는	우리+는	PRON	NP+JX	PronType=Prs	6	dislocated	_	_
+2	다	다	ADV	MAG	_	6	advmod	_	_
+3	사람이	사람+이	NOUN	NNG+JKS	_	6	dislocated	_	_
+4	새상에서	새상+에서	ADV	NF+JKB	Typo=Yes	6	obl	_	_
+5	협동	협동	NOUN	NNG	_	6	nsubj	_	_
+6	있으면	있+으면	VERB	VV+EC	_	11	advcl	_	_
+7	그름	그름	ADV	NA	Typo=Yes	11	advmod	_	_
+8	이	이	DET	MM	PronType=Dem	9	det	_	_
+9	새상	새상	NOUN	NF	Typo=Yes	11	nsubj	_	_
+10	더	더	ADV	MAG	_	11	advmod	_	_
+11	좋네요	좋+네요	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	SF	_	11	punct	_	_
+
+# sent_id = ARG-JPN_19_2_12-1
+# text = 두 번째는 자신의 나라와 관계가 있었던 나라와 어떤 사건이나 싸움이 있었던지를 알 수 있기 때문이다.
+1	두	두	NUM	MM	_	2	nummod	_	_
+2	번째는	번째+는	NOUN	NNB+JX	_	15	nsubj	_	_
+3	자신의	자신+의	NOUN	NNG+JKG	_	4	nmod:poss	_	_
+4	나라와	나라+와	NOUN	NNG+JC	_	6	obl	_	_
+5	관계가	관계+가	NOUN	NNG+JKS	_	6	nsubj	_	_
+6	있었던	있+었+던	VERB	VV+EP+ETM	_	7	acl	_	_
+7	나라와	나라+와	NOUN	NNG+JC	_	11	obl	_	_
+8	어떤	어떤	DET	MM	PronType=Dem	9	det	_	_
+9	사건이나	사건+이나	NOUN	NNG+JC	_	11	nsubj	_	_
+10	싸움이	싸움+이	NOUN	NNG+JKS	_	9	conj	_	_
+11	있었던지를	있+었+던지+를	VERB	VV+EP+EF+ETM	_	12	ccomp	_	_
+12	알	알+ㄹ	VERB	VV+ETM	_	13	acl	_	_
+13	수	수	NOUN	NNB	_	14	nsubj	_	_
+14	있기	있	AUX	VX+ETN	_	15	nmod	_	_
+15	때문이다	때문+이+다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	SF	_	15	punct	_	_
+
+# sent_id = KL-H_T_15_2_09
+# text = 하지만 역사 굳이 안 배워도 됩니다.
+1	하지만	하지만	CCONJ	MAJ	_	5	cc	_	_
+2	역사	역사	NOUN	NNG	_	5	obj	_	_
+3	굳이	굳이	ADV	MAG	_	5	advmod	_	_
+4	안	안	ADV	MAG	_	5	advmod	_	_
+5	배워도	배우+어+도	VERB	VV+EC+JX	_	0	root	_	_
+6	됩니다	되+ㅂ니다	VERB	VX+EF	_	5	advcl	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = ARG-JPN_35_3_02
+# text = 이유는 제가 고민하고 있는 문제를 친구에게 말아면 같이 생각해주고 도와줬으니까 저도 친구가 힘들 때는 도와주고 싶다고 생각하기 때문입니다.
+1	이유는	이유+는	NOUN	NNG+JX	_	18	nsubj	_	_
+2	제가	제+가	PRON	NP+JKS	PronType=Prs	3	nsubj	_	_
+3	고민하고	고민+하+고	VERB	NNG+XSV+EC	_	5	acl	_	_
+4	있는	있	AUX	VX+ETM	_	3	aux	_	_
+5	문제를	문제+를	NOUN	NNG+JKO	_	7	obj	_	_
+6	친구에게	친구+에게	ADV	NNG+JKB	_	7	obl	_	_
+7	말아면	말아+면	VERB	VV+EC	_	9	advcl	_	_
+8	같이	같이	ADV	MAG	_	9	advmod	_	_
+9	생각해주고	생각+하+아+주+고	NOUN	NNG+XSV+EC+VX+EC	_	18	advcl	_	_
+10	도와줬으니까	도와주+었+으니까	VERB	VV+EP+EC	_	9	advcl	_	_
+11	저도	저+도	PRON	NP+JX	PronType=Prs	17	nsubj	_	_
+12	친구가	친구+가	NOUN	NNG+JKS	_	13	nsubj	_	_
+13	힘들	힘들+ㄹ	ADJ	VA+ETM	_	15	advcl	_	_
+14	때는	때+는	SCONJ	NNG+JX	_	13	mark	_	_
+15	도와주고	도와주+고	VERB	VV+EC	_	17	ccomp	_	_
+16	싶다고	싶	AUX	VX+EC	_	15	aux	_	_
+17	생각하기	생각+하+기	VERB	NNG+XSV+ETN	_	18	nmod	_	_
+18	때문입니다	때문+이+ㅂ니다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	SF	_	18	punct	_	_
+
+# sent_id = ARG-JPN_24_1_03
+# text = 하지만 이런 조기 언어교육의 단점으로서 모국어와의 규형이다.
+1	하지만	하지만	CCONJ	MAJ	_	7	cc	_	_
+2	이런	이런	DET	MM	PronType=Dem	4	det	_	_
+3	조기	조기	NOUN	NNG	_	4	nmod	_	_
+4	언어교육의	언어+교육+의	NOUN	NNG+NNG+JKG	_	5	nmod:poss	_	_
+5	단점으로서	단점+으로서	ADV	NNG+JKB	_	7	obl	_	_
+6	모국어와의	모국어+와+의	NOUN	NNG+NNG+JKG	_	7	nmod:poss	_	_
+7	규형이다	규형+이+다	ADJ	NNG+VCP+EF	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = ARG-JPN_40_1_09
+# text = 다음으로 단점은 다음과 같다.
+1	다음으로	다음+으로	ADV	NNG+JKB	_	4	obl	_	_
+2	단점은	단점+은	NOUN	NNG+JX	_	4	nsubj	_	_
+3	다음과	다음+과	ADV	NNG+JKB	_	4	obl	_	_
+4	같다	같+다	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	SF	_	4	punct	_	_
+
+# sent_id = ARG-JPN_01_3_02
+# text = 협동은 개인이 혼자 할 수 없는 일을 가능하게 만든다.
+1	협동은	협동+은	NOUN	NNG+JX	_	9	nsubj	_	_
+2	개인이	개인+이	NOUN	NNG+JKS	_	4	nsubj	_	_
+3	혼자	혼자	ADV	NNG	_	4	advmod	_	_
+4	할	하+ㄹ	VERB	VV+ETM	_	5	acl	_	_
+5	수	수	NOUN	NNB	_	6	nsubj	_	_
+6	없는	없+는	VERB	VX+ETM	_	7	acl	_	_
+7	일을	일+을	NOUN	NNG+JKO	_	9	obj	_	_
+8	가능하게	가능+하+게	ADV	NNG+XSA+EC	_	9	advmod	_	_
+9	만든다	만들+ㄴ다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = ARG-JPN_39_3_01
+# text = 나는 협동과 경쟁 중에서는 협동을 더 선호한다.
+1	나는	나+는	PRON	NP+JX	PronType=Prs	7	nsubj	_	_
+2	협동과	협동+과	NOUN	NNG+JC	_	7	obl	_	_
+3	경쟁	경쟁	NOUN	NNG	_	2	conj	_	_
+4	중에서는	중+에서+는	ADP	NNB+JKB+JX	_	3	case	_	_
+5	협동을	협동+을	NOUN	NNG+JKO	_	7	obj	_	_
+6	더	더	ADV	MAG	_	7	advmod	_	_
+7	선호한다	선호+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = ARG-JPN_08_2_06
+# text = 역사 알았으면 역사적 건물이나 옷을 보고 감동할수있는다.
+1	역사	역사	NOUN	NNG	_	2	obj	_	_
+2	알았으면	알+았+으면	VERB	VV+EP+EC	_	7	advcl	_	_
+3	역사적	역사+적	NOUN	NNG+XSN	_	4	nmod	_	_
+4	건물이나	건물+이나	NOUN	NNG+JC	_	6	obj	_	_
+5	옷을	옷+을	NOUN	NNG+JKO	_	4	conj	_	_
+6	보고	보+고	VERB	VV+EC	_	7	advcl	_	_
+7	감동할수있는다	감동+하+ㄹ+수+있+는다	NOUN	NNG+XSV+ETM+NNB+VX+EF	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = ARG-JPN_19_2_08
+# text = 그리고 세계사를 배워야 하는이유도 두가지 있다.
+1	그리고	그리고	CCONJ	MAJ	_	6	cc	_	_
+2	세계사를	세계사+를	NOUN	NNG+JKO	_	3	obj	_	_
+3	배워야	배우+어야	VERB	VV+EC	_	4	acl	_	_
+4	하는이유도	하	AUX	VX+ETM+NNG+JX	_	6	dislocated	_	_
+5	두가지	두+가지	NOUN	MM+NNB	_	6	nsubj	_	_
+6	있다	있+다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = KL-H_P_09_2_07
+# text = 벌써 stamina가 떨어지고 있어요 ㅎㅎ) 저는 요즘 가족 역사에 대해 배우는 욕심이 좀 생겼어요.
+1	벌써	벌써	ADV	MAG	_	3	advmod	_	_
+2	stamina가	stamina+가	NOUN	SL+JKS	_	3	nsubj	_	_
+3	떨어지고	떨어지+고	VERB	VV+EC	_	14	advcl	_	_
+4	있어요	있	AUX	VX+EF	_	3	aux	_	_
+5	ㅎㅎ)	ㅎㅎ+)	ADV	NA+SS	Typo=Yes	14	advmod	_	_
+6	저는	저+는	PRON	NP+JX	PronType=Prs	14	dislocated	_	_
+7	요즘	요즘	ADV	NNG	_	14	advmod	_	_
+8	가족	가족	NOUN	NNG	_	9	nmod	_	_
+9	역사에	역사+에	ADV	NNG+JKB	_	10	obl	_	_
+10	대해	대하+아	VERB	VV+EC	_	11	advcl	_	_
+11	배우는	배우+는	VERB	VV+ETM	_	12	acl	_	_
+12	욕심이	욕심+이	NOUN	NNG+JKS	_	14	nsubj	_	_
+13	좀	좀	ADV	MAG	_	14	advmod	_	_
+14	생겼어요	생기+었+어요	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	SF	_	14	punct	_	_
+
+# sent_id = ARG-ENG_06_1_09
+# text = 어릴때 애들 언어 위해서 배고파요.
+1	어릴때	어리+ㄹ+때	NOUN	VA+ETM+NNG	_	5	advcl	_	_
+2	애들	애+들	NOUN	NNG+XSN	_	3	nmod	_	_
+3	언어	언어	NOUN	NNG	_	4	obj	_	_
+4	위해서	위하+아서	VERB	VV+EC	_	5	advcl	_	_
+5	배고파요	배고프+아요	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = ARG-ENG_18_1_01
+# text = 언어 배우기과 가르치기는 너무 복잡한 주제인다.
+1	언어	언어	NOUN	NNG	_	2	obj	_	_
+2	배우기과	배우+기+과	VERB	VV+ETN+JKB	_	6	nsubj	_	_
+3	가르치기는	가르치+기+는	VERB	VV+ETN+JX	_	2	conj	_	_
+4	너무	너무	ADV	MAG	_	5	advmod	_	_
+5	복잡한	복잡+하+ㄴ	ADJ	XR+XSA+ETM	_	6	amod	_	_
+6	주제인다	주제+이+ㄴ다	ADJ	NNG+VCP+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = ARG-JPN_13_2_06
+# text = 두번째는 어떤 사건이 있었을 때 그 사건을 어떻게 해결했는지 알 수 있다는 점입니다.
+1	두번째는	두+번째+는	NOUN	MM+NNB+JX	_	13	obl	_	_
+2	어떤	어떤	DET	MM	PronType=Dem	3	det	_	_
+3	사건이	사건+이	NOUN	NNG+JKS	_	4	nsubj	_	_
+4	있었을	있+었+을	VERB	VV+EP+ETM	_	9	advcl	_	_
+5	때	때	SCONJ	NNG	_	4	mark	_	_
+6	그	그	DET	MM	PronType=Dem	7	det	_	_
+7	사건을	사건+을	NOUN	NNG+JKO	_	9	obj	_	_
+8	어떻게	어떻+게	ADV	VA+EC	_	9	advmod	_	_
+9	해결했는지	해결+하+았+는지	VERB	NNG+XSV+EP+EC	_	10	ccomp	_	_
+10	알	알+ㄹ	VERB	VV+ETM	_	11	acl	_	_
+11	수	수	NOUN	NNB	_	12	nsubj	_	_
+12	있다는	있	AUX	VX+ETM	_	13	acl	_	_
+13	점입니다	점+이+ㅂ니다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	SF	_	13	punct	_	_
+
+# sent_id = ARG-ENG_04_2_01
+# text = 역사를 배우는 게 아주 중요하다.
+1	역사를	역사+를	NOUN	NNG+JKO	_	2	obj	_	_
+2	배우는	배우+는	VERB	VV+ETM	_	3	acl	_	_
+3	게	것+이	NOUN	NNB+JKS	_	5	nsubj	_	_
+4	아주	아주	ADV	MAG	_	5	advmod	_	_
+5	중요하다	중요+하+다	ADJ	NNG+XSA+EF	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = ARG-JPN_13_1_18
+# text = 마지막으로 비용적으로 힘든 점이 있다는 것이다.
+1	마지막으로	마지막+으로	ADV	NNG+JKB	_	6	obl	_	_
+2	비용적으로	비용+적+으로	ADV	NNG+XSN+JKB	_	5	obl	_	_
+3	힘든	힘들+ㄴ	ADJ	VA+ETM	_	4	acl	_	_
+4	점이	점+이	NOUN	NNB+JKS	_	5	nsubj	_	_
+5	있다는	있+다는	VERB	VV+ETM	_	6	acl	_	_
+6	것이다	것+이+다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = ARG-JPN_36_1_05
+# text = 두 번째는 어릴 때부터 외국어를 공부하면 그 언어의 나라에 관심을 가지고나 다른 나라의 사람들과 교류도 할 수 있어서 넓은 세상에서 넓은 시야를 가질 수 있는 것이다.
+1	두	두	NUM	MM	_	2	nummod	_	_
+2	번째는	번째+는	NOUN	NNB+JX	_	26	obl	_	_
+3	어릴	어리+ㄹ	ADJ	VA+ETM	_	6	advcl	_	_
+4	때부터	때+부터	SCONJ	NNG+JX	_	3	mark	_	_
+5	외국어를	외국어+를	NOUN	NNG+JKO	_	6	obj	_	_
+6	공부하면	공부+하+면	VERB	NNG+XSV+EC	_	18	advcl	_	_
+7	그	그	DET	MM	PronType=Dem	8	det	_	_
+8	언어의	언어+의	NOUN	NNG+JKG	_	9	nmod:poss	_	_
+9	나라에	나라+에	ADV	NNG+JKB	_	11	obl	_	_
+10	관심을	관심+을	NOUN	NNG+JKO	_	11	obj	_	_
+11	가지고나	가지+고나	VERB	VV+NA	Typo=Yes	18	advcl	_	_
+12	다른	다르+ㄴ	ADJ	VA+ETM	_	13	amod	_	_
+13	나라의	나라+의	NOUN	NNG+JKG	_	14	nmod:poss	_	_
+14	사람들과	사람+들+과	ADV	NNG+XSN+JKB	_	16	obl	_	_
+15	교류도	교류+도	NOUN	NNG+JX	_	16	obj	_	_
+16	할	하+ㄹ	VERB	VV+ETM	_	17	acl	_	_
+17	수	수	NOUN	NNB	_	18	nsubj	_	_
+18	있어서	있	AUX	VX+EC	_	26	advcl	_	_
+19	넓은	넓+은	ADJ	VA+ETM	_	20	amod	_	_
+20	세상에서	세상+에서	ADV	NNG+JKB	_	23	obl	_	_
+21	넓은	넓+은	ADJ	VA+ETM	_	22	amod	_	_
+22	시야를	시야+를	NOUN	NNG+JKO	_	23	obj	_	_
+23	가질	가지+ㄹ	VERB	VV+ETM	_	24	acl	_	_
+24	수	수	NOUN	NNB	_	25	nsubj	_	_
+25	있는	있	AUX	VX+ETM	_	26	acl	_	_
+26	것이다	것+이+다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+27	.	.	PUNCT	SF	_	26	punct	_	_
+
+# sent_id = ARG-ENG_13_2_01
+# text = 어렸을 때 우리 선생님 이 말을 했습니다.
+1	어렸을	어리+었+을	ADJ	VA+EP+ETM	_	7	advcl	_	_
+2	때	때	SCONJ	NNG	_	1	mark	_	_
+3	우리	우리	PRON	NP	PronType=Prs	4	nmod	_	_
+4	선생님	선생+님	NOUN	NNG+XSN	_	7	nsubj	_	_
+5	이	이	DET	MM	PronType=Dem	6	det	_	_
+6	말을	말+을	NOUN	NNG+JKO	_	7	obj	_	_
+7	했습니다	하+았+습니다	VERB	VV+EP+EF	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = ARG-ENG_37_1_08
+# text = 하지만 어렸을때 부터 새로운 언어를 배운것은 단점들도 있다.
+1	하지만	하지만	CCONJ	MAJ	_	8	cc	_	_
+2	어렸을때	어리+었+을+때	ADJ	VA+EP+ETM+NNG	_	6	advcl	_	_
+3	부터	부터	ADP	JX	_	2	case	_	_
+4	새로운	새롭+ㄴ	ADJ	VA+ETM	_	5	amod	_	_
+5	언어를	언어+를	NOUN	NNG+JKO	_	6	obj	_	_
+6	배운것은	배우+ㄴ+것+은	NOUN	VV+ETM+NNB+JX	_	8	dislocated	_	_
+7	단점들도	단점+들+도	NOUN	NNG+XSN+JX	_	8	nsubj	_	_
+8	있다	있+다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = KL-H_T_08_3_08
+# text = 제 남편은 경쟁을 즐기고 좋아합니다.
+1	제	저+의	PRON	NP+JKG	PronType=Prs	2	nmod:poss	_	_
+2	남편은	남편+은	NOUN	NNG+JX	_	5	nsubj	_	_
+3	경쟁을	경쟁+을	NOUN	NNG+JKO	_	4	obj	_	_
+4	즐기고	즐기+고	VERB	VV+EC	_	5	advcl	_	_
+5	좋아합니다	좋아하+ㅂ니다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = ARG-ENG_40_1_08
+# text = 반면에 아이들이 더 일찍 언어를 배우는 건 부담이 더 일찍 받다는 것이다.
+1	반면에	반면+에	ADV	NNG+JKB	_	12	obl	_	_
+2	아이들이	아이+들+이	NOUN	NNG+XSN+JKS	_	6	nsubj	_	_
+3	더	더	ADV	MAG	_	4	advmod	_	_
+4	일찍	일찍	ADV	MAG	_	6	advmod	_	_
+5	언어를	언어+를	NOUN	NNG+JKO	_	6	obj	_	_
+6	배우는	배우+는	VERB	VV+ETM	_	7	acl	_	_
+7	건	거+ㄴ	NOUN	NNB+JX	_	12	nsubj	_	_
+8	부담이	부담+이	NOUN	NNG+JKS	_	11	nsubj	_	_
+9	더	더	ADV	MAG	_	10	advmod	_	_
+10	일찍	일찍	ADV	MAG	_	11	advmod	_	_
+11	받다는	받+다는	VERB	VV+ETM	_	12	acl	_	_
+12	것이다	것+이+다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	SF	_	12	punct	_	_
+
+# sent_id = KL-H_T_15_2_02
+# text = 역사는 우리의 인생에만 영향을 주는 것 아니고 전세계에 모든 사람들의 인생에 영향을 끼칩니다.
+1	역사는	역사+는	NOUN	NNG+JX	_	13	dislocated	_	_
+2	우리의	우리+의	PRON	NP+JKG	PronType=Prs	3	nmod:poss	_	_
+3	인생에만	인생+에+만	ADV	NNG+JKB+JX	_	5	obl	_	_
+4	영향을	영향+을	NOUN	NNG+JKO	_	5	obj	_	_
+5	주는	주+는	VERB	VV+ETM	_	6	acl	_	_
+6	것	것	NOUN	NNB	_	7	nsubj	_	_
+7	아니고	아니+고	ADJ	VCN+EC	_	0	root	_	_
+8	전세계에	전+세계+에	ADV	XPN+NNG+JKB	_	13	obl	_	_
+9	모든	모든	DET	MM	PronType=Dem	10	det	_	_
+10	사람들의	사람+들+의	NOUN	NNG+XSN+JKG	_	11	nmod:poss	_	_
+11	인생에	인생+에	ADV	NNG+JKB	_	13	obl	_	_
+12	영향을	영향+을	NOUN	NNG+JKO	_	13	obj	_	_
+13	끼칩니다	끼치+ㅂ니다	VERB	VV+EF	_	7	conj	_	SpaceAfter=No
+14	.	.	PUNCT	SF	_	13	punct	_	_
+
+# sent_id = ARG-JPN_07_1_09
+# text = 모국어의 지식과 운영능력이 충분하지 않은 어린 시기에 외국어 교육을 시키면 언어두개가 헷갈리고 둘 다 원어민 수준으로 대득하지 못 할 수도 있다.
+1	모국어의	모국어+의	NOUN	NNG+JKG	_	2	nmod:poss	_	_
+2	지식과	지식+과	NOUN	NNG+JC	_	4	nsubj	_	_
+3	운영능력이	운영+능력+이	NOUN	NNG+NNG+JKS	_	2	conj	_	_
+4	충분하지	충분+하+지	ADJ	NNG+XSA+EC	_	7	acl	_	_
+5	않은	않	AUX	VX+ETM	_	4	aux	_	_
+6	어린	어리+ㄴ	ADJ	VA+ETM	_	7	amod	_	_
+7	시기에	시기+에	ADV	NNG+JKB	_	10	obl	_	_
+8	외국어	외국어	NOUN	NNG	_	9	nmod	_	_
+9	교육을	교육+을	NOUN	NNG+JKO	_	10	obj	_	_
+10	시키면	시키+면	VERB	VV+EC	_	21	advcl	_	_
+11	언어두개가	언어+두+개+가	NOUN	NNG+MM+NNB+JKS	_	12	nsubj	_	_
+12	헷갈리고	헷갈리+고	VERB	VV+EC	_	21	advcl	_	_
+13	둘	둘	NUM	NR	_	17	nsubj	_	_
+14	다	다	ADV	MAG	_	17	advmod	_	_
+15	원어민	원어민	NOUN	NNG	_	16	nmod	_	_
+16	수준으로	수준+으로	ADV	NNG+JKB	_	17	obl	_	_
+17	대득하지	대득+하+지	VERB	NF+XSV+EC	Typo=Yes	19	acl	_	_
+18	못	못	ADV	MAG	_	17	advmod	_	_
+19	할	하+ㄹ	VERB	VV+ETM	_	20	acl	_	_
+20	수도	수+도	NOUN	NNB+JX	_	21	nsubj	_	_
+21	있다	있	AUX	VX+EF	_	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	SF	_	21	punct	_	_
+
+# sent_id = ARG-JPN_23_1_08
+# text = 자신의 미래를 더 좋은 쪽으로 이끌어줄 수 있는 가능성이 있다는 장점과 너무 조기교육이면 모국어도 말할 수 없게 되는 가능성도 있다는 단점이 공종한다 생각했다.
+1	자신의	자신+의	NOUN	NNG+JKG	_	2	nmod:poss	_	_
+2	미래를	미래+를	NOUN	NNG+JKO	_	6	obj	_	_
+3	더	더	ADV	MAG	_	4	advmod	_	_
+4	좋은	좋+은	ADJ	VA+ETM	_	5	amod	_	_
+5	쪽으로	쪽+으로	ADV	NNG+JKB	_	6	obl	_	_
+6	이끌어줄	이끌+어+주+ㄹ	VERB	VV+EC+VX+ETM	_	7	acl	_	_
+7	수	수	NOUN	NNB	_	8	nsubj	_	_
+8	있는	있	AUX	VX+ETM	_	9	acl	_	_
+9	가능성이	가능+성+이	NOUN	NNG+XSN+JKS	_	10	nsubj	_	_
+10	있다는	있+다는	VERB	VV+ETM	_	11	acl	_	_
+11	장점과	장점+과	NOUN	NNG+JC	_	22	nsubj	_	_
+12	너무	너무	ADV	MAG	_	13	advmod	_	_
+13	조기교육이면	조기+교육+이+면	ADJ	NNG+NNG+VCP+EC	_	17	advcl	_	_
+14	모국어도	모국어+도	NOUN	NNG+JX	_	15	obj	_	_
+15	말할	말+하+ㄹ	VERB	NNG+XSV+ETM	_	16	acl	_	_
+16	수	수	NOUN	NNB	_	17	nsubj	_	_
+17	없게	없+게	ADJ	VA+EC	_	19	acl	_	_
+18	되는	되+는	VERB	VX+ETM	_	17	advcl	_	_
+19	가능성도	가능성+도	NOUN	NNG+JX	_	20	nsubj	_	_
+20	있다는	있+다는	VERB	VV+ETM	_	21	acl	_	_
+21	단점이	단점+이	NOUN	NNG+JKS	_	11	conj	_	_
+22	공종한다	공종+하+ㄴ다	VERB	NF+XSV+EC	Typo=Yes	23	ccomp	_	_
+23	생각했다	생각+하+았+다	VERB	NNG+XSV+EP+EF	_	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	SF	_	23	punct	_	_
+
+# sent_id = ARG-JPN_18_3_06
+# text = 제가 대학에서 복사를 배우고있으니까 개성을 중요하게 생각하는 편입니다.
+1	제가	제+가	PRON	NP+JKS	PronType=Prs	4	nsubj	_	_
+2	대학에서	대학+에서	ADV	NNG+JKB	_	4	obl	_	_
+3	복사를	복사+를	NOUN	NNG+JKO	_	4	obj	_	_
+4	배우고있으니까	배우+고+있+으니까	VERB	VV+EC+VX+EC	_	8	advcl	_	_
+5	개성을	개성+을	NOUN	NNG+JKO	_	7	obj	_	_
+6	중요하게	중요+하+게	ADV	NNG+XSA+EC	_	7	advmod	_	_
+7	생각하는	생각+하+는	VERB	NNG+XSV+ETM	_	8	acl	_	_
+8	편입니다	편+이+ㅂ니다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = KL-H_P_23_3_05
+# text = 트키 저는 칭창을 받는거가 조와요.
+1	트키	트키	ADV	NA	Typo=Yes	5	advmod	_	_
+2	저는	저+는	PRON	NP+JX	PronType=Prs	4	nsubj	_	_
+3	칭창을	칭창+을	NOUN	NF+JKO	Typo=Yes	4	obj	_	_
+4	받는거가	받+는+거+가	VERB	VV+ETM+NNB+JKS	_	5	nsubj	_	_
+5	조와요	조오+아요	VERB	NV+EF	Typo=Yes	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = ARG-ENG_32_1_12
+# text = 조기언어교육은 장단점 있지만 경우마다 달르다.
+1	조기언어교육은	조기+언어+교육+은	NOUN	NNG+NNG+NNG+JX	_	3	dislocated	_	_
+2	장단점	장단점	NOUN	NNG	_	3	nsubj	_	_
+3	있지만	있+지만	VERB	VV+EC	_	5	advcl	_	_
+4	경우마다	경우+마다	NOUN	NNG+JX	_	5	obl	_	_
+5	달르다	달르+다	VERB	NV+EF	Typo=Yes	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = ARG-JPN_07_3_08
+# text = 그것은 힘들고 스트레스가 쌓인다.
+1	그것은	그것+은	PRON	NP+JX	PronType=Prs	2	nsubj	_	_
+2	힘들고	힘들+고	ADJ	VA+EC	_	0	root	_	_
+3	스트레스가	스트레스+가	NOUN	NNG+JKS	_	4	nsubj	_	_
+4	쌓인다	쌓이+ㄴ다	VERB	VV+EF	_	2	conj	_	SpaceAfter=No
+5	.	.	PUNCT	SF	_	2	punct	_	_
+
+# sent_id = ARG-JPN_04_3_08
+# text = 더 팀와크도 생기다 이상 기술한 때문에 나는 협동을 더 좋아한다.
+1	더	더	ADV	MAG	_	3	advmod	_	_
+2	팀와크도	팀와크+도	NOUN	NF+JX	Typo=Yes	3	nsubj	_	_
+3	생기다	생기+다	VERB	VV+EC	_	5	advcl	_	_
+4	이상	이상	NOUN	NNG	_	5	obj	_	_
+5	기술한	기술+하+ㄴ	VERB	NNG+XSV+ETM	_	10	obl	_	_
+6	때문에	때문+에	ADP	NNB+JKB	_	5	case	_	_
+7	나는	나+는	PRON	NP+JX	PronType=Prs	10	nsubj	_	_
+8	협동을	협동+을	NOUN	NNG+JKO	_	10	obj	_	_
+9	더	더	ADV	MAG	_	10	advmod	_	_
+10	좋아한다	좋아하+ㄴ다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	10	punct	_	_
+
+# sent_id = ARG-JPN_32_1_06
+# text = 어른이 되고 공부하기보다 어릴 때 교육을 하는 것이 더 빨리 잘 할 수 있고 배운 언어의 기억 읽지 않고 오래 오래 할 수 있는 것 같습니다.
+1	어른이	어른+이	NOUN	NNG+JKC	_	2	nsubj	_	_
+2	되고	되+고	VERB	VV+EC	_	3	advcl	_	_
+3	공부하기보다	공부+하+기+보다	VERB	NNG+XSV+ETN+JKB	_	7	obl	_	_
+4	어릴	어리+ㄹ	ADJ	VA+ETM	_	7	advcl	_	_
+5	때	때	SCONJ	NNG	_	4	mark	_	_
+6	교육을	교육+을	NOUN	NNG+JKO	_	7	obj	_	_
+7	하는	하+는	VERB	VV+ETM	_	8	acl	_	_
+8	것이	것+이	NOUN	NNB+JKS	_	12	nsubj	_	_
+9	더	더	ADV	MAG	_	10	advmod	_	_
+10	빨리	빨리	ADV	MAG	_	12	advmod	_	_
+11	잘	잘	ADV	MAG	_	12	advmod	_	_
+12	할	하+ㄹ	VERB	VV+ETM	_	13	acl	_	_
+13	수	수	NOUN	NNB	_	14	nsubj	_	_
+14	있고	있	AUX	VX+EC	_	26	advcl	_	_
+15	배운	배우+ㄴ	VERB	VV+ETM	_	16	acl	_	_
+16	언어의	언어+의	NOUN	NNG+JKG	_	17	nmod:poss	_	_
+17	기억	기억	NOUN	NNG	_	18	obj	_	_
+18	읽지	읽+지	VERB	VV+EC	_	14	conj	_	_
+19	않고	않	AUX	VX+EC	_	18	aux	_	_
+20	오래	오래	ADV	MAG	_	22	advmod	_	_
+21	오래	오래	ADV	MAG	_	22	advmod	_	_
+22	할	하+ㄹ	VERB	VV+ETM	_	23	acl	_	_
+23	수	수	NOUN	NNB	_	24	nsubj	_	_
+24	있는	있	AUX	VX+ETM	_	25	acl	_	_
+25	것	것	NOUN	NNB	_	26	nsubj	_	_
+26	같습니다	같+습니다	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+27	.	.	PUNCT	SF	_	26	punct	_	_
+
+# sent_id = ARG-ENG_14_3_07
+# text = 협동은 더 재미있어요.
+1	협동은	협동+은	NOUN	NNG+JX	_	3	nsubj	_	_
+2	더	더	ADV	MAG	_	3	advmod	_	_
+3	재미있어요	재미+있+어요	ADJ	NNG+VA+EF	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	SF	_	3	punct	_	_
+
+# sent_id = ARG-JPN_26_3_19
+# text = 너무 책인감이 생겨서.
+1	너무	너무	ADV	MAG	_	3	advmod	_	_
+2	책인감이	책인+감+이	NOUN	NF+XSN+JKS	Typo=Yes	3	nsubj	_	_
+3	생겨서	생기+어서	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	SF	_	3	punct	_	_
+
+# sent_id = ARG-ENG_10_2_04
+# text = 역사를 잘 배우면 이상한 아이디어나 이상한 이야기를 쉽게 믿지 않을 것이다.
+1	역사를	역사+를	NOUN	NNG+JKO	_	3	obj	_	_
+2	잘	잘	ADV	MAG	_	3	advmod	_	_
+3	배우면	배우+면	VERB	VV+EC	_	11	advcl	_	_
+4	이상한	이상+하+ㄴ	ADJ	NNG+XSA+ETM	_	5	amod	_	_
+5	아이디어나	아이디어+나	NOUN	NNG+JC	_	9	obj	_	_
+6	이상한	이상+하+ㄴ	ADJ	NNG+XSA+ETM	_	7	amod	_	_
+7	이야기를	이야기+를	NOUN	NNG+JKO	_	5	conj	_	_
+8	쉽게	쉽+게	ADV	VA+EC	_	9	advmod	_	_
+9	믿지	믿+지	VERB	VV+EC	_	11	acl	_	_
+10	않을	않	AUX	VX+ETM	_	9	aux	_	_
+11	것이다	것+이+다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	SF	_	11	punct	_	_
+
+# sent_id = ARG-JPN_09_2_04
+# text = 한 사람이 살수 있는 시간은 너무 짧아 인생에서 중요한 것들을 혼자서 다 알 수는 없다.
+1	한	한	NUM	MM	_	2	nummod	_	_
+2	사람이	사람+이	NOUN	NNG+JKS	_	3	nsubj	_	_
+3	살수	살+ㄹ+수	NOUN	VV+ETM+NNB	_	4	nsubj	_	_
+4	있는	있	AUX	VX+ETM	_	5	acl	_	_
+5	시간은	시간+은	NOUN	NNG+JX	_	7	nsubj	_	_
+6	너무	너무	ADV	MAG	_	7	advmod	_	_
+7	짧아	짧+아	ADJ	VA+EC	_	15	advcl	_	_
+8	인생에서	인생+에서	ADV	NNG+JKB	_	13	obl	_	_
+9	중요한	중요+하+ㄴ	ADJ	NNG+XSA+ETM	_	10	amod	_	_
+10	것들을	것+들+을	NOUN	NNG+XSN+JKO	_	13	obj	_	_
+11	혼자서	혼자+서	NOUN	NNG+JKS	_	13	nsubj	_	_
+12	다	다	ADV	MAG	_	13	advmod	_	_
+13	알	알+ㄹ	VERB	VV+ETM	_	14	acl	_	_
+14	수는	수+는	NOUN	NNB+JX	_	15	nsubj	_	_
+15	없다	없+다	VERB	VX+EF	_	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	SF	_	15	punct	_	_
+
+# sent_id = ARG-JPN_37_1_05
+# text = 제 어머니는 한국어를 10년정도 배우려고 노력하고 계시고 매일매일 한국드라마를 보시지만 아직까지 듣기는 가능하나 길게 말하는 것은 어려워합니다.
+1	제	저+의	PRON	NP+JKG	PronType=Prs	2	nmod:poss	_	_
+2	어머니는	어머니+는	NOUN	NNG+JX	_	17	nsubj	_	_
+3	한국어를	한국어+를	NOUN	NNG+JKO	_	5	obj	_	_
+4	10년정도	10+년+정도	NOUN	SN+NNB+NNB	_	5	obl	_	_
+5	배우려고	배우+려고	VERB	VV+EC	_	6	advcl	_	_
+6	노력하고	노력+하+고	VERB	NNG+XSV+EC	_	17	advcl	_	_
+7	계시고	계시+고	VERB	VX+EC	_	6	advcl	_	_
+8	매일매일	매일+매일	ADV	MAG+MAG	_	10	advmod	_	_
+9	한국드라마를	한국+드라마+를	NOUN	NNP+NNG+JKO	_	10	obj	_	_
+10	보시지만	보+시+지만	VERB	VV+EP+EC	_	17	advcl	_	_
+11	아직까지	아직+까지	ADV	NNG+JX	_	12	advmod	_	_
+12	듣기는	듣+기+는	VERB	VV+ETN+JX	_	13	nsubj	_	_
+13	가능하나	가능+하+나	ADJ	NNG+XSA+EC	_	17	advcl	_	_
+14	길게	길+게	ADV	VA+EC	_	15	advmod	_	_
+15	말하는	말+하+는	VERB	NNG+XSV+ETM	_	16	acl	_	_
+16	것은	것+은	NOUN	NNB+JX	_	17	obj	_	_
+17	어려워합니다	어렵+어+하+ㅂ니다	ADJ	VA+EC+VX+EF	_	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	SF	_	17	punct	_	_
+
+# sent_id = KL-H_P_18_2_06
+# text = 그 나라가 내가 현재 살고 있는 나라가 아니라 해로 역사를 배움을 통해서 이해하기가 더 쉬워집니다.
+1	그	그	DET	MM	PronType=Dem	2	det	_	_
+2	나라가	나라+가	NOUN	NNG+JKS	_	15	dislocated	_	_
+3	내가	내+가	PRON	NP+JKS	PronType=Prs	5	nsubj	_	_
+4	현재	현재	ADV	MAG	_	5	advmod	_	_
+5	살고	살+고	VERB	VV+EC	_	7	acl	_	_
+6	있는	있	AUX	VX+ETM	_	5	aux	_	_
+7	나라가	나라+가	NOUN	NNG+JKC	_	8	nsubj	_	_
+8	아니라	아니+라	ADJ	VCN+EC	_	15	advcl	_	_
+9	해로	해+로	ADV	NNG+JKB	_	12	obl	_	_
+10	역사를	역사+를	NOUN	NNG+JKO	_	11	obj	_	_
+11	배움을	배우+ㅁ+을	VERB	VV+ETN+JKO	_	12	obj	_	_
+12	통해서	통하+아서	VERB	VV+EC	_	15	advcl	_	_
+13	이해하기가	이해+하+기+가	VERB	NNG+XSV+ETN+JKS	_	15	nsubj	_	_
+14	더	더	ADV	MAG	_	15	advmod	_	_
+15	쉬워집니다	쉽+어지+ㅂ니다	ADJ	VA+XSV+EF	_	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	SF	_	15	punct	_	_
+
+# sent_id = ARG-JPN_39_1_09
+# text = 외국어 교육을 받은 나이에 따라 다르지만 아직 모국어도 완벽하지 않은 상태로 외국어를 배우면 2개국 언어에서 햇갈리게 된다.
+1	외국어	외국어	NOUN	NNG	_	2	nmod	_	_
+2	교육을	교육+을	NOUN	NNG+JKO	_	3	obj	_	_
+3	받은	받+은	VERB	VV+ETM	_	4	acl	_	_
+4	나이에	나이+에	ADV	NNG+JKB	_	5	obl	_	_
+5	따라	따르+아	VERB	VV+EC	_	6	advcl	_	_
+6	다르지만	다르+지만	ADJ	VA+EC	_	16	advcl	_	_
+7	아직	아직	ADV	MAG	_	9	advmod	_	_
+8	모국어도	모국어+도	NOUN	NNG+JX	_	9	nsubj	_	_
+9	완벽하지	완벽+하+지	ADJ	NNG+XSA+EC	_	11	acl	_	_
+10	않은	않	AUX	VX+ETM	_	9	aux	_	_
+11	상태로	상태+로	ADV	NNG+JKB	_	13	obl	_	_
+12	외국어를	외국어+를	NOUN	NNG+JKO	_	13	obj	_	_
+13	배우면	배우+면	VERB	VV+EC	_	16	advcl	_	_
+14	2개국	2+개국	NOUN	SN+NNB	_	15	nmod	_	_
+15	언어에서	언어+에서	ADV	NNG+JKB	_	16	obl	_	_
+16	햇갈리게	햇갈리+게	VERB	NV+EC	Typo=Yes	0	root	_	_
+17	된다	되+ㄴ다	VERB	VX+EF	_	16	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	SF	_	16	punct	_	_
+
+# sent_id = ARG-JPN_02_1_04
+# text = 그래서 조기에 외국어 공부를 시작하는 것이 좋다고 말 할 수 있습니다.
+1	그래서	그래서	CCONJ	MAJ	_	11	cc	_	_
+2	조기에	조기+에	ADV	NNG+JKB	_	5	obl	_	_
+3	외국어	외국어	NOUN	NNG	_	4	nmod	_	_
+4	공부를	공부+를	NOUN	NNG+JKO	_	5	obj	_	_
+5	시작하는	시작+하+는	VERB	NNG+XSV+ETM	_	6	acl	_	_
+6	것이	것+이	NOUN	NNB+JKS	_	7	nsubj	_	_
+7	좋다고	좋+다고	ADJ	VA+EC	_	9	ccomp	_	_
+8	말	말	NOUN	NNG	_	9	obj	_	_
+9	할	하+ㄹ	VERB	VV+ETM	_	10	acl	_	_
+10	수	수	NOUN	NNB	_	11	nsubj	_	_
+11	있습니다	있	AUX	VX+EF	_	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	SF	_	11	punct	_	_
+
+# sent_id = ARG-ENG_13_3_05
+# text = 동료이랑 경쟁을 많으면 인간관계 생기는 어렵고 분편합니다.
+1	동료이랑	동료+이랑	ADV	NNG+JKB	_	3	obl	_	_
+2	경쟁을	경쟁+을	NOUN	NNG+JKO	_	3	obj	_	_
+3	많으면	많+으면	ADJ	VA+EC	_	6	advcl	_	_
+4	인간관계	인간+관계	NOUN	NNG+NNG	_	5	nsubj	_	_
+5	생기는	생기+는	VERB	VV+ETM	_	6	acl	_	_
+6	어렵고	어렵+고	ADJ	VA+EC	_	0	root	_	_
+7	분편합니다	분편+하+ㅂ니다	ADJ	XR+XSA+EF	_	6	conj	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = ARG-JPN_37_3_02
+# text = 물론 경쟁도 때로는 서로 자극이 되어 서로가 발전하기 위해 필요한 일이라고 생각하지만 자신만을 위한 경쟁을 하게 된다면 때로는 서로 상처를 주게 될 수도 있다고 생각합니다.
+1	물론	물론	ADV	MAG	_	6	advmod	_	_
+2	경쟁도	경쟁+도	NOUN	NNG+JX	_	6	dislocated	_	_
+3	때로는	때로+는	ADV	MAG+JX	_	6	obl	_	_
+4	서로	서로	ADV	MAG	_	6	advmod	_	_
+5	자극이	자극+이	NOUN	NNG+JKC	_	6	nsubj	_	_
+6	되어	되+어	VERB	VV+EC	_	11	advcl	_	_
+7	서로가	서로+가	NOUN	NNG+JKS	_	8	nsubj	_	_
+8	발전하기	발전+하+기	VERB	NNG+XSV+ETN	_	9	obj	_	_
+9	위해	위하+아	VERB	VV+EC	_	10	advcl	_	_
+10	필요한	필요+하+ㄴ	ADJ	NNG+XSA+ETM	_	11	acl	_	_
+11	일이라고	일+이+라고	ADJ	NNG+VCP+EC	_	12	ccomp	_	_
+12	생각하지만	생각+하+지만	VERB	NNG+XSV+EC	_	25	advcl	_	_
+13	자신만을	자신+만+을	NOUN	NNG+JX+JKO	_	14	obj	_	_
+14	위한	위하+ㄴ	VERB	VV+ETM	_	15	acl	_	_
+15	경쟁을	경쟁+을	NOUN	NNG+JKO	_	16	obj	_	_
+16	하게	하+게	VERB	VV+EC	_	24	advcl	_	_
+17	된다면	되+ㄴ다면	VERB	VX+EC	_	16	advcl	_	_
+18	때로는	때로+는	ADV	MAG+JX	_	21	obl	_	_
+19	서로	서로	ADV	MAG	_	21	advmod	_	_
+20	상처를	상처+를	NOUN	NNG+JKO	_	21	obj	_	_
+21	주게	주+게	VERB	VV+EC	_	23	acl	_	_
+22	될	되+ㄹ	VERB	VX+ETM	_	21	advcl	_	_
+23	수도	수+도	NOUN	NNB+JX	_	24	nsubj	_	_
+24	있다고	있	AUX	VX+EC	_	25	ccomp	_	_
+25	생각합니다	생각+하+ㅂ니다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+26	.	.	PUNCT	SF	_	25	punct	_	_
+
+# sent_id = ARG-JPN_33_2_05
+# text = 2번째는 자신이 이나라에 태어난 의상 최제한 자랑스러운 마음을 가져야 한다고 생각하기 때문이다.
+1	2번째는	2+번째+는	NOUN	SN+NNB+JX	_	12	obl	_	_
+2	자신이	자신+이	NOUN	NNG+JKS	_	4	nsubj	_	_
+3	이나라에	이+나라+에	ADV	MM+NNG+JKB	_	4	obl	_	_
+4	태어난	태어나+ㄴ	VERB	VV+ETM	_	5	acl	_	_
+5	의상	의상	NOUN	NNG	_	9	obl	_	_
+6	최제한	최제한	NOUN	NA	Typo=Yes	8	amod	_	_
+7	자랑스러운	자랑+스럽+ㄴ	ADJ	NNG+XSA+ETM	_	8	amod	_	_
+8	마음을	마음+을	NOUN	NNG+JKO	_	9	obj	_	_
+9	가져야	가지+어야	VERB	VV+EC	_	11	ccomp	_	_
+10	한다고	하	AUX	VX+EC	_	9	aux	_	_
+11	생각하기	생각+하+기	VERB	NNG+XSV+ETN	_	12	nmod	_	_
+12	때문이다	때문+이+다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	SF	_	12	punct	_	_
+
+# sent_id = ARG-JPN_21_1_10
+# text = 보통 조기언어교육에 해당하는 태상은 학생들이고 학생들은 학교에 다녀 많은 과목의수업들을 이미 받고 있다.
+1	보통	보통	ADV	NNG	_	5	advmod	_	_
+2	조기언어교육에	조기+언어+교육+에	NOUN	NNG+NNG+NNG+JKB	_	3	obl	_	_
+3	해당하는	해당+하+는	VERB	NNG+XSV+ETM	_	4	acl	_	_
+4	태상은	태상+은	NOUN	NF+JX	Typo=Yes	5	nsubj	_	_
+5	학생들이고	학생+들+이+고	ADJ	NNG+XSN+VCP+EC	_	0	root	_	_
+6	학생들은	학생+들+은	NOUN	NNG+XSN+JX	_	8	nsubj	_	_
+7	학교에	학교+에	ADV	NNG+JKB	_	8	obl	_	_
+8	다녀	다니+ㄹ	VERB	VV+EC	_	12	advcl	_	_
+9	많은	많+은	ADJ	VA+ETM	_	10	amod	_	_
+10	과목의수업들을	과목+의+수업+들+을	NOUN	NNG+JKG+NNG+XSN+JKO	_	12	obj	_	_
+11	이미	이미	ADV	MAG	_	12	advmod	_	_
+12	받고	받+고	VERB	VV+EC	_	5	conj	_	_
+13	있다	있	AUX	VX+EF	_	12	aux	_	SpaceAfter=No
+14	.	.	PUNCT	SF	_	12	punct	_	_
+
+# sent_id = KL-H_P_06_3_01
+# text = 협동과 경쟁 중에서 협동을 더 선호한다.
+1	협동과	협동+과	NOUN	NNG+JC	_	6	obl	_	_
+2	경쟁	경쟁	NOUN	NNG	_	1	conj	_	_
+3	중에서	중+에서	ADP	NNB+JKB	_	2	case	_	_
+4	협동을	협동+을	NOUN	NNG+JKO	_	6	obj	_	_
+5	더	더	ADV	MAG	_	6	advmod	_	_
+6	선호한다	선호+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = ARG-JPN_34_1_04-2
+# text = 하지만 단점도 있다.
+1	하지만	하지만	CCONJ	MAJ	_	3	cc	_	_
+2	단점도	단점+도	NOUN	NNG+JX	_	3	nsubj	_	_
+3	있다	있+다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	SF	_	3	punct	_	_
+
+# sent_id = ARG-JPN_02_1_07-2
+# text = 특히 그런 표현들을 할 때 잘못 쓸 때가 많다고 느낍니다.
+1	특히	특히	ADV	MAG	_	10	advmod	_	_
+2	그런	그런	DET	MM	PronType=Dem	3	det	_	_
+3	표현들을	표현+들+을	NOUN	NNG+XSN+JKO	_	4	obj	_	_
+4	할	하+ㄹ	VERB	VV+ETM	_	9	advcl	_	_
+5	때	때	SCONJ	NNG	_	4	mark	_	_
+6	잘못	잘못	ADV	MAG	_	7	advmod	_	_
+7	쓸	쓰+ㄹ	VERB	VV+ETM	_	8	acl	_	_
+8	때가	때+가	NOUN	NNG+JKS	_	9	nsubj	_	_
+9	많다고	많+다고	ADJ	VA+EC	_	10	ccomp	_	_
+10	느낍니다	느끼+ㅂ니다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	10	punct	_	_
+
+# sent_id = ARG-ENG_22_1_01
+# text = 요새 많은 부모들은 어린 아이들을 영어 유치원에 보내거나 해외에 유학을 보낸다.
+1	요새	요새	ADV	NNG	_	11	advmod	_	_
+2	많은	많+은	ADJ	VA+ETM	_	3	amod	_	_
+3	부모들은	부모+들+은	NOUN	NNG+XSN+JX	_	11	nsubj	_	_
+4	어린	어리+ㄴ	ADJ	VA+ETM	_	5	amod	_	_
+5	아이들을	아이+들+을	NOUN	NNG+XSN+JKO	_	8	obj	_	_
+6	영어	영어	NOUN	NNG	_	7	nmod	_	_
+7	유치원에	유치원+에	ADV	NNG+JKB	_	8	obl	_	_
+8	보내거나	보내+거나	VERB	VV+EC	_	0	root	_	_
+9	해외에	해외+에	ADV	NNG+JKB	_	11	obl	_	_
+10	유학을	유학+을	NOUN	NNG+JKO	_	11	obj	_	_
+11	보낸다	보내+ㄴ다	VERB	VV+EF	_	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	SF	_	11	punct	_	_
+
+# sent_id = KL-H_P_09_3_10
+# text = 오늘의 자기 생각만 하는 사회에서 양보하고 싶어한 사람이 드물다고 생각합니다.
+1	오늘의	오늘+의	NOUN	NNG+JKG	_	3	nmod:poss	_	_
+2	자기	자기	NOUN	NNG	_	3	nmod	_	_
+3	생각만	생각+만	NOUN	NNG+JX	_	4	obj	_	_
+4	하는	하+는	VERB	VV+ETM	_	5	acl	_	_
+5	사회에서	사회+에서	ADV	NNG+JKB	_	6	obl	_	_
+6	양보하고	양보+하+고	VERB	NNG+XSV+EC	_	8	acl	_	_
+7	싶어한	싶	AUX	VX+EC+VX+ETM	_	6	aux	_	_
+8	사람이	사람+이	NOUN	NNG+JKS	_	9	nsubj	_	_
+9	드물다고	드물+다고	ADJ	VA+EC	_	10	ccomp	_	_
+10	생각합니다	생각+하+ㅂ니다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	10	punct	_	_
+
+# sent_id = ARG-JPN_24_1_02
+# text = 또 현대는 글로벌 사회이기 때문에 모국어 뿐만이 아니라 다양한 언어를 사용할 수 있으면 그 언어로 일을 유효적으로 이용할 수 있다.
+1	또	또	CCONJ	MAJ	_	20	cc	_	_
+2	현대는	현대+는	NOUN	NNG+JX	_	4	nsubj	_	_
+3	글로벌	글로벌	NOUN	NNG	_	4	nmod	_	_
+4	사회이기	사회+이+기	ADJ	NNG+VCP+ETN	_	20	obl	_	_
+5	때문에	때문+에	ADP	NNB+JKB	_	4	case	_	_
+6	모국어	모국어	NOUN	NNG	_	8	nsubj	_	_
+7	뿐만이	뿐+만+이	ADP	JX+JX+JKC	_	6	case	_	_
+8	아니라	아니+라	ADJ	VCN+EC	_	13	advcl	_	_
+9	다양한	다양+하+ㄴ	ADJ	NNG+XSA+ETM	_	10	amod	_	_
+10	언어를	언어+를	NOUN	NNG+JKO	_	11	obj	_	_
+11	사용할	사용+하+ㄹ	VERB	NNG+XSV+ETM	_	12	acl	_	_
+12	수	수	NOUN	NNB	_	13	nsubj	_	_
+13	있으면	있	AUX	VX+EC	_	20	advcl	_	_
+14	그	그	DET	MM	PronType=Dem	15	det	_	_
+15	언어로	언어+로	ADV	NNG+JKB	_	18	obl	_	_
+16	일을	일+을	NOUN	NNG+JKO	_	18	obj	_	_
+17	유효적으로	유효+적+으로	ADV	NNG+XSN+JKB	_	18	obl	_	_
+18	이용할	이용+하+ㄹ	VERB	NNG+XSV+ETM	_	19	acl	_	_
+19	수	수	NOUN	NNB	_	20	nsubj	_	_
+20	있다	있	AUX	VX+EF	_	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	SF	_	20	punct	_	_
+
+# sent_id = KL-H_P_24_2_06
+# text = 삶을 사는 동안 과거에 돌려보고 좋은 경험 혹은 안 좋은 경험에 대해 반성을 하고 성장을 합니다.
+1	삶을	삶+을	NOUN	NNG+JKO	_	2	obj	_	_
+2	사는	살+는	VERB	VV+ETM	_	5	advcl	_	_
+3	동안	동안	SCONJ	NNG	_	2	mark	_	_
+4	과거에	과거+에	ADV	NNG+JKB	_	5	obl	_	_
+5	돌려보고	돌+리+어+보+고	VERB	VV+XSV+EC+VX+EC	_	16	advcl	_	_
+6	좋은	좋+은	ADJ	VA+ETM	_	7	amod	_	_
+7	경험	경험	NOUN	NNG	_	12	obl	_	_
+8	혹은	혹은	ADV	MAG	_	7	advmod	_	_
+9	안	안	ADV	MAG	_	10	advmod	_	_
+10	좋은	좋+은	ADJ	VA+ETM	_	11	amod	_	_
+11	경험에	경험+에	ADV	NNG+JKB	_	12	obl	_	_
+12	대해	대하+아	VERB	VV+EC	_	14	advcl	_	_
+13	반성을	반성+을	NOUN	NNG+JKO	_	14	obj	_	_
+14	하고	하+고	VERB	VV+EC	_	16	advcl	_	_
+15	성장을	성장+을	NOUN	NNG+JKO	_	16	obj	_	_
+16	합니다	하+ㅂ니다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	SF	_	16	punct	_	_
+
+# sent_id = ARG-JPN_06_2_12
+# text = 일본과 한국은 오랫 동안 문제가 있고 아직도 해결할 수 없다.
+1	일본과	일본+과	NOUN	NNP+JC	_	6	dislocated	_	_
+2	한국은	한국+은	NOUN	NNP+JX	_	1	conj	_	_
+3	오랫	오랫	ADV	NNG	_	6	advmod	_	_
+4	동안	동안	ADP	NNG	_	3	case	_	_
+5	문제가	문제+가	NOUN	NNG+JKS	_	6	nsubj	_	_
+6	있고	있+고	VERB	VV+EC	_	0	root	_	_
+7	아직도	아직+도	ADV	MAG+JX	_	8	advmod	_	_
+8	해결할	해결+하+ㄹ	VERB	NNG+XSV+ETM	_	9	acl	_	_
+9	수	수	NOUN	NNB	_	10	nsubj	_	_
+10	없다	없+다	VERB	VX+EF	_	6	conj	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	10	punct	_	_
+
+# sent_id = KL-H_P_05_1_09
+# text = 요즘 세상에 여러 언어로 말할 수 있는게 중요해요.
+1	요즘	요즘	ADV	NNG	_	8	advmod	_	_
+2	세상에	세상+에	ADV	NNG+JKB	_	5	obl	_	_
+3	여러	여러	DET	MM	PronType=Dem	4	det	_	_
+4	언어로	언어+로	ADV	NNG+JKB	_	5	obl	_	_
+5	말할	말+하+ㄹ	VERB	NNG+XSV+ETM	_	6	acl	_	_
+6	수	수	NOUN	NNB	_	7	nsubj	_	_
+7	있는게	있	AUX	VX+ETM+NNB+JKS	_	8	nsubj	_	_
+8	중요해요	중요+하+아요	ADJ	NNG+XSA+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = ARG-JPN_06_2_06
+# text = 그런 시점을 있는 사실을 알 고 있으면 우리 현실 사회에서도 문제가 있을 때나 사건이 있을 때 다른 시각으로 생각할 수 있다.
+1	그런	그런	DET	MM	PronType=Dem	2	det	_	_
+2	시점을	시점+을	NOUN	NNG+JKO	_	3	obj	_	_
+3	있는	있+는	VERB	VV+ETM	_	4	acl	_	_
+4	사실을	사실+을	NOUN	NNG+JKO	_	5	obj	_	_
+5	알	알+ㄹ+고	VERB	VV+ETM+EC	Typo=Yes	21	advcl	_	_
+6	고	_	X	_	_	5	goeswith	_	_
+7	있으면	있	AUX	VX+EC	_	5	aux	_	_
+8	우리	우리	PRON	NP	PronType=Prs	9	nmod	_	_
+9	현실	현실	NOUN	NNG	_	10	nmod	_	_
+10	사회에서도	사회+에서+도	ADV	NNG+JKB+JX	_	12	obl	_	_
+11	문제가	문제+가	NOUN	NNG+JKS	_	12	nsubj	_	_
+12	있을	있+을	VERB	VV+ETM	_	19	advcl	_	_
+13	때나	때+나	SCONJ	NNG+JC	_	12	mark	_	_
+14	사건이	사건+이	NOUN	NNG+JKS	_	15	nsubj	_	_
+15	있을	있+을	VERB	VV+ETM	_	19	advcl	_	_
+16	때	때	SCONJ	NNG	_	15	mark	_	_
+17	다른	다르+ㄴ	ADJ	VA+ETM	_	18	amod	_	_
+18	시각으로	시각+으로	ADV	NNG+JKB	_	19	obl	_	_
+19	생각할	생각+하+ㄹ	VERB	NNG+XSV+ETM	_	20	acl	_	_
+20	수	수	NOUN	NNB	_	21	nsubj	_	_
+21	있다	있	AUX	VX+EF	_	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	SF	_	21	punct	_	_
+
+# sent_id = ARG-ENG_01_3_04
+# text = 그리고 협동은 사람들 정부를 나눈다.
+1	그리고	그리고	CCONJ	MAJ	_	5	cc	_	_
+2	협동은	협동+은	NOUN	NNG+JX	_	5	nsubj	_	_
+3	사람들	사람+들	NOUN	NNG+XSN	_	4	nmod	_	_
+4	정부를	정부+를	NOUN	NNG+JKO	_	5	obj	_	_
+5	나눈다	나누+ㄴ다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = KL-H_T_10_3_05
+# text = 역사를 통해서 경쟁으로 전쟁을 이긴사람이 없다.
+1	역사를	역사+를	NOUN	NNG+JKO	_	2	obj	_	_
+2	통해서	통하+아서	VERB	VV+EC	_	6	advcl	_	_
+3	경쟁으로	경쟁+으로	ADV	NNG+JKB	_	5	obl	_	_
+4	전쟁을	전쟁+을	NOUN	NNG+JKO	_	5	obj	_	_
+5	이긴사람이	이기+ㄴ+사람+이	VERB	VV+ETM+NNG+JKS	_	6	nsubj	_	_
+6	없다	없+다	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = ARG-JPN_24_2_06
+# text = 요즘에는 인터넷의 발달에 따라 쉽게 다양한 것을 배울 수 있기 때문에 전자 기기를 유효적으로 이용하면서 역사를 배우는 것도 좋은 방법이라고 생각한다.
+1	요즘에는	요즘+에+는	ADV	NNG+JKB+JX	_	10	obl	_	_
+2	인터넷의	인터넷+의	NOUN	NNG+JKG	_	3	nmod:poss	_	_
+3	발달에	발달+에	ADV	NNG+JKB	_	4	obl	_	_
+4	따라	따르+아	VERB	VV+EC	_	8	advcl	_	_
+5	쉽게	쉽+게	ADV	VA+EC	_	8	advmod	_	_
+6	다양한	다양+하+ㄴ	ADJ	NNG+XSA+ETM	_	7	amod	_	_
+7	것을	것+을	NOUN	NNB+JKO	_	8	obj	_	_
+8	배울	배우+ㄹ	VERB	VV+ETM	_	9	acl	_	_
+9	수	수	NOUN	NNB	_	10	nsubj	_	_
+10	있기	있	AUX	VX+ETN	_	21	obl	_	_
+11	때문에	때문+에	ADP	NNB+JKB	_	10	case	_	_
+12	전자	전자	NOUN	NNG	_	13	nmod	_	_
+13	기기를	기기+를	NOUN	NNG+JKO	_	15	obj	_	_
+14	유효적으로	유효+적+으로	ADV	NNG+XSN+JKB	_	15	obl	_	_
+15	이용하면서	이용+하+면서	VERB	NNG+XSV+EC	_	17	advcl	_	_
+16	역사를	역사+를	NOUN	NNG+JKO	_	17	obj	_	_
+17	배우는	배우+는	VERB	VV+ETM	_	18	acl	_	_
+18	것도	것+도	NOUN	NNB+JX	_	20	nsubj	_	_
+19	좋은	좋+은	ADJ	VA+ETM	_	20	amod	_	_
+20	방법이라고	방법+이+라고	ADJ	NNG+VCP+EC	_	21	ccomp	_	_
+21	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	SF	_	21	punct	_	_
+
+# sent_id = ARG-JPN_23_2_01
+# text = 나는 역사를배워야 한다고 생각한다.
+1	나는	나+는	PRON	NP+JX	PronType=Prs	4	nsubj	_	_
+2	역사를배워야	역사+를+배우+어야	VERB	NNG+JKO+VV+EC	_	4	ccomp	_	_
+3	한다고	하	AUX	VX+EC	_	2	aux	_	_
+4	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	SF	_	4	punct	_	_
+
+# sent_id = ARG-JPN_10_3_07
+# text = 사실 저는 어렸을때 달리기가 빠른 편이 아니었습니다.
+1	사실	사실	ADV	MAG	_	7	advmod	_	_
+2	저는	저+는	PRON	NP+JX	PronType=Prs	7	dislocated	_	_
+3	어렸을때	어리+었+을+때	ADJ	VA+EP+ETM+NNG	_	7	advcl	_	_
+4	달리기가	달리+기+가	VERB	VV+ETN+JKS	_	7	dislocated	_	_
+5	빠른	빠르+ㄴ	ADJ	VA+ETM	_	6	amod	_	_
+6	편이	편+이	NOUN	NNB+JKC	_	7	nsubj	_	_
+7	아니었습니다	아니+었+습니다	VERB	VCN+EP+EF	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = ARG-JPN_27_3_02
+# text = 경쟁할때 저는 스트레스를 받지만 협동하면 더 편하게 활동할 수 있어요.
+1	경쟁할때	경쟁+하+ㄹ+때	NOUN	NNG+XSV+ETM+NNG	_	4	obl	_	_
+2	저는	저+는	PRON	NP+JX	PronType=Prs	4	nsubj	_	_
+3	스트레스를	스트레스+를	NOUN	NNG+JKO	_	4	obj	_	_
+4	받지만	받+지만	VERB	VV+EC	_	10	advcl	_	_
+5	협동하면	협동+하+면	VERB	NNG+XSV+EC	_	10	advcl	_	_
+6	더	더	ADV	MAG	_	7	advmod	_	_
+7	편하게	편하+게	ADV	VA+EC	_	8	advmod	_	_
+8	활동할	활동+하+ㄹ	VERB	NNG+XSV+ETM	_	9	acl	_	_
+9	수	수	NOUN	NNB	_	10	nsubj	_	_
+10	있어요	있	AUX	VX+EF	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	10	punct	_	_
+
+# sent_id = ARG-ENG_36_2_04
+# text = 미국에서는 이번 문제가 늘게 나쁜 것이다.
+1	미국에서는	미국+에서+는	ADV	NNP+JKB+JX	_	6	obl	_	_
+2	이번	이번	NOUN	NNG	_	3	nmod	_	_
+3	문제가	문제+가	NOUN	NNG+JKS	_	4	nsubj	_	_
+4	늘게	늘+게	ADV	VV+EC	_	5	advmod	_	_
+5	나쁜	나쁘+ㄴ	ADJ	VA+ETM	_	6	amod	_	_
+6	것이다	것+이+다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = KL-H_P_17_1_11
+# text = 뭐든 과하면 안좋은 것 같아요.
+1	뭐든	뭐+든	ADV	NP+JX	_	2	advmod	_	_
+2	과하면	과하+면	ADJ	VA+EC	_	5	advcl	_	_
+3	안좋은	안+좋+은	ADV	MAG+VA+ETM	_	4	acl	_	_
+4	것	것	NOUN	NNB	_	5	nsubj	_	_
+5	같아요	같+아요	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = ARG-ENG_14_3_08
+# text = 협동해서 일이 잘하고 빨리 끝내요.
+1	협동해서	협동+하+아서	VERB	NNG+XSV+EC	_	5	advcl	_	_
+2	일이	일+이	NOUN	NNG+JKS	_	3	nsubj	_	_
+3	잘하고	잘+하+고	ADJ	XR+XSA+EC	_	0	root	_	_
+4	빨리	빨리	ADV	MAG	_	5	advmod	_	_
+5	끝내요	끝나+아요	VERB	VV+EF	_	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = KL-H_T_03_3_03
+# text = 즉 승자가 있으면 무조건 패자가 존재하는 것은 아니다.
+1	즉	즉	ADV	MAG	_	8	advmod	_	_
+2	승자가	승자+가	NOUN	NNG+JKS	_	3	nsubj	_	_
+3	있으면	있+으면	VERB	VV+EC	_	8	advcl	_	_
+4	무조건	무조건	ADV	MAG	_	6	advmod	_	_
+5	패자가	패자+가	NOUN	NNG+JKS	_	6	nsubj	_	_
+6	존재하는	존재+하+는	VERB	NNG+XSV+ETM	_	7	acl	_	_
+7	것은	것+은	NOUN	NNB+JX	_	8	nsubj	_	_
+8	아니다	아니+다	ADJ	VCN+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = ARG-JPN_12_2_02
+# text = 이유는 역사를 배우는 것은 각 나라의 살아 왔던 사람들을 존중하는 행위라고 생각하기 때문이다.
+1	이유는	이유+는	NOUN	NNG+JX	_	13	nsubj	_	_
+2	역사를	역사+를	NOUN	NNG+JKO	_	3	obj	_	_
+3	배우는	배우+는	VERB	VV+ETM	_	4	acl	_	_
+4	것은	것+은	NOUN	NNB+JX	_	11	nsubj	_	_
+5	각	각	DET	MM	PronType=Dem	6	amod	_	_
+6	나라의	나라+의	NOUN	NNG+JKG	_	9	nmod:poss	_	_
+7	살아	살+아	VERB	VV+EC	_	9	acl	_	_
+8	왔던	오+았+던	VERB	VV+EP+ETM	_	7	advcl	_	_
+9	사람들을	사람+들+을	NOUN	NNG+XSN+JKO	_	10	obj	_	_
+10	존중하는	존중+하+는	VERB	NNG+XSV+ETM	_	11	acl	_	_
+11	행위라고	행위+이+라고	ADJ	NNG+VCP+EC	_	12	ccomp	_	_
+12	생각하기	생각+하+기	VERB	NNG+XSV+ETN	_	13	nmod	_	_
+13	때문이다	때문+이+다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	SF	_	13	punct	_	_
+
+# sent_id = ARG-ENG_03_1_05
+# text = 우선 조기교육으로 인해서 혜택이나 좋은 결과를 얻을 수 있다.
+1	우선	우선	ADV	MAG	_	9	advmod	_	_
+2	조기교육으로	조기+교육+으로	ADV	NNG+NNG+JKB	_	3	obl	_	_
+3	인해서	인하+아서	VERB	VV+EC	_	9	advcl	_	_
+4	혜택이나	혜택+이나	NOUN	NNG+JC	_	7	obj	_	_
+5	좋은	좋+은	ADJ	VA+ETM	_	6	amod	_	_
+6	결과를	결과+를	NOUN	NNG+JKO	_	4	conj	_	_
+7	얻을	얻+을	VERB	VV+ETM	_	8	acl	_	_
+8	수	수	NOUN	NNB	_	9	nsubj	_	_
+9	있다	있	AUX	VX+EF	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = KL-H_P_07_3_09
+# text = 우리는 경쟁 만있었으면 우리 세상은 전쟁과 다른 터지는 문제가 생길 것이다.
+1	우리는	우리+는	PRON	NP+JX	PronType=Prs	3	dislocated	_	_
+2	경쟁	경쟁	NOUN	NNG	_	3	nsubj	_	_
+3	만있었으면	만+있+었+으면	PART	JX+VA+EP+EC	_	11	advcl	_	_
+4	우리	우리	PRON	NP	PronType=Prs	5	nmod	_	_
+5	세상은	세상+은	NOUN	NNG+JX	_	10	dislocated	_	_
+6	전쟁과	전쟁+과	NOUN	NNG+JC	_	8	obl	_	_
+7	다른	다르+ㄴ	ADJ	VA+ETM	_	9	amod	_	_
+8	터지는	터지+는	VERB	VV+ETM	_	9	acl	_	_
+9	문제가	문제+가	NOUN	NNG+JKS	_	10	nsubj	_	_
+10	생길	생기+ㄹ	VERB	VV+ETM	_	11	acl	_	_
+11	것이다	것+이+다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	SF	_	11	punct	_	_
+
+# sent_id = ARG-JPN_37_2_07
+# text = 우리는 그 해결책을 찾기 위해서 역사를 정확하게 배워야 합니다.
+1	우리는	우리+는	PRON	NP+JX	PronType=Prs	8	nsubj	_	_
+2	그	그	DET	MM	PronType=Dem	3	det	_	_
+3	해결책을	해결책+을	NOUN	NNG+JKO	_	4	obj	_	_
+4	찾기	찾+기	VERB	VV+ETN	_	5	obj	_	_
+5	위해서	위하+아서	VERB	VV+EC	_	8	advcl	_	_
+6	역사를	역사+를	NOUN	NNG+JKO	_	8	obj	_	_
+7	정확하게	정확+하+게	ADV	NNG+XSA+EC	_	8	advmod	_	_
+8	배워야	배우+어야	VERB	VV+EC	_	0	root	_	_
+9	합니다	하	AUX	VX+EF	_	8	aux	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = ARG-JPN_34_1_02
+# text = 초등학교 1학년 때 부터 영어교육이 시작하기도 한다.
+1	초등학교	초등학교	NOUN	NNG	_	2	nmod	_	_
+2	1학년	1+학년	NOUN	SN+NNB	_	6	obl	_	_
+3	때	때	ADP	NNG	_	2	case	_	_
+4	부터	부터	ADP	JX	_	2	case	_	_
+5	영어교육이	영어+교육+이	NOUN	NNG+NNG+JKS	_	6	nsubj	_	_
+6	시작하기도	시작+하+기+도	VERB	NNG+XSV+ETN+JX	_	0	root	_	_
+7	한다	하	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = ARG-JPN_28_1_04-2
+# text = 하지만 나쁜 것도 있어요.
+1	하지만	하지만	CCONJ	MAJ	_	4	cc	_	_
+2	나쁜	나쁘+ㄴ	ADJ	VA+ETM	_	3	amod	_	_
+3	것도	것+도	NOUN	NNB+JX	_	4	nsubj	_	_
+4	있어요	있+어요	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	SF	_	4	punct	_	_
+
+# sent_id = KL-H_P_17_3_01
+# text = 사실 저는 경쟁과 협동은 둘다 사회에 필요하다 생각해요.
+1	사실	사실	ADV	MAG	_	8	advmod	_	_
+2	저는	저+는	PRON	NP+JX	PronType=Prs	8	nsubj	_	_
+3	경쟁과	경쟁+과	NOUN	NNG+JC	_	7	nsubj	_	_
+4	협동은	협동+은	NOUN	NNG+JX	_	3	conj	_	_
+5	둘다	둘+다	ADV	NR+MAG	_	6	advmod	_	_
+6	사회에	사회+에	ADV	NNG+JKB	_	7	obl	_	_
+7	필요하다	필요+하+다	ADJ	NNG+XSA+EC	_	8	ccomp	_	_
+8	생각해요	생각+하+아요	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = ARG-ENG_09_2_01
+# text = 역사를 공부 안 하는 사람는 역사를 다시 경험해야 한다.
+1	역사를	역사+를	NOUN	NNG+JKO	_	2	obj	_	_
+2	공부	공부	NOUN	NNG	_	4	obj	_	_
+3	안	안	ADV	MAG	_	4	advmod	_	_
+4	하는	하+는	VERB	VV+ETM	_	5	acl	_	_
+5	사람는	사람+는	NOUN	NNG+JX	_	8	nsubj	_	_
+6	역사를	역사+를	NOUN	NNG+JKO	_	8	obj	_	_
+7	다시	다시	ADV	MAG	_	8	advmod	_	_
+8	경험해야	경험+하+아야	VERB	NNG+XSV+EC	_	0	root	_	_
+9	한다	하	AUX	VX+EF	_	8	aux	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = ARG-ENG_04_1_01
+# text = 조기언어교육은 좋은 점ㅇ 많이 있다.
+1	조기언어교육은	조기+언어+교육+은	NOUN	NNG+NNG+NNG+JX	_	5	dislocated	_	_
+2	좋은	좋+은	ADJ	VA+ETM	_	3	amod	_	_
+3	점ㅇ	점+ㅇ	NOUN	NNB+NA	Typo=Yes	5	nsubj	_	_
+4	많이	많이	ADV	MAG	_	5	advmod	_	_
+5	있다	있+다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = KL-H_P_11_3_09
+# text = 둘이 같이 일해야 한다면 의견 차이가 있을 수도 있고 서로 갈등이 생겨 더 일을 진행하지 못할 수도 있다.
+1	둘이	둘+이	NOUN	NNG+JKS	_	3	nsubj	_	_
+2	같이	같이	ADV	MAG	_	3	advmod	_	_
+3	일해야	일+하+아야	VERB	NNG+XSV+EC	_	18	advcl	_	_
+4	한다면	하	AUX	VX+EC	_	3	aux	_	_
+5	의견	의견	NOUN	NNG	_	6	nmod	_	_
+6	차이가	차이+가	NOUN	NNG+JKS	_	7	nsubj	_	_
+7	있을	있+을	VERB	VV+ETM	_	8	acl	_	_
+8	수도	수+도	NOUN	NNB+JX	_	9	nsubj	_	_
+9	있고	있	AUX	VX+EC	_	18	advcl	_	_
+10	서로	서로	ADV	MAG	_	12	advmod	_	_
+11	갈등이	갈등+이	NOUN	NNG+JKS	_	12	nsubj	_	_
+12	생겨	생기+어	VERB	VV+EC	_	18	advcl	_	_
+13	더	더	ADV	MAG	_	15	advmod	_	_
+14	일을	일+을	NOUN	NNG+JKO	_	15	obj	_	_
+15	진행하지	진행+하+지	VERB	NNG+XSV+EC	_	17	acl	_	_
+16	못할	못하+ㄹ	VERB	VX+ETM	_	15	advcl	_	_
+17	수도	수+도	NOUN	NNB+JX	_	18	nsubj	_	_
+18	있다	있	AUX	VX+EF	_	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	SF	_	18	punct	_	_
+
+# sent_id = ARG-JPN_04_3_07
+# text = 잘 결과를 위해서 사람들와 정담 할 수 있고 혼자서는 할 수 없은 것도 할 수 있다.
+1	잘	잘	ADV	MAG	_	3	advmod	_	_
+2	결과를	결과+를	NOUN	NNG+JKO	_	3	obj	_	_
+3	위해서	위하+아서	VERB	VV+EC	_	8	advcl	_	_
+4	사람들와	사람+들+와	ADV	NNG+XSN+JKB	_	6	obl	_	_
+5	정담	정담	NOUN	NF	Typo=Yes	6	obj	_	_
+6	할	하+ㄹ	VERB	VV+ETM	_	7	acl	_	_
+7	수	수	NOUN	NNB	_	8	nsubj	_	_
+8	있고	있	AUX	VX+EC	_	0	root	_	_
+9	혼자서는	혼자서+는	NOUN	NNG+JX	_	10	nsubj	_	_
+10	할	하+ㄹ	VERB	VV+ETM	_	11	acl	_	_
+11	수	수	NOUN	NNB	_	12	nsubj	_	_
+12	없은	없+은	ADJ	VA+ETM	_	13	acl	_	_
+13	것도	것+도	NOUN	NNB+JX	_	14	obj	_	_
+14	할	하+ㄹ	VERB	VV+ETM	_	15	acl	_	_
+15	수	수	NOUN	NNB	_	16	nsubj	_	_
+16	있다	있	AUX	VX+EF	_	8	conj	_	SpaceAfter=No
+17	.	.	PUNCT	SF	_	16	punct	_	_
+
+# sent_id = ARG-ENG_19_2_01
+# text = 역사는 배워야 합니다.
+1	역사는	역사+는	NOUN	NNG+JX	_	2	obj	_	_
+2	배워야	배우+어야	VERB	VV+EC	_	0	root	_	_
+3	합니다	하	AUX	VX+EF	_	2	aux	_	SpaceAfter=No
+4	.	.	PUNCT	SF	_	2	punct	_	_
+
+# sent_id = ARG-JPN_30_3_03
+# text = 학교에서 공부할 때 머르는 것이 서로에 가르지면서 같이 열심히 하고나 학교 행사 때도 한 명식 하는 일을 전해서 하나의 큰 것을 만들는 것은 기분이 좋아서 친구들의 사이도 너무 좋아졌습니다.
+1	학교에서	학교+에서	ADV	NNG+JKB	_	2	obl	_	_
+2	공부할	공부+하+ㄹ	VERB	NNG+XSV+ETM	_	7	advcl	_	_
+3	때	때	SCONJ	NNG	_	2	mark	_	_
+4	머르는	머르+는	VERB	NV+ETM	Typo=Yes	5	acl	_	_
+5	것이	것+이	NOUN	NNB+JKS	_	7	nsubj	_	_
+6	서로에	서로+에	ADV	NNG+JKB	_	7	obl	_	_
+7	가르지면서	가르지+면서	VERB	VV+EC	_	10	advcl	_	_
+8	같이	같이	ADV	MAG	_	10	advmod	_	_
+9	열심히	열심히	ADV	MAG	_	10	advmod	_	_
+10	하고나	하+고나	VERB	VV+EC	_	18	advcl	_	_
+11	학교	학교	NOUN	NNG	_	12	nmod	_	_
+12	행사	행사	NOUN	NNG	_	18	obl	_	_
+13	때도	때+도	ADP	NNG+JX	_	12	case	_	_
+14	한	한	NUM	MM	_	15	nummod	_	_
+15	명식	명식	NOUN	NA	Typo=Yes	16	obj	_	_
+16	하는	하+는	VERB	VV+ETM	_	17	acl	_	_
+17	일을	일+을	NOUN	NNG+JKO	_	18	obj	_	_
+18	전해서	전하+아서	VERB	VV+EC	_	22	advcl	_	_
+19	하나의	하나+의	NOUN	NNG+JKG	_	21	nmod:poss	_	_
+20	큰	크+ㄴ	ADJ	VA+ETM	_	21	amod	_	_
+21	것을	것+을	NOUN	NNB+JKO	_	22	obj	_	_
+22	만들는	만들+는	VERB	VV+ETM	_	23	acl	_	_
+23	것은	것+은	NOUN	NNB+JX	_	29	dislocated	_	_
+24	기분이	기분+이	NOUN	NNG+JKS	_	25	nsubj	_	_
+25	좋아서	좋+아서	ADJ	VA+EC	_	29	advcl	_	_
+26	친구들의	친구+들+의	NOUN	NNG+XSN+JKG	_	27	nmod:poss	_	_
+27	사이도	사이+도	NOUN	NNG+JX	_	29	nsubj	_	_
+28	너무	너무	ADV	MAG	_	29	advmod	_	_
+29	좋아졌습니다	좋+아지+었+습니다	VERB	VA+XSV+EP+EF	_	0	root	_	SpaceAfter=No
+30	.	.	PUNCT	SF	_	29	punct	_	_
+
+# sent_id = ARG-JPN_22_2_04
+# text = 그럼 오히려 그런 역사를 모르면 현재 일어나고 있는 국제간에 문제나 관계에 집중해서 서로가 좋은 방향으로 논의를 할수있는 기회를 가질 수 있다고 생각한다.
+1	그럼	그럼	ADV	MAG	_	22	advmod	_	_
+2	오히려	오히려	ADV	MAG	_	5	advmod	_	_
+3	그런	그런	DET	MM	PronType=Dem	4	det	_	_
+4	역사를	역사+를	NOUN	NNG+JKO	_	5	obj	_	_
+5	모르면	모르+면	VERB	VV+EC	_	12	advcl	_	_
+6	현재	현재	ADV	MAG	_	7	advmod	_	_
+7	일어나고	일어나+고	VERB	VV+EC	_	9	acl	_	_
+8	있는	있	AUX	VX+ETM	_	7	aux	_	_
+9	국제간에	국제+간+에	ADV	NNG+NNB+JKB	_	12	obl	_	_
+10	문제나	문제+나	NOUN	NNG+JC	_	12	obl	_	_
+11	관계에	관계+에	ADV	NNG+JKB	_	10	conj	_	_
+12	집중해서	집중+하+아서	VERB	NNG+XSV+EC	_	21	advcl	_	_
+13	서로가	서로+가	NOUN	NNG+JKS	_	17	nsubj	_	_
+14	좋은	좋+은	ADJ	VA+ETM	_	15	amod	_	_
+15	방향으로	방향+으로	ADV	NNG+JKB	_	17	obl	_	_
+16	논의를	논의+를	NOUN	NNG+JKO	_	17	obj	_	_
+17	할수있는	하+ㄹ+수+있+는	VERB	VV+ETM+NNB+VX+ETM	_	18	acl	_	_
+18	기회를	기회+를	NOUN	NNG+JKO	_	19	obj	_	_
+19	가질	가지+ㄹ	VERB	VV+ETM	_	20	acl	_	_
+20	수	수	NOUN	NNB	_	21	nsubj	_	_
+21	있다고	있	AUX	VX+EC	_	22	ccomp	_	_
+22	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	SF	_	22	punct	_	_
+
+# sent_id = KL-H_P_18_2_01
+# text = 역사를 배워야 합니까?
+1	역사를	역사+를	NOUN	NNG+JKO	_	2	obj	_	_
+2	배워야	배우+어야	VERB	VV+EC	_	0	root	_	_
+3	합니까	하	AUX	VX+EF	_	2	aux	_	SpaceAfter=No
+4	?	?	PUNCT	SF	_	2	punct	_	_
+
+# sent_id = ARG-JPN_13_1_05
+# text = 어릴 때 부터 교육을 받으면 필요없는 지식이 없는 상태라서 학습에 도움이 된다고 생각한다.
+1	어릴	어리+ㄹ	ADJ	VA+ETM	_	5	advcl	_	_
+2	때	때	SCONJ	NNG	_	1	mark	_	_
+3	부터	부터	ADP	JX	_	1	case	_	_
+4	교육을	교육+을	NOUN	NNG+JKO	_	5	obj	_	_
+5	받으면	받+으면	VERB	VV+EC	_	12	advcl	_	_
+6	필요없는	필요+없+는	ADJ	NNG+VA+ETM	_	7	amod	_	_
+7	지식이	지식+이	NOUN	NNG+JKS	_	8	nsubj	_	_
+8	없는	없+는	ADJ	VA+ETM	_	9	acl	_	_
+9	상태라서	상태+이+라서	ADJ	NNG+VCP+EC	_	12	advcl	_	_
+10	학습에	학습+에	ADV	NNG+JKB	_	12	obl	_	_
+11	도움이	도움+이	NOUN	NNG+JKC	_	12	nsubj	_	_
+12	된다고	되+ㄴ다고	VERB	VV+EC	_	13	ccomp	_	_
+13	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	SF	_	13	punct	_	_
+
+# sent_id = ARG-JPN_06_3_07
+# text = 하지만 협동을 하면 혼자라면 할 수 없는 것이라도 협력해서 성공할 수 있는 가능성이 높아지다.
+1	하지만	하지만	CCONJ	MAJ	_	14	cc	_	_
+2	협동을	협동+을	NOUN	NNG+JKO	_	3	obj	_	_
+3	하면	하+면	VERB	VV+EC	_	14	advcl	_	_
+4	혼자라면	혼자+이+라면	ADJ	NNG+VCP+EC	_	5	advcl	_	_
+5	할	하+ㄹ	VERB	VV+ETM	_	6	acl	_	_
+6	수	수	NOUN	NNB	_	7	nsubj	_	_
+7	없는	없+는	VERB	VX+ETM	_	8	acl	_	_
+8	것이라도	것+이+라도	ADJ	NNB+VCP+EC	_	9	advcl	_	_
+9	협력해서	협력+하+아서	VERB	NNG+XSV+EC	_	10	advcl	_	_
+10	성공할	성공+하+ㄹ	VERB	NNG+XSV+ETM	_	11	acl	_	_
+11	수	수	NOUN	NNB	_	12	nsubj	_	_
+12	있는	있	AUX	VX+ETM	_	13	acl	_	_
+13	가능성이	가능+성+이	NOUN	NNG+XSN+JKS	_	14	nsubj	_	_
+14	높아지다	높+아지+다	ADJ	VA+XSV+EF	_	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	SF	_	14	punct	_	_
+
+# sent_id = ARG-JPN_26_1_12
+# text = 그것이 없으면 배웠던 언어가 다 불완전해진다.
+1	그것이	그것+이	PRON	NP+JKS	PronType=Dem	2	nsubj	_	_
+2	없으면	없+으면	ADJ	VA+EC	_	6	advcl	_	_
+3	배웠던	배우+었+던	VERB	VV+EP+ETM	_	4	acl	_	_
+4	언어가	언어+가	NOUN	NNG+JKS	_	6	nsubj	_	_
+5	다	다	ADV	MAG	_	6	advmod	_	_
+6	불완전해진다	불+완전+하+아지+ㄴ다	VERB	XPN+NNG+XSA+XSV+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = ARG-ENG_02_2_08
+# text = 역사를 아는 것 덕분에.
+1	역사를	역사+를	NOUN	NNG+JKO	_	2	obj	_	_
+2	아는	알+는	VERB	VV+ETM	_	3	acl	_	_
+3	것	것	NOUN	NNB	_	4	nmod	_	_
+4	덕분에	덕분+에	ADV	NNG+JKB	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	SF	_	4	punct	_	_
+
+# sent_id = KL-H_T_08_2_02
+# text = 그래서 역사를 배워야 합니다.
+1	그래서	그래서	CCONJ	MAJ	_	3	cc	_	_
+2	역사를	역사+를	NOUN	NNG+JKO	_	3	obj	_	_
+3	배워야	배우+어야	VERB	VV+EC	_	0	root	_	_
+4	합니다	하	AUX	VX+EF	_	3	aux	_	SpaceAfter=No
+5	.	.	PUNCT	SF	_	3	punct	_	_
+
+# sent_id = KL-H_P_03_2_10
+# text = 역사가 다 지나간 일이라서 몰라도 된다는건 잘못됐다고 생각합니다.
+1	역사가	역사+가	NOUN	NNG+JKS	_	3	nsubj	_	_
+2	다	다	ADV	MAG	_	3	advmod	_	_
+3	지나간	지나가+ㄴ	VERB	VV+ETM	_	4	acl	_	_
+4	일이라서	일+이+라서	ADJ	NNG+VCP+EC	_	5	advcl	_	_
+5	몰라도	모르+아도	VERB	VV+EC	_	6	advcl	_	_
+6	된다는건	되+ㄴ다는+거+ㄴ	NOUN	VV+ETM+NNB+JX	_	7	nsubj	_	_
+7	잘못됐다고	잘못+되+었+다고	VERB	NNG+XSV+EP+EC	_	8	ccomp	_	_
+8	생각합니다	생각+하+ㅂ니다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = ARG-JPN_32_3_04
+# text = 합력하고 뭔가를 하는 과정에서 기뿜이나 술픔을 같이 느끼고 기뿜이는 2배로 술픔은 반으로 할 수 있다고 생각합니다.
+1	합력하고	합력+하+고	VERB	NF+XSV+EC	Typo=Yes	15	advcl	_	_
+2	뭔가를	뭔가+를	PRON	NP+JKO	PronType=Prs	3	obj	_	_
+3	하는	하+는	VERB	VV+ETM	_	4	acl	_	_
+4	과정에서	과정+에서	ADV	NNG+JKB	_	8	obl	_	_
+5	기뿜이나	기뿜+이나	NOUN	NF+JC	Typo=Yes	8	obj	_	_
+6	술픔을	술픔+을	NOUN	NNG+JKO	_	5	conj	_	_
+7	같이	같이	ADV	MAG	_	8	advmod	_	_
+8	느끼고	느끼+고	VERB	VV+EC	_	1	conj	_	_
+9	기뿜이는	기뿜+이+는	NOUN	NF+JKS+JX	Typo=Yes	13	dislocated	_	_
+10	2배로	2+배+로	ADV	SN+NNB+JKB	_	13	obl	_	_
+11	술픔은	술픔+은	NOUN	NNG+JX	_	13	dislocated	_	_
+12	반으로	반+으로	ADV	NNG+JKB	_	13	obl	_	_
+13	할	하+ㄹ	VERB	VV+ETM	_	14	acl	_	_
+14	수	수	NOUN	NNB	_	15	nsubj	_	_
+15	있다고	있	AUX	VX+EC	_	16	ccomp	_	_
+16	생각합니다	생각+하+ㅂ니다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	SF	_	16	punct	_	_
+
+# sent_id = KL-H_P_23_1_02
+# text = 한언어 배우는 겄보다 두언어를 동시에 배우면 생각하는 방법이 더 만아요.
+1	한언어	한+언어	NOUN	MM+NNG	_	2	obj	_	_
+2	배우는	배우+는	VERB	VV+ETM	_	3	acl	_	_
+3	겄보다	겄+보다	ADV	NF+JKB	Typo=Yes	6	obl	_	_
+4	두언어를	두+언어+를	NOUN	MM+NNG+JKO	_	6	obj	_	_
+5	동시에	동시+에	ADV	NNG+JKB	_	6	obl	_	_
+6	배우면	배우+면	VERB	VV+EC	_	10	advcl	_	_
+7	생각하는	생각+하+는	VERB	NNG+XSV+ETM	_	8	acl	_	_
+8	방법이	방법+이	NOUN	NNG+JKS	_	10	nsubj	_	_
+9	더	더	ADV	MAG	_	10	advmod	_	_
+10	만아요	만+아요	VERB	NV+EF	Typo=Yes	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	10	punct	_	_
+
+# sent_id = ARG-JPN_38_3_06
+# text = 뭔가 할 때 자기만였으면 어떻게 해도 생각이 작에 됩니다.
+1	뭔가	무엇+이+ㄴ가	NOUN	NP+VCP+EF	_	2	obj	_	_
+2	할	하+ㄹ	VERB	VV+ETM	_	9	advcl	_	_
+3	때	때	SCONJ	NNG	_	2	mark	_	_
+4	자기만였으면	자기+만+이+었+으면	NOUN	NNG+JX+VCP+EP+EC	_	6	advcl	_	_
+5	어떻게	어떻+게	ADV	VA+EC	_	6	advmod	_	_
+6	해도	하+아도	VERB	VV+EC	_	9	advcl	_	_
+7	생각이	생각+이	NOUN	NNG+JKS	_	9	nsubj	_	_
+8	작에	작+에	ADV	NF+JKB	Typo=Yes	9	obl	_	_
+9	됩니다	되+ㅂ니다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = KL-H_P_05_3_03
+# text = 요즘 같은 사회에서 성공하려면 둘 다 할 줄 알아야 합니다.
+1	요즘	요즘	ADV	NNG	_	2	advmod	_	_
+2	같은	같+은	ADJ	VA+ETM	_	3	amod	_	_
+3	사회에서	사회+에서	ADV	NNG+JKB	_	4	obl	_	_
+4	성공하려면	성공+하+려면	VERB	NNG+XSV+EC	_	9	advcl	_	_
+5	둘	둘	NUM	NR	_	7	nummod	_	_
+6	다	다	ADV	MAG	_	7	advmod	_	_
+7	할	하+ㄹ	VERB	VV+ETM	_	8	acl	_	_
+8	줄	줄	NOUN	NNB	_	9	obj	_	_
+9	알아야	알+아야	VERB	VV+EC	_	0	root	_	_
+10	합니다	하	AUX	VX+EF	_	9	aux	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = KL-H_T_10_3_04
+# text = 그러나 협동은 목펴가 있고 더 정리되고 다 일등을 할수있다.
+1	그러나	그러나	CCONJ	MAJ	_	9	cc	_	_
+2	협동은	협동+은	NOUN	NNG+JX	_	4	dislocated	_	_
+3	목펴가	목펴+가	NOUN	NF+JKS	Typo=Yes	4	nsubj	_	_
+4	있고	있+고	VERB	VV+EC	_	0	root	_	_
+5	더	더	ADV	MAG	_	6	advmod	_	_
+6	정리되고	정리+되+고	VERB	NNG+XSV+EC	_	4	conj	_	_
+7	다	다	ADV	MAG	_	9	advmod	_	_
+8	일등을	일+등+을	DET	MM+NNB+JKO	PronType=Dem	9	obj	_	_
+9	할수있다	하+ㄹ+수+있+다	VERB	VV+ETM+NNB+VX+EF	_	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = KL-H_T_05_2_02
+# text = 그이유는 지금 이순간을 역사가 만들었기 때문입니다.
+1	그이유는	그+이유+는	NOUN	MM+NNG+JX	_	6	nsubj	_	_
+2	지금	지금	ADV	MAG	_	5	advmod	_	_
+3	이순간을	이+순간+을	NOUN	MM+NNG+JKO	_	5	obj	_	_
+4	역사가	역사+가	NOUN	NNG+JKS	_	5	nsubj	_	_
+5	만들었기	만들+었+기	VERB	VV+EP+ETN	_	6	nmod	_	_
+6	때문입니다	때문+이+ㅂ니다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = ARG-JPN_04_2_01
+# text = 나는 우리는 역사를 배워야 한다고 생각한다.
+1	나는	나+는	PRON	NP+JX	PronType=Prs	6	nsubj	_	_
+2	우리는	우리+는	PRON	NP+JX	PronType=Prs	4	nsubj	_	_
+3	역사를	역사+를	NOUN	NNG+JKO	_	4	obj	_	_
+4	배워야	배우+어야	VERB	VV+EC	_	6	ccomp	_	_
+5	한다고	하	AUX	VX+EC	_	4	aux	_	_
+6	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = ARG-ENG_40_1_01
+# text = 아이들을 키우기에는 참 어려운 일이 많은 것 같다.
+1	아이들을	아이+들+을	NOUN	NNG+XSN+JKO	_	2	obj	_	_
+2	키우기에는	키우+기+에+는	VERB	VV+ETN+JKB+JX	_	6	obl	_	_
+3	참	참	ADV	MAG	_	4	advmod	_	_
+4	어려운	어렵+ㄴ	ADJ	VA+ETM	_	5	amod	_	_
+5	일이	일+이	NOUN	NNG+JKS	_	6	nsubj	_	_
+6	많은	많+은	ADJ	VA+ETM	_	7	acl	_	_
+7	것	것	NOUN	NNB	_	8	nsubj	_	_
+8	같다	같+다	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = ARG-ENG_22_3_10
+# text = 이런 자유로운 협동 통해 외국에 있는 사람이 한국에 있는 사람 과 연락 할수 있다.
+1	이런	이런	DET	MM	PronType=Dem	3	det	_	_
+2	자유로운	자유롭+ㄴ	ADJ	VA+ETM	_	3	amod	_	_
+3	협동	협동	NOUN	NNG	_	4	obj	_	_
+4	통해	통하+아	VERB	VV+EC	_	13	advcl	_	_
+5	외국에	외국+에	ADV	NNG+JKB	_	6	obl	_	_
+6	있는	있+는	VERB	VV+ETM	_	7	acl	_	_
+7	사람이	사람+이	NOUN	NNG+JKS	_	13	nsubj	_	_
+8	한국에	한국+에	ADV	NNP+JKB	_	9	obl	_	_
+9	있는	있+는	VERB	VV+ETM	_	10	acl	_	_
+10	사람	사람	NOUN	NNG	_	13	obl	_	_
+11	과	과	ADP	JKB	_	10	case	_	_
+12	연락	연락	NOUN	NNG	_	13	obj	_	_
+13	할수	하+ㄹ+수	VERB	VV+ETM+NNB	_	14	ccomp	_	_
+14	있다	있	AUX	VX+EF	_	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	SF	_	14	punct	_	_
+
+# sent_id = KL-H_T_08_3_03
+# text = 경쟁이 꼭 필요한 상황들이 있습니다.
+1	경쟁이	경쟁+이	NOUN	NNG+JKS	_	3	nsubj	_	_
+2	꼭	꼭	ADV	MAG	_	3	advmod	_	_
+3	필요한	필요+하+ㄴ	ADJ	NNG+XSA+ETM	_	4	acl	_	_
+4	상황들이	상황+들+이	NOUN	NNG+XSN+JKS	_	5	nsubj	_	_
+5	있습니다	있+습니다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = ARG-ENG_04_3_06
+# text = 이거는 안 된다.
+1	이거는	이거+는	PRON	NP+JX	PronType=Prs	3	nsubj	_	_
+2	안	안	ADV	MAG	_	3	advmod	_	_
+3	된다	되+ㄴ다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	SF	_	3	punct	_	_
+
+# sent_id = ARG-JPN_41_2_01
+# text = 나는 역사를 배워야 한다고 생각한다.
+1	나는	나+는	PRON	NP+JX	PronType=Prs	5	nsubj	_	_
+2	역사를	역사+를	NOUN	NNG+JKO	_	3	obj	_	_
+3	배워야	배우+어야	VERB	VV+EC	_	5	ccomp	_	_
+4	한다고	하	AUX	VX+EC	_	3	aux	_	_
+5	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = ARG-JPN_14_3_04
+# text = 근데 그렇게 해서 아이돌 펜을 하는 것이 즐거울까?
+1	근데	근데	CCONJ	MAJ	_	8	cc	_	_
+2	그렇게	그렇+게	ADV	VA+EC	_	3	advmod	_	_
+3	해서	하+아서	VERB	VV+EC	_	8	advcl	_	_
+4	아이돌	아이돌	NOUN	NNG	_	5	nmod	_	_
+5	펜을	펜+을	NOUN	NNG+JKO	_	6	obj	_	_
+6	하는	하+는	VERB	VV+ETM	_	7	acl	_	_
+7	것이	것+이	NOUN	NNB+JKS	_	8	nsubj	_	_
+8	즐거울까	즐겁+ㄹ까	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = ARG-JPN_09_3_02
+# text = 이 둘은 다 어떤 목표를 정하고 그 목표를 위해 노력을 한 결과 생기는 행동이라고 볼 수 있지만 경쟁은 극단적인 의견을 바탕으로 위험한 결정을 내릴 가능성이 있어서 최종적으로 좋은 성과를 내려면 협동이 더 효육적이지 않을까 생각한다.
+1	이	이	DET	MM	PronType=Dem	2	det	_	_
+2	둘은	둘+은	PRON	NP+JX	PronType=Prs	14	nsubj	_	_
+3	다	다	ADV	MAG	_	6	advmod	_	_
+4	어떤	어떤	DET	MM	PronType=Dem	5	det	_	_
+5	목표를	목표+를	NOUN	NNG+JKO	_	6	obj	_	_
+6	정하고	정하+고	VERB	VV+EC	_	11	advcl	_	_
+7	그	그	DET	MM	PronType=Dem	8	det	_	_
+8	목표를	목표+를	NOUN	NNG+JKO	_	9	obj	_	_
+9	위해	위하+아	VERB	VV+EC	_	11	advcl	_	_
+10	노력을	노력+을	NOUN	NNG+JKO	_	11	obj	_	_
+11	한	하+ㄴ	VERB	VV+ETM	_	12	acl	_	_
+12	결과	결과	NOUN	NNG	_	13	nsubj	_	_
+13	생기는	생기+는	VERB	VV+ETM	_	16	acl	_	_
+14	행동이라고	행동+이+라고	ADJ	NNG+VCP+EC	_	15	ccomp	_	_
+15	볼	보+ㄹ	VERB	VV+ETM	_	16	acl	_	_
+16	수	수	NOUN	NNB	_	17	nsubj	_	_
+17	있지만	있	AUX	VX+EC	_	26	advcl	_	_
+18	경쟁은	경쟁+은	NOUN	NNG+JX	_	26	dislocated	_	_
+19	극단적인	극단+적+이+ㄴ	ADJ	NNG+XSN+VCP+ETM	_	20	amod	_	_
+20	의견을	의견+을	NOUN	NNG+JKO	_	21	obj	_	_
+21	바탕으로	바탕+으로	ADV	NNG+JKB	_	24	obl	_	_
+22	위험한	위험+하+ㄴ	ADJ	NNG+XSA+ETM	_	23	amod	_	_
+23	결정을	결정+을	NOUN	NNG+JKO	_	24	obj	_	_
+24	내릴	내리+ㄹ	VERB	VV+ETM	_	25	acl	_	_
+25	가능성이	가능+성+이	NOUN	NNG+XSN+JKS	_	26	nsubj	_	_
+26	있어서	있+어서	VERB	VV+EC	_	33	advcl	_	_
+27	최종적으로	최종+적+으로	ADV	NNG+XSN+JKB	_	30	obl	_	_
+28	좋은	좋+은	ADJ	VA+ETM	_	29	amod	_	_
+29	성과를	성과+를	NOUN	NNG+JKO	_	30	obj	_	_
+30	내려면	내리+려면	VERB	VV+EC	_	33	advcl	_	_
+31	협동이	협동+이	NOUN	NNG+JKS	_	33	nsubj	_	_
+32	더	더	ADV	MAG	_	33	advmod	_	_
+33	효육적이지	효육+적+이+지	ADJ	NNG+XSN+VCP+EC	_	35	ccomp	_	_
+34	않을까	않	AUX	VX+EC	_	33	aux	_	_
+35	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+36	.	.	PUNCT	SF	_	35	punct	_	_
+
+# sent_id = ARG-JPN_04_1_03
+# text = 외국어를 학교이나 테키스트으로 공부하는 아니고 자연히 말 할 수 있다.
+1	외국어를	외국어+를	NOUN	NNG+JKO	_	4	obj	_	_
+2	학교이나	학교+이나	NOUN	NNG+JC	_	4	obl	_	_
+3	테키스트으로	테키스트+으로	ADV	NF+JKB	Typo=Yes	2	conj	_	_
+4	공부하는	공부+하+는	VERB	NNG+XSV+ETM	_	5	acl	_	_
+5	아니고	아니+고	ADJ	VCN+EC	_	0	root	_	_
+6	자연히	자연히	ADV	MAG	_	8	advmod	_	_
+7	말	말	NOUN	NNG	_	8	obj	_	_
+8	할	하+ㄹ	VERB	VV+ETM	_	9	acl	_	_
+9	수	수	NOUN	NNB	_	10	nsubj	_	_
+10	있다	있	AUX	VX+EF	_	5	conj	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	10	punct	_	_
+
+# sent_id = ARG-JPN_35_3_03
+# text = 협력하면 문제도 쉽게 해결할 수 있으니까 많은 사람들이 협력해서 뭐든지 하는게 좋다고 생각합니다.
+1	협력하면	협력+하+면	VERB	NNG+XSV+EC	_	6	advcl	_	_
+2	문제도	문제+도	NOUN	NNG+JX	_	4	obj	_	_
+3	쉽게	쉽+게	ADV	VA+EC	_	4	advmod	_	_
+4	해결할	해결+하+ㄹ	VERB	NNG+XSV+ETM	_	5	acl	_	_
+5	수	수	NOUN	NNB	_	6	nsubj	_	_
+6	있으니까	있	AUX	VX+EC	_	12	advcl	_	_
+7	많은	많+은	ADJ	VA+ETM	_	8	amod	_	_
+8	사람들이	사람+들+이	NOUN	NNG+XSN+JKS	_	9	nsubj	_	_
+9	협력해서	협력+하+아서	VERB	NNG+XSV+EC	_	11	advcl	_	_
+10	뭐든지	뭐+든지	PRON	NP+JX	PronType=Prs	11	ccomp	_	_
+11	하는게	하+는+것+이	VERB	VV+ETM+NNB+JKS	_	12	nsubj	_	_
+12	좋다고	좋+다고	ADJ	VA+EC	_	13	ccomp	_	_
+13	생각합니다	생각+하+ㅂ니다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	SF	_	13	punct	_	_
+
+# sent_id = ARG-ENG_04_1_10
+# text = 이 두만 나쁜 점을 풀릴 수 있으면 조기 언어교육을 꼭 해야 된다.
+1	이	이	DET	MM	PronType=Dem	4	det	_	_
+2	두만	두+만	NOUN	NF+JX	Typo=Yes	5	obl	_	_
+3	나쁜	나쁘+ㄴ	ADJ	VA+ETM	_	4	amod	_	_
+4	점을	점+을	NOUN	NNG+JKO	_	5	obj	_	_
+5	풀릴	풀리+ㄹ	VERB	VV+ETM	_	6	acl	_	_
+6	수	수	NOUN	NNB	_	7	nsubj	_	_
+7	있으면	있	AUX	VX+EC	_	11	advcl	_	_
+8	조기	조기	NOUN	NNG	_	9	nmod	_	_
+9	언어교육을	언어+교육+을	NOUN	NNG+NNG+JKO	_	11	obj	_	_
+10	꼭	꼭	ADV	MAG	_	11	advmod	_	_
+11	해야	하+아야	VERB	VV+EC	_	0	root	_	_
+12	된다	되+ㄴ다	VERB	VX+EF	_	11	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	SF	_	11	punct	_	_
+
+# sent_id = ARG-JPN_36_3_04
+# text = 협동을 하면 나에게는 없는 것을 상대에게 받을 수도 있고 반대로 상대에게 없는 것을 내가 공유해줄 수도 있다.
+1	협동을	협동+을	NOUN	NNG+JKO	_	2	obj	_	_
+2	하면	하+면	VERB	VV+EC	_	17	advcl	_	_
+3	나에게는	나+에게+는	PRON	NP+JKB+JX	PronType=Prs	4	obl	_	_
+4	없는	없+는	ADJ	VA+ETM	_	5	acl	_	_
+5	것을	것+을	NOUN	NNB+JKO	_	7	obj	_	_
+6	상대에게	상대+에게	ADV	NNG+JKB	_	7	obl	_	_
+7	받을	받+을	VERB	VV+ETM	_	8	acl	_	_
+8	수도	수+도	NOUN	NNB+JX	_	9	nsubj	_	_
+9	있고	있	AUX	VX+EC	_	0	root	_	_
+10	반대로	반대+로	ADV	NNG+JKB	_	17	obl	_	_
+11	상대에게	상대+에게	ADV	NNG+JKB	_	12	obl	_	_
+12	없는	없+는	ADJ	VA+ETM	_	13	acl	_	_
+13	것을	것+을	NOUN	NNB+JKO	_	15	obj	_	_
+14	내가	내+가	PRON	NP+JKS	PronType=Prs	15	nsubj	_	_
+15	공유해줄	공유+하아+주+ㄹ	NOUN	NNG+XSV+VX+ETM	_	16	acl	_	_
+16	수도	수+도	NOUN	NNB+JX	_	17	nsubj	_	_
+17	있다	있	AUX	VX+EF	_	9	conj	_	SpaceAfter=No
+18	.	.	PUNCT	SF	_	17	punct	_	_
+
+# sent_id = ARG-JPN_26_3_03
+# text = 첫번째로.
+1	첫번째로	첫+번째+로	ADV	MM+NNB+JKB	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	SF	_	1	punct	_	_
+
+# sent_id = ARG-JPN_13_1_16
+# text = 두번째는 감각적인 학습으로 인해 문법적으로 약한 부분이 있다.
+1	두번째는	두+번째+는	NOUN	MM+NNB+JX	_	8	obl	_	_
+2	감각적인	감각+적+이+ㄴ	ADJ	NNG+XSN+VCP+ETM	_	3	amod	_	_
+3	학습으로	학습+으로	ADV	NNG+JKB	_	4	obl	_	_
+4	인해	인하+아	VERB	VV+EC	_	8	advcl	_	_
+5	문법적으로	문법+적+으로	ADV	NNG+XSN+JKB	_	8	obl	_	_
+6	약한	약하+ㄴ	ADJ	VA+ETM	_	7	amod	_	_
+7	부분이	부분+이	NOUN	NNG+JKS	_	8	nsubj	_	_
+8	있다	있+다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = ARG-JPN_06_1_03
+# text = 아이는 능력적으로 기록력이 좋다.
+1	아이는	아이+는	NOUN	NNG+JX	_	4	dislocated	_	_
+2	능력적으로	능력+적+으로	ADV	NNG+XSN+JKB	_	4	obl	_	_
+3	기록력이	기록력+이	NOUN	NNG+JKS	_	4	nsubj	_	_
+4	좋다	좋+다	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	SF	_	4	punct	_	_
+
+# sent_id = ARG-JPN_31_3_01
+# text = 나는 경쟁보다는 협동을 선호한다고 생각한다.
+1	나는	나+는	PRON	NP+JX	PronType=Prs	5	nsubj	_	_
+2	경쟁보다는	경쟁+보다+는	ADV	NNG+JKB+JX	_	4	obl	_	_
+3	협동을	협동+을	NOUN	NNG+JKO	_	4	obj	_	_
+4	선호한다고	선호+하+ㄴ다고	VERB	NNG+XSV+EC	_	5	ccomp	_	_
+5	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = KL-H_P_23_1_05
+# text = 하고 언어 얼였을대 배우면 바름과 언어가 더 조와요.
+1	하고	하+고	VERB	VV+EC	_	4	advcl	_	_
+2	언어	언어	NOUN	NNG	_	3	obj	_	_
+3	얼였을대	얼였+을+대	NOUN	NA+ETM+NF	Typo=Yes	4	obl	_	_
+4	배우면	배우+면	VERB	VV+EC	_	8	advcl	_	_
+5	바름과	바름+과	NOUN	NNG+JC	_	8	nsubj	_	_
+6	언어가	언어+가	NOUN	NNG+JKS	_	5	conj	_	_
+7	더	더	ADV	MAG	_	8	advmod	_	_
+8	조와요	조오+아요	VERB	NV+EF	Typo=Yes	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = ARG-JPN_15_1_03
+# text = 그 환경에는 이점도 많지만 일본어에 대한 깊은 이해가 잃어지는 점도 있다.
+1	그	그	DET	MM	PronType=Dem	2	det	_	_
+2	환경에는	환경+에+는	ADV	NNG+JKB+JX	_	4	obl	_	_
+3	이점도	이점+도	NOUN	NNG+JX	_	4	nsubj	_	_
+4	많지만	많+지만	ADJ	VA+EC	_	11	advcl	_	_
+5	일본어에	일본어+에	ADV	NNG+JKB	_	6	obl	_	_
+6	대한	대하+ㄴ	VERB	VV+ETM	_	8	acl	_	_
+7	깊은	깊+은	ADJ	VA+ETM	_	8	amod	_	_
+8	이해가	이해+가	NOUN	NNG+JKS	_	9	nsubj	_	_
+9	잃어지는	잃+어지+는	VERB	VV+XSV+JX	_	10	acl	_	_
+10	점도	점+도	NOUN	NNG+JX	_	11	nsubj	_	_
+11	있다	있+다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	SF	_	11	punct	_	_
+
+# sent_id = ARG-JPN_32_2_02
+# text = 왜냐면 지금 살고 있는 이 곳은 역사가 만들었고 그 역사의 영향으로 지금의 국간 관계가 있기 때문입니다.
+1	왜냐면	왜냐면	CCONJ	MAJ	_	16	cc	_	_
+2	지금	지금	ADV	MAG	_	3	advmod	_	_
+3	살고	살+고	VERB	VV+EC	_	6	acl	_	_
+4	있는	있	AUX	VX+ETM	_	3	aux	_	_
+5	이	이	DET	MM	PronType=Dem	6	det	_	_
+6	곳은	곳+은	NOUN	NNG+JX	_	8	dislocated	_	_
+7	역사가	역사+가	NOUN	NNG+JKS	_	8	nsubj	_	_
+8	만들었고	만들+었+고	VERB	VV+EP+EC	_	16	advcl	_	_
+9	그	그	DET	MM	PronType=Dem	10	det	_	_
+10	역사의	역사+의	NOUN	NNG+JKG	_	11	nmod:poss	_	_
+11	영향으로	영향+으로	ADV	NNG+JKB	_	15	obl	_	_
+12	지금의	지금+의	NOUN	NNG+JKG	_	14	nmod:poss	_	_
+13	국간	국간	NOUN	NF	Typo=Yes	14	nmod	_	_
+14	관계가	관계+가	NOUN	NNG+JKS	_	15	nsubj	_	_
+15	있기	있+기	VERB	VV+ETN	_	16	nmod	_	_
+16	때문입니다	때문+이+ㅂ니다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	SF	_	16	punct	_	_
+
+# sent_id = ARG-JPN_08_2_05
+# text = 그리고 역사를 배우지 않아면 여행을 즐곱지 않다.
+1	그리고	그리고	CCONJ	MAJ	_	6	cc	_	_
+2	역사를	역사+를	NOUN	NNG+JKO	_	3	obj	_	_
+3	배우지	배우+지	VERB	VV+EC	_	6	advcl	_	_
+4	않아면	않	AUX	VX+NA	Typo=Yes	3	aux	_	_
+5	여행을	여행+을	NOUN	NNG+JKO	_	6	obj	_	_
+6	즐곱지	즐곱+지	VERB	NV+EC	Typo=Yes	0	root	_	_
+7	않다	않	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = KL-H_T_03_2_05
+# text = 하지만 주의할 점은 역사에 얽매있는 것이다.
+1	하지만	하지만	CCONJ	MAJ	_	6	cc	_	_
+2	주의할	주의+하+ㄹ	VERB	NNG+XSV+ETM	_	3	acl	_	_
+3	점은	점+은	NOUN	NNB+JX	_	6	nsubj	_	_
+4	역사에	역사+에	ADV	NNG+JKB	_	5	obl	_	_
+5	얽매있는	얽매있+는	VERB	NV+ETM	Typo=Yes	6	acl	_	_
+6	것이다	것+이+다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = ARG-ENG_04_2_13
+# text = 우리 세계하고 국들하고 도시들하고 다 더 다양하진다.
+1	우리	우리	PRON	NP	PronType=Prs	2	nmod	_	_
+2	세계하고	세계+하고	NOUN	NNG+JC	_	7	obl	_	_
+3	국들하고	국들+하고	NOUN	NF+JC	Typo=Yes	2	conj	_	_
+4	도시들하고	도시+들+하고	ADV	NNG+XSN+JKB	_	2	conj	_	_
+5	다	다	ADV	MAG	_	7	advmod	_	_
+6	더	더	ADV	MAG	_	7	advmod	_	_
+7	다양하진다	다양+하+지+ㄴ다	VERB	XR+XSV+VX+EF	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = ARG-JPN_09_1_03
+# text = 국제적 공통언어인 영어를 자아가 생기지도 않은 정말 어린 나이 때 아이한테 가르치려고 하는 부모들이 많은 것도 이 경향에 따른 것이다.
+1	국제적	국제+적	NOUN	NNG+XSN	_	2	nmod	_	_
+2	공통언어인	공통+언어+이+ㄴ	ADJ	NNG+NNG+VCP+ETM	_	3	acl	_	_
+3	영어를	영어+를	NOUN	NNP+JKO	_	5	obj	_	_
+4	자아가	자아+가	NOUN	NNG+JKS	_	5	nsubj	_	_
+5	생기지도	생기+지+도	VERB	VV+EC+JX	_	9	acl	_	_
+6	않은	않	AUX	VX+ETM	_	5	aux	_	_
+7	정말	정말	ADV	MAG	_	8	advmod	_	_
+8	어린	어리+ㄴ	ADJ	VA+ETM	_	9	amod	_	_
+9	나이	나이	NOUN	NNG	_	12	obl	_	_
+10	때	때	ADP	NNG	_	9	case	_	_
+11	아이한테	아이+한테	ADV	NNG+JKB	_	12	obl	_	_
+12	가르치려고	가르치+려고	VERB	VV+EC	_	14	acl	_	_
+13	하는	하	AUX	VX+ETM	_	12	aux	_	_
+14	부모들이	부모+들+이	NOUN	NNG+XSN+JKS	_	15	nsubj	_	_
+15	많은	많+은	ADJ	VA+ETM	_	16	acl	_	_
+16	것도	것+도	NOUN	NNB+JX	_	20	nsubj	_	_
+17	이	이	DET	MM	PronType=Dem	18	det	_	_
+18	경향에	경향+에	ADV	NNG+JKB	_	19	obl	_	_
+19	따른	따르+ㄴ	VERB	VV+ETM	_	20	acl	_	_
+20	것이다	것+이+다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	SF	_	20	punct	_	_
+
+# sent_id = KL-H_P_18_3_03
+# text = 그러나 성장에 이르는 과정을 저는 더 중요하게 봅니다.
+1	그러나	그러나	CCONJ	MAJ	_	8	cc	_	_
+2	성장에	성장+에	ADV	NNG+JKB	_	3	obl	_	_
+3	이르는	이르+는	VERB	VV+ETM	_	4	acl	_	_
+4	과정을	과정+을	NOUN	NNG+JKO	_	8	obj	_	_
+5	저는	저+는	PRON	NP+JX	PronType=Prs	8	nsubj	_	_
+6	더	더	ADV	MAG	_	7	advmod	_	_
+7	중요하게	중요+하+게	ADV	NNG+XSA+EC	_	8	advmod	_	_
+8	봅니다	보+ㅂ니다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = ARG-JPN_24_2_05
+# text = 그런 모습을 보면 역사를 배우는 것은 매우 중요한 점이고 필요한 지식이라고 생각한다.
+1	그런	그런	DET	MM	PronType=Dem	2	det	_	_
+2	모습을	모습+을	NOUN	NNG+JKO	_	3	obj	_	_
+3	보면	보+면	VERB	VV+EC	_	12	advcl	_	_
+4	역사를	역사+를	NOUN	NNG+JKO	_	5	obj	_	_
+5	배우는	배우+는	VERB	VV+ETM	_	6	acl	_	_
+6	것은	것+은	NOUN	NNB+JX	_	11	nsubj	_	_
+7	매우	매우	ADV	MAG	_	8	advmod	_	_
+8	중요한	중요+하+ㄴ	ADJ	NNG+XSA+ETM	_	9	amod	_	_
+9	점이고	점+이+고	ADJ	NNG+VCP+EC	_	12	ccomp	_	_
+10	필요한	필요+하+ㄴ	ADJ	NNG+XSA+ETM	_	11	amod	_	_
+11	지식이라고	지식+이+라고	ADJ	NNG+VCP+EC	_	9	ccomp	_	_
+12	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	SF	_	12	punct	_	_
+
+# sent_id = KL-H_P_09_2_09
+# text = 할머니도 나이가 드시는데 할머니가 이 새상을 떠날 때 역사고 달아지는 것이 아쉽다고 생각합니다.
+1	할머니도	할머니+도	NOUN	NNG+JX	_	3	dislocated	_	_
+2	나이가	나이+가	NOUN	NNG+JKS	_	3	nsubj	_	_
+3	드시는데	드시+는데	VERB	VV+EC	_	12	advcl	_	_
+4	할머니가	할머니+가	NOUN	NNG+JKS	_	7	nsubj	_	_
+5	이	이	DET	MM	PronType=Dem	6	det	_	_
+6	새상을	새상+을	NOUN	NF+JKO	Typo=Yes	7	obj	_	_
+7	떠날	떠나+ㄹ	VERB	VV+ETM	_	12	advcl	_	_
+8	때	때	SCONJ	NNG	_	7	mark	_	_
+9	역사고	역사+고	NOUN	NNG+EC	_	10	nsubj	_	_
+10	달아지는	달아지+는	VERB	NV+ETM	Typo=Yes	11	acl	_	_
+11	것이	것+이	NOUN	NNB+JKS	_	12	nsubj	_	_
+12	아쉽다고	아쉽+다고	ADJ	VA+EC	_	13	ccomp	_	_
+13	생각합니다	생각+하+ㅂ니다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	SF	_	13	punct	_	_
+
+# sent_id = KL-H_T_12_2_04
+# text = bias이가 심하면 한 사람의 문제가 아니라 한 나라 자체가 역사를 틀리게 배워서 많이 생각이 한글로 표연을 하기 힘듧니다.
+1	bias이가	bias+이+가	NOUN	SL+NA+JKS	Typo=Yes	2	nsubj	_	_
+2	심하면	심하+면	ADJ	VA+EC	_	18	advcl	_	_
+3	한	한	NUM	MM	_	4	nummod	_	_
+4	사람의	사람+의	NOUN	NNG+JKG	_	5	nmod:poss	_	_
+5	문제가	문제+가	NOUN	NNG+JKC	_	6	nsubj	_	_
+6	아니라	아니+라	ADJ	VCN+EC	_	12	advcl	_	_
+7	한	한	NUM	MM	_	8	nummod	_	_
+8	나라	나라	NOUN	NNG	_	9	nmod	_	_
+9	자체가	자체+가	NOUN	NNG+JKS	_	12	nsubj	_	_
+10	역사를	역사+를	NOUN	NNG+JKO	_	12	obj	_	_
+11	틀리게	틀리+게	ADV	VA+EC	_	12	advmod	_	_
+12	배워서	배우+어서	VERB	VV+EC	_	18	advcl	_	_
+13	많이	많이	ADV	MAG	_	17	advmod	_	_
+14	생각이	생각+이	NOUN	NNG+JKS	_	17	nsubj	_	_
+15	한글로	한글+로	ADV	NNG+JKB	_	17	obl	_	_
+16	표연을	표연+을	NOUN	NF+JKO	Typo=Yes	17	obj	_	_
+17	하기	하+기	VERB	VV+ETN	_	18	nsubj	_	_
+18	힘듧니다	힘들+ㅂ니다	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	SF	_	18	punct	_	_
+
+# sent_id = ARG-JPN_25_1_04
+# text = 예를 들면 숙제를 하기 의해 친구와 놀 수 없는 경우가 있다고 생각한다.
+1	예를	예+를	NOUN	NNG+JKO	_	2	obj	_	_
+2	들면	들+면	VERB	VV+EC	_	12	advcl	_	_
+3	숙제를	숙제+를	NOUN	NNG+JKO	_	4	obj	_	_
+4	하기	하+기	VERB	VV+ETN	_	5	obj	_	_
+5	의해	의하+아	VERB	VV+EC	_	11	advcl	_	_
+6	친구와	친구+와	ADV	NNG+JKB	_	7	obl	_	_
+7	놀	놀+ㄹ	VERB	VV+ETM	_	8	acl	_	_
+8	수	수	NOUN	NNB	_	9	nsubj	_	_
+9	없는	없+는	VERB	VX+ETM	_	10	acl	_	_
+10	경우가	경우+가	NOUN	NNG+JKS	_	11	nsubj	_	_
+11	있다고	있+다고	VERB	VV+EC	_	12	ccomp	_	_
+12	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	SF	_	12	punct	_	_
+
+# sent_id = KL-H_P_09_2_08
+# text = 작연에 처음으로 본관이나 족보에 대해 배우게 됐는데 되게 신기했다고 생각했습니다.
+1	작연에	작연+에	ADV	NF+JKB	Typo=Yes	6	obl	_	_
+2	처음으로	처음+으로	ADV	NNG+JKB	_	6	obl	_	_
+3	본관이나	본관+이나	NOUN	NNG+JC	_	5	obl	_	_
+4	족보에	족보+에	ADV	NNG+JKB	_	3	conj	_	_
+5	대해	대하+아	VERB	VV+EC	_	6	advcl	_	_
+6	배우게	배우+게	VERB	VV+EC	_	10	advcl	_	_
+7	됐는데	되+었+는데	VERB	VX+EP+EC	_	6	advcl	_	_
+8	되게	되게	ADV	MAG	_	9	advmod	_	_
+9	신기했다고	신기+하+았+다고	VERB	NNG+XSV+EP+EC	_	10	ccomp	_	_
+10	생각했습니다	생각+하+았+습니다	VERB	NNG+XSV+EP+EF	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	10	punct	_	_
+
+# sent_id = ARG-JPN_36_2_07
+# text = 이런 이유로 나는 역사를 배워야 한다고 생각한다.
+1	이런	이런	DET	MM	PronType=Dem	2	det	_	_
+2	이유로	이유+로	ADV	NNG+JKB	_	7	obl	_	_
+3	나는	나+는	PRON	NP+JX	PronType=Prs	7	nsubj	_	_
+4	역사를	역사+를	NOUN	NNG+JKO	_	5	obj	_	_
+5	배워야	배우+어야	VERB	VV+EC	_	7	ccomp	_	_
+6	한다고	하	AUX	VX+EC	_	5	aux	_	_
+7	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = ARG-JPN_13_1_04
+# text = 첫번째는 빨리 외울 수 있다는 점이다.
+1	첫번째는	첫+번째+는	NOUN	MM+NNB+JX	_	6	obl	_	_
+2	빨리	빨리	ADV	MAG	_	3	advmod	_	_
+3	외울	외우+ㄹ	VERB	VV+ETM	_	4	acl	_	_
+4	수	수	NOUN	NNB	_	5	nsubj	_	_
+5	있다는	있	AUX	VX+ETM	_	6	acl	_	_
+6	점이다	점+이+다	ADJ	NNG+VCP+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = ARG-JPN_08_1_01
+# text = 조기언어교육에는 장점과 단점이 있는다.
+1	조기언어교육에는	조기+언어+교육+에	NOUN	NNG+NNG+NNG+JKB	_	4	obl	_	_
+2	장점과	장점+과	NOUN	NNG+JC	_	4	nsubj	_	_
+3	단점이	단점+이	NOUN	NNG+JKS	_	2	conj	_	_
+4	있는다	있+는다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	SF	_	4	punct	_	_
+
+# sent_id = ARG-JPN_38_1_05
+# text = 실체로 저는 어릴 때부터 영어를 하고 있어서 영어를 잘 할수있는 편였습니다.
+1	실체로	실체+로	ADV	NF+JKB	Typo=Yes	6	obl	_	_
+2	저는	저+는	PRON	NP+JX	PronType=Prs	6	nsubj	_	_
+3	어릴	어리+ㄹ	ADJ	VA+ETM	_	6	advcl	_	_
+4	때부터	때+부터	SCONJ	NNG+JX	_	3	mark	_	_
+5	영어를	영어+를	NOUN	NNP+JKO	_	6	obj	_	_
+6	하고	하+고	VERB	VV+EC	_	11	advcl	_	_
+7	있어서	있	AUX	VX+EC	_	6	aux	_	_
+8	영어를	영어+를	NOUN	NNG+JK	_	10	obj	_	_
+9	잘	잘	ADV	MAG	_	10	advmod	_	_
+10	할수있는	하+ㄹ+수+있+는	VERB	VV+ETM+NNB+VX+ETM	_	11	acl	_	_
+11	편였습니다	편+이+었+습니다	ADJ	NNB+VCP+EP+EF	_	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	SF	_	11	punct	_	_
+
+# sent_id = KL-H_T_05_3_04
+# text = 제가 협동을 더 선호하는 이유는 사회 생활에 중요하기 때문입니다.
+1	제가	제+가	PRON	NP+JKS	PronType=Prs	4	nsubj	_	_
+2	협동을	협동+을	NOUN	NNG+JKO	_	4	obj	_	_
+3	더	더	ADV	MAG	_	4	advmod	_	_
+4	선호하는	선호+하+는	VERB	NNG+XSV+ETM	_	5	acl	_	_
+5	이유는	이유+는	NOUN	NNG+JX	_	9	nsubj	_	_
+6	사회	사회	NOUN	NNG	_	7	nmod	_	_
+7	생활에	생활+에	ADV	NNG+JKB	_	8	obl	_	_
+8	중요하기	중요+하+기	ADJ	NNG+XSA+ETN	_	9	nmod	_	_
+9	때문입니다	때문+이+ㅂ니다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = KL-H_P_06_2_06
+# text = 역사를 배우면서 다른 문화와 나라에 대한 지식도 배울 수 있다.
+1	역사를	역사+를	NOUN	NNG+JKO	_	2	obj	_	_
+2	배우면서	배우+면서	VERB	VV+EC	_	10	advcl	_	_
+3	다른	다르+ㄴ	ADJ	VA+ETM	_	4	amod	_	_
+4	문화와	문화+와	NOUN	NNG+JC	_	6	obl	_	_
+5	나라에	나라+에	ADV	NNG+JKB	_	4	conj	_	_
+6	대한	대하+ㄴ	VERB	VV+ETM	_	7	acl	_	_
+7	지식도	지식+도	NOUN	NNG+JX	_	8	obj	_	_
+8	배울	배우+ㄹ	VERB	VV+ETM	_	9	acl	_	_
+9	수	수	NOUN	NNB	_	10	nsubj	_	_
+10	있다	있	AUX	VX+EF	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	10	punct	_	_
+
+# sent_id = KL-H_T_06_3_03
+# text = 한국인 나라도 경쟁이 높아서 새게적으로 한국이 ~50년 시간않에 바달이 높다고 생각합니다.
+1	한국인	한국인	NOUN	NNG	_	2	nmod	_	_
+2	나라도	나라+도	NOUN	NNG+JX	_	4	dislocated	_	_
+3	경쟁이	경쟁+이	NOUN	NNG+JKS	_	4	nsubj	_	_
+4	높아서	높+아서	ADJ	VA+EC	_	10	advcl	_	_
+5	새게적으로	새게+적+으로	ADV	NF+XSN+JKB	Typo=Yes	10	obl	_	_
+6	한국이	한국+이	NOUN	NNP+JKS	_	10	dislocated	_	_
+7	~50년	~+50+년	NOUN	SO+SN+NNB	_	8	nmod	_	_
+8	시간않에	시간+않+에	NOUN	NNG+NA+JKB	Typo=Yes	10	obl	_	_
+9	바달이	바달+이	NOUN	NF+JKS	Typo=Yes	10	nsubj	_	_
+10	높다고	높+다고	ADJ	VA+EC	_	11	ccomp	_	_
+11	생각합니다	생각+하+ㅂ니다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	SF	_	11	punct	_	_
+
+# sent_id = ARG-JPN_41_1_05
+# text = 그로 인해 모국어의 문법을 잘못 배울 확률이 높아질 우려가 있다.
+1	그로	그+로	PRON	NP+JKB	PronType=Prs	2	obl	_	_
+2	인해	인하+아	VERB	VV+EC	_	10	advcl	_	_
+3	모국어의	모국어+의	NOUN	NNG+JKG	_	4	nmod:poss	_	_
+4	문법을	문법+을	NOUN	NNG+JKO	_	6	obj	_	_
+5	잘못	잘못	ADV	MAG	_	6	advmod	_	_
+6	배울	배우+ㄹ	VERB	VV+ETM	_	7	acl	_	_
+7	확률이	확률+이	NOUN	NNG+JKS	_	8	nsubj	_	_
+8	높아질	높아지+ㄹ	ADJ	VA+ETM	_	9	acl	_	_
+9	우려가	우려+가	NOUN	NNG+JKS	_	10	nsubj	_	_
+10	있다	있+다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	10	punct	_	_
+
+# sent_id = ARG-ENG_07_3_04
+# text = 그런데 경쟁도 필요해요.
+1	그런데	그런데	CCONJ	MAJ	_	3	cc	_	_
+2	경쟁도	경쟁+도	NOUN	NNG+JX	_	3	nsubj	_	_
+3	필요해요	필요+하+아요	ADJ	NNG+XSA+EF	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	SF	_	3	punct	_	_
+
+# sent_id = ARG-JPN_21_3_10
+# text = 고등학교에 들어가고 나서는 모두가 비슷한 성적을 가기고 있어서 그런지 잘 경쟁을 안하게 되었고 오히려 똑똑한 친구한데 질문도 해보고 방과후에는 친구끼리 남아서 같이 공부도 했다.
+1	고등학교에	고등학교+에	ADV	NNG+JKB	_	2	obl	_	_
+2	들어가고	들어가+고	VERB	VV+EC	_	7	advcl	_	_
+3	나서는	나+아서+는	VERB	VV+EC+JX	_	2	advcl	_	_
+4	모두가	모두+가	NOUN	NNG+JKS	_	7	nsubj	_	_
+5	비슷한	비슷+하+ㄴ	ADJ	XR+XSA+ETM	_	6	amod	_	_
+6	성적을	성적+을	NOUN	NNG+JKO	_	7	obj	_	_
+7	가기고	가기+고	VERB	NV+EC	Typo=Yes	9	advcl	_	_
+8	있어서	있	AUX	VX+EC	_	7	aux	_	_
+9	그런지	그렇+ㄴ지	ADJ	VA+EC	_	12	advcl	_	_
+10	잘	잘	ADV	MAG	_	12	advmod	_	_
+11	경쟁을	경쟁+을	NOUN	NNG+JKO	_	12	obj	_	_
+12	안하게	안+하+게	VERB	MAG+VV+EC	_	0	root	_	_
+13	되었고	되+었+고	VERB	VX+EP+EC	_	12	advcl	_	_
+14	오히려	오히려	ADV	MAG	_	18	advmod	_	_
+15	똑똑한	똑똑+하+ㄴ	ADV	XR+XSA+ETM	_	16	advmod	_	_
+16	친구한데	친구+한데	NOUN	NNG+NA	Typo=Yes	18	obl	_	_
+17	질문도	질문+도	NOUN	NNG+JX	_	18	obj	_	_
+18	해보고	하+아+보+고	VERB	VV+EC+VX+EC	_	12	conj	_	_
+19	방과후에는	방과+후+에+는	ADV	NNG+NNB+JKB+JX	_	21	obl	_	_
+20	친구끼리	친구+끼리	NOUN	NNG+XSN	_	21	obl	_	_
+21	남아서	남+아서	VERB	VV+EC	_	24	advcl	_	_
+22	같이	같이	ADV	MAG	_	24	advmod	_	_
+23	공부도	공부+도	NOUN	NNG+JX	_	24	obj	_	_
+24	했다	하+았+다	VERB	VV+EP+EF	_	12	conj	_	SpaceAfter=No
+25	.	.	PUNCT	SF	_	24	punct	_	_
+
+# sent_id = ARG-JPN_07_2_08
+# text = 자국과 외국이 서로 어떤 영향을 치면서 지금의 세계를 만들어 온지를 역사 교육을 통해 배운다.
+1	자국과	자국+과	NOUN	NNG+JC	_	6	nsubj	_	_
+2	외국이	외국+이	NOUN	NF+JKS	Typo=Yes	1	conj	_	_
+3	서로	서로	ADV	MAG	_	6	advmod	_	_
+4	어떤	어떤	DET	MM	PronType=Dem	5	det	_	_
+5	영향을	영향+을	NOUN	NNG+JKO	_	6	obj	_	_
+6	치면서	치+면서	VERB	VV+EC	_	9	advcl	_	_
+7	지금의	지금+의	NOUN	NNG+JKG	_	8	nmod:poss	_	_
+8	세계를	세계+를	NOUN	NNG+JKO	_	9	obj	_	_
+9	만들어	만들+어	VERB	VV+EC	_	14	ccomp	_	_
+10	온지를	오+ㄴ지+를	VERB	VX+EF+JKO	_	9	advcl	_	_
+11	역사	역사	NOUN	NNG	_	12	nmod	_	_
+12	교육을	교육+을	NOUN	NNG+JKO	_	13	obj	_	_
+13	통해	통하+아	VERB	VV+EC	_	14	advcl	_	_
+14	배운다	배우+ㄴ다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	SF	_	14	punct	_	_
+
+# sent_id = ARG-JPN_06_1_08
+# text = 아이는 기억력이 좋아서 외국어도 외우기가 쉽다.
+1	아이는	아이+는	NOUN	NNG+JX	_	3	dislocated	_	_
+2	기억력이	기억력+이	NOUN	NNG+JKS	_	3	nsubj	_	_
+3	좋아서	좋+아서	ADJ	VA+EC	_	6	advcl	_	_
+4	외국어도	외국어+도	NOUN	NNG+JX	_	5	obj	_	_
+5	외우기가	외우+기+가	VERB	VV+ETN+JKS	_	6	nsubj	_	_
+6	쉽다	쉽+다	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = KL-H_P_23_1_03
+# text = 그리고 다른 언어를 배울대 더 씨워요.
+1	그리고	그리고	CCONJ	MAJ	_	6	cc	_	_
+2	다른	다르+ㄴ	ADJ	VA+ETM	_	3	amod	_	_
+3	언어를	언어+를	NOUN	NNG+JKO	_	4	obj	_	_
+4	배울대	배우+ㄹ+대	VERB	VV+ETM+NF	Typo=Yes	6	advcl	_	_
+5	더	더	ADV	MAG	_	6	advmod	_	_
+6	씨워요	씨+어요	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = ARG-JPN_29_3_05
+# text = 이외 같이 협동을 좋은 점이 많고 선호한다.
+1	이외	이외	NOUN	NA	Typo=Yes	7	obl	_	_
+2	같이	같이	ADV	MAG	_	6	advmod	_	_
+3	협동을	협동+을	NOUN	NNG+JKO	_	6	obj	_	_
+4	좋은	좋+은	ADJ	VA+ETM	_	5	amod	_	_
+5	점이	점+이	NOUN	NNB+JKS	_	6	nsubj	_	_
+6	많고	많+고	ADJ	VA+EC	_	0	root	_	_
+7	선호한다	선호+하+ㄴ다	VERB	NNG+XSV+EF	_	6	conj	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = ARG-JPN_26_2_14
+# text = 더 다시 그런 슬픈 것이 생기지 않도록 생각 할 수 있다 역사를 배워야.
+1	더	더	ADV	MAG	_	6	advmod	_	_
+2	다시	다시	ADV	MAG	_	6	advmod	_	_
+3	그런	그런	DET	MM	PronType=Dem	5	det	_	_
+4	슬픈	슬프+ㄴ	ADJ	VA+ETM	_	5	amod	_	_
+5	것이	것+이	NOUN	NNB+JKS	_	6	nsubj	_	_
+6	생기지	생기+지	VERB	VV+EC	_	11	advcl	_	_
+7	않도록	않	AUX	VX+EC	_	6	aux	_	_
+8	생각	생각	NOUN	NNG	_	9	obj	_	_
+9	할	하+ㄹ	VERB	VV+ETM	_	10	acl	_	_
+10	수	수	NOUN	NNB	_	11	nsubj	_	_
+11	있다	있	AUX	VX+EC	_	13	advcl	_	_
+12	역사를	역사+를	NOUN	NNG+JKO	_	13	obj	_	_
+13	배워야	배우+어야	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	SF	_	13	punct	_	_
+
+# sent_id = ARG-JPN_41_1_06
+# text = 특히 쓰기 능력이 떨어질 가능성이 있지 않을까 싶다.
+1	특히	특히	ADV	MAG	_	6	advmod	_	_
+2	쓰기	쓰+기	VERB	VV+ETN	_	3	nmod	_	_
+3	능력이	능력+이	NOUN	NNG+JKS	_	4	nsubj	_	_
+4	떨어질	떨어지+ㄹ	VERB	VV+ETM	_	5	acl	_	_
+5	가능성이	가능+성+이	NOUN	NNG+XSN+JKS	_	6	nsubj	_	_
+6	있지	있+지	VERB	VV+EC	_	0	root	_	_
+7	않을까	않	AUX	VX+EC	_	6	aux	_	_
+8	싶다	싶	AUX	VX+EF	_	6	aux	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = ARG-ENG_33_1_08
+# text = 집에서 한국어만 쓰고 일주일에 3번 정도 다른 언어교육 받으면 아이는 한국어를 다른 아이들처럼 발달할 것이다.
+1	집에서	집+에서	ADV	NNG+JKB	_	3	obl	_	_
+2	한국어만	한국어+만	NOUN	NNG+JX	_	3	obj	_	_
+3	쓰고	쓰+고	VERB	VV+EC	_	9	advcl	_	_
+4	일주일에	일+주일+에	ADV	MM+NNB+JKB	_	9	obl	_	_
+5	3번	3+번	NOUN	SN+NNB	_	9	obl	_	_
+6	정도	정도	ADP	NNG	_	5	case	_	_
+7	다른	다르+ㄴ	ADJ	VA+ETM	_	8	amod	_	_
+8	언어교육	언어+교육	NOUN	NNG+NNG	_	9	obj	_	_
+9	받으면	받+으면	VERB	VV+EC	_	15	advcl	_	_
+10	아이는	아이+는	NOUN	NNG+JX	_	14	nsubj	_	_
+11	한국어를	한국어+를	NOUN	NNG+JKO	_	14	obj	_	_
+12	다른	다르+ㄴ	ADJ	VA+ETM	_	13	amod	_	_
+13	아이들처럼	아이+들+처럼	ADV	NNG+XSN+JKB	_	14	obl	_	_
+14	발달할	발달+하+ㄹ	VERB	NNG+XSV+ETM	_	15	acl	_	_
+15	것이다	것+이+다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	SF	_	15	punct	_	_
+
+# sent_id = ARG-ENG_18_2_04
+# text = 우리 역사를 무시하면 당연히 다시 할 것이다.
+1	우리	우리	PRON	NP	PronType=Prs	2	nmod	_	_
+2	역사를	역사+를	NOUN	NNG+JKO	_	3	obj	_	_
+3	무시하면	무시+하+면	VERB	NNG+XSV+EC	_	7	advcl	_	_
+4	당연히	당연히	ADV	MAG	_	6	advmod	_	_
+5	다시	다시	ADV	MAG	_	6	advmod	_	_
+6	할	하+ㄹ	VERB	VV+ETM	_	7	acl	_	_
+7	것이다	것+이+다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = KL-H_P_15_2_06
+# text = 역사는 실수들을 환히 보임으로서 더 발전하고 같은 실수를 반복하지 않게 도와줍니다.
+1	역사는	역사+는	NOUN	NNG+JX	_	11	nsubj	_	_
+2	실수들을	실수+들+을	NOUN	NNG+XSN+JKO	_	4	obj	_	_
+3	환히	환히	ADV	MAG	_	4	advmod	_	_
+4	보임으로서	보이+ㅁ+으로서	VERB	VV+ETN+JKB	_	6	obl	_	_
+5	더	더	ADV	MAG	_	6	advmod	_	_
+6	발전하고	발전+하+고	VERB	NNG+XSV+EC	_	0	root	_	_
+7	같은	같+은	ADJ	VA+ETM	_	8	amod	_	_
+8	실수를	실수+를	NOUN	NNG+JKO	_	9	obj	_	_
+9	반복하지	반복+하+지	VERB	NNG+XSV+EC	_	11	advcl	_	_
+10	않게	않	AUX	VX+EC	_	9	aux	_	_
+11	도와줍니다	도와주+ㅂ니다	VERB	VV+EF	_	6	conj	_	SpaceAfter=No
+12	.	.	PUNCT	SF	_	11	punct	_	_
+
+# sent_id = ARG-ENG_12_3_03
+# text = 우리는 먹고 살기 위해 경쟁이 필요한 사회에 살고 있다.
+1	우리는	우리+는	PRON	NP+JX	PronType=Prs	8	nsubj	_	_
+2	먹고	먹+고	VERB	VV+EC	_	3	advcl	_	_
+3	살기	살+기	VERB	VV+ETN	_	4	obj	_	_
+4	위해	위하+아	VERB	VV+EC	_	8	advcl	_	_
+5	경쟁이	경쟁+이	NOUN	NNG+JKS	_	6	nsubj	_	_
+6	필요한	필요+하+ㄴ	ADJ	NNG+XSA+ETM	_	7	acl	_	_
+7	사회에	사회+에	ADV	NNG+JKB	_	8	obl	_	_
+8	살고	살+고	VERB	VV+EC	_	0	root	_	_
+9	있다	있	AUX	VX+EF	_	8	aux	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = ARG-JPN_18_1_05
+# text = 세 번째는 외국 사람들과 교류할 범위가 넓게 되는 점입니다.
+1	세	세	NUM	MM	_	2	nummod	_	_
+2	번째는	번째+는	NOUN	NNB+JX	_	9	obl	_	_
+3	외국	외국	NOUN	NNG	_	4	nmod	_	_
+4	사람들과	사람+들+과	ADV	NNG+XSN+JKB	_	5	obl	_	_
+5	교류할	교류+하+ㄹ	VERB	NNG+XSV+ETM	_	6	acl	_	_
+6	범위가	범위+가	NOUN	NNG+JKS	_	8	nsubj	_	_
+7	넓게	넓+게	ADV	VA+EC	_	8	advmod	_	_
+8	되는	되+는	VERB	VV+ETM	_	9	acl	_	_
+9	점입니다	점+이+ㅂ니다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = ARG-JPN_40_3_02
+# text = 개인적으로는 경쟁보다 협력을 중요시해야 한다는 생각이 든다.
+1	개인적으로는	개인+적+으로+는	NOUN	NNG+XSN+JKB+JX	_	7	obl	_	_
+2	경쟁보다	경쟁+보다	ADV	NNG+JKB	_	4	obl	_	_
+3	협력을	협력+을	NOUN	NNG+JKO	_	4	obj	_	_
+4	중요시해야	중요시+하+아야	VERB	NNG+XSV+EC	_	6	acl	_	_
+5	한다는	하	AUX	VX+ETM	_	4	aux	_	_
+6	생각이	생각+이	NOUN	NNG+JKS	_	7	nsubj	_	_
+7	든다	들+ㄴ다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	SF	_	7	punct	_	_
+
+# sent_id = ARG-ENG_33_2_08
+# text = 예를 들면 제 고향은 루이지애나 주에서 불어하는 사람 많은데 프랑스와 캐나다의 역사를 배우지 않으면 루이지애나에서 왜 불어하는지를 이해할수 없을 것이다.
+1	예를	예+를	NOUN	NNG+JKO	_	2	obj	_	_
+2	들면	들+면	VERB	VV+EC	_	20	advcl	_	_
+3	제	저+의	PRON	NP+JKG	PronType=Prs	4	nmod:poss	_	_
+4	고향은	고향+은	NOUN	NNG+JX	_	9	dislocated	_	_
+5	루이지애나	루이지애나	NOUN	NNP	_	7	obl	_	_
+6	주에서	주+에서	ADV	NNG+JKB	_	5	conj	_	_
+7	불어하는	불어+하+는	VERB	NNG+XSV+ETM	_	8	acl	_	_
+8	사람	사람	NOUN	NNG	_	9	nsubj	_	_
+9	많은데	많+은데	ADJ	VA+EC	_	20	advcl	_	_
+10	프랑스와	프랑스+와	NOUN	NNP+JC	_	12	nmod:poss	_	_
+11	캐나다의	캐나다+의	NOUN	NNP+JKG	_	10	conj	_	_
+12	역사를	역사+를	NOUN	NNG+JKO	_	13	obj	_	_
+13	배우지	배우+지	VERB	VV+EC	_	20	advcl	_	_
+14	않으면	않	AUX	VX+EC	_	13	aux	_	_
+15	루이지애나에서	루이지애나+에서	ADV	NNP+JKB	_	17	obl	_	_
+16	왜	왜	ADV	MAG	_	17	advmod	_	_
+17	불어하는지를	불어+하+는지+를	NOUN	NNG+VV+EC+JKO	_	18	ccomp	_	_
+18	이해할수	이해+하+ㄹ+수	NOUN	NNG+XSV+ETM+NNB	_	19	nsubj	_	_
+19	없을	없+을	VERB	VX+ETM	_	20	acl	_	_
+20	것이다	것+이+다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	SF	_	20	punct	_	_
+
+# sent_id = KL-H_P_17_3_04
+# text = 협동하며 얻는것들이 훨씬 많은것 같애요.
+1	협동하며	협동+하+며	VERB	NNG+XSV+EC	_	2	advcl	_	_
+2	얻는것들이	얻+는+것+들+이	VERB	VV+ETM+NNB+XSN+JKS	_	4	nsubj	_	_
+3	훨씬	훨씬	ADV	MAG	_	4	advmod	_	_
+4	많은것	많+은+것	ADJ	VA+ETM+NNB	_	5	nsubj	_	_
+5	같애요	같+애요	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	SF	_	5	punct	_	_
+
+# sent_id = ARG-ENG_05_1_16
+# text = 안 좋은 점도 있지만 대부분 조기언어 교육이 좋은 것이다.
+1	안	안	ADV	MAG	_	2	advmod	_	_
+2	좋은	좋+은	ADJ	VA+ETM	_	3	amod	_	_
+3	점도	점+도	NOUN	NNG+JX	_	4	nsubj	_	_
+4	있지만	있+지만	VERB	VV+EC	_	9	advcl	_	_
+5	대부분	대부분	NOUN	NNG	_	6	nmod	_	_
+6	조기언어	조기+언어	NOUN	NNG+NNG	_	7	nmod	_	_
+7	교육이	교육+이	NOUN	NNG+JKS	_	9	nsubj	_	_
+8	좋은	좋+은	ADJ	VA+ETM	_	9	amod	_	_
+9	것이다	것+이+다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = KL-H_T_08_3_07
+# text = 또 경쟁이 너무 쌔면 속상해지고 남과 다툴수있어서 저는 관심이 별로 없습니다.
+1	또	또	CCONJ	MAJ	_	11	cc	_	_
+2	경쟁이	경쟁+이	NOUN	NNG+JKS	_	4	nsubj	_	_
+3	너무	너무	ADV	MAG	_	4	advmod	_	_
+4	쌔면	쌔+면	VERB	NV+EC	Typo=Yes	5	advcl	_	_
+5	속상해지고	속상하+아지+고	VERB	VA+XSV+EC	_	11	advcl	_	_
+6	남과	남+과	ADV	NNG+JKB	_	7	obl	_	_
+7	다툴수있어서	다투+ㄹ+수+있+어서	VERB	VV+ETM+NNB+VA+EC	_	5	conj	_	_
+8	저는	저+는	PRON	NP+JX	PronType=Prs	11	dislocated	_	_
+9	관심이	관심+이	NOUN	NNG+JKS	_	11	nsubj	_	_
+10	별로	별로	ADV	MAG	_	11	advmod	_	_
+11	없습니다	없+습니다	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	SF	_	11	punct	_	_
+
+# sent_id = ARG-JPN_18_2_03
+# text = 하나는 역사를 배우면 다른 문화를 알고 이해할 수 있다는 것입니다.
+1	하나는	하나+는	NUM	NR+JX	_	10	nsubj	_	_
+2	역사를	역사+를	NOUN	NNG+JKO	_	3	obj	_	_
+3	배우면	배우+면	VERB	VV+EC	_	6	advcl	_	_
+4	다른	다르+ㄴ	ADJ	VA+ETM	_	5	amod	_	_
+5	문화를	문화+를	NOUN	NNG+JKO	_	6	obj	_	_
+6	알고	알+고	VERB	VV+EC	_	7	advcl	_	_
+7	이해할	이해+하+ㄹ	VERB	NNG+XSV+ETM	_	8	acl	_	_
+8	수	수	NOUN	NNB	_	9	nsubj	_	_
+9	있다는	있	AUX	VX+ETM	_	10	acl	_	_
+10	것입니다	것+이+ㅂ니다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	10	punct	_	_
+
+# sent_id = ARG-ENG_10_3_02
+# text = 사람들이 똑같은 목표를 위해 같이 일하면 그 목표를 더 빠르게 이룰 수 있다고 생각한다.
+1	사람들이	사람+들+이	NOUN	NNG+XSN+JKS	_	6	nsubj	_	_
+2	똑같은	똑같+은	ADJ	VA+ETM	_	3	amod	_	_
+3	목표를	목표+를	NOUN	NNG+JKO	_	4	obj	_	_
+4	위해	위하+아	VERB	VV+EC	_	6	advcl	_	_
+5	같이	같이	ADV	MAG	_	6	advmod	_	_
+6	일하면	일+하+면	VERB	NNG+XSV+EC	_	13	advcl	_	_
+7	그	그	DET	MM	PronType=Dem	8	det	_	_
+8	목표를	목표+를	NOUN	NNG+JKO	_	11	obj	_	_
+9	더	더	ADV	MAG	_	10	advmod	_	_
+10	빠르게	빠르+게	ADV	VA+EC	_	11	advmod	_	_
+11	이룰	이루+ㄹ	VERB	VV+ETM	_	12	acl	_	_
+12	수	수	NOUN	NNB	_	13	nsubj	_	_
+13	있다고	있	AUX	VX+EC	_	14	ccomp	_	_
+14	생각한다	생각+하+ㄴ다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	SF	_	14	punct	_	_
+
+# sent_id = ARG-JPN_14_1_03
+# text = 다른 국적을 가진 사람끼리 결혼하는 국제결혼도 매년 인구가 늘어나고 있다.
+1	다른	다르+ㄴ	ADJ	VA+ETM	_	2	amod	_	_
+2	국적을	국적+을	NOUN	NNG+JKO	_	3	obj	_	_
+3	가진	가지+ㄴ	VERB	VV+ETM	_	4	acl	_	_
+4	사람끼리	사람+끼리	ADV	NNG+JKB	_	5	nsubj	_	_
+5	결혼하는	결혼+하+는	VERB	NNG+XSV+ETM	_	6	acl	_	_
+6	국제결혼도	국제+결혼+도	NOUN	NNG+NNG+JX	_	9	dislocated	_	_
+7	매년	매년	ADV	MAG	_	9	advmod	_	_
+8	인구가	인구+가	NOUN	NNG+JKS	_	9	nsubj	_	_
+9	늘어나고	늘어나+고	VERB	VV+EC	_	0	root	_	_
+10	있다	있	AUX	VX+EF	_	9	aux	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = ARG-ENG_06_1_13
+# text = 우리 국제적 세상에서 일하고싶으면 외국 언어 잘 한 사람들이 매력있어요.
+1	우리	우리	PRON	NP	PronType=Prs	4	nmod	_	_
+2	국제적	국제+적	NOUN	NNG+XSN	_	3	nmod	_	_
+3	세상에서	세상+에서	ADV	NNG+JKB	_	4	obl	_	_
+4	일하고싶으면	일+하+고+싶+으면	NOUN	NNG+XSV+EC+VX+EC	_	10	advcl	_	_
+5	외국	외국	NOUN	NNG	_	6	nmod	_	_
+6	언어	언어	NOUN	NNG	_	8	obj	_	_
+7	잘	잘	ADV	MAG	_	8	advmod	_	_
+8	한	하+ㄴ	VERB	VV+ETM	_	9	acl	_	_
+9	사람들이	사람+들+이	NOUN	NNG+XSN+JKS	_	10	nsubj	_	_
+10	매력있어요	매력+있+어요	ADJ	NNG+VA+EF	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	SF	_	10	punct	_	_
+
+# sent_id = ARG-ENG_02_2_07
+# text = 미래에 그런 나쁜 사람들은 정악하는 걸 방해할 수 있어요.
+1	미래에	미래+에	ADV	NNG+JKB	_	5	obl	_	_
+2	그런	그런	DET	MM	PronType=Dem	4	det	_	_
+3	나쁜	나쁘+ㄴ	ADJ	VA+ETM	_	4	amod	_	_
+4	사람들은	사람+들+은	NOUN	NNG+XSN+JX	_	7	nsubj	_	_
+5	정악하는	정악+하+는	VERB	NNG+XSV+ETM	_	6	acl	_	_
+6	걸	것+을	NOUN	NNB+JKO	_	7	obj	_	_
+7	방해할	방해+하+ㄹ	VERB	NNG+XSV+ETM	_	8	acl	_	_
+8	수	수	NOUN	NNB	_	9	nsubj	_	_
+9	있어요	있	AUX	VX+EF	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = ARG-ENG_19_1_03
+# text = 언어는 어릴수록 더 쉽게 배우고 더 오래동안 기억해요.
+1	언어는	언어+는	NOUN	NNG+JX	_	2	obj	_	_
+2	어릴수록	어리+ㄹ수록	ADJ	VA+EC	_	8	advcl	_	_
+3	더	더	ADV	MAG	_	4	advmod	_	_
+4	쉽게	쉽+게	ADV	VA+EC	_	5	advmod	_	_
+5	배우고	배우+고	VERB	VV+EC	_	8	advcl	_	_
+6	더	더	ADV	MAG	_	7	advmod	_	_
+7	오래동안	오래+동안	ADV	MAG+NNG	_	8	obl	_	_
+8	기억해요	기억+하+아요	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = ARG-JPN_06_2_08
+# text = 들째는 역사를 배우면 다른 국가의 있는 사람들과 의사소통을 할 수 있는 것이다.
+1	들째는	들째+는	NOUN	NF+JX	Typo=Yes	12	nsubj	_	_
+2	역사를	역사+를	NOUN	NNG+JKO	_	3	obj	_	_
+3	배우면	배우+면	VERB	VV+EC	_	12	advcl	_	_
+4	다른	다르+ㄴ	ADJ	VA+ETM	_	5	amod	_	_
+5	국가의	국가+의	NOUN	NNG+JKG	_	7	nmod:poss	_	_
+6	있는	있+는	VERB	VV+ETM	_	7	acl	_	_
+7	사람들과	사람+들+과	ADV	NNG+XSN+JKB	_	9	obl	_	_
+8	의사소통을	의사+소통+을	NOUN	NNG+NNG+JKO	_	9	obj	_	_
+9	할	하+ㄹ	VERB	VV+ETM	_	10	acl	_	_
+10	수	수	NOUN	NNB	_	11	nsubj	_	_
+11	있는	있	AUX	VX+ETM	_	12	acl	_	_
+12	것이다	것+이+다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	SF	_	12	punct	_	_
+
+# sent_id = ARG-JPN_16_3_04
+# text = 서로 따로따로 하는 것보다 분업해서 하는게 더 좋습니다.
+1	서로	서로	ADV	MAG	_	3	advmod	_	_
+2	따로따로	따로따로	ADV	MAG	_	3	advmod	_	_
+3	하는	하+는	VERB	VV+ETM	_	4	acl	_	_
+4	것보다	것+보다	ADV	NNB+JKB	_	5	obl	_	_
+5	분업해서	분업+하+아서	VERB	NNG+XSV+EC	_	6	advcl	_	_
+6	하는게	하+는+것+이	VERB	VV+ETM+NNB+JKS	_	8	nsubj	_	_
+7	더	더	ADV	MAG	_	8	advmod	_	_
+8	좋습니다	좋+습니다	ADJ	VA+EF	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	SF	_	8	punct	_	_
+
+# sent_id = KL-H_P_17_1_12
+# text = 과유불금이라는 말처럼.
+1	과유불금이라는	과유불금+이+라는	NOUN	NF+VCP+ETM	Typo=Yes	2	acl	_	_
+2	말처럼	말+처럼	ADV	NNG+JKB	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	SF	_	2	punct	_	_
+
+# sent_id = ARG-ENG_18_2_05
+# text = 그래서 역사를 재대로 가르쳐야된다.
+1	그래서	그래서	CCONJ	MAJ	_	4	cc	_	_
+2	역사를	역사+를	NOUN	NNG+JKO	_	4	obj	_	_
+3	재대로	재대로	ADV	NA	Typo=Yes	4	advmod	_	_
+4	가르쳐야된다	가르치+어야+되+ㄴ다	VERB	VV+EC+VX+EF	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	SF	_	4	punct	_	_
+
+# sent_id = ARG-JPN_14_2_02
+# text = 배운다고 해도 혼자서 책상 앞에서 책을 보고 연필을 쥐고 그런 식으로 공부한 것이 아니었다.
+1	배운다고	배우+ㄴ다고	VERB	VV+EC	_	2	ccomp	_	_
+2	해도	하+아도	VERB	VV+EC	_	14	advcl	_	_
+3	혼자서	혼자+서	NOUN	NNG+JKB	_	7	obl	_	_
+4	책상	책상	NOUN	NNG	_	7	obl	_	_
+5	앞에서	앞+에서	ADP	NNG+JKB	_	4	case	_	_
+6	책을	책+을	NOUN	NNG+JKO	_	7	obj	_	_
+7	보고	보+고	VERB	VV+EC	_	12	advcl	_	_
+8	연필을	연필+을	NOUN	NNG+JKO	_	9	obj	_	_
+9	쥐고	쥐+고	VERB	VV+EC	_	7	conj	_	_
+10	그런	그런	DET	MM	PronType=Dem	11	det	_	_
+11	식으로	식+으로	ADV	NNG+JKB	_	12	obl	_	_
+12	공부한	공부+하+ㄴ	VERB	NNG+XSV+ETM	_	13	acl	_	_
+13	것이	것+이	NOUN	NNB+JKC	_	14	nsubj	_	_
+14	아니었다	아니+었+다	VERB	VCN+EP+EF	_	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	SF	_	14	punct	_	_
+
+# sent_id = KL-H_P_30_2_10
+# text = 과거에 실수로 배워서 사회적인 문제들을 풀 수 있는 방법을 알아낼 수 있습니다.
+1	과거에	과거+에	ADV	NNG+JKB	_	3	obl	_	_
+2	실수로	실수+로	ADV	NNG+JKB	_	3	obl	_	_
+3	배워서	배우+어서	VERB	VV+EC	_	12	advcl	_	_
+4	사회적인	사회+적+이+ㄴ	ADJ	NNG+XSN+VCP+ETM	_	5	amod	_	_
+5	문제들을	문제+들+을	NOUN	NNG+XSN+JKO	_	6	obj	_	_
+6	풀	풀+ㄹ	VERB	VV+ETM	_	7	acl	_	_
+7	수	수	NOUN	NNB	_	8	nsubj	_	_
+8	있는	있	AUX	VX+ETM	_	9	acl	_	_
+9	방법을	방법+을	NOUN	NNG+JKO	_	10	obj	_	_
+10	알아낼	알+아+내+ㄹ	VERB	VV+EC+VX+ETM	_	11	acl	_	_
+11	수	수	NOUN	NNB	_	12	nsubj	_	_
+12	있습니다	있	AUX	VX+EF	_	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	SF	_	12	punct	_	_
+
+# sent_id = ARG-JPN_28_1_07
+# text = 아이들은 많이 공부하면 가끔 스트레스를 받아서요.
+1	아이들은	아이+들+은	NOUN	NNG+XSN+JX	_	3	nsubj	_	_
+2	많이	많이	ADV	MAG	_	3	advmod	_	_
+3	공부하면	공부+하+면	VERB	NNG+XSV+EC	_	6	advcl	_	_
+4	가끔	가끔	ADV	MAG	_	6	advmod	_	_
+5	스트레스를	스트레스+를	NOUN	NNG+JKO	_	6	obj	_	_
+6	받아서요	받+아서+요	VERB	VV+EC+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = ARG-ENG_13_1_05
+# text = 위국인 원어민이 만날때 채미있는 경험을 됩니다.
+1	위국인	위국인	NOUN	NF	Typo=Yes	2	nmod	_	_
+2	원어민이	원어민+이	NOUN	NNG+JKS	_	3	nsubj	_	_
+3	만날때	만나+ㄹ+때	NOUN	VV+ETM+NNG	_	6	advcl	_	_
+4	채미있는	채미+있+는	NOUN	NF+VA+ETM	Typo=Yes	5	amod	_	_
+5	경험을	경험+을	NOUN	NNG+JKO	_	6	obj	_	_
+6	됩니다	되+ㅂ니다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	SF	_	6	punct	_	_
+
+# sent_id = ARG-JPN_03_1_02
+# text = 먼저 장점은 조기단계부터 언어를 공부하면 그 언어에 대한 좋지 않은 이미지를 가진 경우가 줄린다고 생각할 수 있다.
+1	먼저	먼저	ADV	MAG	_	17	advmod	_	_
+2	장점은	장점+은	NOUN	NNG+JX	_	17	obl	_	_
+3	조기단계부터	조기+단계+부터	NOUN	NNG+NNG+JX	_	5	obl	_	_
+4	언어를	언어+를	NOUN	NNG+JKO	_	5	obj	_	_
+5	공부하면	공부+하+면	VERB	NNG+XSV+EC	_	17	advcl	_	_
+6	그	그	DET	MM	PronType=Dem	7	det	_	_
+7	언어에	언어+에	ADV	NNG+JKB	_	8	obl	_	_
+8	대한	대하+ㄴ	VERB	VV+ETM	_	11	acl	_	_
+9	좋지	좋+지	ADJ	VA+EC	_	11	acl	_	_
+10	않은	않	AUX	VX+ETM	_	9	aux	_	_
+11	이미지를	이미지+를	NOUN	NNG+JKO	_	12	obj	_	_
+12	가진	가지+ㄴ	VERB	VV+ETM	_	13	acl	_	_
+13	경우가	경우+가	NOUN	NNG+JKS	_	14	nsubj	_	_
+14	줄린다고	줄리+ㄴ다고	VERB	VV+EC	_	15	ccomp	_	_
+15	생각할	생각+하+ㄹ	VERB	NNG+XSV+ETM	_	16	acl	_	_
+16	수	수	NOUN	NNB	_	17	nsubj	_	_
+17	있다	있	AUX	VX+EF	_	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	SF	_	17	punct	_	_
+
+# sent_id = ARG-JPN_10_1_09
+# text = 조기언어교육은 적당하게 시켜야 큰 효과를 얻을 수 있을 것입니다.
+1	조기언어교육은	조기+언어+교육+은	NOUN	NNG+NNG+NNG+JX	_	3	obj	_	_
+2	적당하게	적당+하+게	ADV	XR+XSA+EC	_	3	advmod	_	_
+3	시켜야	시키+어야	VERB	VV+EC	_	9	advcl	_	_
+4	큰	크+ㄴ	ADJ	VA+ETM	_	5	amod	_	_
+5	효과를	효과+를	NOUN	NNG+JKO	_	6	obj	_	_
+6	얻을	얻+을	VERB	VV+ETM	_	7	acl	_	_
+7	수	수	NOUN	NNB	_	8	nsubj	_	_
+8	있을	있	AUX	VX+ETM	_	9	acl	_	_
+9	것입니다	것+이+ㅂ니다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	SF	_	9	punct	_	_
+
+# sent_id = ARG-JPN_40_3_05
+# text = 자신의 의견도 중요하지만 상대방의 의견도 잘 듣고 상의하면 서로에게 혐오감을 느끼지 않아도 잘 해결할 수 있을 것이다.
+1	자신의	자신+의	NOUN	NNG+JKG	_	2	nmod:poss	_	_
+2	의견도	의견+도	NOUN	NNG+JX	_	3	nsubj	_	_
+3	중요하지만	중요+하+지만	ADJ	NNG+XSA+EC	_	17	advcl	_	_
+4	상대방의	상대방+의	NOUN	NNG+JKG	_	5	nmod:poss	_	_
+5	의견도	의견+도	NOUN	NNG+JX	_	7	obj	_	_
+6	잘	잘	ADV	MAG	_	7	advmod	_	_
+7	듣고	듣+고	VERB	VV+EC	_	8	advcl	_	_
+8	상의하면	상의+하+면	VERB	NNG+XSV+EC	_	17	advcl	_	_
+9	서로에게	서로+에게	ADV	NNG+JKB	_	11	obl	_	_
+10	혐오감을	혐오+감+을	NOUN	NNG+XSN+JKO	_	11	obj	_	_
+11	느끼지	느끼+지	VERB	VV+EC	_	14	advcl	_	_
+12	않아도	않	AUX	VX+EC	_	11	aux	_	_
+13	잘	잘	ADV	MAG	_	14	advmod	_	_
+14	해결할	해결+하+ㄹ	VERB	NNG+XSV+ETM	_	15	acl	_	_
+15	수	수	NOUN	NNB	_	16	nsubj	_	_
+16	있을	있	AUX	VX+ETM	_	17	acl	_	_
+17	것이다	것+이+다	ADJ	NNB+VCP+EF	_	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	SF	_	17	punct	_	_
+
+# sent_id = KL-H_P_24_1_05
+# text = 어린 나이의 조기언어교육은 강조 하면 언어에 대해 안 좋은 감정들도 생길 수 있습니다.
+1	어린	어리+ㄴ	ADJ	VA+ETM	_	2	amod	_	_
+2	나이의	나이+의	NOUN	NNG+JKG	_	3	nmod:poss	_	_
+3	조기언어교육은	조기+언어+교육+은	NOUN	NNG+NNG+NNG+JX	_	5	dislocated	_	_
+4	강조	강조	NOUN	NNG	_	5	obj	_	_
+5	하면	하+면	VERB	VV+EC	_	13	advcl	_	_
+6	언어에	언어+에	ADV	NNG+JKB	_	7	obl	_	_
+7	대해	대하+아	VERB	VV+EC	_	11	advcl	_	_
+8	안	안	ADV	MAG	_	9	advmod	_	_
+9	좋은	좋+은	ADJ	VA+ETM	_	10	amod	_	_
+10	감정들도	감정+들+도	NOUN	NNG+XSN+JX	_	11	nsubj	_	_
+11	생길	생기+ㄹ	VERB	VV+ETM	_	12	acl	_	_
+12	수	수	NOUN	NNB	_	13	nsubj	_	_
+13	있습니다	있	AUX	VX+EF	_	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	SF	_	13	punct	_	_
+
+# sent_id = KL-H_T_12_3_03
+# text = 협동은 메일 인생안에서 좋은 추억이 생기고 다른 사람과 같이 문제도 풀어서 이 두가지 중에서 더 중요하게 생각을 합니다.
+1	협동은	협동+은	NOUN	NNG+JX	_	18	nsubj	_	_
+2	메일	메일	NOUN	NNG	_	3	nmod	_	_
+3	인생안에서	인생+안+에서	ADV	NNG+NNG+JKB	_	6	obl	_	_
+4	좋은	좋+은	ADJ	VA+ETM	_	5	amod	_	_
+5	추억이	추억+이	NOUN	NNG+JKS	_	6	nsubj	_	_
+6	생기고	생기+고	VERB	VV+EC	_	18	advcl	_	_
+7	다른	다르+ㄴ	ADJ	VA+ETM	_	8	amod	_	_
+8	사람과	사람+과	ADV	NNG+JKB	_	11	obl	_	_
+9	같이	같이	ADV	MAG	_	11	advmod	_	_
+10	문제도	문제+도	NOUN	NNG+JX	_	11	obj	_	_
+11	풀어서	풀+어서	VERB	VV+EC	_	18	advcl	_	_
+12	이	이	DET	MM	PronType=Dem	13	det	_	_
+13	두가지	두+가지	NOUN	MM+NNB	_	18	obl	_	_
+14	중에서	중+에서	ADP	NNB+JKB	_	13	case	_	_
+15	더	더	ADV	MAG	_	16	advmod	_	_
+16	중요하게	중요+하+게	ADV	NNG+XSA+EC	_	18	advmod	_	_
+17	생각을	생각+을	NOUN	NNG+JKO	_	18	obj	_	_
+18	합니다	하+ㅂ니다	VERB	VV+EF	_	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	SF	_	18	punct	_	_
 
