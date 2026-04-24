@@ -4408,7 +4408,7 @@
 
 # sent_id = KH-C100009-10-5751
 # text = 저 뿐만 아니라 반친구들이 다 짧은 시간동안 적응 할 수 있어요.
-1	저	저	DET	MM	PronType=Prs	3	nsubj	_	_
+1	저	저	PRON	NP	PronType=Prs	3	nsubj	_	_
 2	뿐만	뿐+만	ADP	JX+JX	_	1	case	_	_
 3	아니라	아니+라	ADJ	VCN+EC	_	4	advcl	_	_
 4	반친구들이	반+친구+들+이	NOUN	NNG+NNG+XSN+JKS	_	8	nsubj	_	_
