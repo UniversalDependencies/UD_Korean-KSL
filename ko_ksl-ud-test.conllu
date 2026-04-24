@@ -15808,7 +15808,7 @@
 7	생각합니다	생각+하+ㅂ니다	VERB	NNG+XSV+EF	_	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	SF	_	7	punct	_	_
 
-# sent_id = ARG-ENG_14_3_03
+# sent_id = ARG-ENG_14_3_03_1
 # text = 경쟁은 자본주의 때문에 남녀노소 모두 겪고 있는 것이다.
 1	경쟁은	경쟁+은	NOUN	NNG+JX	_	8	nsubj	_	_
 2	자본주의	자본+주의	NOUN	NNG+NNG	_	6	obl	_	_
@@ -18688,7 +18688,7 @@
 3	합니다	하	AUX	VX+EF	_	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	SF	_	2	punct	_	_
 
-# sent_id = ARG-ENG_03_1_09
+# sent_id = ARG-ENG_03_1_09_1
 # text = 외우기만 하면 배울 수 없고 재미없습니다.
 1	외우기만	외우+기+만	VERB	VV+ETN+JX	_	2	obj	_	_
 2	하면	하+면	VERB	VV+EC	_	5	advcl	_	_
