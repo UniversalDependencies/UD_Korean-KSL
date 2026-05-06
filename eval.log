@@ -1,79 +1,43 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Korean-KSL:
-commit e0e742c28e39594c0372e483149b70d41713ce9f
-Merge: a91ef7e 587e8ee
+commit 1998153328cfe258a79d76d29d3346d967212578
+Merge: 1c42ae0 56a4ab1
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ko_ksl'
 Language code (from CoNLL-U file name) = 'ko'
 Found the following data files: ko_ksl-ud-dev.conllu, ko_ksl-ud-test.conllu, ko_ksl-ud-train.conllu
-Size: counted 137122 of 137122 words (nodes).
-Size: min(0, log((N/1000)**2)) = 9.84174208101479.
+Size: counted 155104 of 155104 words (nodes).
+Size: min(0, log((N/1000)**2)) = 10.0881917193259.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
 Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
-Universal POS tags: 14 out of 17 found in the corpus.
+Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 5125 out of 137122 total words have one or more features.
+Features: 12522 out of 155104 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ko --max-err=10 UD_Korean-KSL/ko_ksl-ud-dev.conllu
-[Line 3 Sent KH-A100034-28-2-1]: [L3 Warning pron-det-without-prontype] The word '저는' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 114 Sent KH-B200128-6-2-14]: [L3 Warning pron-det-without-prontype] The word '우리는' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 194 Sent KH-C100010-2-5871]: [L3 Warning pron-det-without-prontype] The word '그' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 196 Sent KH-C100010-2-5871]: [L3 Warning pron-det-without-prontype] The word '제' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 205 Sent KH-C100010-2-5871]: [L3 Warning pron-det-without-prontype] The word '그' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 227 Sent KH-B100015-21-2308]: [L3 Warning pron-det-without-prontype] The word '다른' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 238 Sent KH-A200056-32-2-8]: [L3 Warning pron-det-without-prontype] The word '제' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 326 Sent KH-B200014-10-3779]: [L3 Warning pron-det-without-prontype] The word '이것이' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 367 Sent KH-B200086-1-2-1]: [L3 Warning pron-det-without-prontype] The word '우리' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 423 Sent KH-B200030-8-4514]: [L3 Warning pron-det-without-prontype] The word '나도' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 525
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ko --max-err=10 UD_Korean-KSL/ko_ksl-ud-test.conllu
-[Line 3 Sent KL-fb-24-7]: [L3 Warning pron-det-without-prontype] The word '저' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 27 Sent KL-hb-22-4]: [L3 Warning pron-det-without-prontype] The word '우리' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 60 Sent KL-fi-14-1]: [L3 Warning pron-det-without-prontype] The word '내' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 91 Sent KL-fi-5-11]: [L3 Warning pron-det-without-prontype] The word '내가' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 106 Sent KL-fi-12-10]: [L3 Warning pron-det-without-prontype] The word '우리는' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 114 Sent KL-fi-12-10]: [L3 Warning pron-det-without-prontype] The word '우리한테' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 207 Sent KL-fi-20-3]: [L3 Warning pron-det-without-prontype] The word '제가' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 259 Sent KL-fi-3-6]: [L3 Warning pron-det-without-prontype] The word '어떤' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 301 Sent KL-fi-17-1]: [L3 Warning pron-det-without-prontype] The word '저는' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 310 Sent KL-fb-23-5]: [L3 Warning pron-det-without-prontype] The word '저는' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 681
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ko --max-err=10 UD_Korean-KSL/ko_ksl-ud-train.conllu
-[Line 12 Sent KH-C200021-2-7342]: [L3 Warning pron-det-without-prontype] The word '그' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 58 Sent KH-C100005-5-5401]: [L3 Warning pron-det-without-prontype] The word '이' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 71 Sent KH-B200032-4-4565]: [L3 Warning pron-det-without-prontype] The word '그것에' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 89 Sent KH-B100027-13-3188]: [L3 Warning pron-det-without-prontype] The word '다른' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 99 Sent KH-B100027-13-3188]: [L3 Warning pron-det-without-prontype] The word '이' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 113 Sent KH-B100013-2-2078]: [L3 Warning pron-det-without-prontype] The word '우리는' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 142 Sent KH-C100006-8-5452]: [L3 Warning pron-det-without-prontype] The word '너는' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 201 Sent KH-A200057-42-2-6]: [L3 Warning pron-det-without-prontype] The word '거기에서' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 214 Sent KH-A200025-31-2-2-0-3]: [L3 Warning pron-det-without-prontype] The word '저보다' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 269 Sent KH-B200089-9-2-5]: [L3 Warning pron-det-without-prontype] The word '내' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 4982
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=0.24) = 0.0266666666666667
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
-(weight=0.37037037037037) * (score{size}=0.712369046349958) = 0.263840387537021
+(weight=0.37037037037037) * (score{size}=0.730207666014222) = 0.270447283708971
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
-(weight=0.111111111111111) * (score{tags}=0.741176470588235) = 0.0823529411764706
+(weight=0.111111111111111) * (score{tags}=0.847058823529412) = 0.0941176470588235
 (weight=0.111111111111111) * (score{udeprels}=0.837837837837838) = 0.0930930930930931
-(TOTAL score=0.65731111316461) * (availability=1) * (validity=1) = 0.65731111316461
+(TOTAL score=0.675682715218912) * (availability=1) * (validity=1) = 0.675682715218912
 STARS = 3.5
-UD_Korean-KSL	0.65731111316461	3.5
+UD_Korean-KSL	0.675682715218912	3.5
